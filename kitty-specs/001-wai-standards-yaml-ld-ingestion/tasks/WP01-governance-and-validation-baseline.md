@@ -1,7 +1,7 @@
 ---
 work_package_id: "WP01"
 title: "Governance and validation baseline"
-lane: "planned"
+lane: "done"
 dependencies: []
 subtasks:
   - "T001"
@@ -20,6 +20,10 @@ history:
     lane: "planned"
     agent: "system"
     action: "Prompt generated via /spec-kitty.tasks"
+  - timestamp: "2026-02-20T00:00:00Z"
+    lane: "done"
+    agent: "copilot"
+    action: "Implemented WP01 baseline in maintenance-baseline.md"
 ---
 
 # Work Package Prompt: WP01 - Governance and validation baseline

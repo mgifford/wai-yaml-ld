@@ -4,9 +4,9 @@ Feature: `001-wai-standards-yaml-ld-ingestion`
 
 ## Subtasks
 
-- [ ] T001 Define and document canonical source refresh workflow for normative files
-- [ ] T002 Add repeatable validation checklist for YAML syntax and required keys
-- [ ] T003 Add change log section to standards index update workflow
+- [x] T001 Define and document canonical source refresh workflow for normative files
+- [x] T002 Add repeatable validation checklist for YAML syntax and required keys
+- [x] T003 Add change log section to standards index update workflow
 - [ ] T004 Confirm WCAG 2.2 policy and 4.1.1 exception notes remain synchronized across files
 - [ ] T005 Verify crosswalk profile targets and mapping_count consistency after updates
 - [ ] T006 Create update procedure for normative criteria refresh from W3C TR sources
@@ -14,8 +14,8 @@ Feature: `001-wai-standards-yaml-ld-ingestion`
 - [ ] T008 Define informative resource admission criteria and classification rules
 - [ ] T009 Add explicit review checklist for APG/AAM/AccName/EPUB/WSG/ACT link presence
 - [ ] T010 Add policy for adding new informative resources with stable IDs
-- [ ] T011 Define minimal schema contract checks for index, normative, informative, and crosswalk files
-- [ ] T012 Add quick verification command examples for maintainers
+- [x] T011 Define minimal schema contract checks for index, normative, informative, and crosswalk files
+- [x] T012 Add quick verification command examples for maintainers
 
 ## Work Packages
 
@@ -26,6 +26,7 @@ Feature: `001-wai-standards-yaml-ld-ingestion`
 - Included subtasks: T001, T002, T003, T011, T012
 - Dependencies: none
 - Prompt: `tasks/WP01-governance-and-validation-baseline.md`
+- Implementation artifact: `maintenance-baseline.md`
 - Parallel opportunities: Can run in parallel with discovery work for WP02.
 - Risks: Checklist too generic and not tied to actual files.
 
