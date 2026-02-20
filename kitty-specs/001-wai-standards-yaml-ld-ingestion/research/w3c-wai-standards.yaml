@@ -92,6 +92,11 @@ sources:
   url: ./atag-to-wcag-2.2-crosswalk.yaml
   type: crosswalk
   format_hint: yaml
+- id: w3c-wai-informative-catalog
+  name: W3C WAI Informative Resources Catalog (project index)
+  url: ./w3c-wai-informative-resources.yaml
+  type: informative_catalog
+  format_hint: yaml
 primary_wcag_version: '2.2'
 wcag_version_policy: Use WCAG 2.2 as primary normative+informative target; treat WCAG
   2.0 references as legacy.
