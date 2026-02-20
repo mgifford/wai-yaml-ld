@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/atag-to-wcag-2.2-crosswalk.schema.json",
+  "title": "ATAG 2.0 to WCAG 2.2 Crosswalk",
+  "type": "object",
+  "required": [
+    "crosswalk_id",
+    "updated",
+    "source_standard",
+    "target_standard",
+    "policy",
+    "target_profiles",
+    "mappings",
+    "mapping_count"
+  ],
+  "properties": {
+    "crosswalk_id": {"type": "string", "minLength": 1},
+    "updated": {"type": "string", "minLength": 1},
+    "source_standard": {"type": "object"},
+    "target_standard": {"type": "object"},
+    "policy": {
+      "type": "object",
+      "required": ["explicit_exception_rule"],
+      "properties": {
+        "explicit_exception_rule": {
+          "type": "object",
+          "required": ["id", "description", "excluded_wcag_codes"],
+          "properties": {
+            "id": {"type": "string", "minLength": 1},
+            "description": {"type": "string", "minLength": 1},
+            "excluded_wcag_codes": {
+              "type": "array",
+              "items": {"type": "string", "minLength": 1}
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "target_profiles": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["description", "criterion_codes"],
+        "properties": {
+          "description": {"type": "string", "minLength": 1},
+          "criterion_codes": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1}
+          },
+          "count": {"type": "integer", "minimum": 0}
+        },
+        "additionalProperties": true
+      }
+    },
+    "mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["atag_criterion_code", "target_profile_refs"],
+        "properties": {
+          "atag_criterion_code": {"type": "string", "minLength": 1},
+          "target_profile_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1}
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "mapping_count": {"type": "integer", "minimum": 0}
+  },
+  "additionalProperties": true
+}

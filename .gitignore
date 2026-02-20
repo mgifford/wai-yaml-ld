@@ -17,3 +17,6 @@
 .claudeignore
 .kittify/config.yaml
 .kittify/metadata.yaml
+
+# Generated monitoring output
+monitoring/w3c-change-report.md

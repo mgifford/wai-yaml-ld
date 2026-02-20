@@ -1,6 +1,11 @@
 contract_version: 1
 name: wai-yaml-ingestion-contract
 scope: project_files
+schema_registry:
+  standards_index_schema: ../../../schemas/w3c-wai-standards.schema.json
+  informative_catalog_schema: ../../../schemas/w3c-wai-informative-resources.schema.json
+  aria_informative_schema: ../../../schemas/wai-aria-informative.schema.json
+  crosswalk_schema: ../../../schemas/atag-to-wcag-2.2-crosswalk.schema.json
 artifacts:
   standards_index:
     path: research/w3c-wai-standards.yaml

@@ -26,6 +26,15 @@ Machine-readable YAML resources for W3C WAI standards, plus governance and monit
 - Shared informative resources: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-informative-resources.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-informative-resources.yaml)
 - ATAG to WCAG 2.2 crosswalk: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml)
 
+## JSON Schemas (for tooling/LLM validation)
+
+- Standards index schema: [schemas/w3c-wai-standards.schema.json](schemas/w3c-wai-standards.schema.json)
+- Shared informative catalog schema: [schemas/w3c-wai-informative-resources.schema.json](schemas/w3c-wai-informative-resources.schema.json)
+- ARIA informative catalog schema: [schemas/wai-aria-informative.schema.json](schemas/wai-aria-informative.schema.json)
+- Crosswalk schema: [schemas/atag-to-wcag-2.2-crosswalk.schema.json](schemas/atag-to-wcag-2.2-crosswalk.schema.json)
+
+If you are pointing an LLM at this repository, provide both the target YAML file and its matching schema file as context.
+
 ## Why These Live Under research/
 
 For this repository phase, these are curated specification datasets and governance outputs generated under the feature directory. Keeping them under `research/` keeps all ingestion artifacts together and tied to spec/plan/tasks.
