@@ -1,7 +1,7 @@
 ---
 work_package_id: "WP02"
 title: "Normative refresh and crosswalk consistency"
-lane: "planned"
+lane: "done"
 dependencies:
   - "WP01"
 subtasks:
@@ -20,6 +20,10 @@ history:
     lane: "planned"
     agent: "system"
     action: "Prompt generated via /spec-kitty.tasks"
+  - timestamp: "2026-02-20T00:00:00Z"
+    lane: "done"
+    agent: "copilot"
+    action: "Implemented normative refresh procedure and crosswalk consistency checks"
 ---
 
 # Work Package Prompt: WP02 - Normative refresh and crosswalk consistency

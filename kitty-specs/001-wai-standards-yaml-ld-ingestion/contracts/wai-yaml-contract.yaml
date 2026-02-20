@@ -43,6 +43,7 @@ artifacts:
     required_behaviors:
       - explicit_wcag_4_1_1_exception
       - machine_readable_profile_targets
+      - mapping_count_matches_mapping_entries
 validation_notes:
   - Keep normative and informative content separated.
   - Prefer canonical W3C TR URLs for standards references.
