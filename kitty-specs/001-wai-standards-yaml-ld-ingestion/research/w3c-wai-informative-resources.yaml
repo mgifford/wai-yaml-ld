@@ -1,0 +1,183 @@
+project: wai-standards-yaml-ld-ingestion
+updated: '2026-02-20'
+scope: informative_w3c_resources
+resources:
+- id: wai-arrm-home
+  title: Accessibility Roles and Responsibilities Mapping (ARRM)
+  url: https://www.w3.org/WAI/planning/arrm/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: wai-arrm-roles
+  title: ARRM Roles
+  url: https://www.w3.org/WAI/planning/arrm/roles/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: wai-arrm-wcag-sc
+  title: ARRM WCAG Success Criteria mapping
+  url: https://www.w3.org/WAI/planning/arrm/wcag-sc/
+  type: informative
+  applies_to:
+  - wcag-2.2
+- id: wai-roles-resources
+  title: WAI Resources for Roles
+  url: https://www.w3.org/WAI/roles/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: dpub-aria-1.1
+  title: Digital Publishing WAI-ARIA Module 1.1
+  url: https://www.w3.org/TR/dpub-aria-1.1/
+  type: standard
+  applies_to:
+  - wai-aria
+- id: dpub-aam-1.1
+  title: Digital Publishing Accessibility API Mappings 1.1
+  url: https://www.w3.org/TR/dpub-aam-1.1/
+  type: standard
+  applies_to:
+  - wai-aria
+- id: aria-versions-overview
+  title: WAI-ARIA versions, modules, and API mappings
+  url: https://www.w3.org/WAI/standards-guidelines/aria/#versions
+  type: informative
+  applies_to:
+  - wai-aria
+- id: aria-apg-home
+  title: WAI-ARIA Authoring Practices Guide (APG)
+  url: https://www.w3.org/WAI/ARIA/apg/
+  type: informative
+  applies_to:
+  - wai-aria
+- id: aria-apg-patterns
+  title: WAI-ARIA APG Patterns
+  url: https://www.w3.org/WAI/ARIA/apg/patterns/
+  type: informative
+  applies_to:
+  - wai-aria
+- id: aria-apg-examples
+  title: WAI-ARIA APG Example Index
+  url: https://www.w3.org/WAI/ARIA/apg/example-index/
+  type: informative
+  applies_to:
+  - wai-aria
+- id: core-aam-1.2
+  title: Core Accessibility API Mappings 1.2
+  url: https://www.w3.org/TR/core-aam-1.2/
+  type: standard
+  applies_to:
+  - wai-aria
+- id: html-aam-1.0
+  title: HTML Accessibility API Mappings 1.0
+  url: https://www.w3.org/TR/html-aam-1.0/
+  type: standard
+  applies_to:
+  - wai-aria
+- id: accname-1.2
+  title: Accessible Name and Description Computation 1.2
+  url: https://www.w3.org/TR/accname-1.2/
+  type: standard
+  applies_to:
+  - wai-aria
+- id: html-aria
+  title: ARIA in HTML
+  url: https://www.w3.org/TR/html-aria/
+  type: standard
+  applies_to:
+  - wai-aria
+- id: svg-aam-1.0
+  title: SVG Accessibility API Mappings 1.0
+  url: https://www.w3.org/TR/svg-aam-1.0/
+  type: standard
+  applies_to:
+  - wai-aria
+- id: epub-a11y-1.1
+  title: EPUB Accessibility 1.1
+  url: https://www.w3.org/TR/epub-a11y-11/
+  type: standard
+  applies_to:
+  - wai-aria
+- id: epub-a11y-tech-1.1
+  title: EPUB Accessibility Techniques 1.1
+  url: https://www.w3.org/TR/epub-a11y-tech-11/
+  type: informative
+  applies_to:
+  - wai-aria
+- id: web-sustainability-guidelines
+  title: Web Sustainability Guidelines
+  url: https://www.w3.org/TR/web-sustainability-guidelines/
+  type: informative
+  applies_to:
+  - wai-aria
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+- id: act-rules-format-1.1
+  title: Accessibility Conformance Testing (ACT) Rules Format 1.1
+  url: https://www.w3.org/TR/act-rules-format-1.1/
+  type: informative
+  applies_to:
+  - wai-aria
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+- id: act-rules-format-1.0
+  title: Accessibility Conformance Testing (ACT) Rules Format 1.0
+  url: https://www.w3.org/TR/act-rules-format-1.0/
+  type: informative
+  applies_to:
+  - wai-aria
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+- id: act-rules-format-latest
+  title: Accessibility Conformance Testing (ACT) Rules Format (Latest)
+  url: https://www.w3.org/TR/act-rules-format/
+  type: informative
+  applies_to:
+  - wai-aria
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+- id: implementing-atag-2.0
+  title: Implementing ATAG 2.0
+  url: https://www.w3.org/TR/NOTE-IMPLEMENTING-ATAG20/
+  type: informative
+  applies_to:
+  - atag-2.0
+- id: uaag-2.0-reference
+  title: UAAG 2.0 Reference
+  url: https://www.w3.org/TR/NOTE-UAAG20-Reference/
+  type: informative
+  applies_to:
+  - uaag-2.0
+- id: understanding-wcag-2.2
+  title: Understanding WCAG 2.2
+  url: https://www.w3.org/WAI/WCAG22/Understanding/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: wcag-2.2-quickref
+  title: How to Meet WCAG 2.2 (Quick Reference)
+  url: https://www.w3.org/WAI/WCAG22/quickref/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+primary_wcag_version: '2.2'
+wcag_version_note: WCAG 2.2 is primary and includes WCAG 2.0/2.1 except SC 4.1.1.

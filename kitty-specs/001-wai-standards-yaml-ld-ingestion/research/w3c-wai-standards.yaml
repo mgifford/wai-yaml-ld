@@ -1,0 +1,97 @@
+project: wai-standards-yaml-ld-ingestion
+owner: W3C WAI
+updated: '2026-02-20'
+sources:
+- id: wcag-2.2
+  name: Web Content Accessibility Guidelines (WCAG) 2.2
+  url: https://www.w3.org/TR/WCAG22/
+  type: standard
+  format_hint: w3c-tr
+- id: wcag-2.0-legacy
+  name: Web Content Accessibility Guidelines (WCAG) 2.0 (legacy reference)
+  url: https://www.w3.org/TR/WCAG20/
+  type: standard
+  format_hint: w3c-tr
+- id: atag-2
+  name: Authoring Tool Accessibility Guidelines (ATAG) 2.0
+  url: https://www.w3.org/TR/ATAG20/
+  type: standard
+  format_hint: w3c-tr
+- id: uaag-2
+  name: User Agent Accessibility Guidelines (UAAG) 2.0
+  url: https://www.w3.org/TR/UAAG20/
+  type: standard
+  format_hint: w3c-tr
+- id: aria
+  name: Accessible Rich Internet Applications (WAI-ARIA)
+  url: https://www.w3.org/TR/wai-aria-1.2/
+  type: technical_spec
+  format_hint: w3c-tr
+- id: aria-apg-home
+  name: WAI-ARIA Authoring Practices Guide (APG)
+  url: https://www.w3.org/WAI/ARIA/apg/
+  type: informative
+  format_hint: html
+- id: aria-apg-patterns
+  name: WAI-ARIA APG Patterns
+  url: https://www.w3.org/WAI/ARIA/apg/patterns/
+  type: informative
+  format_hint: html
+- id: aria-apg-examples
+  name: WAI-ARIA APG Example Index
+  url: https://www.w3.org/WAI/ARIA/apg/example-index/
+  type: informative
+  format_hint: html
+- id: core-aam-1.2
+  name: Core Accessibility API Mappings 1.2
+  url: https://www.w3.org/TR/core-aam-1.2/
+  type: technical_spec
+  format_hint: w3c-tr
+- id: html-aam-1.0
+  name: HTML Accessibility API Mappings 1.0
+  url: https://www.w3.org/TR/html-aam-1.0/
+  type: technical_spec
+  format_hint: w3c-tr
+- id: accname-1.2
+  name: Accessible Name and Description Computation 1.2
+  url: https://www.w3.org/TR/accname-1.2/
+  type: technical_spec
+  format_hint: w3c-tr
+- id: html-aria
+  name: ARIA in HTML
+  url: https://www.w3.org/TR/html-aria/
+  type: technical_spec
+  format_hint: w3c-tr
+- id: svg-aam-1.0
+  name: SVG Accessibility API Mappings 1.0
+  url: https://www.w3.org/TR/svg-aam-1.0/
+  type: technical_spec
+  format_hint: w3c-tr
+- id: epub-a11y-1.1
+  name: EPUB Accessibility 1.1
+  url: https://www.w3.org/TR/epub-a11y-11/
+  type: technical_spec
+  format_hint: w3c-tr
+- id: epub-a11y-tech-1.1
+  name: EPUB Accessibility Techniques 1.1
+  url: https://www.w3.org/TR/epub-a11y-tech-11/
+  type: informative
+  format_hint: w3c-tr
+- id: web-sustainability-guidelines
+  name: Web Sustainability Guidelines
+  url: https://www.w3.org/TR/web-sustainability-guidelines/
+  type: informative
+  format_hint: w3c-tr
+- id: w3c-wai-main
+  name: W3C Web Accessibility Initiative (WAI)
+  url: https://www.w3.org/WAI/
+  type: hub
+  format_hint: html
+- id: atag-wcag22-crosswalk
+  name: ATAG 2.0 to WCAG 2.2 Crosswalk (project mapping)
+  url: ./atag-to-wcag-2.2-crosswalk.yaml
+  type: crosswalk
+  format_hint: yaml
+primary_wcag_version: '2.2'
+wcag_version_policy: Use WCAG 2.2 as primary normative+informative target; treat WCAG
+  2.0 references as legacy.

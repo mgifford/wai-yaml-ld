@@ -1,0 +1,119 @@
+standard_id: wai-aria
+name: Accessible Rich Internet Applications (WAI-ARIA)
+updated: '2026-02-20'
+scope: informative_resources
+tr_primary:
+  - id: wai-aria-1.2
+    title: Accessible Rich Internet Applications (WAI-ARIA) 1.2
+    url: https://www.w3.org/TR/wai-aria-1.2/
+    status: standard
+  - id: wai-aria-1.3
+    title: Accessible Rich Internet Applications (WAI-ARIA) 1.3
+    url: https://www.w3.org/TR/wai-aria-1.3/
+    status: draft_standard
+
+informative_resources:
+  - id: aria-versions-overview
+    title: WAI-ARIA versions, modules, and API mappings
+    url: https://www.w3.org/WAI/standards-guidelines/aria/#versions
+    type: informative
+
+  - id: aria-apg-home
+    title: WAI-ARIA Authoring Practices Guide (APG)
+    url: https://www.w3.org/WAI/ARIA/apg/
+    type: informative
+
+  - id: aria-apg-patterns
+    title: WAI-ARIA APG Patterns
+    url: https://www.w3.org/WAI/ARIA/apg/patterns/
+    type: informative
+
+  - id: aria-apg-examples
+    title: WAI-ARIA APG Example Index
+    url: https://www.w3.org/WAI/ARIA/apg/example-index/
+    type: informative
+
+  - id: core-aam-1.2
+    title: Core Accessibility API Mappings 1.2
+    url: https://www.w3.org/TR/core-aam-1.2/
+    type: standard
+
+  - id: html-aam-1.0
+    title: HTML Accessibility API Mappings 1.0
+    url: https://www.w3.org/TR/html-aam-1.0/
+    type: standard
+
+  - id: accname-1.2
+    title: Accessible Name and Description Computation 1.2
+    url: https://www.w3.org/TR/accname-1.2/
+    type: standard
+
+  - id: html-aria
+    title: ARIA in HTML
+    url: https://www.w3.org/TR/html-aria/
+    type: standard
+
+  - id: svg-aam-1.0
+    title: SVG Accessibility API Mappings 1.0
+    url: https://www.w3.org/TR/svg-aam-1.0/
+    type: standard
+
+  - id: epub-a11y-1.1
+    title: EPUB Accessibility 1.1
+    url: https://www.w3.org/TR/epub-a11y-11/
+    type: standard
+
+  - id: epub-a11y-tech-1.1
+    title: EPUB Accessibility Techniques 1.1
+    url: https://www.w3.org/TR/epub-a11y-tech-11/
+    type: informative
+
+  - id: web-sustainability-guidelines
+    title: Web Sustainability Guidelines
+    url: https://www.w3.org/TR/web-sustainability-guidelines/
+    type: informative
+
+  - id: act-rules-format-1.1
+    title: Accessibility Conformance Testing (ACT) Rules Format 1.1
+    url: https://www.w3.org/TR/act-rules-format-1.1/
+    type: informative
+
+  - id: act-rules-format-1.0
+    title: Accessibility Conformance Testing (ACT) Rules Format 1.0
+    url: https://www.w3.org/TR/act-rules-format-1.0/
+    type: informative
+
+  - id: act-rules-format-latest
+    title: Accessibility Conformance Testing (ACT) Rules Format (Latest)
+    url: https://www.w3.org/TR/act-rules-format/
+    type: informative
+
+  - id: wai-arrm-home
+    title: Accessibility Roles and Responsibilities Mapping (ARRM)
+    url: https://www.w3.org/WAI/planning/arrm/
+    type: informative
+
+  - id: wai-arrm-roles
+    title: ARRM Roles
+    url: https://www.w3.org/WAI/planning/arrm/roles/
+    type: informative
+
+  - id: wai-roles-resources
+    title: WAI Resources for Roles
+    url: https://www.w3.org/WAI/roles/
+    type: informative
+
+  - id: dpub-aria-1.1
+    title: Digital Publishing WAI-ARIA Module 1.1
+    url: https://www.w3.org/TR/dpub-aria-1.1/
+    type: standard
+
+  - id: dpub-aam-1.1
+    title: Digital Publishing Accessibility API Mappings 1.1
+    url: https://www.w3.org/TR/dpub-aam-1.1/
+    type: standard
+
+  - id: graphics-aria-1.0
+    title: WAI-ARIA Graphics Module
+    url: https://www.w3.org/TR/graphics-aria-1.0/
+    type: standard

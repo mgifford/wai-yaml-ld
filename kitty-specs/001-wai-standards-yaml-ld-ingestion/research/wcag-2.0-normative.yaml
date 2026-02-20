@@ -1,0 +1,515 @@
+standard_id: wcag-2.0
+name: Web Content Accessibility Guidelines (WCAG) 2.0
+tr_url: https://www.w3.org/TR/WCAG20/
+kind: standard
+criteria_type: success_criteria
+normative_success_criteria:
+- id: text-equiv-all
+  code: 1.1.1
+  title: Non-text Content
+  level: A
+  normative_text: All non-text content that is presented to the user has a text alternative
+    that serves the equivalent purpose, except for the situations listed below. (Level
+    A)
+  url: https://www.w3.org/TR/WCAG20/#text-equiv-all
+- id: media-equiv-av-only-alt
+  code: 1.2.1
+  title: Audio-only and Video-only (Prerecorded)
+  level: A
+  normative_text: 'For prerecorded audio-only and prerecorded video-only media, the
+    following are true, except when the audio or video is a media alternative for
+    text and is clearly labeled as such: (Level A)'
+  url: https://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt
+- id: media-equiv-captions
+  code: 1.2.2
+  title: Captions (Prerecorded)
+  level: A
+  normative_text: Captions are provided for all prerecorded audio content in synchronized
+    media , except when the media is a media alternative for text and is clearly labeled
+    as such. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#media-equiv-captions
+- id: media-equiv-audio-desc
+  code: 1.2.3
+  title: Audio Description or Media Alternative (Prerecorded)
+  level: A
+  normative_text: An alternative for time-based media or audio description of the
+    prerecorded video content is provided for synchronized media , except when the
+    media is a media alternative for text and is clearly labeled as such. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc
+- id: media-equiv-real-time-captions
+  code: 1.2.4
+  title: Captions (Live)
+  level: AA
+  normative_text: Captions are provided for all live audio content in synchronized
+    media . (Level AA)
+  url: https://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions
+- id: media-equiv-audio-desc-only
+  code: 1.2.5
+  title: Audio Description (Prerecorded)
+  level: AA
+  normative_text: Audio description is provided for all prerecorded video content
+    in synchronized media . (Level AA)
+  url: https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only
+- id: media-equiv-sign
+  code: 1.2.6
+  title: Sign Language (Prerecorded)
+  level: AAA
+  normative_text: Sign language interpretation is provided for all prerecorded audio
+    content in synchronized media . (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#media-equiv-sign
+- id: media-equiv-extended-ad
+  code: 1.2.7
+  title: Extended Audio Description (Prerecorded)
+  level: AAA
+  normative_text: '1.2.7 Extended Audio Description (Prerecorded): Where pauses in
+    foreground audio are insufficient to allow audio descriptions to convey the sense
+    of the video, extended audio description is provided for all prerecorded video
+    content in synchronized media . (Level AAA)'
+  url: https://www.w3.org/TR/WCAG20/#media-equiv-extended-ad
+- id: media-equiv-text-doc
+  code: 1.2.8
+  title: Media Alternative (Prerecorded)
+  level: AAA
+  normative_text: An alternative for time-based media is provided for all prerecorded
+    synchronized media and for all prerecorded video-only media. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#media-equiv-text-doc
+- id: media-equiv-live-audio-only
+  code: 1.2.9
+  title: Audio-only (Live)
+  level: AAA
+  normative_text: An alternative for time-based media that presents equivalent information
+    for live audio-only content is provided. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only
+- id: content-structure-separation-programmatic
+  code: 1.3.1
+  title: Info and Relationships
+  level: A
+  normative_text: Information, structure , and relationships conveyed through presentation
+    can be programmatically determined or are available in text. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic
+- id: content-structure-separation-sequence
+  code: 1.3.2
+  title: Meaningful Sequence
+  level: A
+  normative_text: When the sequence in which content is presented affects its meaning,
+    a correct reading sequence can be programmatically determined . (Level A)
+  url: https://www.w3.org/TR/WCAG20/#content-structure-separation-sequence
+- id: content-structure-separation-understanding
+  code: 1.3.3
+  title: Sensory Characteristics
+  level: A
+  normative_text: Instructions provided for understanding and operating content do
+    not rely solely on sensory characteristics of components such as shape, size,
+    visual location, orientation, or sound. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#content-structure-separation-understanding
+- id: visual-audio-contrast-without-color
+  code: 1.4.1
+  title: Use of Color
+  level: A
+  normative_text: Color is not used as the only visual means of conveying information,
+    indicating an action, prompting a response, or distinguishing a visual element.
+    (Level A)
+  url: https://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color
+- id: visual-audio-contrast-dis-audio
+  code: 1.4.2
+  title: Audio Control
+  level: A
+  normative_text: If any audio on a Web page plays automatically for more than 3 seconds,
+    either a mechanism is available to pause or stop the audio, or a mechanism is
+    available to control audio volume independently from the overall system volume
+    level. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio
+- id: visual-audio-contrast-contrast
+  code: 1.4.3
+  title: Contrast (Minimum)
+  level: AA
+  normative_text: 'The visual presentation of text and images of text has a contrast
+    ratio of at least 4. 5:1, except for the following: (Level AA)'
+  url: https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
+- id: visual-audio-contrast-scale
+  code: 1.4.4
+  title: Resize text
+  level: AA
+  normative_text: Except for captions and images of text , text can be resized without
+    assistive technology up to 200 percent without loss of content or functionality.
+    (Level AA)
+  url: https://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale
+- id: visual-audio-contrast-text-presentation
+  code: 1.4.5
+  title: Images of Text
+  level: AA
+  normative_text: 'If the technologies being used can achieve the visual presentation,
+    text is used to convey information rather than images of text except for the following:
+    (Level AA)'
+  url: https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation
+- id: visual-audio-contrast7
+  code: 1.4.6
+  title: Contrast (Enhanced)
+  level: AAA
+  normative_text: 'The visual presentation of text and images of text has a contrast
+    ratio of at least 7:1, except for the following: (Level AAA)'
+  url: https://www.w3.org/TR/WCAG20/#visual-audio-contrast7
+- id: visual-audio-contrast-noaudio
+  code: 1.4.7
+  title: Low or No Background Audio
+  level: AAA
+  normative_text: 'For prerecorded audio-only content that (1) contains primarily
+    speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is
+    not vocalization intended to be primarily musical expression such as singing or
+    rapping, at least one of the following is true: (Level AAA)'
+  url: https://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio
+- id: visual-audio-contrast-visual-presentation
+  code: 1.4.8
+  title: Visual Presentation
+  level: AAA
+  normative_text: 'For the visual presentation of blocks of text , a mechanism is
+    available to achieve the following: (Level AAA)'
+  url: https://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation
+- id: visual-audio-contrast-text-images
+  code: 1.4.9
+  title: Images of Text (No Exception)
+  level: AAA
+  normative_text: Images of text are only used for pure decoration or where a particular
+    presentation of text is essential to the information being conveyed. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images
+- id: keyboard-operation-keyboard-operable
+  code: 2.1.1
+  title: Keyboard
+  level: A
+  normative_text: All functionality of the content is operable through a keyboard
+    interface without requiring specific timings for individual keystrokes, except
+    where the underlying function requires input that depends on the path of the user's
+    movement and not just the endpoints. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable
+- id: keyboard-operation-trapping
+  code: 2.1.2
+  title: No Keyboard Trap
+  level: A
+  normative_text: If keyboard focus can be moved to a component of the page using
+    a keyboard interface , then focus can be moved away from that component using
+    only a keyboard interface, and, if it requires more than unmodified arrow or tab
+    keys or other standard exit methods, the user is advised of the method for moving
+    focus away. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#keyboard-operation-trapping
+- id: keyboard-operation-all-funcs
+  code: 2.1.3
+  title: Keyboard (No Exception)
+  level: AAA
+  normative_text: All functionality of the content is operable through a keyboard
+    interface without requiring specific timings for individual keystrokes. (Level
+    AAA)
+  url: https://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs
+- id: time-limits-required-behaviors
+  code: 2.2.1
+  title: Timing Adjustable
+  level: A
+  normative_text: 'For each time limit that is set by the content, at least one of
+    the following is true: (Level A)'
+  url: https://www.w3.org/TR/WCAG20/#time-limits-required-behaviors
+- id: time-limits-pause
+  code: 2.2.2
+  title: Pause, Stop, Hide
+  level: A
+  normative_text: 'For moving, blinking , scrolling, or auto-updating information,
+    all of the following are true: (Level A)'
+  url: https://www.w3.org/TR/WCAG20/#time-limits-pause
+- id: time-limits-no-exceptions
+  code: 2.2.3
+  title: No Timing
+  level: AAA
+  normative_text: Timing is not an essential part of the event or activity presented
+    by the content, except for non-interactive synchronized media and real-time events
+    . (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#time-limits-no-exceptions
+- id: time-limits-postponed
+  code: 2.2.4
+  title: Interruptions
+  level: AAA
+  normative_text: Interruptions can be postponed or suppressed by the user, except
+    interruptions involving an emergency . (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#time-limits-postponed
+- id: time-limits-server-timeout
+  code: 2.2.5
+  title: Re-authenticating
+  level: AAA
+  normative_text: When an authenticated session expires, the user can continue the
+    activity without loss of data after re-authenticating. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#time-limits-server-timeout
+- id: seizure-does-not-violate
+  code: 2.3.1
+  title: Three Flashes or Below Threshold
+  level: A
+  normative_text: Web pages do not contain anything that flashes more than three times
+    in any one second period, or the flash is below the general flash and red flash
+    thresholds . (Level A)
+  url: https://www.w3.org/TR/WCAG20/#seizure-does-not-violate
+- id: seizure-three-times
+  code: 2.3.2
+  title: Three Flashes
+  level: AAA
+  normative_text: Web pages do not contain anything that flashes more than three times
+    in any one second period. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#seizure-three-times
+- id: navigation-mechanisms-skip
+  code: 2.4.1
+  title: Bypass Blocks
+  level: A
+  normative_text: A mechanism is available to bypass blocks of content that are repeated
+    on multiple Web pages . (Level A)
+  url: https://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip
+- id: navigation-mechanisms-title
+  code: 2.4.2
+  title: Page Titled
+  level: A
+  normative_text: Web pages have titles that describe topic or purpose. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#navigation-mechanisms-title
+- id: navigation-mechanisms-focus-order
+  code: 2.4.3
+  title: Focus Order
+  level: A
+  normative_text: If a Web page can be navigated sequentially and the navigation sequences
+    affect meaning or operation, focusable components receive focus in an order that
+    preserves meaning and operability. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order
+- id: navigation-mechanisms-refs
+  code: 2.4.4
+  title: Link Purpose (In Context)
+  level: A
+  normative_text: The purpose of each link can be determined from the link text alone
+    or from the link text together with its programmatically determined link context
+    , except where the purpose of the link would be ambiguous to users in general
+    . (Level A)
+  url: https://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs
+- id: navigation-mechanisms-mult-loc
+  code: 2.4.5
+  title: Multiple Ways
+  level: AA
+  normative_text: More than one way is available to locate a Web page within a set
+    of Web pages except where the Web Page is the result of, or a step in, a process
+    . (Level AA)
+  url: https://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc
+- id: navigation-mechanisms-descriptive
+  code: 2.4.6
+  title: Headings and Labels
+  level: AA
+  normative_text: Headings and labels describe topic or purpose. (Level AA)
+  url: https://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive
+- id: navigation-mechanisms-focus-visible
+  code: 2.4.7
+  title: Focus Visible
+  level: AA
+  normative_text: Any keyboard operable user interface has a mode of operation where
+    the keyboard focus indicator is visible. (Level AA)
+  url: https://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible
+- id: navigation-mechanisms-location
+  code: 2.4.8
+  title: Location
+  level: AAA
+  normative_text: Information about the user's location within a set of Web pages
+    is available. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#navigation-mechanisms-location
+- id: navigation-mechanisms-link
+  code: 2.4.9
+  title: Link Purpose (Link Only)
+  level: AAA
+  normative_text: A mechanism is available to allow the purpose of each link to be
+    identified from link text alone, except where the purpose of the link would be
+    ambiguous to users in general . (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#navigation-mechanisms-link
+- id: navigation-mechanisms-headings
+  code: 2.4.10
+  title: Section Headings
+  level: AAA
+  normative_text: Section headings are used to organize the content. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings
+- id: meaning-doc-lang-id
+  code: 3.1.1
+  title: Language of Page
+  level: A
+  normative_text: The default human language of each Web page can be programmatically
+    determined . (Level A)
+  url: https://www.w3.org/TR/WCAG20/#meaning-doc-lang-id
+- id: meaning-other-lang-id
+  code: 3.1.2
+  title: Language of Parts
+  level: AA
+  normative_text: The human language of each passage or phrase in the content can
+    be programmatically determined except for proper names, technical terms, words
+    of indeterminate language, and words or phrases that have become part of the vernacular
+    of the immediately surrounding text. (Level AA)
+  url: https://www.w3.org/TR/WCAG20/#meaning-other-lang-id
+- id: meaning-idioms
+  code: 3.1.3
+  title: Unusual Words
+  level: AAA
+  normative_text: A mechanism is available for identifying specific definitions of
+    words or phrases used in an unusual or restricted way , including idioms and jargon
+    . (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#meaning-idioms
+- id: meaning-located
+  code: 3.1.4
+  title: Abbreviations
+  level: AAA
+  normative_text: A mechanism for identifying the expanded form or meaning of abbreviations
+    is available. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#meaning-located
+- id: meaning-supplements
+  code: 3.1.5
+  title: Reading Level
+  level: AAA
+  normative_text: When text requires reading ability more advanced than the lower
+    secondary education level after removal of proper names and titles, supplemental
+    content , or a version that does not require reading ability more advanced than
+    the lower secondary education level, is available. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#meaning-supplements
+- id: meaning-pronunciation
+  code: 3.1.6
+  title: Pronunciation
+  level: AAA
+  normative_text: A mechanism is available for identifying specific pronunciation
+    of words where meaning of the words, in context, is ambiguous without knowing
+    the pronunciation. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#meaning-pronunciation
+- id: consistent-behavior-receive-focus
+  code: 3.2.1
+  title: On Focus
+  level: A
+  normative_text: When any component receives focus, it does not initiate a change
+    of context . (Level A)
+  url: https://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus
+- id: consistent-behavior-unpredictable-change
+  code: 3.2.2
+  title: On Input
+  level: A
+  normative_text: Changing the setting of any user interface component does not automatically
+    cause a change of context unless the user has been advised of the behavior before
+    using the component. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change
+- id: consistent-behavior-consistent-locations
+  code: 3.2.3
+  title: Consistent Navigation
+  level: AA
+  normative_text: Navigational mechanisms that are repeated on multiple Web pages
+    within a set of Web pages occur in the same relative order each time they are
+    repeated, unless a change is initiated by the user. (Level AA)
+  url: https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations
+- id: consistent-behavior-consistent-functionality
+  code: 3.2.4
+  title: Consistent Identification
+  level: AA
+  normative_text: Components that have the same functionality within a set of Web
+    pages are identified consistently. (Level AA)
+  url: https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality
+- id: consistent-behavior-no-extreme-changes-context
+  code: 3.2.5
+  title: Change on Request
+  level: AAA
+  normative_text: Changes of context are initiated only by user request or a mechanism
+    is available to turn off such changes. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context
+- id: minimize-error-identified
+  code: 3.3.1
+  title: Error Identification
+  level: A
+  normative_text: If an input error is automatically detected, the item that is in
+    error is identified and the error is described to the user in text. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#minimize-error-identified
+- id: minimize-error-cues
+  code: 3.3.2
+  title: Labels or Instructions
+  level: A
+  normative_text: Labels or instructions are provided when content requires user input.
+    (Level A)
+  url: https://www.w3.org/TR/WCAG20/#minimize-error-cues
+- id: minimize-error-suggestions
+  code: 3.3.3
+  title: Error Suggestion
+  level: AA
+  normative_text: If an input error is automatically detected and suggestions for
+    correction are known, then the suggestions are provided to the user, unless it
+    would jeopardize the security or purpose of the content. (Level AA)
+  url: https://www.w3.org/TR/WCAG20/#minimize-error-suggestions
+- id: minimize-error-reversible
+  code: 3.3.4
+  title: Error Prevention (Legal, Financial, Data)
+  level: AA
+  normative_text: 'For Web pages that cause legal commitments or financial transactions
+    for the user to occur, that modify or delete user-controllable data in data storage
+    systems, or that submit user test responses, at least one of the following is
+    true: (Level AA)'
+  url: https://www.w3.org/TR/WCAG20/#minimize-error-reversible
+- id: minimize-error-context-help
+  code: 3.3.5
+  title: Help
+  level: AAA
+  normative_text: Context-sensitive help is available. (Level AAA)
+  url: https://www.w3.org/TR/WCAG20/#minimize-error-context-help
+- id: minimize-error-reversible-all
+  code: 3.3.6
+  title: Error Prevention (All)
+  level: AAA
+  normative_text: 'For Web pages that require the user to submit information, at least
+    one of the following is true: (Level AAA)'
+  url: https://www.w3.org/TR/WCAG20/#minimize-error-reversible-all
+- id: ensure-compat-parses
+  code: 4.1.1
+  title: Parsing
+  level: A
+  normative_text: In content implemented using markup languages, elements have complete
+    start and end tags, elements are nested according to their specifications, elements
+    do not contain duplicate attributes, and any IDs are unique, except where the
+    specifications allow these features. (Level A)
+  url: https://www.w3.org/TR/WCAG20/#ensure-compat-parses
+- id: ensure-compat-rsv
+  code: 4.1.2
+  title: Name, Role, Value
+  level: A
+  normative_text: 'For all user interface components (including but not limited to:
+    form elements, links and components generated by scripts), the name and role can
+    be programmatically determined ; states, properties, and values that can be set
+    by the user can be programmatically set ; and notification of changes to these
+    items is available to user agents , including assistive technologies . (Level
+    A)'
+  url: https://www.w3.org/TR/WCAG20/#ensure-compat-rsv
+informative_resources:
+- id: understanding-wcag-2.0
+  title: Understanding WCAG 2.0
+  url: https://www.w3.org/TR/UNDERSTANDING-WCAG20/
+  type: informative
+- id: wcag-2.0-techniques
+  title: Techniques for WCAG 2.0
+  url: https://www.w3.org/TR/WCAG20-TECHS/
+  type: informative
+- id: wai-arrm-home
+  title: Accessibility Roles and Responsibilities Mapping (ARRM)
+  url: https://www.w3.org/WAI/planning/arrm/
+  type: informative
+  applies_to:
+  - wcag-2.0
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: wai-arrm-roles
+  title: ARRM Roles
+  url: https://www.w3.org/WAI/planning/arrm/roles/
+  type: informative
+  applies_to:
+  - wcag-2.0
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: wai-arrm-wcag-sc
+  title: ARRM WCAG Success Criteria mapping
+  url: https://www.w3.org/WAI/planning/arrm/wcag-sc/
+  type: informative
+  applies_to:
+  - wcag-2.0
+- id: wai-roles-resources
+  title: WAI Resources for Roles
+  url: https://www.w3.org/WAI/roles/
+  type: informative
+  applies_to:
+  - wcag-2.0
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria

@@ -1,0 +1,878 @@
+standard_id: uaag-2.0
+name: User Agent Accessibility Guidelines (UAAG) 2.0
+tr_url: https://www.w3.org/TR/UAAG20/
+kind: standard
+criteria_type: success_criteria
+normative_success_criteria:
+- id: sc_111
+  code: 1.1.1
+  title: Render Alternative Content
+  level: A
+  normative_text: The user can choose to render any type of recognized alternative
+    content that is present for a content element .
+  url: https://www.w3.org/TR/UAAG20/#sc_111
+- id: sc_112
+  code: 1.1.2
+  title: Indicate Unrendered Alternative Content
+  level: A
+  normative_text: The user can specify that indicators be displayed along with rendered
+    content when recognized unrendered alternative content is present.
+  url: https://www.w3.org/TR/UAAG20/#sc_112
+- id: sc_113
+  code: 1.1.3
+  title: Replace Non-Text Content
+  level: A
+  normative_text: The user can request a placeholder that incorporates recognized
+    text alternative content instead of recognized non-text content, until explicit
+    user request to render the non-text content.
+  url: https://www.w3.org/TR/UAAG20/#sc_113
+- id: sc_114
+  code: 1.1.4
+  title: Facilitate Clear Display of Alternative Content for Time-based Media
+  level: A
+  normative_text: 'For recognized on-screen alternative content for time-based media
+    (e.g. captions, sign language video), the following are all true:'
+  url: https://www.w3.org/TR/UAAG20/#sc_114
+- id: sc_115
+  code: 1.1.5
+  title: Provide Configurable Alternative Content Defaults
+  level: AA
+  normative_text: The user can specify which type(s) of alternative content to render
+    by default for each type of non-text content, including time based media.
+  url: https://www.w3.org/TR/UAAG20/#sc_115
+- id: sc_116
+  code: 1.1.6
+  title: Use Configurable Text for Time-based Media Captions
+  level: AA
+  normative_text: For recognized on-screen alternative content for time-based media
+    (e.g. captions, sign language video), t he user can configure recognized text
+    within time-based media alternatives (e.g. captions) in conformance with 1.4.1
+    .
+  url: https://www.w3.org/TR/UAAG20/#sc_116
+- id: sc_117
+  code: 1.1.7
+  title: Allow Resize and Reposition of Time-based Media Alternatives
+  level: AAA
+  normative_text: 'The user can configure recognized alternative content for time-based
+    media (e.g. captions, sign language video) as follows:'
+  url: https://www.w3.org/TR/UAAG20/#sc_117
+- id: sc_121
+  code: 1.2.1
+  title: Support Repair by Assistive Technologies
+  level: AA
+  normative_text: If text alternatives for non-text content are missing or empty,
+    the user agent doesn't attempt to repair the text alternatives by substituting
+    text values that are also available to assistive technologies (e.g. image file
+    name).
+  url: https://www.w3.org/TR/UAAG20/#sc_121
+- id: sc_131
+  code: 1.3.1
+  title: Distinguishable Highlighting
+  level: A
+  normative_text: 'The user can have the following types of content uniquely highlighted,
+    overriding any values specified by the author:'
+  url: https://www.w3.org/TR/UAAG20/#sc_131
+- id: sc_132
+  code: 1.3.2
+  title: Highlighting Options
+  level: AA
+  normative_text: 'The user can set all of the following characteristics of selection
+    highlighting, overriding any values specified by the author:'
+  url: https://www.w3.org/TR/UAAG20/#sc_132
+- id: sc_133
+  code: 1.3.3
+  title: Highlighting Active Keyboard Focus
+  level: AA
+  normative_text: 'The user can set all of the following characteristics of active
+    keyboard focus highlighting, overriding any values specified by the author:'
+  url: https://www.w3.org/TR/UAAG20/#sc_133
+- id: sc_134
+  code: 1.3.4
+  title: Distinguishing Enabled Elements
+  level: AA
+  normative_text: 'The user can set all of the following characteristics of enabled
+    element highlighting, overriding any values specified by the author:'
+  url: https://www.w3.org/TR/UAAG20/#sc_134
+- id: sc_135
+  code: 1.3.5
+  title: Distinguishing Enabled Elements
+  level: AA
+  normative_text: 'The user can set all of the following characteristics for visited
+    links and separately for unvisited links, overriding any values specified by the
+    author:'
+  url: https://www.w3.org/TR/UAAG20/#sc_135
+- id: sc_141
+  code: 1.4.1
+  title: Basic text formatting (Globally)
+  level: A
+  normative_text: 'The user can globally set all of the following characteristics
+    of visually rendered text content:'
+  url: https://www.w3.org/TR/UAAG20/#sc_141
+- id: sc_142
+  code: 1.4.2
+  title: Basic text formatting (by Element)
+  level: AA
+  normative_text: 'The user can set all of the following characteristics of visually
+    rendered text content for text element types including at least headings, input
+    fields, and links:'
+  url: https://www.w3.org/TR/UAAG20/#sc_142
+- id: sc_143
+  code: 1.4.3
+  title: Blocks of text (Globally)
+  level: AA
+  normative_text: 'The user can globally set all of the following characteristics
+    of visually rendered blocks of text :'
+  url: https://www.w3.org/TR/UAAG20/#sc_143
+- id: sc_144
+  code: 1.4.4
+  title: Configured and Reflowed Text Printing
+  level: AA
+  normative_text: 'The user can print the rendered content , and the following are
+    all true:'
+  url: https://www.w3.org/TR/UAAG20/#sc_144
+- id: sc_145
+  code: 1.4.5
+  title: Default to platform text settings
+  level: AA
+  normative_text: The user can specify that platform text settings be used as the
+    default values for text configuration.
+  url: https://www.w3.org/TR/UAAG20/#sc_145
+- id: sc_146
+  code: 1.4.6
+  title: Advanced text formatting
+  level: AAA
+  normative_text: 'The user can globally set all of the following characteristics
+    of visually rendered blocks of text :'
+  url: https://www.w3.org/TR/UAAG20/#sc_146
+- id: sc_151
+  code: 1.5.1
+  title: Global Volume
+  level: A
+  normative_text: The user can adjust the volume of each audio track independently
+    of other tracks, relative to the global volume level set through operating environment
+    mechanisms.
+  url: https://www.w3.org/TR/UAAG20/#sc_151
+- id: sc_161
+  code: 1.6.1
+  title: Speech Rate, Volume, and Voice
+  level: A
+  normative_text: 'If synthesized speech is produced, the user can specify the following:'
+  url: https://www.w3.org/TR/UAAG20/#sc_161
+- id: sc_162
+  code: 1.6.2
+  title: Speech Pitch and Range
+  level: AA
+  normative_text: 'If synthesized speech is produced, the user can specify the following
+    if offered by the speech synthesizer:'
+  url: https://www.w3.org/TR/UAAG20/#sc_162
+- id: sc_163
+  code: 1.6.3
+  title: Synthesized Speech Features
+  level: AA
+  normative_text: 'If synthesized speech is produced, the following features are provided:'
+  url: https://www.w3.org/TR/UAAG20/#sc_163
+- id: sc_164
+  code: 1.6.4
+  title: Synthesized Speech Language
+  level: AA
+  normative_text: If synthesized speech is produced and more than one language is
+    available, the user can change the language.
+  url: https://www.w3.org/TR/UAAG20/#sc_164
+- id: sc_165
+  code: 1.6.5
+  title: Advanced Speech Characteristics
+  level: AAA
+  normative_text: If synthesized speech is produced, the user can adjust all of the
+    speech characteristics provided by the speech synthesizer.
+  url: https://www.w3.org/TR/UAAG20/#sc_165
+- id: sc_171
+  code: 1.7.1
+  title: Disable Author Stylesheets
+  level: A
+  normative_text: If the user agent supports a mechanism for author styles , the user
+    can disable the use of author styles on the current page.
+  url: https://www.w3.org/TR/UAAG20/#sc_171
+- id: sc_172
+  code: 1.7.2
+  title: Support User Stylesheet or User Style Modification Mechanism
+  level: A
+  normative_text: 'If user styles are supported, then the user can enable or disable
+    user styles for:'
+  url: https://www.w3.org/TR/UAAG20/#sc_172
+- id: sc_173
+  code: 1.7.3
+  title: Apply User Stylesheets
+  level: A
+  normative_text: 'If user styles are supported, then the user can enable or disable
+    user styles for:'
+  url: https://www.w3.org/TR/UAAG20/#sc_173
+- id: sc_174
+  code: 1.7.4
+  title: Save Copies of Stylesheets
+  level: AA
+  normative_text: The user can save copies of the stylesheets referenced by the current
+    page. This allows the user to edit and load the copies as user stylesheets .
+  url: https://www.w3.org/TR/UAAG20/#sc_174
+- id: sc_181
+  code: 1.8.1
+  title: Highlight Viewport
+  level: A
+  normative_text: The user can have the viewport with the input focus be highlighted.
+  url: https://www.w3.org/TR/UAAG20/#sc_181
+- id: sc_182
+  code: 1.8.2
+  title: Move Viewport to Selection and Focus
+  level: A
+  normative_text: When a viewport's selection or input focus changes, the viewport
+    's content moves as necessary to ensure that the new selection or input focus
+    location is at least partially in the visible portion of the viewport.
+  url: https://www.w3.org/TR/UAAG20/#sc_182
+- id: sc_183
+  code: 1.8.3
+  title: Provide Viewport Scrollbars
+  level: A
+  normative_text: The user can determine the viewport 's position relative to the
+    full extent of the rendered content .
+  url: https://www.w3.org/TR/UAAG20/#sc_183
+- id: sc_184
+  code: 1.8.4
+  title: Indicate Viewport Position
+  level: A
+  normative_text: The user can determine the viewport 's position relative to the
+    full extent of the rendered content .
+  url: https://www.w3.org/TR/UAAG20/#sc_184
+- id: sc_185
+  code: 1.8.5
+  title: Allow Zoom
+  level: A
+  normative_text: 'The user can rescale content within top-level graphical viewports
+    as follows:'
+  url: https://www.w3.org/TR/UAAG20/#sc_185
+- id: sc_186
+  code: 1.8.6
+  title: Maintain Point of Regard
+  level: A
+  normative_text: The point of regard remains visible within the viewport when the
+    viewport is resized, when content is zoomed or scaled, or when content formatting
+    is changed.
+  url: https://www.w3.org/TR/UAAG20/#sc_186
+- id: sc_187
+  code: 1.8.7
+  title: Customize Viewport Highlighting
+  level: AA
+  normative_text: When highlighting viewports as specified by 1.8.1 Highlight Viewport
+    , the user can customize attributes of the viewport highlighting mechanism (e.g.
+    color and width of borders).
+  url: https://www.w3.org/TR/UAAG20/#sc_187
+- id: sc_188
+  code: 1.8.8
+  title: Allow Viewport Resize
+  level: AA
+  normative_text: The user can resize viewports within restrictions imposed by the
+    platform, overriding any values specified by the author .
+  url: https://www.w3.org/TR/UAAG20/#sc_188
+- id: sc_189
+  code: 1.8.9
+  title: Provide Viewport History
+  level: AA
+  normative_text: 'For user agents that implement a history mechanism for top-level
+    viewports (e.g. "back" button), the user can return to any state in the viewport
+    history that is allowed by the content, including:'
+  url: https://www.w3.org/TR/UAAG20/#sc_189
+- id: sc_1810
+  code: 1.8.10
+  title: Allow Top-Level Viewport Open on Request
+  level: AA
+  normative_text: The user can specify whether author content can open new top-level
+    viewports (e.g. windows or tabs).
+  url: https://www.w3.org/TR/UAAG20/#sc_1810
+- id: sc_1811
+  code: 1.8.11
+  title: Allow Top-Level Viewport Focus Control
+  level: AA
+  normative_text: If new top-level viewports (e.g. windows or tabs) are configured
+    to open without explicit user request, the user can specify whether or not top-level
+    viewports take the active keyboard focus when they open.
+  url: https://www.w3.org/TR/UAAG20/#sc_1811
+- id: sc_1812
+  code: 1.8.12
+  title: Allow Same User Interface
+  level: AA
+  normative_text: The user can specify that all top-level viewports (e.g. windows
+    or tabs) follow the defined user interface configuration.
+  url: https://www.w3.org/TR/UAAG20/#sc_1812
+- id: sc_1813
+  code: 1.8.13
+  title: Multi-Column Text Reflow
+  level: AA
+  normative_text: The user can specify that recognized multi-column text blocks each
+    be reflowed into a single column.
+  url: https://www.w3.org/TR/UAAG20/#sc_1813
+- id: sc_1814
+  code: 1.8.14
+  title: Ignore Fixed Unit Dimensions
+  level: AA
+  normative_text: The user can have the user agent override author-specified unit
+    dimensions.
+  url: https://www.w3.org/TR/UAAG20/#sc_1814
+- id: sc_1815
+  code: 1.8.15
+  title: Linearize Content
+  level: AA
+  normative_text: The user can have recognized content rendered as a single column,
+    overriding author-specified formatting of columns, tables, and positioning.
+  url: https://www.w3.org/TR/UAAG20/#sc_1815
+- id: sc_1816
+  code: 1.8.16
+  title: Provide Web Page Bookmarks
+  level: AAA
+  normative_text: The user can mark items in a web page, then use shortcuts to navigate
+    back to marked items. The user can specify whether a navigation mark disappears
+    after a session, or is persistent across sessions.
+  url: https://www.w3.org/TR/UAAG20/#sc_1816
+- id: sc_191
+  code: 1.9.1
+  title: Outline View
+  level: AA
+  normative_text: Users can view a navigable outline of the headings in rendered content
+    that allows focus to be moved to the corresponding element in the main viewport
+    .
+  url: https://www.w3.org/TR/UAAG20/#sc_191
+- id: sc_192
+  code: 1.9.2
+  title: Source View
+  level: AAA
+  normative_text: The user can view all source text that is available to the user
+    agent .
+  url: https://www.w3.org/TR/UAAG20/#sc_192
+- id: sc_1101
+  code: 1.10.1
+  title: Show Related Elements
+  level: AA
+  normative_text: 'The user can access the information from explicitly-defined relationships
+    in the content, including at least the following:'
+  url: https://www.w3.org/TR/UAAG20/#sc_1101
+- id: sc_1102
+  code: 1.10.2
+  title: Show Element Hierarchy
+  level: AAA
+  normative_text: The user can determine the path of element nodes going from the
+    root element of the element hierarchy to the currently focused or selected element.
+  url: https://www.w3.org/TR/UAAG20/#sc_1102
+- id: sc_211
+  code: 2.1.1
+  title: Provide Full Keyboard Functionality
+  level: A
+  normative_text: All functionality can be operated via the keyboard using sequential
+    or direct keyboard commands that do not require specific timings for individual
+    keystrokes, except where the underlying function requires input that depends on
+    the path of the user's movement and not just the endpoints (e.g. free hand drawing).
+    This does not forbid and should not discourage providing other input methods in
+    addition to keyboard operation including mouse, touch, gesture and speech.
+  url: https://www.w3.org/TR/UAAG20/#sc_211
+- id: sc_212
+  code: 2.1.2
+  title: Has Keyboard Focus
+  level: A
+  normative_text: Every viewport has an active or inactive keyboard focus at all times.
+  url: https://www.w3.org/TR/UAAG20/#sc_212
+- id: sc_213
+  code: 2.1.3
+  title: Avoid Keyboard Traps
+  level: A
+  normative_text: If keyboard focus can be moved to a component using a keyboard interface
+    (including nested user agents), then focus can be moved away from that component
+    using only a keyboard interface. If this requires more than unmodified arrow or
+    Tab keys (or standard exit methods like Escape), users are advised of the method
+    for moving focus away.
+  url: https://www.w3.org/TR/UAAG20/#sc_213
+- id: sc_214
+  code: 2.1.4
+  title: Separate Selection from Activation
+  level: A
+  normative_text: The user can specify that focus and selection can be moved without
+    the user agent or author-supplied content further changing focus, selection, or
+    the state of controls.
+  url: https://www.w3.org/TR/UAAG20/#sc_214
+- id: sc_215
+  code: 2.1.5
+  title: Follow Text Keyboard Conventions
+  level: A
+  normative_text: The user agent follows keyboard conventions for the operating environment
+    .
+  url: https://www.w3.org/TR/UAAG20/#sc_215
+- id: sc_216
+  code: 2.1.6
+  title: Make Keyboard Access Efficient
+  level: A
+  normative_text: The user agent user interface includes mechanisms to make keyboard
+    access more efficient than sequential keyboard access.
+  url: https://www.w3.org/TR/UAAG20/#sc_216
+- id: sc_221
+  code: 2.2.1
+  title: Sequential Navigation Between Elements
+  level: A
+  normative_text: The user can move the keyboard focus backwards and forwards through
+    all recognized enabled elements in the rendered content of the current top-level
+    viewports .
+  url: https://www.w3.org/TR/UAAG20/#sc_221
+- id: sc_222
+  code: 2.2.2
+  title: Sequential Navigation Between Landmarks
+  level: AA
+  normative_text: If the author has not specified a navigation order, the user can
+    have the default sequential navigation order be the source order.
+  url: https://www.w3.org/TR/UAAG20/#sc_222
+- id: sc_223
+  code: 2.2.3
+  title: Default Navigation Order
+  level: AA
+  normative_text: If the author has not specified a navigation order, the user can
+    have the default sequential navigation order be the source order.
+  url: https://www.w3.org/TR/UAAG20/#sc_223
+- id: sc_224
+  code: 2.2.4
+  title: Options for Wrapping in Navigation
+  level: AA
+  normative_text: The user can request notification when sequential navigation wraps
+    at the beginning or end of a document, and can prevent such wrapping.
+  url: https://www.w3.org/TR/UAAG20/#sc_224
+- id: sc_231
+  code: 2.3.1
+  title: Allow Direct Navigation to Enabled Elements
+  level: AA
+  normative_text: The user can move keyboard focus directly to any enabled element
+    in the rendered content .
+  url: https://www.w3.org/TR/UAAG20/#sc_231
+- id: sc_232
+  code: 2.3.2
+  title: Allow Direct Activation of Enabled Elements
+  level: AA
+  normative_text: The user can, in a single action, move keyboard focus directly to
+    any enabled element in the rendered content and perform an activation action on
+    that element.
+  url: https://www.w3.org/TR/UAAG20/#sc_232
+- id: sc_233
+  code: 2.3.3
+  title: Present Direct Commands from Rendered Content
+  level: AA
+  normative_text: The user can have any recognized direct commands in rendered content
+    (e.g. accesskey, landmark) be presented with their associated elements (e.g. Alt+R
+    to reply to a web email).
+  url: https://www.w3.org/TR/UAAG20/#sc_233
+- id: sc_234
+  code: 2.3.4
+  title: Present Direct Commands in User Interface
+  level: AA
+  normative_text: The user can have any direct commands in the UA user interface (e.g.
+    keyboard shortcuts) be presented with their associated user interface controls
+    (e.g. "Ctrl+S" displayed on the "Save" menu item and toolbar button).
+  url: https://www.w3.org/TR/UAAG20/#sc_234
+- id: sc_235
+  code: 2.3.5
+  title: Allow Customized Keyboard Commands
+  level: AA
+  normative_text: The user can remap any keyboard shortcut including recognized author
+    supplied shortcuts (e.g. accesskeys) and UA user interface controls, except for
+    conventional bindings for the operating environment (e.g. arrow keys for navigating
+    within menus).
+  url: https://www.w3.org/TR/UAAG20/#sc_235
+- id: sc_241
+  code: 2.4.1
+  title: Text Search
+  level: A
+  normative_text: The user can perform a search within rendered content , including
+    rendered text alternatives and rendered generated content, for any sequence of
+    printing characters from the document character set .
+  url: https://www.w3.org/TR/UAAG20/#sc_241
+- id: sc_242
+  code: 2.4.2
+  title: Search Direction
+  level: A
+  normative_text: The user can search forward or backward in rendered content .
+  url: https://www.w3.org/TR/UAAG20/#sc_242
+- id: sc_243
+  code: 2.4.3
+  title: Match Found
+  level: A
+  normative_text: When a search operation produces a match, the matched content is
+    highlighted , the viewport is scrolled if necessary so that the matched content
+    is within its visible area, and the user can search from the location of the match.
+  url: https://www.w3.org/TR/UAAG20/#sc_243
+- id: sc_244
+  code: 2.4.4
+  title: Alert on Wrap or No Match
+  level: A
+  normative_text: The user can choose to receive notification when there is no match
+    to a search operation. The user can choose to receive notification when the search
+    continues from the beginning or end of content.
+  url: https://www.w3.org/TR/UAAG20/#sc_244
+- id: sc_245
+  code: 2.4.5
+  title: Alternative Content Search
+  level: AA
+  normative_text: The user can perform text searches within alternative content that
+    is text (e.g. text alternatives for non-text content , captions) even when the
+    alternative content is not rendered onscreen.
+  url: https://www.w3.org/TR/UAAG20/#sc_245
+- id: sc_251
+  code: 2.5.1
+  title: Provide Structural Navigation by Heading and within Tables
+  level: AA
+  normative_text: 'The user agent provides at least the following types of structural
+    navigation , where the structure types are recognized:'
+  url: https://www.w3.org/TR/UAAG20/#sc_251
+- id: sc_261
+  code: 2.6.1
+  title: Allow Persistent Accessibility Settings
+  level: A
+  normative_text: User agent accessibility preference settings persist between sessions.
+  url: https://www.w3.org/TR/UAAG20/#sc_261
+- id: sc_262
+  code: 2.6.2
+  title: Allow Restore All to Default
+  level: A
+  normative_text: The user can restore all preference settings to default values.
+  url: https://www.w3.org/TR/UAAG20/#sc_262
+- id: sc_263
+  code: 2.6.3
+  title: Allow Multiple Sets of Preference Settings
+  level: AA
+  normative_text: The user can save and retrieve multiple sets of user agent preference
+    settings.
+  url: https://www.w3.org/TR/UAAG20/#sc_263
+- id: sc_264
+  code: 2.6.4
+  title: Allow Preference Changes from outside the User Interface
+  level: AAA
+  normative_text: The user can adjust any preference settings required to meet the
+    User Agent Accessibility Guidelines (UAAG) 2.0 from outside the UA user interface
+    .
+  url: https://www.w3.org/TR/UAAG20/#sc_264
+- id: sc_265
+  code: 2.6.5
+  title: Make Preference Settings Transferable
+  level: AAA
+  normative_text: The user can transfer all compatible user agent preference settings
+    between devices.
+  url: https://www.w3.org/TR/UAAG20/#sc_265
+- id: sc_271
+  code: 2.7.1
+  title: Customize Display of Controls for User Interface Commands, Functions, and
+    Add-ons
+  level: AA
+  normative_text: 'The user can customize which user agent commands, functions, and
+    add-ons are displayed within the user agent user interface as follows:'
+  url: https://www.w3.org/TR/UAAG20/#sc_271
+- id: sc_281
+  code: 2.8.1
+  title: Adjustable Time Limits
+  level: A
+  normative_text: 'The UA user interface does not include time limits or at least
+    one of the following is true:'
+  url: https://www.w3.org/TR/UAAG20/#sc_281
+- id: sc_291
+  code: 2.9.1
+  title: Three Flashes or Below Threshold
+  level: A
+  normative_text: In its default configuration, the user agent does not display any
+    UA user interface components that flashes more than three times in any one-second
+    period, unless the flash is below general flash and red flash thresholds.
+  url: https://www.w3.org/TR/UAAG20/#sc_291
+- id: sc_292
+  code: 2.9.2
+  title: Three Flashes
+  level: AAA
+  normative_text: In its default configuration, the user agent does not display any
+    UA user interface components that flashes more than three times in any one-second
+    period (regardless of whether not the flash is below the general flash and red
+    flash thresholds).
+  url: https://www.w3.org/TR/UAAG20/#sc_292
+- id: sc_2101
+  code: 2.10.1
+  title: Time-Based Media Load-Only
+  level: A
+  normative_text: The user can override the play on load of recognized time-based
+    media content such that the content is not played until explicit user request
+    .
+  url: https://www.w3.org/TR/UAAG20/#sc_2101
+- id: sc_2102
+  code: 2.10.2
+  title: Execution Placeholder
+  level: A
+  normative_text: The user can request a placeholder instead of executable content
+    that would normally be contained within an on-screen area (e.g. Applet, Flash),
+    until explicit user request to execute.
+  url: https://www.w3.org/TR/UAAG20/#sc_2102
+- id: sc_2103
+  code: 2.10.3
+  title: Execution Toggle
+  level: A
+  normative_text: The user can turn on/off the execution of dynamic or executable
+    content (e.g. Javascript, canvas, media).
+  url: https://www.w3.org/TR/UAAG20/#sc_2103
+- id: sc_2104
+  code: 2.10.4
+  title: Adjustable Playback Rate for Prerecorded Content
+  level: AA
+  normative_text: 'The user can adjust the playback rate of prerecorded time-based
+    media content, such that all of the following are true:'
+  url: https://www.w3.org/TR/UAAG20/#sc_2104
+- id: sc_2105
+  code: 2.10.5
+  title: Stop/Pause/Resume Time-Based Media
+  level: A
+  normative_text: The user can stop, pause, and resume rendered audio and animation
+    content (e.g video, animation, changing text) that lasts three or more seconds
+    at the default playback rate.
+  url: https://www.w3.org/TR/UAAG20/#sc_2105
+- id: sc_2106
+  code: 2.10.6
+  title: Navigation of Time-Based Media by Time
+  level: A
+  normative_text: If time-based media lasts three or more seconds at the default playback
+    rate, the user can navigate it using a continuous scale and by relative time units
+    .
+  url: https://www.w3.org/TR/UAAG20/#sc_2106
+- id: sc_2107
+  code: 2.10.7
+  title: Navigation of Time-Based Media by Semantics
+  level: AA
+  normative_text: The user can navigate by semantic structure within the time-based
+    media, such as by chapters or scenes present in the media.
+  url: https://www.w3.org/TR/UAAG20/#sc_2107
+- id: sc_2108
+  code: 2.10.8
+  title: Video Contrast and Brightness
+  level: AAA
+  normative_text: Users can adjust the contrast and brightness of visual time-based
+    media.
+  url: https://www.w3.org/TR/UAAG20/#sc_2108
+- id: sc_2111
+  code: 2.11.1
+  title: Text Input With Any Device
+  level: AA
+  normative_text: If an input device is supported by the platform , all user agent
+    functionality including text input can be operated using that device.
+  url: https://www.w3.org/TR/UAAG20/#sc_2111
+- id: sc_311
+  code: 3.1.1
+  title: Text Entry Undo
+  level: A
+  normative_text: The user can reverse recognized text entry actions prior to submission.
+  url: https://www.w3.org/TR/UAAG20/#sc_311
+- id: sc_312
+  code: 3.1.2
+  title: Settings Changes can be Reversed or Confirmed
+  level: A
+  normative_text: If the user agent provides mechanisms for changing its user interface
+    settings, it either allows the user to reverse the setting changes, or the user
+    agent can require user confirmation to proceed.
+  url: https://www.w3.org/TR/UAAG20/#sc_312
+- id: sc_313
+  code: 3.1.3
+  title: Retrieval Progress
+  level: A
+  normative_text: By default, the user agent shows the state of content retrieval
+    activity.
+  url: https://www.w3.org/TR/UAAG20/#sc_313
+- id: sc_314
+  code: 3.1.4
+  title: Spell Check
+  level: AA
+  normative_text: The user can have spelling assistance for editable text in rendered
+    content.
+  url: https://www.w3.org/TR/UAAG20/#sc_314
+- id: sc_315
+  code: 3.1.5
+  title: Back Button
+  level: AA
+  normative_text: The user can reverse recognized navigation between web addresses
+    (e.g. standard "back button" functionality).
+  url: https://www.w3.org/TR/UAAG20/#sc_315
+- id: sc_316
+  code: 3.1.6
+  title: Form Submission Confirm
+  level: AA
+  normative_text: The user can specify whether or not recognized form submissions
+    must be confirmed.
+  url: https://www.w3.org/TR/UAAG20/#sc_316
+- id: sc_317
+  code: 3.1.7
+  title: Form Auto-Fill
+  level: AA
+  normative_text: 'The user can have the following information stored and used to
+    auto-fill form fields by request:'
+  url: https://www.w3.org/TR/UAAG20/#sc_317
+- id: sc_318
+  code: 3.1.8
+  title: Save Form Entries
+  level: AA
+  normative_text: If the user agent provides a feature to save local versions of web
+    content, then any form fields the user has filled retain any entries in the saved
+    version.
+  url: https://www.w3.org/TR/UAAG20/#sc_318
+- id: sc_321
+  code: 3.2.1
+  title: Accessible Documentation
+  level: A
+  normative_text: Product documentation is available in a format that meets success
+    criteria of WCAG 2.0 level "A" or greater.
+  url: https://www.w3.org/TR/UAAG20/#sc_321
+- id: sc_322
+  code: 3.2.2
+  title: Describe Accessibility Features
+  level: A
+  normative_text: 'For each user agent feature that is used to meet UAAG 2.0, at least
+    one of the following is true:'
+  url: https://www.w3.org/TR/UAAG20/#sc_322
+- id: sc_323
+  code: 3.2.3
+  title: Document All Features
+  level: AA
+  normative_text: 'For each user agent feature, at least one of the following is true:'
+  url: https://www.w3.org/TR/UAAG20/#sc_323
+- id: sc_324
+  code: 3.2.4
+  title: Changes Between Versions
+  level: AA
+  normative_text: Changes to features that meet UAAG 2.0 success criteria since the
+    previous user agent release are documented.
+  url: https://www.w3.org/TR/UAAG20/#sc_324
+- id: sc_325
+  code: 3.2.5
+  title: Centralized View
+  level: AAA
+  normative_text: There is a dedicated section of the documentation that presents
+    a view of all features of the user agent necessary to meet the requirements of
+    User Agent Accessibility Guidelines 2.0.
+  url: https://www.w3.org/TR/UAAG20/#sc_325
+- id: sc_331
+  code: 3.3.1
+  title: Avoid Unpredictable Focus
+  level: A
+  normative_text: The user can prevent focus changes that are not a result of explicit
+    user request.
+  url: https://www.w3.org/TR/UAAG20/#sc_331
+- id: sc_411
+  code: 4.1.1
+  title: Support Platform Accessibility Services
+  level: A
+  normative_text: The user agent supports relevant platform accessibility services
+    .
+  url: https://www.w3.org/TR/UAAG20/#sc_411
+- id: sc_412
+  code: 4.1.2
+  title: Expose Accessible Properties
+  level: A
+  normative_text: 'For all user interface components (including UA user interface
+    , rendered content , and generated content) the user agent makes available the
+    following properties and any change notifications via a platform accessibility
+    service :'
+  url: https://www.w3.org/TR/UAAG20/#sc_412
+- id: sc_413
+  code: 4.1.3
+  title: Provide Equivalent Accessible Alternatives
+  level: A
+  normative_text: If UA user interface functionality cannot be exposed through platform
+    accessibility services , then the user agent provides equivalent functionality
+    that can be exposed through the platform accessibility service.
+  url: https://www.w3.org/TR/UAAG20/#sc_413
+- id: sc_414
+  code: 4.1.4
+  title: DOMs Programmatically Available as fallback
+  level: A
+  normative_text: If the user agent accessibility API does not provide sufficient
+    information to one or more platform accessibility services, then Document Object
+    Models (DOM), must be made programmatically available to assistive technologies.
+  url: https://www.w3.org/TR/UAAG20/#sc_414
+- id: sc_415
+  code: 4.1.5
+  title: Make Content Interaction Programmatically Available
+  level: A
+  normative_text: If the user can interact with content (e.g. by checking a box or
+    editing a text area), the same degree of interaction is programmatically available.
+  url: https://www.w3.org/TR/UAAG20/#sc_415
+- id: sc_511
+  code: 5.1.1
+  title: Comply with WCAG
+  level: ''
+  normative_text: Web-based UA user interfaces meet the WCAG 2.0 success criteria.
+    (Level A to meet WCAG 2.0 Level A success criteria; Level AA to meet WCAG 2.0
+    Level A and AA success criteria; and Level AAA to meet WCAG 2.0 Level A, AA, and
+    AAA success criteria)
+  url: https://www.w3.org/TR/UAAG20/#sc_511
+- id: sc_512
+  code: 5.1.2
+  title: Implement Accessibility Features of Web Content Technology Specifications
+  level: A
+  normative_text: Implement the accessibility features of web content technology specifications.
+    Accessibility features are those that are either
+  url: https://www.w3.org/TR/UAAG20/#sc_512
+- id: sc_513
+  code: 5.1.3
+  title: Implement Accessibility Features of the Platform
+  level: A
+  normative_text: If the user agent contains native user interfaces, then those native
+    user interfaces follow user interface accessibility guidelines for the platform.
+  url: https://www.w3.org/TR/UAAG20/#sc_513
+- id: sc_514
+  code: 5.1.4
+  title: Allow Content Elements to be Rendered in Alternative Viewers
+  level: AA
+  normative_text: The user can select content elements and have them rendered in alternative
+    viewers.
+  url: https://www.w3.org/TR/UAAG20/#sc_514
+- id: sc_515
+  code: 5.1.5
+  title: Enable Reporting of User Agent Accessibility Faults
+  level: AAA
+  normative_text: The user agent provides a mechanism for users to report user agent
+    accessibility issues.
+  url: https://www.w3.org/TR/UAAG20/#sc_515
+informative_resources:
+- id: wcag-2.2-quickref
+  title: How to Meet WCAG 2.2 (Quick Reference)
+  url: https://www.w3.org/WAI/WCAG22/quickref/
+  type: informative
+- id: understanding-wcag-2.2
+  title: Understanding WCAG 2.2
+  url: https://www.w3.org/WAI/WCAG22/Understanding/
+  type: informative
+- id: uaag-2.0-reference
+  title: UAAG 2.0 Reference
+  url: https://www.w3.org/TR/NOTE-UAAG20-Reference/
+  type: informative
+- id: wai-arrm-home
+  title: Accessibility Roles and Responsibilities Mapping (ARRM)
+  url: https://www.w3.org/WAI/planning/arrm/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: wai-arrm-roles
+  title: ARRM Roles
+  url: https://www.w3.org/WAI/planning/arrm/roles/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: wai-arrm-wcag-sc
+  title: ARRM WCAG Success Criteria mapping
+  url: https://www.w3.org/WAI/planning/arrm/wcag-sc/
+  type: informative
+  applies_to:
+  - wcag-2.2
+- id: wai-roles-resources
+  title: WAI Resources for Roles
+  url: https://www.w3.org/WAI/roles/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria

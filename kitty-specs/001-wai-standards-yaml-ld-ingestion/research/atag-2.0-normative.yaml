@@ -1,0 +1,388 @@
+standard_id: atag-2.0
+name: Authoring Tool Accessibility Guidelines (ATAG) 2.0
+tr_url: https://www.w3.org/TR/ATAG20/
+kind: standard
+criteria_type: success_criteria
+normative_success_criteria:
+- id: sc_a111
+  code: A.1.1.1
+  title: Web-Based Accessible (WCAG)
+  level: A/AA/AAA
+  normative_text: If the authoring tool contains web-based user interfaces , then
+    those web-based user interfaces meet the WCAG 2.0 success criteria.
+  url: https://www.w3.org/TR/ATAG20/#sc_a111
+- id: sc_a121
+  code: A.1.2.1
+  title: Accessibility Guidelines
+  level: A
+  normative_text: If the authoring tool contains non-web-based user interfaces , then
+    those non-web-based user interfaces follow user interface accessibility guidelines
+    for the platform .
+  url: https://www.w3.org/TR/ATAG20/#sc_a121
+- id: sc_a211
+  code: A.2.1.1
+  title: Text Alternatives for Rendered Non-Text Content
+  level: A
+  normative_text: If an editing-view renders non-text content , then any programmatically
+    associated text alternatives for the non-text content can be programmatically
+    determined .
+  url: https://www.w3.org/TR/ATAG20/#sc_a211
+- id: sc_a221
+  code: A.2.2.1
+  title: Editing-View Status Indicators
+  level: A
+  normative_text: If an editing-view adds status indicators to the content being edited
+    , then the information being conveyed by the status indicators can be programmatically
+    determined .
+  url: https://www.w3.org/TR/ATAG20/#sc_a221
+- id: sc_a222
+  code: A.2.2.2
+  title: Access to Rendered Text Properties
+  level: AA
+  normative_text: If an editing-view renders any text formatting properties that authors
+    can also edit using the editing-view, then the properties can be programmatically
+    determined .
+  url: https://www.w3.org/TR/ATAG20/#sc_a222
+- id: sc_a311
+  code: A.3.1.1
+  title: Keyboard Access (Minimum)
+  level: A
+  normative_text: All functionality of the authoring tool is operable through a keyboard
+    interface without requiring specific timings for individual keystrokes, except
+    where the underlying function requires input that depends on the path of the user's
+    movement and not just the endpoints.
+  url: https://www.w3.org/TR/ATAG20/#sc_a311
+- id: sc_a313
+  code: A.3.1.3
+  title: Efficient Keyboard Access
+  level: AA
+  normative_text: The authoring tool user interface includes mechanisms to make keyboard
+    access more efficient than sequential keyboard access .
+  url: https://www.w3.org/TR/ATAG20/#sc_a313
+- id: sc_a314
+  code: A.3.1.4
+  title: Keyboard Access (Enhanced)
+  level: AAA
+  normative_text: All functionality of the authoring tool is operable through a keyboard
+    interface without requiring specific timings for individual keystrokes.
+  url: https://www.w3.org/TR/ATAG20/#sc_a314
+- id: sc_a321
+  code: A.3.2.1
+  title: Auto-Save (Minimum)
+  level: A
+  normative_text: The authoring tool does not include session time limits or the authoring
+    tool can automatically save edits made before the session time limits are reached.
+  url: https://www.w3.org/TR/ATAG20/#sc_a321
+- id: sc_a324
+  code: A.3.2.4
+  title: Content Edits Saved (Extended)
+  level: AAA
+  normative_text: The authoring tool can be set to automatically save web content
+    edits made using the authoring tool.
+  url: https://www.w3.org/TR/ATAG20/#sc_a324
+- id: sc_a331
+  code: A.3.3.1
+  title: Static View Option
+  level: A
+  normative_text: If an editing-view can play visual time-based content, then playing
+    is not necessarily automatic upon loading the content and playing can be paused.
+  url: https://www.w3.org/TR/ATAG20/#sc_a331
+- id: sc_a341
+  code: A.3.4.1
+  title: Navigate By Structure
+  level: AA
+  normative_text: If editing-views expose the markup elements in the web content being
+    edited , then the markup elements (e.g. source code, content renderings) are selectable
+    and navigation mechanisms are provided to move the selection focus between elements.
+  url: https://www.w3.org/TR/ATAG20/#sc_a341
+- id: sc_a342
+  code: A.3.4.2
+  title: Navigate by Programmatic Relationships
+  level: AAA
+  normative_text: If editing-views allow editing of programmatic relationships within
+    web content , then mechanisms are provided that support navigation between the
+    related content.
+  url: https://www.w3.org/TR/ATAG20/#sc_a342
+- id: sc_a351
+  code: A.3.5.1
+  title: Text Search
+  level: AA
+  normative_text: If the authoring tool provides an editing-view of text-based content,
+    then the editing-view enables text search, such that all of the following are
+    true
+  url: https://www.w3.org/TR/ATAG20/#sc_a351
+- id: sc_a361
+  code: A.3.6.1
+  title: Independence of Display
+  level: A
+  normative_text: If the authoring tool includes display settings for editing-views
+    , then the authoring tool allows authors to adjust these settings without modifying
+    the web content being edited .
+  url: https://www.w3.org/TR/ATAG20/#sc_a361
+- id: sc_a362
+  code: A.3.6.2
+  title: Save Settings
+  level: AA
+  normative_text: If the authoring tool includes display and/or control settings ,
+    then these settings can be saved between authoring sessions .
+  url: https://www.w3.org/TR/ATAG20/#sc_a362
+- id: sc_a371
+  code: A.3.7.1
+  title: Preview (Minimum)
+  level: A
+  normative_text: If a preview is provided, then at least one of the following is
+    true
+  url: https://www.w3.org/TR/ATAG20/#sc_a371
+- id: sc_a372
+  code: A.3.7.2
+  title: Preview (Enhanced)
+  level: AAA
+  normative_text: If a preview is provided, then authors can specify which user agent
+    performs the preview.
+  url: https://www.w3.org/TR/ATAG20/#sc_a372
+- id: sc_a411
+  code: A.4.1.1
+  title: Content Changes Reversible (Minimum)
+  level: A
+  normative_text: All authoring actions are either reversible or the authoring tool
+    requires author confirmation to proceed. ( )
+  url: https://www.w3.org/TR/ATAG20/#sc_a411
+- id: sc_a413
+  code: A.4.1.3
+  title: Content Changes Reversible (Enhanced)
+  level: AAA
+  normative_text: Authors can sequentially reverse a series of reversible authoring
+    actions .
+  url: https://www.w3.org/TR/ATAG20/#sc_a413
+- id: sc_a421
+  code: A.4.2.1
+  title: Describe Accessibility Features
+  level: A
+  normative_text: For each authoring tool feature that is used to meet Part A of ATAG
+    2.0, at least one of the following is true
+  url: https://www.w3.org/TR/ATAG20/#sc_a421
+- id: sc_a422
+  code: A.4.2.2
+  title: Document All Features
+  level: AA
+  normative_text: For each authoring tool feature, at least one of the following is
+    true
+  url: https://www.w3.org/TR/ATAG20/#sc_a422
+- id: sc_b111
+  code: B.1.1.1
+  title: Content Auto-Generation After Authoring Sessions (WCAG)
+  level: A/AA/AAA
+  normative_text: The authoring tool does not automatically generate web content after
+    the end of an authoring session, or, authors can specify that the content be accessible
+    web content (WCAG) .
+  url: https://www.w3.org/TR/ATAG20/#sc_b111
+- id: sc_b121
+  code: B.1.2.1
+  title: Restructuring and Recoding Transformations (WCAG)
+  level: A/AA/AAA
+  normative_text: If the authoring tool provides restructuring transformations or
+    re-coding transformations , and if equivalent mechanisms exist in the web content
+    technology of the output, then at least one of the following is true
+  url: https://www.w3.org/TR/ATAG20/#sc_b121
+- id: sc_b123
+  code: B.1.2.3
+  title: Optimizations Preserve Accessibility
+  level: A
+  normative_text: If the authoring tool provides optimizing web content transformations
+    , then any accessibility information (WCAG) in the input is preserved in the output.
+    .
+  url: https://www.w3.org/TR/ATAG20/#sc_b123
+- id: sc_b211
+  code: B.2.1.1
+  title: Accessible Content Possible (WCAG)
+  level: A/AA/AAA
+  normative_text: The authoring tool does not place restrictions on the web content
+    that authors can specify or those restrictions do not prevent WCAG 2.0 success
+    criteria from being met.
+  url: https://www.w3.org/TR/ATAG20/#sc_b211
+- id: sc_b221
+  code: B.2.2.1
+  title: Accessible Option Prominence (WCAG)
+  level: A/AA/AAA
+  normative_text: If authors are provided with a choice of authoring actions for achieving
+    the same authoring outcome (e.g. styling text), then options that will result
+    in accessible web content (WCAG) are at least as prominent as options that will
+    not.
+  url: https://www.w3.org/TR/ATAG20/#sc_b221
+- id: sc_b231
+  code: B.2.3.1
+  title: Alternative Content is Editable (WCAG)
+  level: A/AA/AAA
+  normative_text: If the authoring tool provides functionality for adding non-text
+    content, then authors are able to modify programmatically associated text alternatives
+    for non-text content .
+  url: https://www.w3.org/TR/ATAG20/#sc_b231
+- id: sc_b232
+  code: B.2.3.2
+  title: Automating Repair of Text Alternatives
+  level: A
+  normative_text: The authoring tool does not attempt to repair text alternatives
+    for non-text content or the following are all true
+  url: https://www.w3.org/TR/ATAG20/#sc_b232
+- id: sc_b233
+  code: B.2.3.3
+  title: Save for Reuse
+  level: AAA
+  normative_text: If the authoring tool provides the functionality for adding non-text
+    content, when authors enter programmatically associated text alternatives for
+    non-text content , then both of the following are true
+  url: https://www.w3.org/TR/ATAG20/#sc_b233
+- id: sc_b241
+  code: B.2.4.1
+  title: Accessible Template Options (WCAG)
+  level: A/AA/AAA
+  normative_text: If the authoring tool provides templates , then there are accessible
+    template (WCAG) options for a range of template uses.
+  url: https://www.w3.org/TR/ATAG20/#sc_b241
+- id: sc_b242
+  code: B.2.4.2
+  title: Identify Template Accessibility
+  level: AA
+  normative_text: If the authoring tool includes a template selection mechanism and
+    provides any non- accessible template (WCAG) options , then the template selection
+    mechanism can display distinctions between the accessible and non-accessible options.
+  url: https://www.w3.org/TR/ATAG20/#sc_b242
+- id: sc_b244
+  code: B.2.4.4
+  title: Accessible Template Options (Enhanced)
+  level: AAA
+  normative_text: If the authoring tool provides templates , then all of the templates
+    are accessible template (to WCAG Level AA) .
+  url: https://www.w3.org/TR/ATAG20/#sc_b244
+- id: sc_b251
+  code: B.2.5.1
+  title: Accessible Pre-Authored Content Options
+  level: AA
+  normative_text: If the authoring tool provides pre-authored content , then a range
+    of accessible pre-authored content (to WCAG Level AA) options are provided.
+  url: https://www.w3.org/TR/ATAG20/#sc_b251
+- id: sc_b311
+  code: B.3.1.1
+  title: Checking Assistance (WCAG)
+  level: A/AA/AAA
+  normative_text: If the authoring tool provides authors with the ability to add or
+    modify web content in such a way that a WCAG 2.0 success criterion can be violated,
+    then accessibility checking for that success criterion is provided (e.g. an HTML
+    authoring tool that inserts images should check for alternative text; a video
+    authoring tool with the ability to edit text tracks should check for captions).
+  url: https://www.w3.org/TR/ATAG20/#sc_b311
+- id: sc_b312
+  code: B.3.1.2
+  title: Help Authors Decide
+  level: A
+  normative_text: If the authoring tool provides accessibility checking that relies
+    on authors to decide whether potential web content accessibility problems (WCAG)
+    are correctly identified (i.e. manual checking and semi-automated checking ),
+    then the accessibility checking process provides instructions that describe how
+    to decide.
+  url: https://www.w3.org/TR/ATAG20/#sc_b312
+- id: sc_b314
+  code: B.3.1.4
+  title: Status Report
+  level: AA
+  normative_text: If the authoring tool provides checks , then authors can receive
+    an accessibility status report based on the results of the accessibility checks.
+  url: https://www.w3.org/TR/ATAG20/#sc_b314
+- id: sc_b321
+  code: B.3.2.1
+  title: Repair Assistance (WCAG)
+  level: A/AA/AAA
+  normative_text: If checking (see Success Criterion B.3.1.1 ) can detect that a WCAG
+    2.0 success criterion is not met, then repair suggestion(s) are provided
+  url: https://www.w3.org/TR/ATAG20/#sc_b321
+- id: sc_b411
+  code: B.4.1.1
+  title: Features Active by Default
+  level: A
+  normative_text: All accessible content support features are turned on by default.
+  url: https://www.w3.org/TR/ATAG20/#sc_b411
+- id: sc_b413
+  code: B.4.1.3
+  title: Feature Deactivation Warning
+  level: AA
+  normative_text: The authoring tool does not include the option to turn off its accessible
+    content support features or, if these features can be turned off, authors are
+    informed that this may increase the risk of content accessibility problems (WCAG)
+    .
+  url: https://www.w3.org/TR/ATAG20/#sc_b413
+- id: sc_b421
+  code: B.4.2.1
+  title: Model Practice (WCAG)
+  level: A/AA/AAA
+  normative_text: A range of examples in the documentation (e.g. markup , screen shots
+    of WYSIWYG editing-views ) demonstrate accessible authoring practices (WCAG) .
+  url: https://www.w3.org/TR/ATAG20/#sc_b421
+- id: sc_b422
+  code: B.4.2.2
+  title: Feature Instructions
+  level: A
+  normative_text: Instructions for using any accessible content support features appear
+    in the documentation .
+  url: https://www.w3.org/TR/ATAG20/#sc_b422
+- id: sc_b423
+  code: B.4.2.3
+  title: Tutorial
+  level: AAA
+  normative_text: The authoring tool provides a tutorial for an accessible authoring
+    process that is specific to that authoring tool.
+  url: https://www.w3.org/TR/ATAG20/#sc_b423
+informative_resources:
+- id: wcag-2.2-quickref
+  title: How to Meet WCAG 2.2 (Quick Reference)
+  url: https://www.w3.org/WAI/WCAG22/quickref/
+  type: informative
+- id: understanding-wcag-2.2
+  title: Understanding WCAG 2.2
+  url: https://www.w3.org/WAI/WCAG22/Understanding/
+  type: informative
+- id: implementing-atag-2.0
+  title: Implementing ATAG 2.0
+  url: https://www.w3.org/TR/NOTE-IMPLEMENTING-ATAG20/
+  type: informative
+- id: wai-arrm-home
+  title: Accessibility Roles and Responsibilities Mapping (ARRM)
+  url: https://www.w3.org/WAI/planning/arrm/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: wai-arrm-roles
+  title: ARRM Roles
+  url: https://www.w3.org/WAI/planning/arrm/roles/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: wai-arrm-wcag-sc
+  title: ARRM WCAG Success Criteria mapping
+  url: https://www.w3.org/WAI/planning/arrm/wcag-sc/
+  type: informative
+  applies_to:
+  - wcag-2.2
+- id: wai-roles-resources
+  title: WAI Resources for Roles
+  url: https://www.w3.org/WAI/roles/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+linkage_policy:
+  primary_wcag_target: wcag-2.2
+  normative_reference_origin: ATAG 2.0 text references WCAG 2.0 directly in some criteria.
+  interpretation_for_this_project: Resolve WCAG-linked checks against WCAG 2.2 first,
+    with explicit handling for SC 4.1.1 removal.
+  exception_notes:
+  - WCAG 2.2 subsumes WCAG 2.0 and 2.1 except SC 4.1.1 (Parsing).
+  - Keep ATAG normative wording unchanged; apply cross-version linkage metadata for
+    ingestion.

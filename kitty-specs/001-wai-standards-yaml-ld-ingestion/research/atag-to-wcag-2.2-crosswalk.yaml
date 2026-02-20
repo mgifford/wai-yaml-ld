@@ -1,0 +1,388 @@
+crosswalk_id: atag-2.0-to-wcag-2.2
+updated: '2026-02-20'
+source_standard:
+  id: atag-2.0
+  name: Authoring Tool Accessibility Guidelines (ATAG) 2.0
+  url: https://www.w3.org/TR/ATAG20/
+target_standard:
+  id: wcag-2.2
+  name: Web Content Accessibility Guidelines (WCAG) 2.2
+  url: https://www.w3.org/TR/WCAG22/
+policy:
+  primary_mapping_rule: Resolve ATAG criteria that directly reference WCAG against
+    WCAG 2.2 cumulative conformance profiles.
+  explicit_exception_rule:
+    id: wcag-4.1.1-obsolete-removal
+    description: Exclude WCAG SC 4.1.1 (Parsing) from crosswalk targets because it
+      is obsolete/removed in WCAG 2.2.
+    excluded_wcag_codes:
+    - 4.1.1
+  traceability_note: ATAG normative wording remains unchanged; this file provides
+    version-translation linkage only.
+target_profiles:
+  wcag22-level-a-minus-4.1.1:
+    description: WCAG 2.2 Level A criteria, excluding 4.1.1
+    criterion_codes:
+    - 1.1.1
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.4.1
+    - 1.4.2
+    - 2.1.1
+    - 2.1.2
+    - 2.1.4
+    - 2.2.1
+    - 2.2.2
+    - 2.3.1
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.4.4
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.4
+    - 3.1.1
+    - 3.2.1
+    - 3.2.2
+    - 3.2.6
+    - 3.3.1
+    - 3.3.2
+    - 3.3.7
+    - 4.1.2
+    count: 31
+  wcag22-level-aa-minus-4.1.1:
+    description: WCAG 2.2 cumulative Level A + AA criteria, excluding 4.1.1
+    criterion_codes:
+    - 1.1.1
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.10
+    - 1.4.11
+    - 1.4.12
+    - 1.4.13
+    - 2.1.1
+    - 2.1.2
+    - 2.1.4
+    - 2.2.1
+    - 2.2.2
+    - 2.3.1
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.4.4
+    - 2.4.5
+    - 2.4.6
+    - 2.4.7
+    - 2.4.11
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.4
+    - 2.5.7
+    - 2.5.8
+    - 3.1.1
+    - 3.1.2
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 3.2.4
+    - 3.2.6
+    - 3.3.1
+    - 3.3.2
+    - 3.3.3
+    - 3.3.4
+    - 3.3.7
+    - 3.3.8
+    - 4.1.2
+    - 4.1.3
+    count: 55
+  wcag22-level-aaa-minus-4.1.1:
+    description: WCAG 2.2 cumulative Level A + AA + AAA criteria, excluding 4.1.1
+    criterion_codes:
+    - 1.1.1
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 1.2.8
+    - 1.2.9
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.4.9
+    - 1.4.10
+    - 1.4.11
+    - 1.4.12
+    - 1.4.13
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.2.4
+    - 2.2.5
+    - 2.2.6
+    - 2.3.1
+    - 2.3.2
+    - 2.3.3
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.4.4
+    - 2.4.5
+    - 2.4.6
+    - 2.4.7
+    - 2.4.8
+    - 2.4.9
+    - 2.4.10
+    - 2.4.11
+    - 2.4.12
+    - 2.4.13
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.4
+    - 2.5.5
+    - 2.5.6
+    - 2.5.7
+    - 2.5.8
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.6
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 3.2.4
+    - 3.2.5
+    - 3.2.6
+    - 3.3.1
+    - 3.3.2
+    - 3.3.3
+    - 3.3.4
+    - 3.3.5
+    - 3.3.6
+    - 3.3.7
+    - 3.3.8
+    - 3.3.9
+    - 4.1.2
+    - 4.1.3
+    count: 86
+mappings:
+- atag_criterion_code: A.1.1.1
+  atag_criterion_id: sc_a111
+  atag_title: Web-Based Accessible (WCAG)
+  atag_level: A/AA/AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_a111
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  - wcag22-level-aa-minus-4.1.1
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.1.1.1
+  atag_criterion_id: sc_b111
+  atag_title: Content Auto-Generation After Authoring Sessions (WCAG)
+  atag_level: A/AA/AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b111
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  - wcag22-level-aa-minus-4.1.1
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.1.2.1
+  atag_criterion_id: sc_b121
+  atag_title: Restructuring and Recoding Transformations (WCAG)
+  atag_level: A/AA/AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b121
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  - wcag22-level-aa-minus-4.1.1
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.1.2.3
+  atag_criterion_id: sc_b123
+  atag_title: Optimizations Preserve Accessibility
+  atag_level: A
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b123
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.2.1.1
+  atag_criterion_id: sc_b211
+  atag_title: Accessible Content Possible (WCAG)
+  atag_level: A/AA/AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b211
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  - wcag22-level-aa-minus-4.1.1
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.2.2.1
+  atag_criterion_id: sc_b221
+  atag_title: Accessible Option Prominence (WCAG)
+  atag_level: A/AA/AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b221
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  - wcag22-level-aa-minus-4.1.1
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.2.3.1
+  atag_criterion_id: sc_b231
+  atag_title: Alternative Content is Editable (WCAG)
+  atag_level: A/AA/AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b231
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  - wcag22-level-aa-minus-4.1.1
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.2.4.1
+  atag_criterion_id: sc_b241
+  atag_title: Accessible Template Options (WCAG)
+  atag_level: A/AA/AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b241
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  - wcag22-level-aa-minus-4.1.1
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.2.4.2
+  atag_criterion_id: sc_b242
+  atag_title: Identify Template Accessibility
+  atag_level: AA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b242
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-aa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.2.4.4
+  atag_criterion_id: sc_b244
+  atag_title: Accessible Template Options (Enhanced)
+  atag_level: AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b244
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.2.5.1
+  atag_criterion_id: sc_b251
+  atag_title: Accessible Pre-Authored Content Options
+  atag_level: AA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b251
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-aa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.3.1.1
+  atag_criterion_id: sc_b311
+  atag_title: Checking Assistance (WCAG)
+  atag_level: A/AA/AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b311
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  - wcag22-level-aa-minus-4.1.1
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.3.1.2
+  atag_criterion_id: sc_b312
+  atag_title: Help Authors Decide
+  atag_level: A
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b312
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.3.2.1
+  atag_criterion_id: sc_b321
+  atag_title: Repair Assistance (WCAG)
+  atag_level: A/AA/AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b321
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  - wcag22-level-aa-minus-4.1.1
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.4.1.3
+  atag_criterion_id: sc_b413
+  atag_title: Feature Deactivation Warning
+  atag_level: AA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b413
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-aa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+- atag_criterion_code: B.4.2.1
+  atag_criterion_id: sc_b421
+  atag_title: Model Practice (WCAG)
+  atag_level: A/AA/AAA
+  atag_url: https://www.w3.org/TR/ATAG20/#sc_b421
+  wcag_reference_type: direct_wcag_reference_in_atag_text
+  target_profile_refs:
+  - wcag22-level-a-minus-4.1.1
+  - wcag22-level-aa-minus-4.1.1
+  - wcag22-level-aaa-minus-4.1.1
+  notes: ATAG 2.0 normative text references WCAG 2.0; project policy resolves to WCAG
+    2.2 profiles with explicit 4.1.1 exclusion.
+mapping_count: 16

@@ -1,0 +1,885 @@
+standard_id: wcag-2.2
+name: Web Content Accessibility Guidelines (WCAG) 2.2
+tr_url: https://www.w3.org/TR/WCAG22/
+kind: standard
+criteria_type: success_criteria
+normative_success_criteria:
+- id: non-text-content
+  code: 1.1.1
+  title: Non-text Content
+  level: A
+  normative_text: All non-text content that is presented to the user has a text alternative
+    that serves the equivalent purpose, except for the situations listed below. If
+    non-text content is a control or accepts user input, then it has a name that describes
+    its purpose. (Refer to Success Criterion 4.1.2 for additional requirements for
+    controls and content that accepts user input.) If non-text content is time-based
+    media, then text alternatives at least provide descriptive identification of the
+    non-text content. (Refer to Guideline 1.2 for additional requirements for media.)
+    If non-text content is a test or exercise that would be invalid if presented in
+    text , then text alternatives at least provide descriptive identification of the
+    non-text content. If non-text content is primarily intended to create a specific
+    sensory experience , then text alternatives at least provide descriptive identification
+    of the non-text content. If the purpose of non-text content is to confirm that
+    content is being accessed by a person rather than a computer, then text alternatives
+    that identify and describe the purpose of the non-text content are provided, and
+    alternative forms of CAPTCHA using output modes for different types of sensory
+    perception are provided to accommodate different disabilities. If non-text content
+    is pure decoration , is used only for visual formatting, or is not presented to
+    users, then it is implemented in a way that it can be ignored by assistive technology
+    .
+  url: https://www.w3.org/TR/WCAG22/#non-text-content
+- id: audio-only-and-video-only-prerecorded
+  code: 1.2.1
+  title: Audio-only and Video-only (Prerecorded)
+  level: A
+  normative_text: 'For prerecorded audio-only and prerecorded video-only media, the
+    following are true, except when the audio or video is a media alternative for
+    text and is clearly labeled as such: An alternative for time-based media is provided
+    that presents equivalent information for prerecorded audio-only content. Either
+    an alternative for time-based media or an audio track is provided that presents
+    equivalent information for prerecorded video-only content.'
+  url: https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded
+- id: captions-prerecorded
+  code: 1.2.2
+  title: Captions (Prerecorded)
+  level: A
+  normative_text: Captions are provided for all prerecorded audio content in synchronized
+    media , except when the media is a media alternative for text and is clearly labeled
+    as such.
+  url: https://www.w3.org/TR/WCAG22/#captions-prerecorded
+- id: audio-description-or-media-alternative-prerecorded
+  code: 1.2.3
+  title: Audio Description or Media Alternative (Prerecorded)
+  level: A
+  normative_text: An alternative for time-based media or audio description of the
+    prerecorded video content is provided for synchronized media , except when the
+    media is a media alternative for text and is clearly labeled as such.
+  url: https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded
+- id: captions-live
+  code: 1.2.4
+  title: Captions (Live)
+  level: AA
+  normative_text: Captions are provided for all live audio content in synchronized
+    media .
+  url: https://www.w3.org/TR/WCAG22/#captions-live
+- id: audio-description-prerecorded
+  code: 1.2.5
+  title: Audio Description (Prerecorded)
+  level: AA
+  normative_text: Audio description is provided for all prerecorded video content
+    in synchronized media .
+  url: https://www.w3.org/TR/WCAG22/#audio-description-prerecorded
+- id: sign-language-prerecorded
+  code: 1.2.6
+  title: Sign Language (Prerecorded)
+  level: AAA
+  normative_text: Sign language interpretation is provided for all prerecorded audio
+    content in synchronized media .
+  url: https://www.w3.org/TR/WCAG22/#sign-language-prerecorded
+- id: extended-audio-description-prerecorded
+  code: 1.2.7
+  title: Extended Audio Description (Prerecorded)
+  level: AAA
+  normative_text: Where pauses in foreground audio are insufficient to allow audio
+    descriptions to convey the sense of the video, extended audio description is provided
+    for all prerecorded video content in synchronized media .
+  url: https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded
+- id: media-alternative-prerecorded
+  code: 1.2.8
+  title: Media Alternative (Prerecorded)
+  level: AAA
+  normative_text: An alternative for time-based media is provided for all prerecorded
+    synchronized media and for all prerecorded video-only media.
+  url: https://www.w3.org/TR/WCAG22/#media-alternative-prerecorded
+- id: audio-only-live
+  code: 1.2.9
+  title: Audio-only (Live)
+  level: AAA
+  normative_text: An alternative for time-based media that presents equivalent information
+    for live audio-only content is provided.
+  url: https://www.w3.org/TR/WCAG22/#audio-only-live
+- id: info-and-relationships
+  code: 1.3.1
+  title: Info and Relationships
+  level: A
+  normative_text: Information, structure , and relationships conveyed through presentation
+    can be programmatically determined or are available in text.
+  url: https://www.w3.org/TR/WCAG22/#info-and-relationships
+- id: meaningful-sequence
+  code: 1.3.2
+  title: Meaningful Sequence
+  level: A
+  normative_text: When the sequence in which content is presented affects its meaning,
+    a correct reading sequence can be programmatically determined .
+  url: https://www.w3.org/TR/WCAG22/#meaningful-sequence
+- id: sensory-characteristics
+  code: 1.3.3
+  title: Sensory Characteristics
+  level: A
+  normative_text: Instructions provided for understanding and operating content do
+    not rely solely on sensory characteristics of components such as shape, color,
+    size, visual location, orientation, or sound. For requirements related to color,
+    refer to Guideline 1.4 .
+  url: https://www.w3.org/TR/WCAG22/#sensory-characteristics
+- id: orientation
+  code: 1.3.4
+  title: Orientation
+  level: AA
+  normative_text: Content does not restrict its view and operation to a single display
+    orientation, such as portrait or landscape, unless a specific display orientation
+    is essential . Examples where a particular display orientation may be essential
+    are a bank check, a piano application, slides for a projector or television, or
+    virtual reality content where content is not necessarily restricted to landscape
+    or portrait display orientation.
+  url: https://www.w3.org/TR/WCAG22/#orientation
+- id: identify-input-purpose
+  code: 1.3.5
+  title: Identify Input Purpose
+  level: AA
+  normative_text: 'The purpose of each input field collecting information about the
+    user can be programmatically determined when: The input field serves a purpose
+    identified in the Input Purposes for user interface components section ; and The
+    content is implemented using technologies with support for identifying the expected
+    meaning for form input data.'
+  url: https://www.w3.org/TR/WCAG22/#identify-input-purpose
+- id: identify-purpose
+  code: 1.3.6
+  title: Identify Purpose
+  level: AAA
+  normative_text: In content implemented using markup languages, the purpose of user
+    interface components , icons, and regions can be programmatically determined .
+  url: https://www.w3.org/TR/WCAG22/#identify-purpose
+- id: use-of-color
+  code: 1.4.1
+  title: Use of Color
+  level: A
+  normative_text: Color is not used as the only visual means of conveying information,
+    indicating an action, prompting a response, or distinguishing a visual element.
+    This success criterion addresses color perception specifically. Other forms of
+    perception are covered in Guideline 1.3 including programmatic access to color
+    and other visual presentation coding.
+  url: https://www.w3.org/TR/WCAG22/#use-of-color
+- id: audio-control
+  code: 1.4.2
+  title: Audio Control
+  level: A
+  normative_text: 'If any audio on a web page plays automatically for more than 3
+    seconds, either a mechanism is available to pause or stop the audio, or a mechanism
+    is available to control audio volume independently from the overall system volume
+    level. Since any content that does not meet this success criterion can interfere
+    with a user''s ability to use the whole page, all content on the web page (whether
+    or not it is used to meet other success criteria) must meet this success criterion.
+    See Conformance Requirement 5: Non-Interference .'
+  url: https://www.w3.org/TR/WCAG22/#audio-control
+- id: contrast-minimum
+  code: 1.4.3
+  title: Contrast (Minimum)
+  level: AA
+  normative_text: 'The visual presentation of text and images of text has a contrast
+    ratio of at least 4.5:1, except for the following: Large-scale text and images
+    of large-scale text have a contrast ratio of at least 3:1; Text or images of text
+    that are part of an inactive user interface component , that are pure decoration
+    , that are not visible to anyone, or that are part of a picture that contains
+    significant other visual content, have no contrast requirement. Text that is part
+    of a logo or brand name has no contrast requirement.'
+  url: https://www.w3.org/TR/WCAG22/#contrast-minimum
+- id: resize-text
+  code: 1.4.4
+  title: Resize Text
+  level: AA
+  normative_text: Except for captions and images of text , text can be resized without
+    assistive technology up to 200 percent without loss of content or functionality.
+  url: https://www.w3.org/TR/WCAG22/#resize-text
+- id: images-of-text
+  code: 1.4.5
+  title: Images of Text
+  level: AA
+  normative_text: 'If the technologies being used can achieve the visual presentation,
+    text is used to convey information rather than images of text except for the following:
+    The image of text can be visually customized to the user''s requirements; A particular
+    presentation of text is essential to the information being conveyed. Logotypes
+    (text that is part of a logo or brand name) are considered essential.'
+  url: https://www.w3.org/TR/WCAG22/#images-of-text
+- id: contrast-enhanced
+  code: 1.4.6
+  title: Contrast (Enhanced)
+  level: AAA
+  normative_text: 'The visual presentation of text and images of text has a contrast
+    ratio of at least 7:1, except for the following: Large-scale text and images of
+    large-scale text have a contrast ratio of at least 4.5:1; Text or images of text
+    that are part of an inactive user interface component , that are pure decoration
+    , that are not visible to anyone, or that are part of a picture that contains
+    significant other visual content, have no contrast requirement. Text that is part
+    of a logo or brand name has no contrast requirement.'
+  url: https://www.w3.org/TR/WCAG22/#contrast-enhanced
+- id: low-or-no-background-audio
+  code: 1.4.7
+  title: Low or No Background Audio
+  level: AAA
+  normative_text: 'For prerecorded audio-only content that (1) contains primarily
+    speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is
+    not vocalization intended to be primarily musical expression such as singing or
+    rapping, at least one of the following is true: The audio does not contain background
+    sounds. The background sounds can be turned off. The background sounds are at
+    least 20 decibels lower than the foreground speech content, with the exception
+    of occasional sounds that last for only one or two seconds. Per the definition
+    of "decibel," background sound that meets this requirement will be approximately
+    four times quieter than the foreground speech content.'
+  url: https://www.w3.org/TR/WCAG22/#low-or-no-background-audio
+- id: visual-presentation
+  code: 1.4.8
+  title: Visual Presentation
+  level: AAA
+  normative_text: 'For the visual presentation of blocks of text , a mechanism is
+    available to achieve the following: Foreground and background colors can be selected
+    by the user. Width is no more than 80 characters or glyphs (40 if CJK). Text is
+    not justified (aligned to both the left and the right margins). Line spacing (leading)
+    is at least space-and-a-half within paragraphs, and paragraph spacing is at least
+    1.5 times larger than the line spacing. Text can be resized without assistive
+    technology up to 200 percent in a way that does not require the user to scroll
+    horizontally to read a line of text on a full-screen window . Content is not required
+    to use these values. The requirement is that a mechanism is available for users
+    to change these presentation aspects. The mechanism can be provided by the browser
+    or other user agent. Content is not required to provide the mechanism. Writing
+    systems for some languages use different presentation aspects to improve readability
+    and legibility. If a presentation aspect in this success criterion is not used
+    in a writing system, content in that writing system does not need to use that
+    presentation setting and can conform without it. Authors are encouraged to follow
+    guidance for improving readability and legibility of text in their writing system.'
+  url: https://www.w3.org/TR/WCAG22/#visual-presentation
+- id: images-of-text-no-exception
+  code: 1.4.9
+  title: Images of Text (No Exception)
+  level: AAA
+  normative_text: Images of text are only used for pure decoration or where a particular
+    presentation of text is essential to the information being conveyed. Logotypes
+    (text that is part of a logo or brand name) are considered essential.
+  url: https://www.w3.org/TR/WCAG22/#images-of-text-no-exception
+- id: reflow
+  code: 1.4.10
+  title: Reflow
+  level: AA
+  normative_text: 'Content can be presented without loss of information or functionality,
+    and without requiring scrolling in two dimensions for: Vertical scrolling content
+    at a width equivalent to 320 CSS pixels ; Horizontal scrolling content at a height
+    equivalent to 256 CSS pixels . Except for parts of the content which require two-dimensional
+    layout for usage or meaning. 320 CSS pixels is equivalent to a starting viewport
+    width of 1280 CSS pixels wide at 400% zoom. For web content which is designed
+    to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent
+    to a starting viewport height of 1024 CSS pixels at 400% zoom. Examples of content
+    which requires two-dimensional layout are images required for understanding (such
+    as maps and diagrams), video, games, presentations, data tables (not individual
+    cells), and interfaces where it is necessary to keep toolbars in view while manipulating
+    content. It is acceptable to provide two-dimensional scrolling for such parts
+    of the content.'
+  url: https://www.w3.org/TR/WCAG22/#reflow
+- id: non-text-contrast
+  code: 1.4.11
+  title: Non-text Contrast
+  level: AA
+  normative_text: 'The visual presentation of the following have a contrast ratio
+    of at least 3:1 against adjacent color(s):'
+  url: https://www.w3.org/TR/WCAG22/#non-text-contrast
+- id: text-spacing
+  code: 1.4.12
+  title: Text Spacing
+  level: AA
+  normative_text: 'In content implemented using markup languages that support the
+    following text style properties , no loss of content or functionality occurs by
+    setting all of the following and by changing no other style property: Line height
+    (line spacing) to at least 1.5 times the font size; Spacing following paragraphs
+    to at least 2 times the font size; Letter spacing (tracking) to at least 0.12
+    times the font size; Word spacing to at least 0.16 times the font size. Exception:
+    Human languages and scripts that do not make use of one or more of these text
+    style properties in written text can conform using only the properties that exist
+    for that combination of language and script. Content is not required to use these
+    text spacing values. The requirement is to ensure that when a user overrides the
+    authored text spacing, content or functionality is not lost. Writing systems for
+    some languages use different text spacing settings, such as paragraph start indent.
+    Authors are encouraged to follow locally available guidance for improving readability
+    and legibility of text in their writing system.'
+  url: https://www.w3.org/TR/WCAG22/#text-spacing
+- id: content-on-hover-or-focus
+  code: 1.4.13
+  title: Content on Hover or Focus
+  level: AA
+  normative_text: 'Where receiving and then removing pointer hover or keyboard focus
+    triggers additional content to become visible and then hidden, the following are
+    true: Exception: The visual presentation of the additional content is controlled
+    by the user agent and is not modified by the author. Examples of additional content
+    controlled by the user agent include browser tooltips created through use of the
+    HTML title attribute [ HTML ]. Custom tooltips, sub-menus, and other nonmodal
+    popups that display on hover and focus are examples of additional content covered
+    by this criterion. This criterion applies to content that appears in addition
+    to the triggering component itself. Since hidden components that are made visible
+    on keyboard focus (such as links used to skip to another part of a page) do not
+    present additional content they are not covered by this criterion.'
+  url: https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus
+- id: keyboard
+  code: 2.1.1
+  title: Keyboard
+  level: A
+  normative_text: All functionality of the content is operable through a keyboard
+    interface without requiring specific timings for individual keystrokes, except
+    where the underlying function requires input that depends on the path of the user's
+    movement and not just the endpoints. This exception relates to the underlying
+    function, not the input technique. For example, if using handwriting to enter
+    text, the input technique (handwriting) requires path-dependent input but the
+    underlying function (text input) does not. This does not forbid and should not
+    discourage providing mouse input or other input methods in addition to keyboard
+    operation.
+  url: https://www.w3.org/TR/WCAG22/#keyboard
+- id: no-keyboard-trap
+  code: 2.1.2
+  title: No Keyboard Trap
+  level: A
+  normative_text: 'If keyboard focus can be moved to a component of the page using
+    a keyboard interface , then focus can be moved away from that component using
+    only a keyboard interface, and, if it requires more than unmodified arrow or tab
+    keys or other standard exit methods, the user is advised of the method for moving
+    focus away. Since any content that does not meet this success criterion can interfere
+    with a user''s ability to use the whole page, all content on the web page (whether
+    it is used to meet other success criteria or not) must meet this success criterion.
+    See Conformance Requirement 5: Non-Interference .'
+  url: https://www.w3.org/TR/WCAG22/#no-keyboard-trap
+- id: keyboard-no-exception
+  code: 2.1.3
+  title: Keyboard (No Exception)
+  level: AAA
+  normative_text: All functionality of the content is operable through a keyboard
+    interface without requiring specific timings for individual keystrokes.
+  url: https://www.w3.org/TR/WCAG22/#keyboard-no-exception
+- id: character-key-shortcuts
+  code: 2.1.4
+  title: Character Key Shortcuts
+  level: A
+  normative_text: 'If a keyboard shortcut is implemented in content using only letter
+    (including upper- and lower-case letters), punctuation, number, or symbol characters,
+    then at least one of the following is true:'
+  url: https://www.w3.org/TR/WCAG22/#character-key-shortcuts
+- id: timing-adjustable
+  code: 2.2.1
+  title: Timing Adjustable
+  level: A
+  normative_text: 'For each time limit that is set by the content, at least one of
+    the following is true: The user is allowed to turn off the time limit before encountering
+    it; or The user is allowed to adjust the time limit before encountering it over
+    a wide range that is at least ten times the length of the default setting; or
+    The user is warned before time expires and given at least 20 seconds to extend
+    the time limit with a simple action (for example, "press the space bar"), and
+    the user is allowed to extend the time limit at least ten times; or The time limit
+    is a required part of a real-time event (for example, an auction), and no alternative
+    to the time limit is possible; or The time limit is essential and extending it
+    would invalidate the activity; or The time limit is longer than 20 hours. This
+    success criterion helps ensure that users can complete tasks without unexpected
+    changes in content or context that are a result of a time limit. This success
+    criterion should be considered in conjunction with Success Criterion 3.2.1 , which
+    puts limits on changes of content or context as a result of user action.'
+  url: https://www.w3.org/TR/WCAG22/#timing-adjustable
+- id: pause-stop-hide
+  code: 2.2.2
+  title: Pause, Stop, Hide
+  level: A
+  normative_text: 'For moving, blinking , scrolling, or auto-updating information,
+    all of the following are true: For any moving, blinking or scrolling information
+    that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented
+    in parallel with other content, there is a mechanism for the user to pause , stop,
+    or hide it unless the movement, blinking, or scrolling is part of an activity
+    where it is essential ; and For any auto-updating information that (1) starts
+    automatically and (2) is presented in parallel with other content, there is a
+    mechanism for the user to pause, stop, or hide it or to control the frequency
+    of the update unless the auto-updating is part of an activity where it is essential.
+    For requirements related to flickering or flashing content, refer to Guideline
+    2.3 . Since any content that does not meet this success criterion can interfere
+    with a user''s ability to use the whole page, all content on the web page (whether
+    it is used to meet other success criteria or not) must meet this success criterion.
+    See Conformance Requirement 5: Non-Interference . Content that is updated periodically
+    by software or that is streamed to the user agent is not required to preserve
+    or present information that is generated or received between the initiation of
+    the pause and resuming presentation, as this may not be technically possible,
+    and in many situations could be misleading to do so. An animation that occurs
+    as part of a preload phase or similar situation can be considered essential if
+    interaction cannot occur during that phase for all users and if not indicating
+    progress could confuse users or cause them to think that content was frozen or
+    broken.'
+  url: https://www.w3.org/TR/WCAG22/#pause-stop-hide
+- id: no-timing
+  code: 2.2.3
+  title: No Timing
+  level: AAA
+  normative_text: Timing is not an essential part of the event or activity presented
+    by the content, except for non-interactive synchronized media and real-time events
+    .
+  url: https://www.w3.org/TR/WCAG22/#no-timing
+- id: interruptions
+  code: 2.2.4
+  title: Interruptions
+  level: AAA
+  normative_text: Interruptions can be postponed or suppressed by the user, except
+    interruptions involving an emergency .
+  url: https://www.w3.org/TR/WCAG22/#interruptions
+- id: re-authenticating
+  code: 2.2.5
+  title: Re-authenticating
+  level: AAA
+  normative_text: When an authenticated session expires, the user can continue the
+    activity without loss of data after re-authenticating.
+  url: https://www.w3.org/TR/WCAG22/#re-authenticating
+- id: timeouts
+  code: 2.2.6
+  title: Timeouts
+  level: AAA
+  normative_text: Users are warned of the duration of any user inactivity that could
+    cause data loss, unless the data is preserved for more than 20 hours when the
+    user does not take any actions. Privacy regulations may require explicit user
+    consent before user identification has been authenticated and before user data
+    is preserved. In cases where the user is a minor, explicit consent may not be
+    solicited in most jurisdictions, countries or regions. Consultation with privacy
+    professionals and legal counsel is advised when considering data preservation
+    as an approach to satisfy this success criterion.
+  url: https://www.w3.org/TR/WCAG22/#timeouts
+- id: three-flashes-or-below-threshold
+  code: 2.3.1
+  title: Three Flashes or Below Threshold
+  level: A
+  normative_text: 'Web pages do not contain anything that flashes more than three
+    times in any one second period, or the flash is below the general flash and red
+    flash thresholds . Since any content that does not meet this success criterion
+    can interfere with a user''s ability to use the whole page, all content on the
+    web page (whether it is used to meet other success criteria or not) must meet
+    this success criterion. See Conformance Requirement 5: Non-Interference .'
+  url: https://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold
+- id: three-flashes
+  code: 2.3.2
+  title: Three Flashes
+  level: AAA
+  normative_text: Web pages do not contain anything that flashes more than three times
+    in any one second period.
+  url: https://www.w3.org/TR/WCAG22/#three-flashes
+- id: animation-from-interactions
+  code: 2.3.3
+  title: Animation from Interactions
+  level: AAA
+  normative_text: Motion animation triggered by interaction can be disabled, unless
+    the animation is essential to the functionality or the information being conveyed.
+  url: https://www.w3.org/TR/WCAG22/#animation-from-interactions
+- id: bypass-blocks
+  code: 2.4.1
+  title: Bypass Blocks
+  level: A
+  normative_text: A mechanism is available to bypass blocks of content that are repeated
+    on multiple web pages .
+  url: https://www.w3.org/TR/WCAG22/#bypass-blocks
+- id: page-titled
+  code: 2.4.2
+  title: Page Titled
+  level: A
+  normative_text: Web pages have titles that describe topic or purpose.
+  url: https://www.w3.org/TR/WCAG22/#page-titled
+- id: focus-order
+  code: 2.4.3
+  title: Focus Order
+  level: A
+  normative_text: If a web page can be navigated sequentially and the navigation sequences
+    affect meaning or operation, focusable components receive focus in an order that
+    preserves meaning and operability.
+  url: https://www.w3.org/TR/WCAG22/#focus-order
+- id: link-purpose-in-context
+  code: 2.4.4
+  title: Link Purpose (In Context)
+  level: A
+  normative_text: The purpose of each link can be determined from the link text alone
+    or from the link text together with its programmatically determined link context
+    , except where the purpose of the link would be ambiguous to users in general
+    .
+  url: https://www.w3.org/TR/WCAG22/#link-purpose-in-context
+- id: multiple-ways
+  code: 2.4.5
+  title: Multiple Ways
+  level: AA
+  normative_text: More than one way is available to locate a web page within a set
+    of web pages except where the web page is the result of, or a step in, a process
+    .
+  url: https://www.w3.org/TR/WCAG22/#multiple-ways
+- id: headings-and-labels
+  code: 2.4.6
+  title: Headings and Labels
+  level: AA
+  normative_text: Headings and labels describe topic or purpose.
+  url: https://www.w3.org/TR/WCAG22/#headings-and-labels
+- id: focus-visible
+  code: 2.4.7
+  title: Focus Visible
+  level: AA
+  normative_text: Any keyboard operable user interface has a mode of operation where
+    the keyboard focus indicator is visible.
+  url: https://www.w3.org/TR/WCAG22/#focus-visible
+- id: location
+  code: 2.4.8
+  title: Location
+  level: AAA
+  normative_text: Information about the user's location within a set of web pages
+    is available.
+  url: https://www.w3.org/TR/WCAG22/#location
+- id: link-purpose-link-only
+  code: 2.4.9
+  title: Link Purpose (Link Only)
+  level: AAA
+  normative_text: A mechanism is available to allow the purpose of each link to be
+    identified from link text alone, except where the purpose of the link would be
+    ambiguous to users in general .
+  url: https://www.w3.org/TR/WCAG22/#link-purpose-link-only
+- id: section-headings
+  code: 2.4.10
+  title: Section Headings
+  level: AAA
+  normative_text: Section headings are used to organize the content. "Heading" is
+    used in its general sense and includes titles and other ways to add a heading
+    to different types of content. This success criterion covers sections within writing,
+    not user interface components . User interface components are covered under Success
+    Criterion 4.1.2 .
+  url: https://www.w3.org/TR/WCAG22/#section-headings
+- id: focus-not-obscured-minimum
+  code: 2.4.11
+  title: Focus Not Obscured (Minimum)
+  level: AA
+  normative_text: New When a user interface component receives keyboard focus, the
+    component is not entirely hidden due to author-created content. Where content
+    in a configurable interface can be repositioned by the user, then only the initial
+    positions of user-movable content are considered for testing and conformance of
+    this success criterion. Content opened by the user may obscure the component receiving
+    focus. If the user can reveal the focused component without advancing the keyboard
+    focus, the component with focus is not considered visually hidden due to author-created
+    content.
+  url: https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum
+- id: focus-not-obscured-enhanced
+  code: 2.4.12
+  title: Focus Not Obscured (Enhanced)
+  level: AAA
+  normative_text: New When a user interface component receives keyboard focus, no
+    part of the component is hidden by author-created content.
+  url: https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced
+- id: focus-appearance
+  code: 2.4.13
+  title: Focus Appearance
+  level: AAA
+  normative_text: 'New When the keyboard focus indicator is visible, an area of the
+    focus indicator meets all the following: is at least as large as the area of a
+    2 CSS pixel thick perimeter of the unfocused component or sub-component, and has
+    a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused
+    states. Exceptions: The focus indicator is determined by the user agent and cannot
+    be adjusted by the author, or The focus indicator and the indicator''s background
+    color are not modified by the author. What is perceived as the user interface
+    component or sub-component (to determine the perimeter) depends on its visual
+    presentation . The visual presentation includes the component''s visible content
+    , border, and component-specific background. It does not include shadow and glow
+    effects outside the component''s content, background, or border. Examples of sub-components
+    that may receive a focus indicator are menu items in an opened drop-down menu,
+    or focusable cells in a grid. Contrast calculations can be based on colors defined
+    within the technology (such as HTML , CSS, and SVG). Pixels modified by user agent
+    resolution enhancements and anti-aliasing can be ignored.'
+  url: https://www.w3.org/TR/WCAG22/#focus-appearance
+- id: pointer-gestures
+  code: 2.5.1
+  title: Pointer Gestures
+  level: A
+  normative_text: All functionality that uses multipoint or path-based gestures for
+    operation can be operated with a single pointer without a path-based gesture,
+    unless a multipoint or path-based gesture is essential . This requirement applies
+    to web content that interprets pointer actions (i.e., this does not apply to actions
+    that are required to operate the user agent or assistive technology).
+  url: https://www.w3.org/TR/WCAG22/#pointer-gestures
+- id: pointer-cancellation
+  code: 2.5.2
+  title: Pointer Cancellation
+  level: A
+  normative_text: 'For functionality that can be operated using a single pointer ,
+    at least one of the following is true: Functions that emulate a keyboard or numeric
+    keypad key press are considered essential. This requirement applies to web content
+    that interprets pointer actions (i.e., this does not apply to actions that are
+    required to operate the user agent or assistive technology).'
+  url: https://www.w3.org/TR/WCAG22/#pointer-cancellation
+- id: label-in-name
+  code: 2.5.3
+  title: Label in Name
+  level: A
+  normative_text: For user interface components with labels that include text or images
+    of text , the name contains the text that is presented visually. A best practice
+    is to have the text of the label at the start of the name.
+  url: https://www.w3.org/TR/WCAG22/#label-in-name
+- id: motion-actuation
+  code: 2.5.4
+  title: Motion Actuation
+  level: A
+  normative_text: 'Functionality that can be operated by device motion or user motion
+    can also be operated by user interface components and responding to the motion
+    can be disabled to prevent accidental actuation, except when:'
+  url: https://www.w3.org/TR/WCAG22/#motion-actuation
+- id: target-size-enhanced
+  code: 2.5.5
+  title: Target Size (Enhanced)
+  level: AAA
+  normative_text: 'The size of the target for pointer inputs is at least 44 by 44
+    CSS pixels except when:'
+  url: https://www.w3.org/TR/WCAG22/#target-size-enhanced
+- id: concurrent-input-mechanisms
+  code: 2.5.6
+  title: Concurrent Input Mechanisms
+  level: AAA
+  normative_text: Web content does not restrict use of input modalities available
+    on a platform except where the restriction is essential , required to ensure the
+    security of the content, or required to respect user settings.
+  url: https://www.w3.org/TR/WCAG22/#concurrent-input-mechanisms
+- id: dragging-movements
+  code: 2.5.7
+  title: Dragging Movements
+  level: AA
+  normative_text: New All functionality that uses a dragging movement for operation
+    can be achieved by a single pointer without dragging, unless dragging is essential
+    or the functionality is determined by the user agent and not modified by the author.
+    This requirement applies to web content that interprets pointer actions (i.e.,
+    this does not apply to actions that are required to operate the user agent or
+    assistive technology).
+  url: https://www.w3.org/TR/WCAG22/#dragging-movements
+- id: target-size-minimum
+  code: 2.5.8
+  title: Target Size (Minimum)
+  level: AA
+  normative_text: 'New The size of the target for pointer inputs is at least 24 by
+    24 CSS pixels , except when: Targets that allow for values to be selected spatially
+    based on position within the target are considered one target for the purpose
+    of the success criterion. Examples include sliders, color pickers displaying a
+    gradient of colors, or editable areas where you position the cursor. For inline
+    targets the line-height should be interpreted as perpendicular to the flow of
+    text. For example, in a language displayed vertically, the line-height would be
+    horizontal.'
+  url: https://www.w3.org/TR/WCAG22/#target-size-minimum
+- id: language-of-page
+  code: 3.1.1
+  title: Language of Page
+  level: A
+  normative_text: The default human language of each web page can be programmatically
+    determined .
+  url: https://www.w3.org/TR/WCAG22/#language-of-page
+- id: language-of-parts
+  code: 3.1.2
+  title: Language of Parts
+  level: AA
+  normative_text: The human language of each passage or phrase in the content can
+    be programmatically determined except for proper names, technical terms, words
+    of indeterminate language, and words or phrases that have become part of the vernacular
+    of the immediately surrounding text .
+  url: https://www.w3.org/TR/WCAG22/#language-of-parts
+- id: unusual-words
+  code: 3.1.3
+  title: Unusual Words
+  level: AAA
+  normative_text: A mechanism is available for identifying specific definitions of
+    words or phrases used in an unusual or restricted way , including idioms and jargon
+    .
+  url: https://www.w3.org/TR/WCAG22/#unusual-words
+- id: abbreviations
+  code: 3.1.4
+  title: Abbreviations
+  level: AAA
+  normative_text: A mechanism for identifying the expanded form or meaning of abbreviations
+    is available.
+  url: https://www.w3.org/TR/WCAG22/#abbreviations
+- id: reading-level
+  code: 3.1.5
+  title: Reading Level
+  level: AAA
+  normative_text: When text requires reading ability more advanced than the lower
+    secondary education level after removal of proper names and titles, supplemental
+    content , or a version that does not require reading ability more advanced than
+    the lower secondary education level, is available.
+  url: https://www.w3.org/TR/WCAG22/#reading-level
+- id: pronunciation
+  code: 3.1.6
+  title: Pronunciation
+  level: AAA
+  normative_text: A mechanism is available for identifying specific pronunciation
+    of words where meaning of the words, in context, is ambiguous without knowing
+    the pronunciation.
+  url: https://www.w3.org/TR/WCAG22/#pronunciation
+- id: on-focus
+  code: 3.2.1
+  title: On Focus
+  level: A
+  normative_text: When any user interface component receives focus, it does not initiate
+    a change of context .
+  url: https://www.w3.org/TR/WCAG22/#on-focus
+- id: on-input
+  code: 3.2.2
+  title: On Input
+  level: A
+  normative_text: Changing the setting of any user interface component does not automatically
+    cause a change of context unless the user has been advised of the behavior before
+    using the component.
+  url: https://www.w3.org/TR/WCAG22/#on-input
+- id: consistent-navigation
+  code: 3.2.3
+  title: Consistent Navigation
+  level: AA
+  normative_text: Navigational mechanisms that are repeated on multiple web pages
+    within a set of web pages occur in the same relative order each time they are
+    repeated, unless a change is initiated by the user.
+  url: https://www.w3.org/TR/WCAG22/#consistent-navigation
+- id: consistent-identification
+  code: 3.2.4
+  title: Consistent Identification
+  level: AA
+  normative_text: Components that have the same functionality within a set of web
+    pages are identified consistently.
+  url: https://www.w3.org/TR/WCAG22/#consistent-identification
+- id: change-on-request
+  code: 3.2.5
+  title: Change on Request
+  level: AAA
+  normative_text: Changes of context are initiated only by user request or a mechanism
+    is available to turn off such changes.
+  url: https://www.w3.org/TR/WCAG22/#change-on-request
+- id: consistent-help
+  code: 3.2.6
+  title: Consistent Help
+  level: A
+  normative_text: 'New If a web page contains any of the following help mechanisms
+    , and those mechanisms are repeated on multiple web pages within a set of web
+    pages , they occur in the same order relative to other page content, unless a
+    change is initiated by the user: Human contact details; Human contact mechanism;
+    Self-help option; A fully automated contact mechanism. Help mechanisms may be
+    provided directly on the page, or may be provided via a direct link to a different
+    page containing the information. For this success criterion, "the same order relative
+    to other page content" can be thought of as how the content is ordered when the
+    page is serialized. The visual position of a help mechanism is likely to be consistent
+    across pages for the same page variation (e.g., CSS break-point). The user can
+    initiate a change, such as changing the page''s zoom or orientation, which may
+    trigger a different page variation. This criterion is concerned with relative
+    order across pages displayed in the same page variation (e.g., same zoom level
+    and orientation).'
+  url: https://www.w3.org/TR/WCAG22/#consistent-help
+- id: error-identification
+  code: 3.3.1
+  title: Error Identification
+  level: A
+  normative_text: If an input error is automatically detected, the item that is in
+    error is identified and the error is described to the user in text.
+  url: https://www.w3.org/TR/WCAG22/#error-identification
+- id: labels-or-instructions
+  code: 3.3.2
+  title: Labels or Instructions
+  level: A
+  normative_text: Labels or instructions are provided when content requires user input.
+  url: https://www.w3.org/TR/WCAG22/#labels-or-instructions
+- id: error-suggestion
+  code: 3.3.3
+  title: Error Suggestion
+  level: AA
+  normative_text: If an input error is automatically detected and suggestions for
+    correction are known, then the suggestions are provided to the user, unless it
+    would jeopardize the security or purpose of the content.
+  url: https://www.w3.org/TR/WCAG22/#error-suggestion
+- id: error-prevention-legal-financial-data
+  code: 3.3.4
+  title: Error Prevention (Legal, Financial, Data)
+  level: AA
+  normative_text: 'For web pages that cause legal commitments or financial transactions
+    for the user to occur, that modify or delete user-controllable data in data storage
+    systems, or that submit user test responses, at least one of the following is
+    true:'
+  url: https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data
+- id: help
+  code: 3.3.5
+  title: Help
+  level: AAA
+  normative_text: Context-sensitive help is available.
+  url: https://www.w3.org/TR/WCAG22/#help
+- id: error-prevention-all
+  code: 3.3.6
+  title: Error Prevention (All)
+  level: AAA
+  normative_text: 'For web pages that require the user to submit information, at least
+    one of the following is true:'
+  url: https://www.w3.org/TR/WCAG22/#error-prevention-all
+- id: redundant-entry
+  code: 3.3.7
+  title: Redundant Entry
+  level: A
+  normative_text: 'New Information previously entered by or provided to the user that
+    is required to be entered again in the same process is either: auto-populated,
+    or available for the user to select. Except when: re-entering the information
+    is essential , the information is required to ensure the security of the content,
+    or previously entered information is no longer valid.'
+  url: https://www.w3.org/TR/WCAG22/#redundant-entry
+- id: accessible-authentication-minimum
+  code: 3.3.8
+  title: Accessible Authentication (Minimum)
+  level: AA
+  normative_text: 'New A cognitive function test (such as remembering a password or
+    solving a puzzle) is not required for any step in an authentication process unless
+    that step provides at least one of the following: "Object recognition" and "Personal
+    content" may be represented by images, video, or audio. support for password entry
+    by password managers to reduce memory need, and copy and paste to reduce the cognitive
+    burden of re-typing.'
+  url: https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum
+- id: accessible-authentication-enhanced
+  code: 3.3.9
+  title: Accessible Authentication (Enhanced)
+  level: AAA
+  normative_text: 'New A cognitive function test (such as remembering a password or
+    solving a puzzle) is not required for any step in an authentication process unless
+    that step provides at least one of the following:'
+  url: https://www.w3.org/TR/WCAG22/#accessible-authentication-enhanced
+- id: name-role-value
+  code: 4.1.2
+  title: Name, Role, Value
+  level: A
+  normative_text: 'For all user interface components (including but not limited to:
+    form elements, links and components generated by scripts), the name and role can
+    be programmatically determined ; states , properties, and values that can be set
+    by the user can be programmatically set ; and notification of changes to these
+    items is available to user agents , including assistive technologies . This success
+    criterion is primarily for web authors who develop or script their own user interface
+    components. For example, standard HTML controls already meet this success criterion
+    when used according to specification.'
+  url: https://www.w3.org/TR/WCAG22/#name-role-value
+- id: status-messages
+  code: 4.1.3
+  title: Status Messages
+  level: AA
+  normative_text: In content implemented using markup languages, status messages can
+    be programmatically determined through role or properties such that they can be
+    presented to the user by assistive technologies without receiving focus.
+  url: https://www.w3.org/TR/WCAG22/#status-messages
+informative_resources:
+- id: understanding-wcag-2.2
+  title: Understanding WCAG 2.2
+  url: https://www.w3.org/WAI/WCAG22/Understanding/
+  type: informative
+- id: wcag-2.2-quickref
+  title: How to Meet WCAG 2.2 (Quick Reference)
+  url: https://www.w3.org/WAI/WCAG22/quickref/
+  type: informative
+- id: wai-arrm-home
+  title: Accessibility Roles and Responsibilities Mapping (ARRM)
+  url: https://www.w3.org/WAI/planning/arrm/
+  type: informative
+- id: wai-arrm-roles
+  title: ARRM Roles
+  url: https://www.w3.org/WAI/planning/arrm/roles/
+  type: informative
+- id: wai-arrm-wcag-sc
+  title: ARRM WCAG Success Criteria mapping
+  url: https://www.w3.org/WAI/planning/arrm/wcag-sc/
+  type: informative
+- id: wai-roles-resources
+  title: WAI Resources for Roles
+  url: https://www.w3.org/WAI/roles/
+  type: informative
+supersedes:
+- wcag-2.0
+- wcag-2.1
+notable_delta:
+- WCAG 2.2 is the primary target for this project.
+- WCAG 2.2 includes WCAG 2.0 and 2.1 except Success Criterion 4.1.1 (Parsing), removed
+  in 2.2.
