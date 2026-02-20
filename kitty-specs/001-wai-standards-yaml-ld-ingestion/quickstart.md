@@ -10,6 +10,7 @@
 - Plan: `kitty-specs/001-wai-standards-yaml-ld-ingestion/plan.md`
 - Maintenance baseline: `kitty-specs/001-wai-standards-yaml-ld-ingestion/maintenance-baseline.md`
 - Normative refresh procedure: `kitty-specs/001-wai-standards-yaml-ld-ingestion/normative-refresh-procedure.md`
+- Informative catalog governance: `kitty-specs/001-wai-standards-yaml-ld-ingestion/informative-catalog-governance.md`
 - Standards index: `kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml`
 - Shared informative catalog: `kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-informative-resources.yaml`
 - Crosswalk: `kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml`

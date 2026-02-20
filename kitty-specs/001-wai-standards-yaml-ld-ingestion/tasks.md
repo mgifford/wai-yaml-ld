@@ -11,9 +11,9 @@ Feature: `001-wai-standards-yaml-ld-ingestion`
 - [x] T005 Verify crosswalk profile targets and mapping_count consistency after updates
 - [x] T006 Create update procedure for normative criteria refresh from W3C TR sources
 - [x] T007 Add criteria deduplication and SC exclusion guardrails to update procedure
-- [ ] T008 Define informative resource admission criteria and classification rules
-- [ ] T009 Add explicit review checklist for APG/AAM/AccName/EPUB/WSG/ACT link presence
-- [ ] T010 Add policy for adding new informative resources with stable IDs
+- [x] T008 Define informative resource admission criteria and classification rules
+- [x] T009 Add explicit review checklist for APG/AAM/AccName/EPUB/WSG/ACT link presence
+- [x] T010 Add policy for adding new informative resources with stable IDs
 - [x] T011 Define minimal schema contract checks for index, normative, informative, and crosswalk files
 - [x] T012 Add quick verification command examples for maintainers
 
@@ -48,6 +48,7 @@ Feature: `001-wai-standards-yaml-ld-ingestion`
 - Included subtasks: T008, T009, T010
 - Dependencies: WP01
 - Prompt: `tasks/WP03-informative-catalog-governance-and-curation.md`
+- Implementation artifact: `informative-catalog-governance.md`
 - Parallel opportunities: Can execute concurrently with WP02 once WP01 is complete.
 - Risks: Misclassification of standards vs informative resources.
 

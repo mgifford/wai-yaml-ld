@@ -1,7 +1,7 @@
 ---
 work_package_id: "WP03"
 title: "Informative catalog governance and curation"
-lane: "planned"
+lane: "done"
 dependencies:
   - "WP01"
 subtasks:
@@ -19,6 +19,10 @@ history:
     lane: "planned"
     agent: "system"
     action: "Prompt generated via /spec-kitty.tasks"
+  - timestamp: "2026-02-20T00:00:00Z"
+    lane: "done"
+    agent: "copilot"
+    action: "Implemented informative catalog governance, coverage checklist, and stable ID policy"
 ---
 
 # Work Package Prompt: WP03 - Informative catalog governance and curation
