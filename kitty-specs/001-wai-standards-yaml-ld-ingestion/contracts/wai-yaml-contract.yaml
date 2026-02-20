@@ -1,0 +1,49 @@
+contract_version: 1
+name: wai-yaml-ingestion-contract
+scope: project_files
+artifacts:
+  standards_index:
+    path: research/w3c-wai-standards.yaml
+    required_top_level_fields:
+      - project
+      - owner
+      - updated
+      - sources
+      - primary_wcag_version
+      - wcag_version_policy
+    source_required_fields:
+      - id
+      - name
+      - url
+      - type
+      - format_hint
+  informative_catalog:
+    path: research/w3c-wai-informative-resources.yaml
+    required_top_level_fields:
+      - project
+      - updated
+      - scope
+      - resources
+    resource_required_fields:
+      - id
+      - title
+      - url
+      - type
+  aria_informative_catalog:
+    path: research/wai-aria-informative.yaml
+    required_top_level_fields:
+      - standard_id
+      - name
+      - updated
+      - scope
+      - tr_primary
+      - informative_resources
+  crosswalk:
+    path: research/atag-to-wcag-2.2-crosswalk.yaml
+    required_behaviors:
+      - explicit_wcag_4_1_1_exception
+      - machine_readable_profile_targets
+validation_notes:
+  - Keep normative and informative content separated.
+  - Prefer canonical W3C TR URLs for standards references.
+  - Preserve stable IDs for downstream consumers.
