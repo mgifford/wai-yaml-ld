@@ -40,9 +40,24 @@ jobs:
             --csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv \
             --mermaid-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd
 
+      - name: Regenerate visualization views
+        run: |
+          python scripts/generate_standards_visualizations.py \
+            --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml \
+            --html-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml \
+            --css-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml \
+            --by-relation-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd \
+            --wcag-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd \
+            --parts-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.mmd \
+            --parts-csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv
+
       - name: Ensure generated artifacts are committed
         run: |
           git diff --exit-code \
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld \
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv \
-            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd \
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd \
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd \
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.mmd \
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv

@@ -173,3 +173,22 @@ Anti-pattern prompt:
 Better prompt:
 
 "For each edge used in your answer, include the node IDs and the source YAML file that grounds the claim."
+
+## 8) Visualization Views and What They Show
+
+Use these views together:
+
+- Full topology view: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd)
+   - Best for complete node/edge inventory
+- Relation-grouped view: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd)
+   - Best for understanding connection semantics (`maps_to`, `profiles`, `implements_mapping_for`, etc.)
+- WCAG-centric neighborhood: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd)
+   - Best for “what influences WCAG outcomes?” analysis
+- Part-level view (HTML/CSS sections/modules): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.mmd](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.mmd)
+   - Best for “which parts of specs link to parent standards and WCAG?”
+- Part-level table: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv)
+   - Best for filtering and spreadsheet-style review
+
+Regenerate visualization views:
+
+`python scripts/generate_standards_visualizations.py --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml --html-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml --css-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml --by-relation-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd --wcag-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd --parts-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.mmd --parts-csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv`
