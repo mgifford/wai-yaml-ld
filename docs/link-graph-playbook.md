@@ -188,6 +188,8 @@ Use these views together:
    - Best for “which parts of specs link to parent standards and WCAG?”
 - Part-level table: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv)
    - Best for filtering and spreadsheet-style review
+- Interactive filter UI: [docs/standards-link-viewer.html](standards-link-viewer.html)
+   - Best for fast exploratory filtering by node, relation, and confidence
 
 Regenerate visualization views:
 
