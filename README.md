@@ -4,6 +4,12 @@ Machine-readable accessibility standards context for AI coding systems.
 
 This repository turns key W3C WAI + related standards (WCAG, ATAG, UAAG, ARIA, HTML, CSS) into structured YAML/JSON-LD/CSV artifacts that an LLM can reliably consume when generating or reviewing code.
 
+GitHub Pages landing page (if enabled):
+
+- https://mgifford.github.io/wai-yaml-ld/
+- Playbook web page: https://mgifford.github.io/wai-yaml-ld/link-graph-playbook.html
+- Interactive viewer: https://mgifford.github.io/wai-yaml-ld/standards-link-viewer.html
+
 ## What This Project Is For
 
 - Give humans and LLMs a single, machine-readable source of truth for accessibility standards context

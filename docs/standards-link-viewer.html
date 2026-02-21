@@ -58,8 +58,14 @@
 
   <script>
     const DATA = {
-      graphEdgesPath: '../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv',
-      partEdgesPath: '../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv'
+      graphEdgesPaths: [
+        '../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv',
+        'https://raw.githubusercontent.com/mgifford/wai-yaml-ld/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv'
+      ],
+      partEdgesPaths: [
+        '../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv',
+        'https://raw.githubusercontent.com/mgifford/wai-yaml-ld/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv'
+      ]
     };
 
     const refs = {
@@ -106,10 +112,23 @@
       return out;
     }
 
+    async function fetchFirstAvailable(paths) {
+      for (const path of paths) {
+        try {
+          const res = await fetch(path);
+          if (!res.ok) continue;
+          return await res.text();
+        } catch (_) {
+          // try next
+        }
+      }
+      throw new Error(`No available source from: ${paths.join(', ')}`);
+    }
+
     async function loadData() {
       const [graphText, partText] = await Promise.all([
-        fetch(DATA.graphEdgesPath).then(r => r.text()),
-        fetch(DATA.partEdgesPath).then(r => r.text())
+        fetchFirstAvailable(DATA.graphEdgesPaths),
+        fetchFirstAvailable(DATA.partEdgesPaths)
       ]);
       graphEdges = parseCsv(graphText);
       partEdges = parseCsv(partText);

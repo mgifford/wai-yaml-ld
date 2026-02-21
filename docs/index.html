@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>wai-yaml-ld: Accessibility Standards Data for Humans + LLMs</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 1.2rem; line-height: 1.45; color: #111; }
+    h1 { margin-bottom: 0.35rem; }
+    .lead { color: #333; margin-bottom: 1rem; max-width: 900px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.8rem; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 0.9rem; background: #fafafa; }
+    .card h2 { font-size: 1.05rem; margin: 0 0 0.55rem; }
+    ul { margin: 0; padding-left: 1.1rem; }
+    a { color: #0a58ca; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .small { margin-top: 1.1rem; color: #555; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>wai-yaml-ld</h1>
+  <p class="lead">
+    Machine-readable accessibility standards context (WCAG, ATAG, UAAG, ARIA, HTML, CSS) designed for humans and LLMs building standards-aligned code.
+  </p>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Start Here</h2>
+      <ul>
+        <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/README.md">Project README</a></li>
+        <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml">Canonical standards link graph</a></li>
+        <li><a href="link-graph-playbook.html">Web playbook</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Interactive Exploration</h2>
+      <ul>
+        <li><a href="standards-link-viewer.html">Interactive standards link viewer</a></li>
+        <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd">Relation-grouped graph view</a></li>
+        <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd">WCAG-centric graph view</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Key Datasets</h2>
+      <ul>
+        <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml">WAI standards index</a></li>
+        <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml">HTML accessibility index</a></li>
+        <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml">CSS specifications index</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Governance & QA</h2>
+      <ul>
+        <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/docs/link-graph-reviewer-checklist.md">Reviewer checklist</a></li>
+        <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/.github/workflows/standards-link-graph-validate.yml">PR validation workflow</a></li>
+        <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/.github/workflows/refresh-standards-artifacts.yml">Manual artifact refresh workflow</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <p class="small">
+    If a link points to GitHub, it is intentional: these resources are source-of-truth repository artifacts.
+  </p>
+</body>
+</html>
