@@ -1,53 +1,53 @@
 graph LR
-    standards-link-graph["Standards Link Graph"]
-    w3c-wai-standards-index["W3C WAI Standards Index"]
-    w3c-wai-informative-catalog["W3C WAI Informative Resources Catalog"]
-    atag-to-wcag-2.2-crosswalk["ATAG 2.0 to WCAG 2.2 Crosswalk"]
-    css-specifications-index["CSS Specifications Index"]
-    html-living-standard-accessibility["HTML Living Standard Accessibility Index"]
-    wcag-2.2["WCAG 2.2"]
-    wcag-2.0["WCAG 2.0"]
-    atag-2.0["ATAG 2.0"]
-    uaag-2.0["UAAG 2.0"]
-    wai-aria-1.2["WAI-ARIA 1.2"]
-    core-aam-1.2["Core AAM 1.2"]
-    html-aam-1.0["HTML AAM 1.0"]
-    accname-1.2["AccName 1.2"]
-    aria-in-html["ARIA in HTML"]
-    html-living-standard["HTML Living Standard"]
-    w3c-css-overview["W3C CSS Specifications Overview"]
+    n_standards_link_graph["Standards Link Graph"]
+    n_w3c_wai_standards_index["W3C WAI Standards Index"]
+    n_w3c_wai_informative_catalog["W3C WAI Informative Resources Catalog"]
+    n_atag_to_wcag_2_2_crosswalk["ATAG 2.0 to WCAG 2.2 Crosswalk"]
+    n_css_specifications_index["CSS Specifications Index"]
+    n_html_living_standard_accessibility["HTML Living Standard Accessibility Index"]
+    n_wcag_2_2["WCAG 2.2"]
+    n_wcag_2_0["WCAG 2.0"]
+    n_atag_2_0["ATAG 2.0"]
+    n_uaag_2_0["UAAG 2.0"]
+    n_wai_aria_1_2["WAI-ARIA 1.2"]
+    n_core_aam_1_2["Core AAM 1.2"]
+    n_html_aam_1_0["HTML AAM 1.0"]
+    n_accname_1_2["AccName 1.2"]
+    n_aria_in_html["ARIA in HTML"]
+    n_html_living_standard["HTML Living Standard"]
+    n_w3c_css_overview["W3C CSS Specifications Overview"]
     %% relation: applies_to
-    w3c-wai-informative-catalog --|applies_to| wcag-2.2
-    w3c-wai-informative-catalog --|applies_to| atag-2.0
-    w3c-wai-informative-catalog --|applies_to| uaag-2.0
-    w3c-wai-informative-catalog --|applies_to| wai-aria-1.2
+    n_w3c_wai_informative_catalog --|applies_to| n_wcag_2_2
+    n_w3c_wai_informative_catalog --|applies_to| n_atag_2_0
+    n_w3c_wai_informative_catalog --|applies_to| n_uaag_2_0
+    n_w3c_wai_informative_catalog --|applies_to| n_wai_aria_1_2
     %% relation: catalogs
-    w3c-wai-standards-index --|catalogs| wcag-2.2
-    w3c-wai-standards-index --|catalogs| atag-2.0
-    w3c-wai-standards-index --|catalogs| uaag-2.0
-    w3c-wai-standards-index --|catalogs| wai-aria-1.2
-    w3c-wai-standards-index --|catalogs| html-living-standard
-    w3c-wai-standards-index --|catalogs| w3c-css-overview
-    html-living-standard-accessibility --|catalogs| html-living-standard
-    css-specifications-index --|catalogs| w3c-css-overview
-    standards-link-graph --|catalogs| w3c-wai-standards-index
-    standards-link-graph --|catalogs| w3c-wai-informative-catalog
-    standards-link-graph --|catalogs| atag-to-wcag-2.2-crosswalk
-    standards-link-graph --|catalogs| css-specifications-index
-    standards-link-graph --|catalogs| html-living-standard-accessibility
+    n_w3c_wai_standards_index --|catalogs| n_wcag_2_2
+    n_w3c_wai_standards_index --|catalogs| n_atag_2_0
+    n_w3c_wai_standards_index --|catalogs| n_uaag_2_0
+    n_w3c_wai_standards_index --|catalogs| n_wai_aria_1_2
+    n_w3c_wai_standards_index --|catalogs| n_html_living_standard
+    n_w3c_wai_standards_index --|catalogs| n_w3c_css_overview
+    n_html_living_standard_accessibility --|catalogs| n_html_living_standard
+    n_css_specifications_index --|catalogs| n_w3c_css_overview
+    n_standards_link_graph --|catalogs| n_w3c_wai_standards_index
+    n_standards_link_graph --|catalogs| n_w3c_wai_informative_catalog
+    n_standards_link_graph --|catalogs| n_atag_to_wcag_2_2_crosswalk
+    n_standards_link_graph --|catalogs| n_css_specifications_index
+    n_standards_link_graph --|catalogs| n_html_living_standard_accessibility
     %% relation: implements_mapping_for
-    html-aam-1.0 --|implements_mapping_for| html-living-standard
-    core-aam-1.2 --|implements_mapping_for| wai-aria-1.2
+    n_html_aam_1_0 --|implements_mapping_for| n_html_living_standard
+    n_core_aam_1_2 --|implements_mapping_for| n_wai_aria_1_2
     %% relation: maps_to
-    atag-to-wcag-2.2-crosswalk --|maps_to| wcag-2.2
-    atag-to-wcag-2.2-crosswalk --|maps_to| atag-2.0
+    n_atag_to_wcag_2_2_crosswalk --|maps_to| n_wcag_2_2
+    n_atag_to_wcag_2_2_crosswalk --|maps_to| n_atag_2_0
     %% relation: profiles
-    aria-in-html --|profiles| html-living-standard
+    n_aria_in_html --|profiles| n_html_living_standard
     %% relation: supersedes
-    wcag-2.2 --|supersedes| wcag-2.0
+    n_wcag_2_2 --|supersedes| n_wcag_2_0
     %% relation: supports_outcome_for
-    accname-1.2 --|supports_outcome_for| wai-aria-1.2
-    html-living-standard --|supports_outcome_for| wcag-2.2
-    w3c-css-overview --|supports_outcome_for| wcag-2.2
-    atag-2.0 --|supports_outcome_for| wcag-2.2
-    uaag-2.0 --|supports_outcome_for| wcag-2.2
+    n_accname_1_2 --|supports_outcome_for| n_wai_aria_1_2
+    n_html_living_standard --|supports_outcome_for| n_wcag_2_2
+    n_w3c_css_overview --|supports_outcome_for| n_wcag_2_2
+    n_atag_2_0 --|supports_outcome_for| n_wcag_2_2
+    n_uaag_2_0 --|supports_outcome_for| n_wcag_2_2

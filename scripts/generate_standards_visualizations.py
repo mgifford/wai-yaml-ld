@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import csv
+import re
 from collections import defaultdict, deque
 from pathlib import Path
 
@@ -23,13 +24,31 @@ def safe_label(text: str):
     return str(text).replace('"', "'")
 
 
+def build_mermaid_id_map(node_ids):
+    mapping = {}
+    used = set()
+    for node_id in node_ids:
+        base = "n_" + re.sub(r"[^a-zA-Z0-9_]", "_", str(node_id))
+        base = re.sub(r"_+", "_", base).strip("_") or "n"
+        candidate = base
+        suffix = 2
+        while candidate in used:
+            candidate = f"{base}_{suffix}"
+            suffix += 1
+        mapping[node_id] = candidate
+        used.add(candidate)
+    return mapping
+
+
 def build_relation_view(graph):
     nodes = graph.get("nodes", [])
     edges = graph.get("edges", [])
+    mermaid_ids = build_mermaid_id_map([node.get("id", "") for node in nodes])
 
     lines = ["graph LR"]
     for node in nodes:
-        lines.append(f'    {node["id"]}["{safe_label(node.get("label", node["id"]))}"]')
+        node_id = node.get("id", "")
+        lines.append(f'    {mermaid_ids.get(node_id, node_id)}["{safe_label(node.get("label", node_id))}"]')
 
     grouped = defaultdict(list)
     for edge in edges:
@@ -38,7 +57,9 @@ def build_relation_view(graph):
     for relation in sorted(grouped.keys()):
         lines.append(f"    %% relation: {relation}")
         for edge in grouped[relation]:
-            lines.append(f'    {edge["from"]} --|{safe_label(relation)}| {edge["to"]}')
+            source = mermaid_ids.get(edge["from"], edge["from"])
+            target = mermaid_ids.get(edge["to"], edge["to"])
+            lines.append(f'    {source} --|{safe_label(relation)}| {target}')
 
     return "\n".join(lines) + "\n"
 
@@ -46,6 +67,7 @@ def build_relation_view(graph):
 def build_wcag_view(graph, anchor="wcag-2.2", max_depth=2):
     nodes = {node["id"]: node for node in graph.get("nodes", [])}
     edges = graph.get("edges", [])
+    mermaid_ids = build_mermaid_id_map(list(nodes.keys()))
 
     adjacency = defaultdict(list)
     reverse = defaultdict(list)
@@ -84,9 +106,11 @@ def build_wcag_view(graph, anchor="wcag-2.2", max_depth=2):
     lines = ["graph LR"]
     for node_id in sorted(visited):
         node = nodes.get(node_id, {"label": node_id})
-        lines.append(f'    {node_id}["{safe_label(node.get("label", node_id))}"]')
+        lines.append(f'    {mermaid_ids.get(node_id, node_id)}["{safe_label(node.get("label", node_id))}"]')
     for edge in kept_edges:
-        lines.append(f'    {edge["from"]} --|{safe_label(edge.get("relation", ""))}| {edge["to"]}')
+        source = mermaid_ids.get(edge["from"], edge["from"])
+        target = mermaid_ids.get(edge["to"], edge["to"])
+        lines.append(f'    {source} --|{safe_label(edge.get("relation", ""))}| {target}')
 
     return "\n".join(lines) + "\n"
 

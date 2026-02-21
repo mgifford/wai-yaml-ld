@@ -2,6 +2,7 @@
 import argparse
 import csv
 import json
+import re
 from pathlib import Path
 
 import yaml
@@ -96,22 +97,44 @@ def write_csv(path: Path, edges):
             )
 
 
+def build_mermaid_id_map(node_ids):
+    mapping = {}
+    used = set()
+    for node_id in node_ids:
+        base = "n_" + re.sub(r"[^a-zA-Z0-9_]", "_", str(node_id))
+        base = re.sub(r"_+", "_", base).strip("_") or "n"
+        candidate = base
+        suffix = 2
+        while candidate in used:
+            candidate = f"{base}_{suffix}"
+            suffix += 1
+        mapping[node_id] = candidate
+        used.add(candidate)
+    return mapping
+
+
 def write_mermaid(path: Path, graph):
     node_lines = []
     edge_lines = []
 
+    node_ids = [node.get("id", "") for node in graph.get("nodes", [])]
+    mermaid_ids = build_mermaid_id_map(node_ids)
+
     for node in graph.get("nodes", []):
         node_id = node.get("id", "")
+        mermaid_id = mermaid_ids.get(node_id, node_id)
         label = node.get("label", "")
         safe_label = str(label).replace('"', "'")
-        node_lines.append(f'    {node_id}["{safe_label}"]')
+        node_lines.append(f'    {mermaid_id}["{safe_label}"]')
 
     for edge in graph.get("edges", []):
         source = edge.get("from", "")
         target = edge.get("to", "")
+        source_id = mermaid_ids.get(source, source)
+        target_id = mermaid_ids.get(target, target)
         relation = edge.get("relation", "")
         safe_relation = str(relation).replace('"', "'")
-        edge_lines.append(f'    {source} --|{safe_relation}| {target}')
+        edge_lines.append(f'    {source_id} --|{safe_relation}| {target_id}')
 
     lines = ["graph LR"]
     lines.extend(node_lines)
