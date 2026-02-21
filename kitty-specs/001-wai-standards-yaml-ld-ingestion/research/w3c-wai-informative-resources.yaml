@@ -1,5 +1,5 @@
 project: wai-standards-yaml-ld-ingestion
-updated: '2026-02-20'
+updated: '2026-02-21'
 scope: informative_w3c_resources
 resources:
 - id: wai-arrm-home
@@ -122,6 +122,24 @@ resources:
   - wcag-2.2
   - atag-2.0
   - uaag-2.0
+- id: w3c-css-specifications-overview
+  title: W3C CSS Specifications Overview
+  url: https://www.w3.org/Style/CSS/Overview.en.html
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+- id: html-living-standard
+  title: HTML Living Standard
+  url: https://html.spec.whatwg.org/multipage/
+  type: standard
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
 - id: act-rules-format-1.1
   title: Accessibility Conformance Testing (ACT) Rules Format 1.1
   url: https://www.w3.org/TR/act-rules-format-1.1/

@@ -1,0 +1,154 @@
+collection_id: css-specifications
+name: W3C CSS Specifications Index
+updated: '2026-02-21'
+overview_url: https://www.w3.org/Style/CSS/Overview.en.html
+publisher: W3C CSS Working Group
+status: actively_maintained
+machine_readable_sources:
+- format: html-overview
+  url: https://www.w3.org/Style/CSS/Overview.en.html
+- format: editor-drafts-index
+  url: https://drafts.csswg.org/
+- format: snapshots-index
+  url: https://www.w3.org/TR/css/
+full_spec_inventory_source: https://www.w3.org/Style/CSS/Overview.en.html
+full_spec_inventory_extracted_at: '2026-02-21'
+full_spec_inventory:
+- id: css-2025
+  title: CSS Snapshot 2025
+  url: https://www.w3.org/TR/css-2025/
+- id: css-2024
+  title: CSS Snapshot 2024
+  url: https://www.w3.org/TR/css-2024/
+- id: css-2023
+  title: CSS Snapshot 2023
+  url: https://www.w3.org/TR/css-2023/
+- id: css-2022
+  title: CSS Snapshot 2022
+  url: https://www.w3.org/TR/css-2022/
+- id: css-2021
+  title: CSS Snapshot 2021
+  url: https://www.w3.org/TR/css-2021
+- id: css-2020
+  title: CSS Snapshot 2020
+  url: https://www.w3.org/TR/css-2020
+- id: css-2018
+  title: CSS Snapshot 2018
+  url: https://www.w3.org/TR/css-2018
+- id: css-2017
+  title: CSS Snapshot 2017
+  url: https://www.w3.org/TR/css-2017
+- id: css-2015
+  title: CSS Snapshot 2015
+  url: https://www.w3.org/TR/css-2015
+- id: css-2010
+  title: CSS Snapshot 2010
+  url: https://www.w3.org/TR/css-2010/
+- id: css-beijing
+  title: CSS Snapshot 2007
+  url: https://www.w3.org/TR/css-beijing/
+- id: css-color-3
+  title: CSS Color Level 3
+  url: https://www.w3.org/TR/css-color-3/
+- id: css-namespaces
+  title: CSS Namespaces
+  url: https://www.w3.org/TR/css-namespaces/
+- id: selectors-3
+  title: Selectors Level 3
+  url: https://www.w3.org/TR/selectors-3/
+- id: mediaqueries-3
+  title: Media Queries Level 3
+  url: https://www.w3.org/TR/mediaqueries-3/
+- id: css-style-attr
+  title: CSS Style Attributes
+  url: https://www.w3.org/TR/css-style-attr/
+- id: css-cascade-3
+  title: CSS Cascading and Inheritance Level 3
+  url: https://www.w3.org/TR/css-cascade-3/
+- id: css-fonts-3
+  title: CSS Fonts Level 3
+  url: https://www.w3.org/TR/css-fonts-3/
+- id: css-writing-modes-3
+  title: CSS Writing Modes Level 3
+  url: https://www.w3.org/TR/css-writing-modes-3
+- id: css-ui-3
+  title: CSS Basic User Interface Level 3
+  url: https://www.w3.org/TR/css-ui-3
+- id: css-box-3
+  title: CSS Box Model Level 3
+  url: https://www.w3.org/TR/css-box-3
+- id: css-contain-1
+  title: CSS Containment Level 1
+  url: https://www.w3.org/TR/css-contain-1/
+- id: css-backgrounds-3
+  title: CSS Backgrounds and Borders Level 3
+  url: https://www.w3.org/TR/css-backgrounds-3/
+- id: css-conditional-3
+  title: CSS Conditional Rules Level 3
+  url: https://www.w3.org/TR/css-conditional-3/
+- id: css-multicol-1
+  title: CSS Multi-column Layout Level 1
+  url: https://www.w3.org/TR/css-multicol-1/
+- id: css-values-3
+  title: CSS Values and Units Level 3
+  url: https://www.w3.org/TR/css-values-3/
+- id: css-flexbox-1
+  title: CSS Flexible Box Layout Level 1
+  url: https://www.w3.org/TR/css-flexbox-1/
+- id: css-counter-styles-3
+  title: CSS Counter Styles Level 3
+  url: https://www.w3.org/TR/css-counter-styles-3/
+accessibility_relevant_modules:
+- id: css-color
+  title: CSS Color
+  url: https://www.w3.org/TR/css-color-4/
+  relevance: Color definition and interpolation behavior directly affects contrast and non-color cues.
+- id: css-ui
+  title: CSS Basic User Interface
+  url: https://www.w3.org/TR/css-ui-4/
+  relevance: Defines focus outlines, cursor behavior, and user interaction affordances.
+- id: mediaqueries
+  title: Media Queries
+  url: https://www.w3.org/TR/mediaqueries-5/
+  relevance: Enables adaptation for user/device contexts including reduced motion and forced colors.
+- id: css-overflow
+  title: CSS Overflow
+  url: https://www.w3.org/TR/css-overflow-4/
+  relevance: Impacts clipping, scrolling, and visibility of content at zoom or reflow.
+- id: css-writing-modes
+  title: CSS Writing Modes
+  url: https://www.w3.org/TR/css-writing-modes-4/
+  relevance: Impacts orientation, reading order, and flow for internationalized and adaptive layouts.
+- id: css-text
+  title: CSS Text
+  url: https://www.w3.org/TR/css-text-4/
+  relevance: Defines wrapping, spacing, and text transformations affecting readability.
+- id: css-display
+  title: CSS Display
+  url: https://www.w3.org/TR/css-display-4/
+  relevance: Defines layout box generation and visibility semantics affecting perceived structure.
+- id: css-flexbox
+  title: CSS Flexible Box Layout
+  url: https://www.w3.org/TR/css-flexbox-1/
+  relevance: Defines visual order and responsive behavior that can impact reading and focus order.
+- id: css-grid
+  title: CSS Grid Layout
+  url: https://www.w3.org/TR/css-grid-2/
+  relevance: Defines 2D visual layouts whose ordering choices can affect navigation predictability.
+- id: css-transitions
+  title: CSS Transitions
+  url: https://www.w3.org/TR/css-transitions-2/
+  relevance: Animation behavior can impact motion sensitivity and cognitive accessibility.
+- id: css-animations
+  title: CSS Animations
+  url: https://www.w3.org/TR/css-animations-2/
+  relevance: Animation timing and effects should align with reduced-motion user preferences.
+- id: css-scroll-snap
+  title: CSS Scroll Snap
+  url: https://www.w3.org/TR/css-scroll-snap-1/
+  relevance: Scroll behavior can affect keyboard, switch, and screen magnifier users.
+related_accessibility_guidance:
+- id: wcag-2.2
+  url: https://www.w3.org/TR/WCAG22/
+- id: understanding-wcag-2.2
+  url: https://www.w3.org/WAI/WCAG22/Understanding/

@@ -1,6 +1,6 @@
 project: wai-standards-yaml-ld-ingestion
 owner: W3C WAI
-updated: '2026-02-20'
+updated: '2026-02-21'
 sources:
 - id: wcag-2.2
   name: Web Content Accessibility Guidelines (WCAG) 2.2
@@ -82,11 +82,31 @@ sources:
   url: https://www.w3.org/TR/web-sustainability-guidelines/
   type: informative
   format_hint: w3c-tr
+- id: css-specifications-overview
+  name: W3C CSS Specifications Overview
+  url: https://www.w3.org/Style/CSS/Overview.en.html
+  type: technical_spec_collection
+  format_hint: html
+- id: html-living-standard
+  name: HTML Living Standard
+  url: https://html.spec.whatwg.org/multipage/
+  type: technical_spec
+  format_hint: html
 - id: w3c-wai-main
   name: W3C Web Accessibility Initiative (WAI)
   url: https://www.w3.org/WAI/
   type: hub
   format_hint: html
+- id: css-specifications-machine-readable
+  name: CSS Specifications Machine-Readable Index (project dataset)
+  url: ./css-specifications-index.yaml
+  type: technical_spec_collection
+  format_hint: yaml
+- id: html-living-standard-machine-readable
+  name: HTML Living Standard Accessibility Index (project dataset)
+  url: ./html-living-standard-accessibility.yaml
+  type: technical_spec
+  format_hint: yaml
 - id: atag-wcag22-crosswalk
   name: ATAG 2.0 to WCAG 2.2 Crosswalk (project mapping)
   url: ./atag-to-wcag-2.2-crosswalk.yaml

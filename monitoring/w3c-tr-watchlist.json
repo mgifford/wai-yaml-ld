@@ -113,6 +113,22 @@
       "etag": null,
       "last_modified": "Tue, 03 Feb 2026 16:03:41 GMT",
       "checked_at": "2026-02-20T21:34:20.602366+00:00"
+    },
+    {
+      "id": "w3c-css-specifications-overview",
+      "url": "https://www.w3.org/Style/CSS/Overview.en.html",
+      "status": null,
+      "etag": null,
+      "last_modified": null,
+      "checked_at": null
+    },
+    {
+      "id": "html-living-standard",
+      "url": "https://html.spec.whatwg.org/multipage/",
+      "status": null,
+      "etag": null,
+      "last_modified": null,
+      "checked_at": null
     }
   ]
 }

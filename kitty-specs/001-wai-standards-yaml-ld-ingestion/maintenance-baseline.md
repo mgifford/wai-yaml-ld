@@ -65,7 +65,7 @@ From repository root:
 
 ```bash
 # Verify required resources exist in standards index
-grep -E "aria-apg-home|core-aam-1.2|accname-1.2|web-sustainability-guidelines" \
+grep -E "aria-apg-home|core-aam-1.2|accname-1.2|web-sustainability-guidelines|css-specifications-overview|html-living-standard" \
   kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml
 
 # Verify crosswalk exception behavior reference exists

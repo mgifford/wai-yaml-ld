@@ -1,0 +1,150 @@
+standard_id: html-living-standard
+name: HTML Living Standard
+updated: '2026-02-21'
+canonical_url: https://html.spec.whatwg.org/multipage/
+publisher: WHATWG
+status: living_standard
+machine_readable_sources:
+- format: html-multipage
+  url: https://html.spec.whatwg.org/multipage/
+- format: html-single-page
+  url: https://html.spec.whatwg.org/
+- format: source-repository-file
+  url: https://raw.githubusercontent.com/whatwg/html/main/source
+- format: repository
+  url: https://github.com/whatwg/html
+full_section_inventory_source: https://raw.githubusercontent.com/whatwg/html/main/source
+full_section_inventory_extracted_at: '2026-02-21'
+full_section_inventory:
+- id: introduction-introduction
+  split_filename: introduction
+  section_id: introduction
+  title: Introduction
+  url: https://html.spec.whatwg.org/multipage/introduction.html#introduction
+- id: infrastructure-infrastructure
+  split_filename: infrastructure
+  section_id: infrastructure
+  title: Common infrastructure
+  url: https://html.spec.whatwg.org/multipage/infrastructure.html#infrastructure
+- id: dom-dom
+  split_filename: dom
+  section_id: dom
+  title: Semantics, structure, and APIs of HTML documents
+  url: https://html.spec.whatwg.org/multipage/dom.html#dom
+- id: semantics-semantics
+  split_filename: semantics
+  section_id: semantics
+  title: The elements of HTML
+  url: https://html.spec.whatwg.org/multipage/semantics.html#semantics
+- id: microdata-microdata
+  split_filename: microdata
+  section_id: microdata
+  title: Microdata
+  url: https://html.spec.whatwg.org/multipage/microdata.html#microdata
+- id: interaction-editing
+  split_filename: interaction
+  section_id: editing
+  title: User interaction
+  url: https://html.spec.whatwg.org/multipage/interaction.html#editing
+- id: browsers-browsers
+  split_filename: browsers
+  section_id: browsers
+  title: Loading web pages
+  url: https://html.spec.whatwg.org/multipage/browsers.html#browsers
+- id: webappapis-webappapis
+  split_filename: webappapis
+  section_id: webappapis
+  title: Web application APIs
+  url: https://html.spec.whatwg.org/multipage/webappapis.html#webappapis
+- id: comms-comms
+  split_filename: comms
+  section_id: comms
+  title: Communication
+  url: https://html.spec.whatwg.org/multipage/comms.html#comms
+- id: workers-workers
+  split_filename: workers
+  section_id: workers
+  title: Web workers
+  url: https://html.spec.whatwg.org/multipage/workers.html#workers
+- id: worklets-worklets
+  split_filename: worklets
+  section_id: worklets
+  title: Worklets
+  url: https://html.spec.whatwg.org/multipage/worklets.html#worklets
+- id: webstorage-webstorage
+  split_filename: webstorage
+  section_id: webstorage
+  title: Web storage
+  url: https://html.spec.whatwg.org/multipage/webstorage.html#webstorage
+- id: syntax-syntax
+  split_filename: syntax
+  section_id: syntax
+  title: The HTML syntax
+  url: https://html.spec.whatwg.org/multipage/syntax.html#syntax
+- id: xhtml-the-xhtml-syntax
+  split_filename: xhtml
+  section_id: the-xhtml-syntax
+  title: The XML syntax
+  url: https://html.spec.whatwg.org/multipage/xhtml.html#the-xhtml-syntax
+- id: rendering-rendering
+  split_filename: rendering
+  section_id: rendering
+  title: Rendering
+  url: https://html.spec.whatwg.org/multipage/rendering.html#rendering
+- id: obsolete-obsolete
+  split_filename: obsolete
+  section_id: obsolete
+  title: Obsolete features
+  url: https://html.spec.whatwg.org/multipage/obsolete.html#obsolete
+- id: iana-iana
+  split_filename: iana
+  section_id: iana
+  title: IANA considerations
+  url: https://html.spec.whatwg.org/multipage/iana.html#iana
+- id: indices-index
+  split_filename: indices
+  section_id: index
+  title: Index
+  url: https://html.spec.whatwg.org/multipage/indices.html#index
+- id: references-references
+  split_filename: references
+  section_id: references
+  title: References
+  url: https://html.spec.whatwg.org/multipage/references.html#references
+- id: acknowledgements-acknowledgments
+  split_filename: acknowledgements
+  section_id: acknowledgments
+  title: Acknowledgments
+  url: https://html.spec.whatwg.org/multipage/acknowledgements.html#acknowledgments
+accessibility_related_sections:
+- id: semantics
+  title: The elements of HTML
+  url: https://html.spec.whatwg.org/multipage/semantics.html
+  relevance: Defines native semantics and structural meaning used by assistive technologies.
+- id: forms
+  title: Forms
+  url: https://html.spec.whatwg.org/multipage/forms.html
+  relevance: Defines label association, input purpose, validation, and control behavior.
+- id: interaction
+  title: User interaction
+  url: https://html.spec.whatwg.org/multipage/interaction.html
+  relevance: Defines focus management, activation behavior, keyboard interaction, and `inert`.
+- id: dom
+  title: The HTML syntax and DOM
+  url: https://html.spec.whatwg.org/multipage/dom.html
+  relevance: Defines attributes and parsing behavior affecting accessibility trees and APIs.
+- id: rendering
+  title: Rendering
+  url: https://html.spec.whatwg.org/multipage/rendering.html
+  relevance: Defines rendering expectations that impact visible and perceivable output.
+- id: structured-data
+  title: Tables and structured data
+  url: https://html.spec.whatwg.org/multipage/tables.html
+  relevance: Defines data relationships and header association behavior used for non-visual navigation.
+related_accessibility_specs:
+- id: html-aam-1.0
+  url: https://www.w3.org/TR/html-aam-1.0/
+- id: aria-in-html
+  url: https://www.w3.org/TR/html-aria/
+- id: accname-1.2
+  url: https://www.w3.org/TR/accname-1.2/
