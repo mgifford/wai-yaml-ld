@@ -98,6 +98,7 @@ Monitoring is now set up with:
 - Watchlist baseline: [monitoring/w3c-tr-watchlist.json](monitoring/w3c-tr-watchlist.json)
 - Monitor script: [scripts/monitor_w3c_sources.py](scripts/monitor_w3c_sources.py)
 - Scheduled GitHub Action: [.github/workflows/w3c-standards-monitor.yml](.github/workflows/w3c-standards-monitor.yml)
+- Manual artifact refresh workflow: [.github/workflows/refresh-standards-artifacts.yml](.github/workflows/refresh-standards-artifacts.yml)
 
 The workflow runs weekly and on manual dispatch, checks watched TR headers (ETag/Last-Modified), uploads a report artifact, and opens an issue when changes are detected.
 
@@ -105,6 +106,8 @@ Run manually:
 
 - Baseline refresh: `python scripts/monitor_w3c_sources.py --refresh --watchlist monitoring/w3c-tr-watchlist.json --report monitoring/w3c-change-report.md`
 - Change check: `python scripts/monitor_w3c_sources.py --check --watchlist monitoring/w3c-tr-watchlist.json --report monitoring/w3c-change-report.md`
+
+To refresh generated standards visualization artifacts without running locally, use GitHub Actions workflow dispatch for `Refresh Standards Artifacts`. It regenerates artifacts, uploads them as workflow artifacts, and opens a PR if files changed.
 
 ## Link Graph and Relationship Navigation
 

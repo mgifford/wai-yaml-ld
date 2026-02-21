@@ -1,0 +1,88 @@
+name: Refresh Standards Artifacts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pyyaml
+
+      - name: Regenerate graph artifacts
+        run: |
+          python scripts/generate_standards_link_graph.py \
+            --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml \
+            --jsonld-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld \
+            --csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv \
+            --mermaid-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd
+
+      - name: Regenerate visualization views
+        run: |
+          python scripts/generate_standards_visualizations.py \
+            --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml \
+            --html-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml \
+            --css-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml \
+            --by-relation-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd \
+            --wcag-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd \
+            --parts-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.mmd \
+            --parts-csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv
+
+      - name: Validate graph links and freshness
+        run: |
+          python scripts/validate_standards_graph.py \
+            --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml \
+            --stale-threshold-days 120 \
+            --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml:full_spec_inventory_extracted_at \
+            --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml:full_section_inventory_extracted_at
+
+      - name: Upload refreshed artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: refreshed-standards-artifacts
+          path: |
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.mmd
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv
+
+      - name: Create Pull Request for updated artifacts
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: chore/refresh-standards-artifacts
+          delete-branch: true
+          commit-message: "chore: refresh generated standards artifacts"
+          title: "chore: refresh generated standards artifacts"
+          body: |
+            Automated refresh of generated standards link graph artifacts.
+
+            Trigger: manual workflow dispatch (`Refresh Standards Artifacts`).
+          labels: |
+            automation
+            standards
+          add-paths: |
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.mmd
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv
