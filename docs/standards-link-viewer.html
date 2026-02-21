@@ -57,6 +57,8 @@
   </div>
 
   <script>
+    const RESEARCH_BLOB_BASE = 'https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/';
+
     const DATA = {
       graphEdgesPaths: [
         '../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv',
@@ -195,12 +197,20 @@
         : ['part_id', 'relation', 'target', 'part_type'];
 
       function urlForCell(col, row) {
+        function normalizeHref(value) {
+          const href = String(value || '').trim();
+          if (!href) return '';
+          if (/^https?:\/\//i.test(href)) return href;
+          if (href.startsWith('./')) return `${RESEARCH_BLOB_BASE}${href.slice(2)}`;
+          return '';
+        }
+
         if (refs.dataset.value === 'graph-edges') {
-          if (col === 'from') return row['from_url'] || '';
-          if (col === 'to') return row['to_url'] || '';
+          if (col === 'from') return normalizeHref(row['from_url']);
+          if (col === 'to') return normalizeHref(row['to_url']);
         } else {
-          if (col === 'part_id') return row['part_url'] || '';
-          if (col === 'target') return row['target_url'] || '';
+          if (col === 'part_id') return normalizeHref(row['part_url']);
+          if (col === 'target') return normalizeHref(row['target_url']);
         }
         return '';
       }
