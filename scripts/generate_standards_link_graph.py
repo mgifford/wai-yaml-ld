@@ -134,7 +134,7 @@ def write_mermaid(path: Path, graph):
         target_id = mermaid_ids.get(target, target)
         relation = edge.get("relation", "")
         safe_relation = str(relation).replace('"', "'")
-        edge_lines.append(f'    {source_id} --|{safe_relation}| {target_id}')
+        edge_lines.append(f'    {source_id} -->|{safe_relation}| {target_id}')
 
     lines = ["graph LR"]
     lines.extend(node_lines)

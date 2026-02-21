@@ -59,7 +59,7 @@ def build_relation_view(graph):
         for edge in grouped[relation]:
             source = mermaid_ids.get(edge["from"], edge["from"])
             target = mermaid_ids.get(edge["to"], edge["to"])
-            lines.append(f'    {source} --|{safe_label(relation)}| {target}')
+            lines.append(f'    {source} -->|{safe_label(relation)}| {target}')
 
     return "\n".join(lines) + "\n"
 
@@ -110,7 +110,7 @@ def build_wcag_view(graph, anchor="wcag-2.2", max_depth=2):
     for edge in kept_edges:
         source = mermaid_ids.get(edge["from"], edge["from"])
         target = mermaid_ids.get(edge["to"], edge["to"])
-        lines.append(f'    {source} --|{safe_label(edge.get("relation", ""))}| {target}')
+        lines.append(f'    {source} -->|{safe_label(edge.get("relation", ""))}| {target}')
 
     return "\n".join(lines) + "\n"
 
@@ -128,8 +128,8 @@ def build_parts_view(html_data, css_data):
         section_id = f'html_{section.get("id", "section")}'.replace("-", "_")
         title = section.get("title", section.get("id", "HTML section"))
         lines.append(f'    {section_id}["{safe_label(title)}"]')
-        lines.append(f"    {section_id} --|part_of| html_living_standard")
-        lines.append(f"    {section_id} --|supports_outcome_for| wcag_22")
+        lines.append(f"    {section_id} -->|part_of| html_living_standard")
+        lines.append(f"    {section_id} -->|supports_outcome_for| wcag_22")
         edges_rows.append((section.get("id", ""), "part_of", "html-living-standard", "html-accessibility-related-section"))
         edges_rows.append((section.get("id", ""), "supports_outcome_for", "wcag-2.2", "html-accessibility-related-section"))
 
@@ -137,8 +137,8 @@ def build_parts_view(html_data, css_data):
         module_id = f'css_{module.get("id", "module")}'.replace("-", "_").replace(".", "_")
         title = module.get("title", module.get("id", "CSS module"))
         lines.append(f'    {module_id}["{safe_label(title)}"]')
-        lines.append(f"    {module_id} --|part_of| css_overview")
-        lines.append(f"    {module_id} --|supports_outcome_for| wcag_22")
+        lines.append(f"    {module_id} -->|part_of| css_overview")
+        lines.append(f"    {module_id} -->|supports_outcome_for| wcag_22")
         edges_rows.append((module.get("id", ""), "part_of", "w3c-css-overview", "css-accessibility-relevant-module"))
         edges_rows.append((module.get("id", ""), "supports_outcome_for", "wcag-2.2", "css-accessibility-relevant-module"))
 
