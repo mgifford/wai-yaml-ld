@@ -1,13 +1,57 @@
 # wai-yaml-ld
 
-Machine-readable YAML resources for W3C WAI standards, plus governance and monitoring artifacts for maintaining them.
+Machine-readable accessibility standards context for AI coding systems.
+
+This repository turns key W3C WAI + related standards (WCAG, ATAG, UAAG, ARIA, HTML, CSS) into structured YAML/JSON-LD/CSV artifacts that an LLM can reliably consume when generating or reviewing code.
+
+## What This Project Is For
+
+- Give humans and LLMs a single, machine-readable source of truth for accessibility standards context
+- Reduce hallucinated or outdated accessibility advice by grounding responses in curated standards datasets
+- Make relationships between standards explicit (for example HTML/ARIA/CSS support paths toward WCAG outcomes)
+- Support repeatable governance: schema validation, change monitoring, freshness checks, and CI guardrails
+
+## Why Use This With an LLM
+
+If an LLM only sees your app code, it often gives generic accessibility advice.
+
+If an LLM sees your app code plus this repository’s structured standards context, it can:
+
+- map implementation choices to specific standards relationships
+- separate normative vs informative references
+- produce more auditable, standards-aligned recommendations
+- explain why a recommendation is being made (via graph edges and evidence)
+
+## How To Use With an LLM (Recommended Flow)
+
+1. Provide your app code context.
+2. Add this standards context bundle:
+	- [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml)
+	- [schemas/standards-link-graph.schema.json](schemas/standards-link-graph.schema.json)
+	- [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml)
+	- [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-informative-resources.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-informative-resources.yaml)
+3. Ask the LLM to cite node IDs / edge IDs when making accessibility claims.
+4. Ask for output in two parts:
+	- code changes
+	- standards traceability (what standards/edges justify each change)
+5. Validate outcomes with your normal testing + accessibility checks.
+
+Example prompt starter:
+
+"Use my app code + `standards-link-graph.yaml` to propose accessible code changes. For each recommendation, include: (a) relevant standard/spec node IDs, (b) edge IDs from the graph, and (c) whether the support is high or medium confidence."
 
 ## Start Here
 
-1. Read [README.md](README.md)
-2. Review feature spec at [kitty-specs/001-wai-standards-yaml-ld-ingestion/spec.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/spec.md)
-3. Review implementation plan at [kitty-specs/001-wai-standards-yaml-ld-ingestion/plan.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/plan.md)
-4. Follow quickstart at [kitty-specs/001-wai-standards-yaml-ld-ingestion/quickstart.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/quickstart.md)
+If you are new to this repository:
+
+1. Start with [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml)
+2. Then open [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml)
+3. Use [docs/link-graph-playbook.md](docs/link-graph-playbook.md) for query patterns and prompt templates
+4. Use [docs/link-graph-reviewer-checklist.md](docs/link-graph-reviewer-checklist.md) for review/QA
+5. For project implementation context, see:
+	- [kitty-specs/001-wai-standards-yaml-ld-ingestion/spec.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/spec.md)
+	- [kitty-specs/001-wai-standards-yaml-ld-ingestion/plan.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/plan.md)
+	- [kitty-specs/001-wai-standards-yaml-ld-ingestion/quickstart.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/quickstart.md)
 
 ## What To Point an LLM At
 
