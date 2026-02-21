@@ -1,0 +1,46 @@
+graph LR
+    standards-link-graph["Standards Link Graph"]
+    w3c-wai-standards-index["W3C WAI Standards Index"]
+    w3c-wai-informative-catalog["W3C WAI Informative Resources Catalog"]
+    atag-to-wcag-2.2-crosswalk["ATAG 2.0 to WCAG 2.2 Crosswalk"]
+    css-specifications-index["CSS Specifications Index"]
+    html-living-standard-accessibility["HTML Living Standard Accessibility Index"]
+    wcag-2.2["WCAG 2.2"]
+    wcag-2.0["WCAG 2.0"]
+    atag-2.0["ATAG 2.0"]
+    uaag-2.0["UAAG 2.0"]
+    wai-aria-1.2["WAI-ARIA 1.2"]
+    core-aam-1.2["Core AAM 1.2"]
+    html-aam-1.0["HTML AAM 1.0"]
+    accname-1.2["AccName 1.2"]
+    aria-in-html["ARIA in HTML"]
+    html-living-standard["HTML Living Standard"]
+    w3c-css-overview["W3C CSS Specifications Overview"]
+    wcag-2.2 --|supersedes| wcag-2.0
+    atag-to-wcag-2.2-crosswalk --|maps_to| wcag-2.2
+    atag-to-wcag-2.2-crosswalk --|maps_to| atag-2.0
+    w3c-wai-standards-index --|catalogs| wcag-2.2
+    w3c-wai-standards-index --|catalogs| atag-2.0
+    w3c-wai-standards-index --|catalogs| uaag-2.0
+    w3c-wai-standards-index --|catalogs| wai-aria-1.2
+    w3c-wai-standards-index --|catalogs| html-living-standard
+    w3c-wai-standards-index --|catalogs| w3c-css-overview
+    w3c-wai-informative-catalog --|applies_to| wcag-2.2
+    w3c-wai-informative-catalog --|applies_to| atag-2.0
+    w3c-wai-informative-catalog --|applies_to| uaag-2.0
+    w3c-wai-informative-catalog --|applies_to| wai-aria-1.2
+    html-living-standard-accessibility --|catalogs| html-living-standard
+    css-specifications-index --|catalogs| w3c-css-overview
+    aria-in-html --|profiles| html-living-standard
+    html-aam-1.0 --|implements_mapping_for| html-living-standard
+    core-aam-1.2 --|implements_mapping_for| wai-aria-1.2
+    accname-1.2 --|supports_outcome_for| wai-aria-1.2
+    html-living-standard --|supports_outcome_for| wcag-2.2
+    w3c-css-overview --|supports_outcome_for| wcag-2.2
+    atag-2.0 --|supports_outcome_for| wcag-2.2
+    uaag-2.0 --|supports_outcome_for| wcag-2.2
+    standards-link-graph --|catalogs| w3c-wai-standards-index
+    standards-link-graph --|catalogs| w3c-wai-informative-catalog
+    standards-link-graph --|catalogs| atag-to-wcag-2.2-crosswalk
+    standards-link-graph --|catalogs| css-specifications-index
+    standards-link-graph --|catalogs| html-living-standard-accessibility

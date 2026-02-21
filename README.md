@@ -69,10 +69,11 @@ To understand how standards and datasets are linked:
 - Canonical graph: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml)
 - Derived edge CSV: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv)
 - Derived JSON-LD: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld)
+- Derived Mermaid graph: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd)
 
 Generate or refresh derived graph artifacts:
 
-- `python scripts/generate_standards_link_graph.py --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml --jsonld-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld --csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv`
+- `python scripts/generate_standards_link_graph.py --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml --jsonld-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld --csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv --mermaid-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd`
 
 ## Governance and Maintenance Docs
 

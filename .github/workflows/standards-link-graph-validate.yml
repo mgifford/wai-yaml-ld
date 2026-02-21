@@ -1,0 +1,48 @@
+name: Standards Link Graph Validation
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pyyaml
+
+      - name: Validate graph links and staleness
+        run: |
+          python scripts/validate_standards_graph.py \
+            --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml \
+            --stale-threshold-days 120 \
+            --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml:full_spec_inventory_extracted_at \
+            --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml:full_section_inventory_extracted_at
+
+      - name: Regenerate graph artifacts
+        run: |
+          python scripts/generate_standards_link_graph.py \
+            --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml \
+            --jsonld-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld \
+            --csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv \
+            --mermaid-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd
+
+      - name: Ensure generated artifacts are committed
+        run: |
+          git diff --exit-code \
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld \
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv \
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd

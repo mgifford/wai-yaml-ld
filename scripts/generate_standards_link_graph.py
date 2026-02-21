@@ -96,11 +96,35 @@ def write_csv(path: Path, edges):
             )
 
 
+def write_mermaid(path: Path, graph):
+    node_lines = []
+    edge_lines = []
+
+    for node in graph.get("nodes", []):
+        node_id = node.get("id", "")
+        label = node.get("label", "")
+        safe_label = str(label).replace('"', "'")
+        node_lines.append(f'    {node_id}["{safe_label}"]')
+
+    for edge in graph.get("edges", []):
+        source = edge.get("from", "")
+        target = edge.get("to", "")
+        relation = edge.get("relation", "")
+        safe_relation = str(relation).replace('"', "'")
+        edge_lines.append(f'    {source} --|{safe_relation}| {target}')
+
+    lines = ["graph LR"]
+    lines.extend(node_lines)
+    lines.extend(edge_lines)
+    path.write_text("\n".join(lines) + "\n")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate JSON-LD and CSV artifacts from standards link graph YAML")
     parser.add_argument("--graph-yaml", required=True, help="Path to standards-link-graph.yaml")
     parser.add_argument("--jsonld-out", required=True, help="Path to output JSON-LD file")
     parser.add_argument("--csv-out", required=True, help="Path to output CSV edge file")
+    parser.add_argument("--mermaid-out", required=False, help="Path to output Mermaid graph file")
     args = parser.parse_args()
 
     graph_path = Path(args.graph_yaml)
@@ -117,9 +141,16 @@ def main():
     jsonld_path.write_text(json.dumps(jsonld, indent=2) + "\n")
     write_csv(csv_path, graph.get("edges", []))
 
+    if args.mermaid_out:
+        mermaid_path = Path(args.mermaid_out)
+        mermaid_path.parent.mkdir(parents=True, exist_ok=True)
+        write_mermaid(mermaid_path, graph)
+
     print(f"nodes={len(graph.get('nodes', []))} edges={len(graph.get('edges', []))}")
     print(f"jsonld={jsonld_path}")
     print(f"csv={csv_path}")
+    if args.mermaid_out:
+        print(f"mermaid={args.mermaid_out}")
 
 
 if __name__ == "__main__":
