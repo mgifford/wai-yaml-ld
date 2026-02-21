@@ -81,6 +81,7 @@ Generate or refresh derived graph artifacts:
 - Normative refresh procedure: [kitty-specs/001-wai-standards-yaml-ld-ingestion/normative-refresh-procedure.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/normative-refresh-procedure.md)
 - Informative catalog governance: [kitty-specs/001-wai-standards-yaml-ld-ingestion/informative-catalog-governance.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/informative-catalog-governance.md)
 - Link graph playbook (human + LLM navigation): [docs/link-graph-playbook.md](docs/link-graph-playbook.md)
+- Link graph reviewer checklist (one-page quick-reference): [docs/link-graph-reviewer-checklist.md](docs/link-graph-reviewer-checklist.md)
 
 ## Repository Hygiene
 

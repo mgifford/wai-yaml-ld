@@ -2,6 +2,8 @@
 
 Practical guide for navigating and querying how WCAG, ATAG, UAAG, ARIA, HTML, and CSS are linked in this repository.
 
+Reviewer onboarding quick-reference: [docs/link-graph-reviewer-checklist.md](link-graph-reviewer-checklist.md)
+
 ## 1) Best Starting Points
 
 ### For humans
