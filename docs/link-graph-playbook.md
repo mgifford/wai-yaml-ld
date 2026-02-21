@@ -119,3 +119,55 @@ Good answer shape:
    3. [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml)
    4. [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml)
    5. [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml)
+
+## 7) Common Mistakes and Anti-Pattern Prompts
+
+### Mistake: Asking for vague “all links” summaries
+
+Anti-pattern prompt:
+
+"Explain everything about how all standards are related."
+
+Better prompt:
+
+"Using `standards-link-graph.yaml`, list only edges where `to = wcag-2.2`, grouped by relation type, and cite edge IDs."
+
+### Mistake: Ignoring edge confidence
+
+Anti-pattern prompt:
+
+"Treat all graph edges as equally authoritative and produce hard conclusions."
+
+Better prompt:
+
+"Separate `high` and `medium` confidence edges and clearly flag conclusions that rely on `medium` confidence links."
+
+### Mistake: Mixing normative claims with informative catalogs
+
+Anti-pattern prompt:
+
+"Use informative catalog entries as if they are normative conformance requirements."
+
+Better prompt:
+
+"Distinguish normative specs from informative resources using node `kind` and relation context before drawing compliance conclusions."
+
+### Mistake: Not constraining scope/depth
+
+Anti-pattern prompt:
+
+"Return every possible path in the graph."
+
+Better prompt:
+
+"Return paths from `html-living-standard` to `wcag-2.2` with maximum depth 2 and include edge IDs only."
+
+### Mistake: Skipping source verification
+
+Anti-pattern prompt:
+
+"Answer only from memory; do not reference files."
+
+Better prompt:
+
+"For each edge used in your answer, include the node IDs and the source YAML file that grounds the claim."
