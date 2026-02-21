@@ -79,8 +79,9 @@ def build_jsonld(graph):
     return jsonld
 
 
-def write_csv(path: Path, edges):
-    fields = ["edge_id", "from", "relation", "to", "confidence", "evidence"]
+def write_csv(path: Path, edges, nodes):
+    node_url_by_id = {node.get("id"): node.get("url", "") for node in nodes}
+    fields = ["edge_id", "from", "from_url", "relation", "to", "to_url", "confidence", "evidence"]
     with path.open("w", newline="") as fp:
         writer = csv.DictWriter(fp, fieldnames=fields)
         writer.writeheader()
@@ -89,8 +90,10 @@ def write_csv(path: Path, edges):
                 {
                     "edge_id": edge.get("id", ""),
                     "from": edge.get("from", ""),
+                    "from_url": node_url_by_id.get(edge.get("from"), ""),
                     "relation": edge.get("relation", ""),
                     "to": edge.get("to", ""),
+                    "to_url": node_url_by_id.get(edge.get("to"), ""),
                     "confidence": edge.get("confidence", ""),
                     "evidence": edge.get("evidence", "")
                 }
@@ -162,7 +165,7 @@ def main():
 
     jsonld = build_jsonld(graph)
     jsonld_path.write_text(json.dumps(jsonld, indent=2) + "\n")
-    write_csv(csv_path, graph.get("edges", []))
+    write_csv(csv_path, graph.get("edges", []), graph.get("nodes", []))
 
     if args.mermaid_out:
         mermaid_path = Path(args.mermaid_out)

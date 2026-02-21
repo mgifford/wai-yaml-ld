@@ -122,6 +122,14 @@ def build_parts_view(html_data, css_data):
     lines.append('    css_overview["W3C CSS Specifications Overview"]')
     lines.append('    wcag_22["WCAG 2.2"]')
 
+    html_parent_url = html_data.get("canonical_url", "")
+    css_parent_url = css_data.get("overview_url", "")
+    wcag_url = ""
+    for guidance in css_data.get("related_accessibility_guidance", []):
+        if guidance.get("id") == "wcag-2.2":
+            wcag_url = guidance.get("url", "")
+            break
+
     edges_rows = []
 
     for section in html_data.get("accessibility_related_sections", []):
@@ -130,8 +138,22 @@ def build_parts_view(html_data, css_data):
         lines.append(f'    {section_id}["{safe_label(title)}"]')
         lines.append(f"    {section_id} -->|part_of| html_living_standard")
         lines.append(f"    {section_id} -->|supports_outcome_for| wcag_22")
-        edges_rows.append((section.get("id", ""), "part_of", "html-living-standard", "html-accessibility-related-section"))
-        edges_rows.append((section.get("id", ""), "supports_outcome_for", "wcag-2.2", "html-accessibility-related-section"))
+        edges_rows.append((
+            section.get("id", ""),
+            section.get("url", ""),
+            "part_of",
+            "html-living-standard",
+            html_parent_url,
+            "html-accessibility-related-section"
+        ))
+        edges_rows.append((
+            section.get("id", ""),
+            section.get("url", ""),
+            "supports_outcome_for",
+            "wcag-2.2",
+            wcag_url,
+            "html-accessibility-related-section"
+        ))
 
     for module in css_data.get("accessibility_relevant_modules", []):
         module_id = f'css_{module.get("id", "module")}'.replace("-", "_").replace(".", "_")
@@ -139,8 +161,22 @@ def build_parts_view(html_data, css_data):
         lines.append(f'    {module_id}["{safe_label(title)}"]')
         lines.append(f"    {module_id} -->|part_of| css_overview")
         lines.append(f"    {module_id} -->|supports_outcome_for| wcag_22")
-        edges_rows.append((module.get("id", ""), "part_of", "w3c-css-overview", "css-accessibility-relevant-module"))
-        edges_rows.append((module.get("id", ""), "supports_outcome_for", "wcag-2.2", "css-accessibility-relevant-module"))
+        edges_rows.append((
+            module.get("id", ""),
+            module.get("url", ""),
+            "part_of",
+            "w3c-css-overview",
+            css_parent_url,
+            "css-accessibility-relevant-module"
+        ))
+        edges_rows.append((
+            module.get("id", ""),
+            module.get("url", ""),
+            "supports_outcome_for",
+            "wcag-2.2",
+            wcag_url,
+            "css-accessibility-relevant-module"
+        ))
 
     return "\n".join(lines) + "\n", edges_rows
 
@@ -149,7 +185,7 @@ def write_parts_csv(path: Path, rows):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="") as fp:
         writer = csv.writer(fp)
-        writer.writerow(["part_id", "relation", "target", "part_type"])
+        writer.writerow(["part_id", "part_url", "relation", "target", "target_url", "part_type"])
         writer.writerows(rows)
 
 

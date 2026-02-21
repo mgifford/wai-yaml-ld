@@ -194,6 +194,17 @@
         ? ['edge_id', 'from', 'relation', 'to', 'confidence', 'evidence']
         : ['part_id', 'relation', 'target', 'part_type'];
 
+      function urlForCell(col, row) {
+        if (refs.dataset.value === 'graph-edges') {
+          if (col === 'from') return row['from_url'] || '';
+          if (col === 'to') return row['to_url'] || '';
+        } else {
+          if (col === 'part_id') return row['part_url'] || '';
+          if (col === 'target') return row['target_url'] || '';
+        }
+        return '';
+      }
+
       refs.table.innerHTML = '';
       const thead = document.createElement('thead');
       const thr = document.createElement('tr');
@@ -210,7 +221,18 @@
         const tr = document.createElement('tr');
         for (const col of columns) {
           const td = document.createElement('td');
-          td.textContent = row[col] || '';
+          const value = row[col] || '';
+          const href = urlForCell(col, row);
+          if (href) {
+            const a = document.createElement('a');
+            a.href = href;
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            a.textContent = value;
+            td.appendChild(a);
+          } else {
+            td.textContent = value;
+          }
           tr.appendChild(td);
         }
         tbody.appendChild(tr);
