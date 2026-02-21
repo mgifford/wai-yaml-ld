@@ -1,0 +1,318 @@
+graph LR
+    n_wcag_2_2_root["WCAG 2.2 Success Criteria"]
+    n_profile_wcag22_level_a_minus_4_1_1["WCAG 2.2 Level A criteria, excluding 4.1.1"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|targets| n_wcag_2_2_root
+    n_profile_wcag22_level_aa_minus_4_1_1["WCAG 2.2 cumulative Level A + AA criteria, excluding 4.1.1"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|targets| n_wcag_2_2_root
+    n_profile_wcag22_level_aaa_minus_4_1_1["WCAG 2.2 cumulative Level A + AA + AAA criteria, excluding 4.1.1"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|targets| n_wcag_2_2_root
+    n_sc_1_1_1["SC 1.1.1: Non-text Content (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_1_1_1
+    n_sc_1_2_1["SC 1.2.1: Audio-only and Video-only (Prerecorded) (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_1_2_1
+    n_sc_1_2_2["SC 1.2.2: Captions (Prerecorded) (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_1_2_2
+    n_sc_1_2_3["SC 1.2.3: Audio Description or Media Alternative (Prerecorded) (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_1_2_3
+    n_sc_1_3_1["SC 1.3.1: Info and Relationships (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_1_3_1
+    n_sc_1_3_2["SC 1.3.2: Meaningful Sequence (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_1_3_2
+    n_sc_1_3_3["SC 1.3.3: Sensory Characteristics (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_1_3_3
+    n_sc_1_4_1["SC 1.4.1: Use of Color (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_1_4_1
+    n_sc_1_4_2["SC 1.4.2: Audio Control (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_1_4_2
+    n_sc_2_1_1["SC 2.1.1: Keyboard (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_1_1
+    n_sc_2_1_2["SC 2.1.2: No Keyboard Trap (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_1_2
+    n_sc_2_1_4["SC 2.1.4: Character Key Shortcuts (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_1_4
+    n_sc_2_2_1["SC 2.2.1: Timing Adjustable (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_2_1
+    n_sc_2_2_2["SC 2.2.2: Pause, Stop, Hide (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_2_2
+    n_sc_2_3_1["SC 2.3.1: Three Flashes or Below Threshold (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_3_1
+    n_sc_2_4_1["SC 2.4.1: Bypass Blocks (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_4_1
+    n_sc_2_4_2["SC 2.4.2: Page Titled (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_4_2
+    n_sc_2_4_3["SC 2.4.3: Focus Order (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_4_3
+    n_sc_2_4_4["SC 2.4.4: Link Purpose (In Context) (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_4_4
+    n_sc_2_5_1["SC 2.5.1: Pointer Gestures (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_5_1
+    n_sc_2_5_2["SC 2.5.2: Pointer Cancellation (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_5_2
+    n_sc_2_5_3["SC 2.5.3: Label in Name (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_5_3
+    n_sc_2_5_4["SC 2.5.4: Motion Actuation (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_2_5_4
+    n_sc_3_1_1["SC 3.1.1: Language of Page (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_3_1_1
+    n_sc_3_2_1["SC 3.2.1: On Focus (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_3_2_1
+    n_sc_3_2_2["SC 3.2.2: On Input (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_3_2_2
+    n_sc_3_2_6["SC 3.2.6: Consistent Help (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_3_2_6
+    n_sc_3_3_1["SC 3.3.1: Error Identification (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_3_3_1
+    n_sc_3_3_2["SC 3.3.2: Labels or Instructions (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_3_3_2
+    n_sc_3_3_7["SC 3.3.7: Redundant Entry (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_3_3_7
+    n_sc_4_1_2["SC 4.1.2: Name, Role, Value (A)"]
+    n_profile_wcag22_level_a_minus_4_1_1 -->|includes_sc| n_sc_4_1_2
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_1_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_2_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_2_2
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_2_3
+    n_sc_1_2_4["SC 1.2.4: Captions (Live) (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_2_4
+    n_sc_1_2_5["SC 1.2.5: Audio Description (Prerecorded) (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_2_5
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_3_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_3_2
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_3_3
+    n_sc_1_3_4["SC 1.3.4: Orientation (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_3_4
+    n_sc_1_3_5["SC 1.3.5: Identify Input Purpose (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_3_5
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_4_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_4_2
+    n_sc_1_4_3["SC 1.4.3: Contrast (Minimum) (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_4_3
+    n_sc_1_4_4["SC 1.4.4: Resize Text (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_4_4
+    n_sc_1_4_5["SC 1.4.5: Images of Text (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_4_5
+    n_sc_1_4_10["SC 1.4.10: Reflow (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_4_10
+    n_sc_1_4_11["SC 1.4.11: Non-text Contrast (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_4_11
+    n_sc_1_4_12["SC 1.4.12: Text Spacing (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_4_12
+    n_sc_1_4_13["SC 1.4.13: Content on Hover or Focus (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_1_4_13
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_1_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_1_2
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_1_4
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_2_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_2_2
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_3_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_4_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_4_2
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_4_3
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_4_4
+    n_sc_2_4_5["SC 2.4.5: Multiple Ways (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_4_5
+    n_sc_2_4_6["SC 2.4.6: Headings and Labels (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_4_6
+    n_sc_2_4_7["SC 2.4.7: Focus Visible (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_4_7
+    n_sc_2_4_11["SC 2.4.11: Focus Not Obscured (Minimum) (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_4_11
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_5_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_5_2
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_5_3
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_5_4
+    n_sc_2_5_7["SC 2.5.7: Dragging Movements (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_5_7
+    n_sc_2_5_8["SC 2.5.8: Target Size (Minimum) (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_2_5_8
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_1_1
+    n_sc_3_1_2["SC 3.1.2: Language of Parts (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_1_2
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_2_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_2_2
+    n_sc_3_2_3["SC 3.2.3: Consistent Navigation (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_2_3
+    n_sc_3_2_4["SC 3.2.4: Consistent Identification (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_2_4
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_2_6
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_3_1
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_3_2
+    n_sc_3_3_3["SC 3.3.3: Error Suggestion (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_3_3
+    n_sc_3_3_4["SC 3.3.4: Error Prevention (Legal, Financial, Data) (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_3_4
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_3_7
+    n_sc_3_3_8["SC 3.3.8: Accessible Authentication (Minimum) (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_3_3_8
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_4_1_2
+    n_sc_4_1_3["SC 4.1.3: Status Messages (AA)"]
+    n_profile_wcag22_level_aa_minus_4_1_1 -->|includes_sc| n_sc_4_1_3
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_1_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_2_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_2_2
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_2_3
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_2_4
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_2_5
+    n_sc_1_2_6["SC 1.2.6: Sign Language (Prerecorded) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_2_6
+    n_sc_1_2_7["SC 1.2.7: Extended Audio Description (Prerecorded) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_2_7
+    n_sc_1_2_8["SC 1.2.8: Media Alternative (Prerecorded) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_2_8
+    n_sc_1_2_9["SC 1.2.9: Audio-only (Live) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_2_9
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_3_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_3_2
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_3_3
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_3_4
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_3_5
+    n_sc_1_3_6["SC 1.3.6: Identify Purpose (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_3_6
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_2
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_3
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_4
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_5
+    n_sc_1_4_6["SC 1.4.6: Contrast (Enhanced) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_6
+    n_sc_1_4_7["SC 1.4.7: Low or No Background Audio (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_7
+    n_sc_1_4_8["SC 1.4.8: Visual Presentation (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_8
+    n_sc_1_4_9["SC 1.4.9: Images of Text (No Exception) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_9
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_10
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_11
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_12
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_1_4_13
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_1_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_1_2
+    n_sc_2_1_3["SC 2.1.3: Keyboard (No Exception) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_1_3
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_1_4
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_2_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_2_2
+    n_sc_2_2_3["SC 2.2.3: No Timing (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_2_3
+    n_sc_2_2_4["SC 2.2.4: Interruptions (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_2_4
+    n_sc_2_2_5["SC 2.2.5: Re-authenticating (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_2_5
+    n_sc_2_2_6["SC 2.2.6: Timeouts (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_2_6
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_3_1
+    n_sc_2_3_2["SC 2.3.2: Three Flashes (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_3_2
+    n_sc_2_3_3["SC 2.3.3: Animation from Interactions (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_3_3
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_2
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_3
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_4
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_5
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_6
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_7
+    n_sc_2_4_8["SC 2.4.8: Location (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_8
+    n_sc_2_4_9["SC 2.4.9: Link Purpose (Link Only) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_9
+    n_sc_2_4_10["SC 2.4.10: Section Headings (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_10
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_11
+    n_sc_2_4_12["SC 2.4.12: Focus Not Obscured (Enhanced) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_12
+    n_sc_2_4_13["SC 2.4.13: Focus Appearance (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_4_13
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_5_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_5_2
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_5_3
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_5_4
+    n_sc_2_5_5["SC 2.5.5: Target Size (Enhanced) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_5_5
+    n_sc_2_5_6["SC 2.5.6: Concurrent Input Mechanisms (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_5_6
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_5_7
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_2_5_8
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_1_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_1_2
+    n_sc_3_1_3["SC 3.1.3: Unusual Words (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_1_3
+    n_sc_3_1_4["SC 3.1.4: Abbreviations (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_1_4
+    n_sc_3_1_5["SC 3.1.5: Reading Level (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_1_5
+    n_sc_3_1_6["SC 3.1.6: Pronunciation (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_1_6
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_2_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_2_2
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_2_3
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_2_4
+    n_sc_3_2_5["SC 3.2.5: Change on Request (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_2_5
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_2_6
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_3_1
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_3_2
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_3_3
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_3_4
+    n_sc_3_3_5["SC 3.3.5: Help (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_3_5
+    n_sc_3_3_6["SC 3.3.6: Error Prevention (All) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_3_6
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_3_7
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_3_8
+    n_sc_3_3_9["SC 3.3.9: Accessible Authentication (Enhanced) (AAA)"]
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_3_3_9
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_4_1_2
+    n_profile_wcag22_level_aaa_minus_4_1_1 -->|includes_sc| n_sc_4_1_3
+    n_atag_A_1_1_1["ATAG A.1.1.1: Web-Based Accessible (WCAG)"]
+    n_atag_A_1_1_1 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_A_1_1_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_A_1_1_1 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1
+    n_atag_B_1_1_1["ATAG B.1.1.1: Content Auto-Generation After Authoring Sessions (WCAG)"]
+    n_atag_B_1_1_1 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_1_1_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_1_1_1 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1
+    n_atag_B_1_2_1["ATAG B.1.2.1: Restructuring and Recoding Transformations (WCAG)"]
+    n_atag_B_1_2_1 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_1_2_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_1_2_1 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1
+    n_atag_B_1_2_3["ATAG B.1.2.3: Optimizations Preserve Accessibility"]
+    n_atag_B_1_2_3 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_2_1_1["ATAG B.2.1.1: Accessible Content Possible (WCAG)"]
+    n_atag_B_2_1_1 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_2_1_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_2_1_1 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1
+    n_atag_B_2_2_1["ATAG B.2.2.1: Accessible Option Prominence (WCAG)"]
+    n_atag_B_2_2_1 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_2_2_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_2_2_1 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1
+    n_atag_B_2_3_1["ATAG B.2.3.1: Alternative Content is Editable (WCAG)"]
+    n_atag_B_2_3_1 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_2_3_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_2_3_1 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1
+    n_atag_B_2_4_1["ATAG B.2.4.1: Accessible Template Options (WCAG)"]
+    n_atag_B_2_4_1 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_2_4_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_2_4_1 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1
+    n_atag_B_2_4_2["ATAG B.2.4.2: Identify Template Accessibility"]
+    n_atag_B_2_4_2 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_2_4_4["ATAG B.2.4.4: Accessible Template Options (Enhanced)"]
+    n_atag_B_2_4_4 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1
+    n_atag_B_2_5_1["ATAG B.2.5.1: Accessible Pre-Authored Content Options"]
+    n_atag_B_2_5_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_3_1_1["ATAG B.3.1.1: Checking Assistance (WCAG)"]
+    n_atag_B_3_1_1 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_3_1_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_3_1_1 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1
+    n_atag_B_3_1_2["ATAG B.3.1.2: Help Authors Decide"]
+    n_atag_B_3_1_2 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_3_2_1["ATAG B.3.2.1: Repair Assistance (WCAG)"]
+    n_atag_B_3_2_1 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_3_2_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_3_2_1 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1
+    n_atag_B_4_1_3["ATAG B.4.1.3: Feature Deactivation Warning"]
+    n_atag_B_4_1_3 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_4_2_1["ATAG B.4.2.1: Model Practice (WCAG)"]
+    n_atag_B_4_2_1 -->|maps_to_profile| n_profile_wcag22_level_a_minus_4_1_1
+    n_atag_B_4_2_1 -->|maps_to_profile| n_profile_wcag22_level_aa_minus_4_1_1
+    n_atag_B_4_2_1 -->|maps_to_profile| n_profile_wcag22_level_aaa_minus_4_1_1

@@ -190,6 +190,14 @@ Use these views together:
    - Best for filtering and spreadsheet-style review
 - Interactive filter UI: [docs/standards-link-viewer.html](standards-link-viewer.html)
    - Best for fast exploratory filtering by node, relation, and confidence
+- Granular WCAG SC crosswalk map: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.mmd](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.mmd)
+   - Best for SC-level traceability from ATAG criteria via crosswalk target profiles
+- Granular WCAG SC crosswalk table: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.csv](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.csv)
+   - Includes one row per ATAG criterion x target profile x WCAG SC membership
+
+Important interpretation note:
+
+- The SC-level map is profile-membership derived from [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml), not direct ATAG text citations for each SC individually.
 
 Regenerate visualization views:
 
