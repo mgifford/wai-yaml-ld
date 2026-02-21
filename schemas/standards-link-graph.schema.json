@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/standards-link-graph.schema.json",
+  "title": "WAI Standards Link Graph",
+  "type": "object",
+  "required": [
+    "graph_id",
+    "name",
+    "version",
+    "updated",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "graph_id": {"type": "string", "minLength": 1},
+    "name": {"type": "string", "minLength": 1},
+    "version": {"type": ["integer", "number"]},
+    "updated": {"type": "string", "minLength": 1},
+    "description": {"type": "string"},
+    "relation_types": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "description"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "description": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": true
+      }
+    },
+    "starting_points": {
+      "type": "object",
+      "properties": {
+        "human": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "llm": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      },
+      "additionalProperties": true
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "kind", "url"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "label": {"type": "string", "minLength": 1},
+          "kind": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": true
+      }
+    },
+    "edges": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "from", "relation", "to"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "from": {"type": "string", "minLength": 1},
+          "relation": {"type": "string", "minLength": 1},
+          "to": {"type": "string", "minLength": 1},
+          "confidence": {"type": "string"},
+          "evidence": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

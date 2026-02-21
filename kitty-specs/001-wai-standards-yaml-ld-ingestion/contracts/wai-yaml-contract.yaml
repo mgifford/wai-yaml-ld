@@ -6,6 +6,7 @@ schema_registry:
   informative_catalog_schema: ../../../schemas/w3c-wai-informative-resources.schema.json
   aria_informative_schema: ../../../schemas/wai-aria-informative.schema.json
   crosswalk_schema: ../../../schemas/atag-to-wcag-2.2-crosswalk.schema.json
+  standards_link_graph_schema: ../../../schemas/standards-link-graph.schema.json
 artifacts:
   standards_index:
     path: research/w3c-wai-standards.yaml
@@ -49,7 +50,27 @@ artifacts:
       - explicit_wcag_4_1_1_exception
       - machine_readable_profile_targets
       - mapping_count_matches_mapping_entries
+  standards_link_graph:
+    path: research/standards-link-graph.yaml
+    required_top_level_fields:
+      - graph_id
+      - name
+      - version
+      - updated
+      - nodes
+      - edges
+    node_required_fields:
+      - id
+      - label
+      - kind
+      - url
+    edge_required_fields:
+      - id
+      - from
+      - relation
+      - to
 validation_notes:
   - Keep normative and informative content separated.
   - Prefer canonical W3C TR URLs for standards references.
   - Preserve stable IDs for downstream consumers.
+  - Ensure all graph edge references resolve to known node IDs.

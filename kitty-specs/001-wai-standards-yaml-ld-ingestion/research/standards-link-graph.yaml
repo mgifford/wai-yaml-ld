@@ -1,0 +1,268 @@
+graph_id: wai-standards-link-graph
+name: WAI/HTML/CSS Standards Link Graph
+version: 1
+updated: '2026-02-21'
+description: Canonical graph of how normative standards, technical specifications,
+  curated datasets, and informative catalogs relate for accessibility analysis.
+relation_types:
+- id: supersedes
+  description: Source standard supersedes or replaces target standard.
+- id: maps_to
+  description: Source dataset maps requirements from source standard to target standard.
+- id: profiles
+  description: Source standard profiles, constrains, or contextualizes target language/spec.
+- id: applies_to
+  description: Source resource or dataset applies to target standard.
+- id: supports_outcome_for
+  description: Source specification contributes implementation support toward target standard outcomes.
+- id: implements_mapping_for
+  description: Source technical mapping specification defines interoperability behavior for target standard.
+- id: catalogs
+  description: Source index/dataset catalogs or enumerates target specification resources.
+starting_points:
+  human:
+  - w3c-wai-standards-index
+  - standards-link-graph
+  - atag-to-wcag-2.2-crosswalk
+  llm:
+  - standards-link-graph
+  - w3c-wai-standards-index
+  - w3c-wai-informative-catalog
+nodes:
+- id: standards-link-graph
+  label: Standards Link Graph
+  kind: dataset
+  url: ./standards-link-graph.yaml
+- id: w3c-wai-standards-index
+  label: W3C WAI Standards Index
+  kind: dataset
+  url: ./w3c-wai-standards.yaml
+- id: w3c-wai-informative-catalog
+  label: W3C WAI Informative Resources Catalog
+  kind: dataset
+  url: ./w3c-wai-informative-resources.yaml
+- id: atag-to-wcag-2.2-crosswalk
+  label: ATAG 2.0 to WCAG 2.2 Crosswalk
+  kind: dataset
+  url: ./atag-to-wcag-2.2-crosswalk.yaml
+- id: css-specifications-index
+  label: CSS Specifications Index
+  kind: dataset
+  url: ./css-specifications-index.yaml
+- id: html-living-standard-accessibility
+  label: HTML Living Standard Accessibility Index
+  kind: dataset
+  url: ./html-living-standard-accessibility.yaml
+- id: wcag-2.2
+  label: WCAG 2.2
+  kind: standard
+  url: https://www.w3.org/TR/WCAG22/
+- id: wcag-2.0
+  label: WCAG 2.0
+  kind: standard
+  url: https://www.w3.org/TR/WCAG20/
+- id: atag-2.0
+  label: ATAG 2.0
+  kind: standard
+  url: https://www.w3.org/TR/ATAG20/
+- id: uaag-2.0
+  label: UAAG 2.0
+  kind: standard
+  url: https://www.w3.org/TR/UAAG20/
+- id: wai-aria-1.2
+  label: WAI-ARIA 1.2
+  kind: technical_spec
+  url: https://www.w3.org/TR/wai-aria-1.2/
+- id: core-aam-1.2
+  label: Core AAM 1.2
+  kind: technical_spec
+  url: https://www.w3.org/TR/core-aam-1.2/
+- id: html-aam-1.0
+  label: HTML AAM 1.0
+  kind: technical_spec
+  url: https://www.w3.org/TR/html-aam-1.0/
+- id: accname-1.2
+  label: AccName 1.2
+  kind: technical_spec
+  url: https://www.w3.org/TR/accname-1.2/
+- id: aria-in-html
+  label: ARIA in HTML
+  kind: technical_spec
+  url: https://www.w3.org/TR/html-aria/
+- id: html-living-standard
+  label: HTML Living Standard
+  kind: technical_spec
+  url: https://html.spec.whatwg.org/multipage/
+- id: w3c-css-overview
+  label: W3C CSS Specifications Overview
+  kind: technical_spec_collection
+  url: https://www.w3.org/Style/CSS/Overview.en.html
+edges:
+- id: e001
+  from: wcag-2.2
+  relation: supersedes
+  to: wcag-2.0
+  confidence: high
+  evidence: primary_wcag_version and wcag policy statements in project datasets.
+- id: e002
+  from: atag-to-wcag-2.2-crosswalk
+  relation: maps_to
+  to: wcag-2.2
+  confidence: high
+  evidence: crosswalk maps ATAG requirements to WCAG 2.2 profile targets.
+- id: e003
+  from: atag-to-wcag-2.2-crosswalk
+  relation: maps_to
+  to: atag-2.0
+  confidence: high
+  evidence: crosswalk source requirements are ATAG 2.0 success criteria.
+- id: e004
+  from: w3c-wai-standards-index
+  relation: catalogs
+  to: wcag-2.2
+  confidence: high
+  evidence: standards index includes WCAG 2.2 entry.
+- id: e005
+  from: w3c-wai-standards-index
+  relation: catalogs
+  to: atag-2.0
+  confidence: high
+  evidence: standards index includes ATAG 2.0 entry.
+- id: e006
+  from: w3c-wai-standards-index
+  relation: catalogs
+  to: uaag-2.0
+  confidence: high
+  evidence: standards index includes UAAG 2.0 entry.
+- id: e007
+  from: w3c-wai-standards-index
+  relation: catalogs
+  to: wai-aria-1.2
+  confidence: high
+  evidence: standards index includes WAI-ARIA entry.
+- id: e008
+  from: w3c-wai-standards-index
+  relation: catalogs
+  to: html-living-standard
+  confidence: high
+  evidence: standards index includes HTML Living Standard entry.
+- id: e009
+  from: w3c-wai-standards-index
+  relation: catalogs
+  to: w3c-css-overview
+  confidence: high
+  evidence: standards index includes CSS specifications overview entry.
+- id: e010
+  from: w3c-wai-informative-catalog
+  relation: applies_to
+  to: wcag-2.2
+  confidence: high
+  evidence: informative catalog resources include applies_to WCAG 2.2.
+- id: e011
+  from: w3c-wai-informative-catalog
+  relation: applies_to
+  to: atag-2.0
+  confidence: high
+  evidence: informative catalog resources include applies_to ATAG 2.0.
+- id: e012
+  from: w3c-wai-informative-catalog
+  relation: applies_to
+  to: uaag-2.0
+  confidence: high
+  evidence: informative catalog resources include applies_to UAAG 2.0.
+- id: e013
+  from: w3c-wai-informative-catalog
+  relation: applies_to
+  to: wai-aria-1.2
+  confidence: high
+  evidence: informative catalog resources include applies_to WAI-ARIA.
+- id: e014
+  from: html-living-standard-accessibility
+  relation: catalogs
+  to: html-living-standard
+  confidence: high
+  evidence: dataset inventories HTML Living Standard sections.
+- id: e015
+  from: css-specifications-index
+  relation: catalogs
+  to: w3c-css-overview
+  confidence: high
+  evidence: dataset inventories CSS specifications from W3C overview.
+- id: e016
+  from: aria-in-html
+  relation: profiles
+  to: html-living-standard
+  confidence: high
+  evidence: ARIA in HTML defines ARIA usage constraints within HTML.
+- id: e017
+  from: html-aam-1.0
+  relation: implements_mapping_for
+  to: html-living-standard
+  confidence: high
+  evidence: HTML AAM maps HTML semantics to accessibility APIs.
+- id: e018
+  from: core-aam-1.2
+  relation: implements_mapping_for
+  to: wai-aria-1.2
+  confidence: high
+  evidence: Core AAM maps ARIA roles/states/properties to accessibility APIs.
+- id: e019
+  from: accname-1.2
+  relation: supports_outcome_for
+  to: wai-aria-1.2
+  confidence: high
+  evidence: Accessible name/description computation underpins ARIA and host language mappings.
+- id: e020
+  from: html-living-standard
+  relation: supports_outcome_for
+  to: wcag-2.2
+  confidence: medium
+  evidence: HTML semantics and interaction behaviors enable WCAG conformance outcomes.
+- id: e021
+  from: w3c-css-overview
+  relation: supports_outcome_for
+  to: wcag-2.2
+  confidence: medium
+  evidence: CSS presentation/interaction modules influence contrast, reflow, focus visibility, and motion.
+- id: e022
+  from: atag-2.0
+  relation: supports_outcome_for
+  to: wcag-2.2
+  confidence: medium
+  evidence: ATAG output requirements align with web content accessibility outcomes.
+- id: e023
+  from: uaag-2.0
+  relation: supports_outcome_for
+  to: wcag-2.2
+  confidence: medium
+  evidence: User agent accessibility behavior supports perceivable/operable WCAG outcomes.
+- id: e024
+  from: standards-link-graph
+  relation: catalogs
+  to: w3c-wai-standards-index
+  confidence: high
+  evidence: graph links to canonical standards index.
+- id: e025
+  from: standards-link-graph
+  relation: catalogs
+  to: w3c-wai-informative-catalog
+  confidence: high
+  evidence: graph links to canonical informative catalog.
+- id: e026
+  from: standards-link-graph
+  relation: catalogs
+  to: atag-to-wcag-2.2-crosswalk
+  confidence: high
+  evidence: graph links to canonical crosswalk.
+- id: e027
+  from: standards-link-graph
+  relation: catalogs
+  to: css-specifications-index
+  confidence: high
+  evidence: graph links to canonical CSS index.
+- id: e028
+  from: standards-link-graph
+  relation: catalogs
+  to: html-living-standard-accessibility
+  confidence: high
+  evidence: graph links to canonical HTML index.

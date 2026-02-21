@@ -1,0 +1,401 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "url": {
+      "@id": "http://schema.org/url",
+      "@type": "@id"
+    },
+    "kind": "http://schema.org/additionalType",
+    "relation": "http://schema.org/relationship",
+    "from": {
+      "@id": "http://schema.org/fromLocation",
+      "@type": "@id"
+    },
+    "to": {
+      "@id": "http://schema.org/toLocation",
+      "@type": "@id"
+    },
+    "confidence": "http://schema.org/confidence",
+    "evidence": "http://schema.org/description"
+  },
+  "id": "urn:graph:wai-standards-link-graph",
+  "type": "Dataset",
+  "label": "WAI/HTML/CSS Standards Link Graph",
+  "graph_id": "wai-standards-link-graph",
+  "updated": "2026-02-21",
+  "@graph": [
+    {
+      "id": "urn:node:standards-link-graph",
+      "type": "Thing",
+      "label": "Standards Link Graph",
+      "kind": "dataset",
+      "url": "./standards-link-graph.yaml"
+    },
+    {
+      "id": "urn:node:w3c-wai-standards-index",
+      "type": "Thing",
+      "label": "W3C WAI Standards Index",
+      "kind": "dataset",
+      "url": "./w3c-wai-standards.yaml"
+    },
+    {
+      "id": "urn:node:w3c-wai-informative-catalog",
+      "type": "Thing",
+      "label": "W3C WAI Informative Resources Catalog",
+      "kind": "dataset",
+      "url": "./w3c-wai-informative-resources.yaml"
+    },
+    {
+      "id": "urn:node:atag-to-wcag-2.2-crosswalk",
+      "type": "Thing",
+      "label": "ATAG 2.0 to WCAG 2.2 Crosswalk",
+      "kind": "dataset",
+      "url": "./atag-to-wcag-2.2-crosswalk.yaml"
+    },
+    {
+      "id": "urn:node:css-specifications-index",
+      "type": "Thing",
+      "label": "CSS Specifications Index",
+      "kind": "dataset",
+      "url": "./css-specifications-index.yaml"
+    },
+    {
+      "id": "urn:node:html-living-standard-accessibility",
+      "type": "Thing",
+      "label": "HTML Living Standard Accessibility Index",
+      "kind": "dataset",
+      "url": "./html-living-standard-accessibility.yaml"
+    },
+    {
+      "id": "urn:node:wcag-2.2",
+      "type": "Thing",
+      "label": "WCAG 2.2",
+      "kind": "standard",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "id": "urn:node:wcag-2.0",
+      "type": "Thing",
+      "label": "WCAG 2.0",
+      "kind": "standard",
+      "url": "https://www.w3.org/TR/WCAG20/"
+    },
+    {
+      "id": "urn:node:atag-2.0",
+      "type": "Thing",
+      "label": "ATAG 2.0",
+      "kind": "standard",
+      "url": "https://www.w3.org/TR/ATAG20/"
+    },
+    {
+      "id": "urn:node:uaag-2.0",
+      "type": "Thing",
+      "label": "UAAG 2.0",
+      "kind": "standard",
+      "url": "https://www.w3.org/TR/UAAG20/"
+    },
+    {
+      "id": "urn:node:wai-aria-1.2",
+      "type": "Thing",
+      "label": "WAI-ARIA 1.2",
+      "kind": "technical_spec",
+      "url": "https://www.w3.org/TR/wai-aria-1.2/"
+    },
+    {
+      "id": "urn:node:core-aam-1.2",
+      "type": "Thing",
+      "label": "Core AAM 1.2",
+      "kind": "technical_spec",
+      "url": "https://www.w3.org/TR/core-aam-1.2/"
+    },
+    {
+      "id": "urn:node:html-aam-1.0",
+      "type": "Thing",
+      "label": "HTML AAM 1.0",
+      "kind": "technical_spec",
+      "url": "https://www.w3.org/TR/html-aam-1.0/"
+    },
+    {
+      "id": "urn:node:accname-1.2",
+      "type": "Thing",
+      "label": "AccName 1.2",
+      "kind": "technical_spec",
+      "url": "https://www.w3.org/TR/accname-1.2/"
+    },
+    {
+      "id": "urn:node:aria-in-html",
+      "type": "Thing",
+      "label": "ARIA in HTML",
+      "kind": "technical_spec",
+      "url": "https://www.w3.org/TR/html-aria/"
+    },
+    {
+      "id": "urn:node:html-living-standard",
+      "type": "Thing",
+      "label": "HTML Living Standard",
+      "kind": "technical_spec",
+      "url": "https://html.spec.whatwg.org/multipage/"
+    },
+    {
+      "id": "urn:node:w3c-css-overview",
+      "type": "Thing",
+      "label": "W3C CSS Specifications Overview",
+      "kind": "technical_spec_collection",
+      "url": "https://www.w3.org/Style/CSS/Overview.en.html"
+    },
+    {
+      "id": "urn:edge:e001",
+      "type": "Relationship",
+      "from": "urn:node:wcag-2.2",
+      "to": "urn:node:wcag-2.0",
+      "relation": "supersedes",
+      "confidence": "high",
+      "evidence": "primary_wcag_version and wcag policy statements in project datasets."
+    },
+    {
+      "id": "urn:edge:e002",
+      "type": "Relationship",
+      "from": "urn:node:atag-to-wcag-2.2-crosswalk",
+      "to": "urn:node:wcag-2.2",
+      "relation": "maps_to",
+      "confidence": "high",
+      "evidence": "crosswalk maps ATAG requirements to WCAG 2.2 profile targets."
+    },
+    {
+      "id": "urn:edge:e003",
+      "type": "Relationship",
+      "from": "urn:node:atag-to-wcag-2.2-crosswalk",
+      "to": "urn:node:atag-2.0",
+      "relation": "maps_to",
+      "confidence": "high",
+      "evidence": "crosswalk source requirements are ATAG 2.0 success criteria."
+    },
+    {
+      "id": "urn:edge:e004",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-standards-index",
+      "to": "urn:node:wcag-2.2",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "standards index includes WCAG 2.2 entry."
+    },
+    {
+      "id": "urn:edge:e005",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-standards-index",
+      "to": "urn:node:atag-2.0",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "standards index includes ATAG 2.0 entry."
+    },
+    {
+      "id": "urn:edge:e006",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-standards-index",
+      "to": "urn:node:uaag-2.0",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "standards index includes UAAG 2.0 entry."
+    },
+    {
+      "id": "urn:edge:e007",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-standards-index",
+      "to": "urn:node:wai-aria-1.2",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "standards index includes WAI-ARIA entry."
+    },
+    {
+      "id": "urn:edge:e008",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-standards-index",
+      "to": "urn:node:html-living-standard",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "standards index includes HTML Living Standard entry."
+    },
+    {
+      "id": "urn:edge:e009",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-standards-index",
+      "to": "urn:node:w3c-css-overview",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "standards index includes CSS specifications overview entry."
+    },
+    {
+      "id": "urn:edge:e010",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-informative-catalog",
+      "to": "urn:node:wcag-2.2",
+      "relation": "applies_to",
+      "confidence": "high",
+      "evidence": "informative catalog resources include applies_to WCAG 2.2."
+    },
+    {
+      "id": "urn:edge:e011",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-informative-catalog",
+      "to": "urn:node:atag-2.0",
+      "relation": "applies_to",
+      "confidence": "high",
+      "evidence": "informative catalog resources include applies_to ATAG 2.0."
+    },
+    {
+      "id": "urn:edge:e012",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-informative-catalog",
+      "to": "urn:node:uaag-2.0",
+      "relation": "applies_to",
+      "confidence": "high",
+      "evidence": "informative catalog resources include applies_to UAAG 2.0."
+    },
+    {
+      "id": "urn:edge:e013",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-informative-catalog",
+      "to": "urn:node:wai-aria-1.2",
+      "relation": "applies_to",
+      "confidence": "high",
+      "evidence": "informative catalog resources include applies_to WAI-ARIA."
+    },
+    {
+      "id": "urn:edge:e014",
+      "type": "Relationship",
+      "from": "urn:node:html-living-standard-accessibility",
+      "to": "urn:node:html-living-standard",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "dataset inventories HTML Living Standard sections."
+    },
+    {
+      "id": "urn:edge:e015",
+      "type": "Relationship",
+      "from": "urn:node:css-specifications-index",
+      "to": "urn:node:w3c-css-overview",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "dataset inventories CSS specifications from W3C overview."
+    },
+    {
+      "id": "urn:edge:e016",
+      "type": "Relationship",
+      "from": "urn:node:aria-in-html",
+      "to": "urn:node:html-living-standard",
+      "relation": "profiles",
+      "confidence": "high",
+      "evidence": "ARIA in HTML defines ARIA usage constraints within HTML."
+    },
+    {
+      "id": "urn:edge:e017",
+      "type": "Relationship",
+      "from": "urn:node:html-aam-1.0",
+      "to": "urn:node:html-living-standard",
+      "relation": "implements_mapping_for",
+      "confidence": "high",
+      "evidence": "HTML AAM maps HTML semantics to accessibility APIs."
+    },
+    {
+      "id": "urn:edge:e018",
+      "type": "Relationship",
+      "from": "urn:node:core-aam-1.2",
+      "to": "urn:node:wai-aria-1.2",
+      "relation": "implements_mapping_for",
+      "confidence": "high",
+      "evidence": "Core AAM maps ARIA roles/states/properties to accessibility APIs."
+    },
+    {
+      "id": "urn:edge:e019",
+      "type": "Relationship",
+      "from": "urn:node:accname-1.2",
+      "to": "urn:node:wai-aria-1.2",
+      "relation": "supports_outcome_for",
+      "confidence": "high",
+      "evidence": "Accessible name/description computation underpins ARIA and host language mappings."
+    },
+    {
+      "id": "urn:edge:e020",
+      "type": "Relationship",
+      "from": "urn:node:html-living-standard",
+      "to": "urn:node:wcag-2.2",
+      "relation": "supports_outcome_for",
+      "confidence": "medium",
+      "evidence": "HTML semantics and interaction behaviors enable WCAG conformance outcomes."
+    },
+    {
+      "id": "urn:edge:e021",
+      "type": "Relationship",
+      "from": "urn:node:w3c-css-overview",
+      "to": "urn:node:wcag-2.2",
+      "relation": "supports_outcome_for",
+      "confidence": "medium",
+      "evidence": "CSS presentation/interaction modules influence contrast, reflow, focus visibility, and motion."
+    },
+    {
+      "id": "urn:edge:e022",
+      "type": "Relationship",
+      "from": "urn:node:atag-2.0",
+      "to": "urn:node:wcag-2.2",
+      "relation": "supports_outcome_for",
+      "confidence": "medium",
+      "evidence": "ATAG output requirements align with web content accessibility outcomes."
+    },
+    {
+      "id": "urn:edge:e023",
+      "type": "Relationship",
+      "from": "urn:node:uaag-2.0",
+      "to": "urn:node:wcag-2.2",
+      "relation": "supports_outcome_for",
+      "confidence": "medium",
+      "evidence": "User agent accessibility behavior supports perceivable/operable WCAG outcomes."
+    },
+    {
+      "id": "urn:edge:e024",
+      "type": "Relationship",
+      "from": "urn:node:standards-link-graph",
+      "to": "urn:node:w3c-wai-standards-index",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "graph links to canonical standards index."
+    },
+    {
+      "id": "urn:edge:e025",
+      "type": "Relationship",
+      "from": "urn:node:standards-link-graph",
+      "to": "urn:node:w3c-wai-informative-catalog",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "graph links to canonical informative catalog."
+    },
+    {
+      "id": "urn:edge:e026",
+      "type": "Relationship",
+      "from": "urn:node:standards-link-graph",
+      "to": "urn:node:atag-to-wcag-2.2-crosswalk",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "graph links to canonical crosswalk."
+    },
+    {
+      "id": "urn:edge:e027",
+      "type": "Relationship",
+      "from": "urn:node:standards-link-graph",
+      "to": "urn:node:css-specifications-index",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "graph links to canonical CSS index."
+    },
+    {
+      "id": "urn:edge:e028",
+      "type": "Relationship",
+      "from": "urn:node:standards-link-graph",
+      "to": "urn:node:html-living-standard-accessibility",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "graph links to canonical HTML index."
+    }
+  ]
+}
