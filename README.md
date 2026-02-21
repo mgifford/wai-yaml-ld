@@ -75,6 +75,7 @@ If you are new to this repository:
 - ATAG 2.0 normative: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-2.0-normative.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-2.0-normative.yaml)
 - UAAG 2.0 normative: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/uaag-2.0-normative.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/uaag-2.0-normative.yaml)
 - Shared informative resources: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-informative-resources.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-informative-resources.yaml)
+- Accessibility rule catalogs (machine-readable ACT + Deque axe + Siteimprove Alfa): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml)
 - CSS specifications index (machine-readable, includes full inventory extracted from W3C CSS overview): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml)
 - HTML Living Standard accessibility index (machine-readable, includes full section inventory extracted from WHATWG source): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml)
 - Standards link graph (machine-readable relationships across WCAG/ATAG/UAAG/ARIA/HTML/CSS): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml)
@@ -87,6 +88,7 @@ If you are new to this repository:
 - ARIA informative catalog schema: [schemas/wai-aria-informative.schema.json](schemas/wai-aria-informative.schema.json)
 - CSS specifications index schema: [schemas/css-specifications-index.schema.json](schemas/css-specifications-index.schema.json)
 - HTML Living Standard accessibility index schema: [schemas/html-living-standard-accessibility.schema.json](schemas/html-living-standard-accessibility.schema.json)
+- Accessibility rule catalogs schema: [schemas/accessibility-rule-catalogs.schema.json](schemas/accessibility-rule-catalogs.schema.json)
 - Standards link graph schema: [schemas/standards-link-graph.schema.json](schemas/standards-link-graph.schema.json)
 - Crosswalk schema: [schemas/atag-to-wcag-2.2-crosswalk.schema.json](schemas/atag-to-wcag-2.2-crosswalk.schema.json)
 
@@ -113,6 +115,8 @@ Current schedule behavior:
 - `Refresh Standards Artifacts` runs quarterly (1st day of Jan/Apr/Jul/Oct at 08:15 UTC) and on manual dispatch.
 
 The monitor checks watched TR headers (ETag/Last-Modified), uploads a report artifact, and opens an issue when changes are detected.
+
+Watchlist coverage includes W3C standards pages and rule catalogs for ACT, Deque axe, and Siteimprove Alfa.
 
 Run manually:
 
@@ -142,6 +146,7 @@ Generate or refresh derived graph artifacts:
 - `python scripts/generate_standards_link_graph.py --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml --jsonld-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld --csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv --mermaid-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd`
 - `python scripts/generate_standards_visualizations.py --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml --html-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml --css-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml --by-relation-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd --wcag-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd --parts-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.mmd --parts-csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv`
 - `python scripts/generate_wcag_sc_crosswalk_map.py --crosswalk-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml --wcag-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml --mmd-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.mmd --csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.csv`
+- `python scripts/refresh_accessibility_rule_catalogs.py --out-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml`
 
 Open the interactive viewer locally:
 

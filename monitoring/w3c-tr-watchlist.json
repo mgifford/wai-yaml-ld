@@ -1,6 +1,6 @@
 {
   "project": "wai-yaml-ld",
-  "updated": "2026-02-20T21:34:20.602389+00:00",
+  "updated": "2026-02-21T23:04:38.073176+00:00",
   "resources": [
     {
       "id": "wcag-2.2",
@@ -8,7 +8,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Thu, 12 Dec 2024 10:36:22 GMT",
-      "checked_at": "2026-02-20T21:34:19.882760+00:00"
+      "checked_at": "2026-02-21T23:04:36.335752+00:00"
     },
     {
       "id": "wcag-2.0",
@@ -16,7 +16,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Tue, 09 Oct 2018 13:18:55 GMT",
-      "checked_at": "2026-02-20T21:34:19.925538+00:00"
+      "checked_at": "2026-02-21T23:04:36.430794+00:00"
     },
     {
       "id": "atag-2.0",
@@ -24,7 +24,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Mon, 02 Oct 2017 10:53:39 GMT",
-      "checked_at": "2026-02-20T21:34:20.030113+00:00"
+      "checked_at": "2026-02-21T23:04:36.480936+00:00"
     },
     {
       "id": "uaag-2.0",
@@ -32,7 +32,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Tue, 09 Oct 2018 13:31:59 GMT",
-      "checked_at": "2026-02-20T21:34:20.090138+00:00"
+      "checked_at": "2026-02-21T23:04:36.524928+00:00"
     },
     {
       "id": "wai-aria-1.2",
@@ -40,7 +40,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Thu, 01 Jun 2023 16:15:37 GMT",
-      "checked_at": "2026-02-20T21:34:20.142486+00:00"
+      "checked_at": "2026-02-21T23:04:36.557075+00:00"
     },
     {
       "id": "core-aam-1.2",
@@ -48,7 +48,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Wed, 11 Feb 2026 19:10:28 GMT",
-      "checked_at": "2026-02-20T21:34:20.181931+00:00"
+      "checked_at": "2026-02-21T23:04:36.612669+00:00"
     },
     {
       "id": "html-aam-1.0",
@@ -56,7 +56,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Thu, 29 Jan 2026 18:15:30 GMT",
-      "checked_at": "2026-02-20T21:34:20.232556+00:00"
+      "checked_at": "2026-02-21T23:04:36.651145+00:00"
     },
     {
       "id": "accname-1.2",
@@ -64,7 +64,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Wed, 21 Jan 2026 17:42:57 GMT",
-      "checked_at": "2026-02-20T21:34:20.307597+00:00"
+      "checked_at": "2026-02-21T23:04:36.702325+00:00"
     },
     {
       "id": "html-aria",
@@ -72,7 +72,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Tue, 05 Aug 2025 11:24:29 GMT",
-      "checked_at": "2026-02-20T21:34:20.338661+00:00"
+      "checked_at": "2026-02-21T23:04:36.737772+00:00"
     },
     {
       "id": "svg-aam-1.0",
@@ -80,7 +80,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Wed, 11 Feb 2026 17:36:36 GMT",
-      "checked_at": "2026-02-20T21:34:20.377908+00:00"
+      "checked_at": "2026-02-21T23:04:36.770779+00:00"
     },
     {
       "id": "epub-a11y-1.1",
@@ -88,7 +88,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Fri, 11 Oct 2024 12:37:09 GMT",
-      "checked_at": "2026-02-20T21:34:20.464605+00:00"
+      "checked_at": "2026-02-21T23:04:36.812978+00:00"
     },
     {
       "id": "epub-a11y-tech-1.1",
@@ -96,7 +96,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Thu, 13 Mar 2025 16:55:54 GMT",
-      "checked_at": "2026-02-20T21:34:20.502003+00:00"
+      "checked_at": "2026-02-21T23:04:36.847755+00:00"
     },
     {
       "id": "web-sustainability-guidelines",
@@ -104,7 +104,7 @@
       "status": 200,
       "etag": null,
       "last_modified": "Thu, 29 Jan 2026 12:06:11 GMT",
-      "checked_at": "2026-02-20T21:34:20.550054+00:00"
+      "checked_at": "2026-02-21T23:04:36.882282+00:00"
     },
     {
       "id": "act-rules-format-1.1",
@@ -112,23 +112,47 @@
       "status": 200,
       "etag": null,
       "last_modified": "Tue, 03 Feb 2026 16:03:41 GMT",
-      "checked_at": "2026-02-20T21:34:20.602366+00:00"
+      "checked_at": "2026-02-21T23:04:36.918047+00:00"
     },
     {
       "id": "w3c-css-specifications-overview",
       "url": "https://www.w3.org/Style/CSS/Overview.en.html",
-      "status": null,
+      "status": 200,
       "etag": null,
-      "last_modified": null,
-      "checked_at": null
+      "last_modified": "Thu, 19 Feb 2026 16:26:39 GMT",
+      "checked_at": "2026-02-21T23:04:36.953368+00:00"
     },
     {
       "id": "html-living-standard",
       "url": "https://html.spec.whatwg.org/multipage/",
-      "status": null,
+      "status": 200,
+      "etag": "\"69972c1f-25464\"",
+      "last_modified": "Thu, 19 Feb 2026 15:28:31 GMT",
+      "checked_at": "2026-02-21T23:04:37.335214+00:00"
+    },
+    {
+      "id": "act-rules-catalog",
+      "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/",
+      "status": 200,
+      "etag": null,
+      "last_modified": "Fri, 20 Feb 2026 15:56:56 GMT",
+      "checked_at": "2026-02-21T23:04:37.383443+00:00"
+    },
+    {
+      "id": "deque-axe-rules-4.11",
+      "url": "https://dequeuniversity.com/rules/axe/html/4.11",
+      "status": 200,
       "etag": null,
       "last_modified": null,
-      "checked_at": null
+      "checked_at": "2026-02-21T23:04:37.668341+00:00"
+    },
+    {
+      "id": "siteimprove-alfa-rules",
+      "url": "https://alfa.siteimprove.com/rules",
+      "status": 200,
+      "etag": "\"xuwkbfwwia2d6h5\"",
+      "last_modified": null,
+      "checked_at": "2026-02-21T23:04:38.073158+00:00"
     }
   ]
 }

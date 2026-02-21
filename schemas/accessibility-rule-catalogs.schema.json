@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/accessibility-rule-catalogs.schema.json",
+  "title": "Accessibility Rule Catalogs",
+  "type": "object",
+  "required": [
+    "project",
+    "updated",
+    "scope",
+    "act_rules_extracted_at",
+    "axe_rules_extracted_at",
+    "alfa_rules_extracted_at",
+    "rule_sets"
+  ],
+  "properties": {
+    "project": {"type": "string", "minLength": 1},
+    "updated": {"type": "string", "minLength": 1},
+    "scope": {"type": "string", "minLength": 1},
+    "act_rules_extracted_at": {"type": "string", "minLength": 1},
+    "axe_rules_extracted_at": {"type": "string", "minLength": 1},
+    "alfa_rules_extracted_at": {"type": "string", "minLength": 1},
+    "rule_sets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "provider",
+          "catalog_url",
+          "type",
+          "rule_count",
+          "rules"
+        ],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "provider": {"type": "string", "minLength": 1},
+          "catalog_url": {"type": "string", "minLength": 1},
+          "type": {"type": "string", "minLength": 1},
+          "applies_to": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1}
+          },
+          "rule_count": {"type": "integer", "minimum": 0},
+          "rules": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "url", "status"],
+              "properties": {
+                "id": {"type": "string", "minLength": 1},
+                "url": {"type": "string", "minLength": 1},
+                "status": {"type": "string", "minLength": 1}
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

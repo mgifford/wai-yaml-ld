@@ -1,11 +1,15 @@
 graph LR
+    n_accessibility_rule_catalogs["Accessibility Rule Catalogs Dataset (ACT + axe + Alfa)"]
+    n_act_rules_catalog["W3C ACT Rules Catalog"]
     n_aria_in_html["ARIA in HTML"]
     n_atag_2_0["ATAG 2.0"]
     n_atag_to_wcag_2_2_crosswalk["ATAG 2.0 to WCAG 2.2 Crosswalk"]
     n_css_specifications_index["CSS Specifications Index"]
+    n_deque_axe_rules_4_11["Deque axe-core Rules 4.11 Catalog"]
     n_html_aam_1_0["HTML AAM 1.0"]
     n_html_living_standard["HTML Living Standard"]
     n_html_living_standard_accessibility["HTML Living Standard Accessibility Index"]
+    n_siteimprove_alfa_rules["Siteimprove Alfa Rules Catalog"]
     n_standards_link_graph["Standards Link Graph"]
     n_uaag_2_0["UAAG 2.0"]
     n_w3c_css_overview["W3C CSS Specifications Overview"]
@@ -38,3 +42,12 @@ graph LR
     n_standards_link_graph -->|catalogs| n_w3c_wai_standards_index
     n_standards_link_graph -->|catalogs| n_w3c_wai_informative_catalog
     n_standards_link_graph -->|catalogs| n_atag_to_wcag_2_2_crosswalk
+    n_w3c_wai_informative_catalog -->|catalogs| n_act_rules_catalog
+    n_w3c_wai_informative_catalog -->|catalogs| n_deque_axe_rules_4_11
+    n_w3c_wai_informative_catalog -->|catalogs| n_siteimprove_alfa_rules
+    n_accessibility_rule_catalogs -->|catalogs| n_act_rules_catalog
+    n_accessibility_rule_catalogs -->|catalogs| n_deque_axe_rules_4_11
+    n_accessibility_rule_catalogs -->|catalogs| n_siteimprove_alfa_rules
+    n_act_rules_catalog -->|supports_outcome_for| n_wcag_2_2
+    n_deque_axe_rules_4_11 -->|supports_outcome_for| n_wcag_2_2
+    n_siteimprove_alfa_rules -->|supports_outcome_for| n_wcag_2_2

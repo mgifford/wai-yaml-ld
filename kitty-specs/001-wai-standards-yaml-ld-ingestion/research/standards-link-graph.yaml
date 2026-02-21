@@ -53,6 +53,10 @@ nodes:
   label: HTML Living Standard Accessibility Index
   kind: dataset
   url: ./html-living-standard-accessibility.yaml
+- id: accessibility-rule-catalogs
+  label: Accessibility Rule Catalogs Dataset (ACT + axe + Alfa)
+  kind: dataset
+  url: ./accessibility-rule-catalogs.yaml
 - id: wcag-2.2
   label: WCAG 2.2
   kind: standard
@@ -97,6 +101,18 @@ nodes:
   label: W3C CSS Specifications Overview
   kind: technical_spec_collection
   url: https://www.w3.org/Style/CSS/Overview.en.html
+- id: act-rules-catalog
+  label: W3C ACT Rules Catalog
+  kind: informative_catalog
+  url: https://www.w3.org/WAI/standards-guidelines/act/rules/
+- id: deque-axe-rules-4.11
+  label: Deque axe-core Rules 4.11 Catalog
+  kind: vendor_tool_rules
+  url: https://dequeuniversity.com/rules/axe/html/4.11
+- id: siteimprove-alfa-rules
+  label: Siteimprove Alfa Rules Catalog
+  kind: vendor_tool_rules
+  url: https://alfa.siteimprove.com/rules
 edges:
 - id: e001
   from: wcag-2.2
@@ -266,3 +282,63 @@ edges:
   to: html-living-standard-accessibility
   confidence: high
   evidence: graph links to canonical HTML index.
+- id: e029
+  from: w3c-wai-informative-catalog
+  relation: catalogs
+  to: act-rules-catalog
+  confidence: high
+  evidence: informative catalog includes ACT rules catalog reference.
+- id: e030
+  from: w3c-wai-informative-catalog
+  relation: catalogs
+  to: deque-axe-rules-4.11
+  confidence: high
+  evidence: informative catalog includes Deque axe rules catalog reference.
+- id: e031
+  from: w3c-wai-informative-catalog
+  relation: catalogs
+  to: siteimprove-alfa-rules
+  confidence: high
+  evidence: informative catalog includes Siteimprove Alfa rules catalog reference.
+- id: e032
+  from: accessibility-rule-catalogs
+  relation: catalogs
+  to: act-rules-catalog
+  confidence: high
+  evidence: machine-readable rules dataset catalogs ACT rule URLs and states.
+- id: e033
+  from: accessibility-rule-catalogs
+  relation: catalogs
+  to: deque-axe-rules-4.11
+  confidence: high
+  evidence: machine-readable rules dataset catalogs axe-core rule URLs.
+- id: e034
+  from: accessibility-rule-catalogs
+  relation: catalogs
+  to: siteimprove-alfa-rules
+  confidence: high
+  evidence: machine-readable rules dataset catalogs Alfa rule URLs.
+- id: e035
+  from: act-rules-catalog
+  relation: supports_outcome_for
+  to: wcag-2.2
+  confidence: medium
+  evidence: ACT rules operationalize WCAG test logic used by accessibility tools.
+- id: e036
+  from: deque-axe-rules-4.11
+  relation: supports_outcome_for
+  to: wcag-2.2
+  confidence: medium
+  evidence: axe-core rule set maps checks to WCAG-oriented outcomes.
+- id: e037
+  from: siteimprove-alfa-rules
+  relation: supports_outcome_for
+  to: wcag-2.2
+  confidence: medium
+  evidence: Alfa rule set maps checks to WCAG-oriented outcomes.
+- id: e038
+  from: standards-link-graph
+  relation: catalogs
+  to: accessibility-rule-catalogs
+  confidence: high
+  evidence: graph links to canonical machine-readable ACT/axe/Alfa rules dataset.

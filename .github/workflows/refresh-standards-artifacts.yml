@@ -53,13 +53,21 @@ jobs:
             --mmd-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.mmd \
             --csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.csv
 
+      - name: Refresh ACT/axe/Alfa rule catalogs
+        run: |
+          python scripts/refresh_accessibility_rule_catalogs.py \
+            --out-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml
+
       - name: Validate graph links and freshness
         run: |
           python scripts/validate_standards_graph.py \
             --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml \
             --stale-threshold-days 120 \
             --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml:full_spec_inventory_extracted_at \
-            --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml:full_section_inventory_extracted_at
+            --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml:full_section_inventory_extracted_at \
+            --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml:act_rules_extracted_at \
+            --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml:axe_rules_extracted_at \
+            --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml:alfa_rules_extracted_at
 
       - name: Upload refreshed artifacts
         uses: actions/upload-artifact@v4
@@ -75,6 +83,7 @@ jobs:
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.mmd
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.csv
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml
 
       - name: Create Pull Request for updated artifacts
         uses: peter-evans/create-pull-request@v6
@@ -100,3 +109,4 @@ jobs:
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.mmd
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.csv
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml

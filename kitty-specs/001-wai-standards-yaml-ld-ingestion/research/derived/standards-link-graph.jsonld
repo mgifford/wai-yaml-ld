@@ -69,6 +69,13 @@
       "url": "./html-living-standard-accessibility.yaml"
     },
     {
+      "id": "urn:node:accessibility-rule-catalogs",
+      "type": "Thing",
+      "label": "Accessibility Rule Catalogs Dataset (ACT + axe + Alfa)",
+      "kind": "dataset",
+      "url": "./accessibility-rule-catalogs.yaml"
+    },
+    {
       "id": "urn:node:wcag-2.2",
       "type": "Thing",
       "label": "WCAG 2.2",
@@ -144,6 +151,27 @@
       "label": "W3C CSS Specifications Overview",
       "kind": "technical_spec_collection",
       "url": "https://www.w3.org/Style/CSS/Overview.en.html"
+    },
+    {
+      "id": "urn:node:act-rules-catalog",
+      "type": "Thing",
+      "label": "W3C ACT Rules Catalog",
+      "kind": "informative_catalog",
+      "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/"
+    },
+    {
+      "id": "urn:node:deque-axe-rules-4.11",
+      "type": "Thing",
+      "label": "Deque axe-core Rules 4.11 Catalog",
+      "kind": "vendor_tool_rules",
+      "url": "https://dequeuniversity.com/rules/axe/html/4.11"
+    },
+    {
+      "id": "urn:node:siteimprove-alfa-rules",
+      "type": "Thing",
+      "label": "Siteimprove Alfa Rules Catalog",
+      "kind": "vendor_tool_rules",
+      "url": "https://alfa.siteimprove.com/rules"
     },
     {
       "id": "urn:edge:e001",
@@ -396,6 +424,96 @@
       "relation": "catalogs",
       "confidence": "high",
       "evidence": "graph links to canonical HTML index."
+    },
+    {
+      "id": "urn:edge:e029",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-informative-catalog",
+      "to": "urn:node:act-rules-catalog",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "informative catalog includes ACT rules catalog reference."
+    },
+    {
+      "id": "urn:edge:e030",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-informative-catalog",
+      "to": "urn:node:deque-axe-rules-4.11",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "informative catalog includes Deque axe rules catalog reference."
+    },
+    {
+      "id": "urn:edge:e031",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-informative-catalog",
+      "to": "urn:node:siteimprove-alfa-rules",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "informative catalog includes Siteimprove Alfa rules catalog reference."
+    },
+    {
+      "id": "urn:edge:e032",
+      "type": "Relationship",
+      "from": "urn:node:accessibility-rule-catalogs",
+      "to": "urn:node:act-rules-catalog",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "machine-readable rules dataset catalogs ACT rule URLs and states."
+    },
+    {
+      "id": "urn:edge:e033",
+      "type": "Relationship",
+      "from": "urn:node:accessibility-rule-catalogs",
+      "to": "urn:node:deque-axe-rules-4.11",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "machine-readable rules dataset catalogs axe-core rule URLs."
+    },
+    {
+      "id": "urn:edge:e034",
+      "type": "Relationship",
+      "from": "urn:node:accessibility-rule-catalogs",
+      "to": "urn:node:siteimprove-alfa-rules",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "machine-readable rules dataset catalogs Alfa rule URLs."
+    },
+    {
+      "id": "urn:edge:e035",
+      "type": "Relationship",
+      "from": "urn:node:act-rules-catalog",
+      "to": "urn:node:wcag-2.2",
+      "relation": "supports_outcome_for",
+      "confidence": "medium",
+      "evidence": "ACT rules operationalize WCAG test logic used by accessibility tools."
+    },
+    {
+      "id": "urn:edge:e036",
+      "type": "Relationship",
+      "from": "urn:node:deque-axe-rules-4.11",
+      "to": "urn:node:wcag-2.2",
+      "relation": "supports_outcome_for",
+      "confidence": "medium",
+      "evidence": "axe-core rule set maps checks to WCAG-oriented outcomes."
+    },
+    {
+      "id": "urn:edge:e037",
+      "type": "Relationship",
+      "from": "urn:node:siteimprove-alfa-rules",
+      "to": "urn:node:wcag-2.2",
+      "relation": "supports_outcome_for",
+      "confidence": "medium",
+      "evidence": "Alfa rule set maps checks to WCAG-oriented outcomes."
+    },
+    {
+      "id": "urn:edge:e038",
+      "type": "Relationship",
+      "from": "urn:node:standards-link-graph",
+      "to": "urn:node:accessibility-rule-catalogs",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "graph links to canonical machine-readable ACT/axe/Alfa rules dataset."
     }
   ]
 }

@@ -92,6 +92,21 @@ sources:
   url: https://html.spec.whatwg.org/multipage/
   type: technical_spec
   format_hint: html
+- id: act-rules-catalog
+  name: W3C ACT Rules Catalog
+  url: https://www.w3.org/WAI/standards-guidelines/act/rules/
+  type: informative
+  format_hint: html
+- id: deque-axe-rules-4.11
+  name: Deque axe-core Rules 4.11 Catalog
+  url: https://dequeuniversity.com/rules/axe/html/4.11
+  type: vendor_tool_rules
+  format_hint: html
+- id: siteimprove-alfa-rules
+  name: Siteimprove Alfa Rules Catalog
+  url: https://alfa.siteimprove.com/rules
+  type: vendor_tool_rules
+  format_hint: html
 - id: w3c-wai-main
   name: W3C Web Accessibility Initiative (WAI)
   url: https://www.w3.org/WAI/
@@ -111,6 +126,11 @@ sources:
   name: ATAG 2.0 to WCAG 2.2 Crosswalk (project mapping)
   url: ./atag-to-wcag-2.2-crosswalk.yaml
   type: crosswalk
+  format_hint: yaml
+- id: accessibility-rule-catalogs-machine-readable
+  name: Accessibility Rule Catalogs (ACT + axe + Alfa) (project dataset)
+  url: ./accessibility-rule-catalogs.yaml
+  type: rule_catalog
   format_hint: yaml
 - id: w3c-wai-informative-catalog
   name: W3C WAI Informative Resources Catalog (project index)

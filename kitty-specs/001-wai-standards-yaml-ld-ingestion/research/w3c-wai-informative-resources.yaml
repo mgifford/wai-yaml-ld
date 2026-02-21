@@ -167,6 +167,38 @@ resources:
   - wcag-2.2
   - atag-2.0
   - uaag-2.0
+- id: act-rules-catalog
+  title: W3C ACT Rules Catalog
+  url: https://www.w3.org/WAI/standards-guidelines/act/rules/
+  type: informative
+  applies_to:
+  - wai-aria
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+- id: deque-axe-rules-4.11
+  title: Deque axe-core Rules 4.11 Catalog
+  url: https://dequeuniversity.com/rules/axe/html/4.11
+  type: informative
+  applies_to:
+  - wai-aria
+  - wcag-2.2
+- id: siteimprove-alfa-rules
+  title: Siteimprove Alfa Rules Catalog
+  url: https://alfa.siteimprove.com/rules
+  type: informative
+  applies_to:
+  - wai-aria
+  - wcag-2.2
+- id: accessibility-rule-catalogs-machine-readable
+  title: Accessibility Rule Catalogs Machine-Readable Dataset (ACT + axe + Alfa)
+  url: ./accessibility-rule-catalogs.yaml
+  type: informative
+  applies_to:
+  - wai-aria
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
 - id: implementing-atag-2.0
   title: Implementing ATAG 2.0
   url: https://www.w3.org/TR/NOTE-IMPLEMENTING-ATAG20/

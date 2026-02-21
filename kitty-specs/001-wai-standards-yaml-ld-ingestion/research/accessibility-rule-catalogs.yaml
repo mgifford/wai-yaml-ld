@@ -1,0 +1,966 @@
+project: wai-standards-yaml-ld-ingestion
+updated: '2026-02-21'
+scope: accessibility_rule_catalogs
+act_rules_extracted_at: '2026-02-21'
+axe_rules_extracted_at: '2026-02-21'
+alfa_rules_extracted_at: '2026-02-21'
+rule_sets:
+- id: w3c-act-rules
+  title: W3C ACT Rules
+  provider: W3C
+  catalog_url: https://www.w3.org/WAI/standards-guidelines/act/rules/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - wai-aria-1.2
+  - atag-2.0
+  - uaag-2.0
+  rule_count: 94
+  rules:
+  - id: 047fe0
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/047fe0/proposed/
+    status: proposed
+  - id: 09o5cg
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/09o5cg/
+    status: approved
+  - id: 0ssw9k
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/0ssw9k/
+    status: approved
+  - id: 0va7u6
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/0va7u6/
+    status: approved
+  - id: 1a02b0
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/1a02b0/proposed/
+    status: proposed
+  - id: 1ea59c
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/1ea59c/proposed/
+    status: proposed
+  - id: 1ec09b
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/1ec09b/proposed/
+    status: proposed
+  - id: 23a2a8
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/23a2a8/
+    status: approved
+  - id: 24afc2
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/24afc2/
+    status: approved
+  - id: 2779a5
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/2779a5/
+    status: approved
+  - id: 2eb176
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/2eb176/proposed/
+    status: proposed
+  - id: 2ee8b8
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/2ee8b8/proposed/
+    status: proposed
+  - id: 2t702h
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/2t702h/
+    status: approved
+  - id: 307n5z
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/307n5z/
+    status: approved
+  - id: 36b590
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/36b590/proposed/
+    status: proposed
+  - id: 3e12e1
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/3e12e1/proposed/
+    status: proposed
+  - id: 3ea0c8
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/3ea0c8/proposed/
+    status: proposed
+  - id: 46ca7f
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/46ca7f/
+    status: approved
+  - id: 4b1c6c
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/4b1c6c/proposed/
+    status: proposed
+  - id: 4c31df
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/4c31df/proposed/
+    status: proposed
+  - id: 4e8ab6
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/4e8ab6/
+    status: approved
+  - id: 59796f
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/59796f/
+    status: approved
+  - id: 59br37
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/59br37/proposed/
+    status: proposed
+  - id: 5b7ae0
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/5b7ae0/proposed/
+    status: proposed
+  - id: 5c01ea
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/5c01ea/proposed/
+    status: proposed
+  - id: 5effbb
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/5effbb/proposed/
+    status: proposed
+  - id: 5f99a7
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/5f99a7/
+    status: approved
+  - id: 674b10
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/674b10/
+    status: approved
+  - id: 6a7281
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/6a7281/
+    status: approved
+  - id: 6cfa84
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/6cfa84/
+    status: approved
+  - id: 73f2c2
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/73f2c2/
+    status: approved
+  - id: 7677a9
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/7677a9/proposed/
+    status: proposed
+  - id: 78fd32
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/78fd32/
+    status: approved
+  - id: 7d6734
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/7d6734/
+    status: approved
+  - id: 80af7b
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/80af7b/proposed/
+    status: proposed
+  - id: 80f0bf
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/80f0bf/proposed/
+    status: proposed
+  - id: 8fc3b6
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/8fc3b6/
+    status: approved
+  - id: 97a4e1
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/97a4e1/
+    status: approved
+  - id: 9bd38c
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/9bd38c/proposed/
+    status: proposed
+  - id: 9e45ec
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/9e45ec/
+    status: approved
+  - id: 9eb3f6
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/9eb3f6/proposed/
+    status: proposed
+  - id: a1b64e
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/a1b64e/proposed/
+    status: proposed
+  - id: a25f45
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/a25f45/
+    status: approved
+  - id: aaa1bf
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/aaa1bf/proposed/
+    status: proposed
+  - id: ab4d13
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/ab4d13/proposed/
+    status: proposed
+  - id: ac7dc6
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/ac7dc6/proposed/
+    status: proposed
+  - id: afb423
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/afb423/proposed/
+    status: proposed
+  - id: afw4f7
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/afw4f7/
+    status: approved
+  - id: aizyf1
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/aizyf1/proposed/
+    status: proposed
+  - id: akn7bn
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/akn7bn/
+    status: approved
+  - id: b20e66
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b20e66/proposed/
+    status: proposed
+  - id: b33eff
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b33eff/
+    status: approved
+  - id: b40fd1
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b40fd1/proposed/
+    status: proposed
+  - id: b49b2e
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b49b2e/proposed/
+    status: proposed
+  - id: b4f0c3
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b4f0c3/
+    status: approved
+  - id: b5c3f8
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b5c3f8/
+    status: approved
+  - id: bc4a75
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/bc4a75/proposed/
+    status: proposed
+  - id: bc659a
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/bc659a/
+    status: approved
+  - id: bf051a
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/bf051a/
+    status: approved
+  - id: bisz58
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/bisz58/
+    status: approved
+  - id: c249d5
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/c249d5/proposed/
+    status: proposed
+  - id: c3232f
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/c3232f/proposed/
+    status: proposed
+  - id: c487ae
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/c487ae/
+    status: approved
+  - id: c4a8a4
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/c4a8a4/
+    status: approved
+  - id: c5a4ea
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/c5a4ea/proposed/
+    status: proposed
+  - id: cae760
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/cae760/proposed/
+    status: proposed
+  - id: cc0f0a
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/cc0f0a/proposed/
+    status: proposed
+  - id: cf77f2
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/cf77f2/proposed/
+    status: proposed
+  - id: d0f69e
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/d0f69e/proposed/
+    status: proposed
+  - id: d7ba54
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/d7ba54/proposed/
+    status: proposed
+  - id: de46e4
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/de46e4/
+    status: approved
+  - id: e086e5
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/
+    status: approved
+  - id: e6952f
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/e6952f/proposed/
+    status: proposed
+  - id: e7aa44
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/e7aa44/proposed/
+    status: proposed
+  - id: e88epe
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/e88epe/proposed/
+    status: proposed
+  - id: eac66b
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/eac66b/proposed/
+    status: proposed
+  - id: ebe86a
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/ebe86a/proposed/
+    status: proposed
+  - id: ee13b5
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/ee13b5/proposed/
+    status: proposed
+  - id: efbfc7
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/efbfc7/proposed/
+    status: proposed
+  - id: f196ce
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/f196ce/proposed/
+    status: proposed
+  - id: f51b46
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/f51b46/proposed/
+    status: proposed
+  - id: fd26cf
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/fd26cf/proposed/
+    status: proposed
+  - id: fd3a94
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/fd3a94/proposed/
+    status: proposed
+  - id: ff89c9
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/ff89c9/proposed/
+    status: proposed
+  - id: ffbc54
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/ffbc54/proposed/
+    status: proposed
+  - id: ffd0e9
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/ffd0e9/proposed/
+    status: proposed
+  - id: in6db8
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/
+    status: proposed
+  - id: kb1m8s
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/kb1m8s/proposed/
+    status: proposed
+  - id: m6b1q3
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/m6b1q3/
+    status: approved
+  - id: off6ek
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/off6ek/proposed/
+    status: proposed
+  - id: oj04fd
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/oj04fd/
+    status: approved
+  - id: qt1vmo
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/
+    status: approved
+  - id: ucwvc8
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/ucwvc8/proposed/
+    status: proposed
+  - id: ye5d6e
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/proposed/
+    status: proposed
+- id: deque-axe-rules-4.11
+  title: Deque axe-core Rules 4.11
+  provider: Deque
+  catalog_url: https://dequeuniversity.com/rules/axe/html/4.11
+  type: vendor_tool_rules
+  applies_to:
+  - wcag-2.2
+  - wai-aria-1.2
+  rule_count: 104
+  rules:
+  - id: accesskeys
+    url: https://dequeuniversity.com/rules/axe/4.11/accesskeys
+    status: published
+  - id: area-alt
+    url: https://dequeuniversity.com/rules/axe/4.11/area-alt
+    status: published
+  - id: aria-allowed-attr
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-allowed-attr
+    status: published
+  - id: aria-allowed-role
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-allowed-role
+    status: published
+  - id: aria-braille-equivalent
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-braille-equivalent
+    status: published
+  - id: aria-command-name
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-command-name
+    status: published
+  - id: aria-conditional-attr
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-conditional-attr
+    status: published
+  - id: aria-deprecated-role
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role
+    status: published
+  - id: aria-dialog-name
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-dialog-name
+    status: published
+  - id: aria-hidden-body
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-hidden-body
+    status: published
+  - id: aria-hidden-focus
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-hidden-focus
+    status: published
+  - id: aria-input-field-name
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-input-field-name
+    status: published
+  - id: aria-meter-name
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-meter-name
+    status: published
+  - id: aria-progressbar-name
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-progressbar-name
+    status: published
+  - id: aria-prohibited-attr
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr
+    status: published
+  - id: aria-required-attr
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-required-attr
+    status: published
+  - id: aria-required-children
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-required-children
+    status: published
+  - id: aria-required-parent
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-required-parent
+    status: published
+  - id: aria-roledescription
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-roledescription
+    status: published
+  - id: aria-roles
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-roles
+    status: published
+  - id: aria-text
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-text
+    status: published
+  - id: aria-toggle-field-name
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-toggle-field-name
+    status: published
+  - id: aria-tooltip-name
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-tooltip-name
+    status: published
+  - id: aria-treeitem-name
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-treeitem-name
+    status: published
+  - id: aria-valid-attr
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr
+    status: published
+  - id: aria-valid-attr-value
+    url: https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr-value
+    status: published
+  - id: audio-caption
+    url: https://dequeuniversity.com/rules/axe/4.11/audio-caption
+    status: published
+  - id: autocomplete-valid
+    url: https://dequeuniversity.com/rules/axe/4.11/autocomplete-valid
+    status: published
+  - id: avoid-inline-spacing
+    url: https://dequeuniversity.com/rules/axe/4.11/avoid-inline-spacing
+    status: published
+  - id: blink
+    url: https://dequeuniversity.com/rules/axe/4.11/blink
+    status: published
+  - id: button-name
+    url: https://dequeuniversity.com/rules/axe/4.11/button-name
+    status: published
+  - id: bypass
+    url: https://dequeuniversity.com/rules/axe/4.11/bypass
+    status: published
+  - id: color-contrast
+    url: https://dequeuniversity.com/rules/axe/4.11/color-contrast
+    status: published
+  - id: color-contrast-enhanced
+    url: https://dequeuniversity.com/rules/axe/4.11/color-contrast-enhanced
+    status: published
+  - id: css-orientation-lock
+    url: https://dequeuniversity.com/rules/axe/4.11/css-orientation-lock
+    status: published
+  - id: definition-list
+    url: https://dequeuniversity.com/rules/axe/4.11/definition-list
+    status: published
+  - id: dlitem
+    url: https://dequeuniversity.com/rules/axe/4.11/dlitem
+    status: published
+  - id: document-title
+    url: https://dequeuniversity.com/rules/axe/4.11/document-title
+    status: published
+  - id: duplicate-id
+    url: https://dequeuniversity.com/rules/axe/4.11/duplicate-id
+    status: published
+  - id: duplicate-id-active
+    url: https://dequeuniversity.com/rules/axe/4.11/duplicate-id-active
+    status: published
+  - id: duplicate-id-aria
+    url: https://dequeuniversity.com/rules/axe/4.11/duplicate-id-aria
+    status: published
+  - id: empty-heading
+    url: https://dequeuniversity.com/rules/axe/4.11/empty-heading
+    status: published
+  - id: empty-table-header
+    url: https://dequeuniversity.com/rules/axe/4.11/empty-table-header
+    status: published
+  - id: focus-order-semantics
+    url: https://dequeuniversity.com/rules/axe/4.11/focus-order-semantics
+    status: published
+  - id: form-field-multiple-labels
+    url: https://dequeuniversity.com/rules/axe/4.11/form-field-multiple-labels
+    status: published
+  - id: frame-focusable-content
+    url: https://dequeuniversity.com/rules/axe/4.11/frame-focusable-content
+    status: published
+  - id: frame-tested
+    url: https://dequeuniversity.com/rules/axe/4.11/frame-tested
+    status: published
+  - id: frame-title
+    url: https://dequeuniversity.com/rules/axe/4.11/frame-title
+    status: published
+  - id: frame-title-unique
+    url: https://dequeuniversity.com/rules/axe/4.11/frame-title-unique
+    status: published
+  - id: heading-order
+    url: https://dequeuniversity.com/rules/axe/4.11/heading-order
+    status: published
+  - id: hidden-content
+    url: https://dequeuniversity.com/rules/axe/4.11/hidden-content
+    status: published
+  - id: html-has-lang
+    url: https://dequeuniversity.com/rules/axe/4.11/html-has-lang
+    status: published
+  - id: html-lang-valid
+    url: https://dequeuniversity.com/rules/axe/4.11/html-lang-valid
+    status: published
+  - id: html-xml-lang-mismatch
+    url: https://dequeuniversity.com/rules/axe/4.11/html-xml-lang-mismatch
+    status: published
+  - id: identical-links-same-purpose
+    url: https://dequeuniversity.com/rules/axe/4.11/identical-links-same-purpose
+    status: published
+  - id: image-alt
+    url: https://dequeuniversity.com/rules/axe/4.11/image-alt
+    status: published
+  - id: image-redundant-alt
+    url: https://dequeuniversity.com/rules/axe/4.11/image-redundant-alt
+    status: published
+  - id: input-button-name
+    url: https://dequeuniversity.com/rules/axe/4.11/input-button-name
+    status: published
+  - id: input-image-alt
+    url: https://dequeuniversity.com/rules/axe/4.11/input-image-alt
+    status: published
+  - id: label
+    url: https://dequeuniversity.com/rules/axe/4.11/label
+    status: published
+  - id: label-content-name-mismatch
+    url: https://dequeuniversity.com/rules/axe/4.11/label-content-name-mismatch
+    status: published
+  - id: label-title-only
+    url: https://dequeuniversity.com/rules/axe/4.11/label-title-only
+    status: published
+  - id: landmark-banner-is-top-level
+    url: https://dequeuniversity.com/rules/axe/4.11/landmark-banner-is-top-level
+    status: published
+  - id: landmark-complementary-is-top-level
+    url: https://dequeuniversity.com/rules/axe/4.11/landmark-complementary-is-top-level
+    status: published
+  - id: landmark-contentinfo-is-top-level
+    url: https://dequeuniversity.com/rules/axe/4.11/landmark-contentinfo-is-top-level
+    status: published
+  - id: landmark-main-is-top-level
+    url: https://dequeuniversity.com/rules/axe/4.11/landmark-main-is-top-level
+    status: published
+  - id: landmark-no-duplicate-banner
+    url: https://dequeuniversity.com/rules/axe/4.11/landmark-no-duplicate-banner
+    status: published
+  - id: landmark-no-duplicate-contentinfo
+    url: https://dequeuniversity.com/rules/axe/4.11/landmark-no-duplicate-contentinfo
+    status: published
+  - id: landmark-no-duplicate-main
+    url: https://dequeuniversity.com/rules/axe/4.11/landmark-no-duplicate-main
+    status: published
+  - id: landmark-one-main
+    url: https://dequeuniversity.com/rules/axe/4.11/landmark-one-main
+    status: published
+  - id: landmark-unique
+    url: https://dequeuniversity.com/rules/axe/4.11/landmark-unique
+    status: published
+  - id: link-in-text-block
+    url: https://dequeuniversity.com/rules/axe/4.11/link-in-text-block
+    status: published
+  - id: link-name
+    url: https://dequeuniversity.com/rules/axe/4.11/link-name
+    status: published
+  - id: list
+    url: https://dequeuniversity.com/rules/axe/4.11/list
+    status: published
+  - id: listitem
+    url: https://dequeuniversity.com/rules/axe/4.11/listitem
+    status: published
+  - id: marquee
+    url: https://dequeuniversity.com/rules/axe/4.11/marquee
+    status: published
+  - id: meta-refresh
+    url: https://dequeuniversity.com/rules/axe/4.11/meta-refresh
+    status: published
+  - id: meta-refresh-no-exceptions
+    url: https://dequeuniversity.com/rules/axe/4.11/meta-refresh-no-exceptions
+    status: published
+  - id: meta-viewport
+    url: https://dequeuniversity.com/rules/axe/4.11/meta-viewport
+    status: published
+  - id: meta-viewport-large
+    url: https://dequeuniversity.com/rules/axe/4.11/meta-viewport-large
+    status: published
+  - id: nested-interactive
+    url: https://dequeuniversity.com/rules/axe/4.11/nested-interactive
+    status: published
+  - id: no-autoplay-audio
+    url: https://dequeuniversity.com/rules/axe/4.11/no-autoplay-audio
+    status: published
+  - id: object-alt
+    url: https://dequeuniversity.com/rules/axe/4.11/object-alt
+    status: published
+  - id: p-as-heading
+    url: https://dequeuniversity.com/rules/axe/4.11/p-as-heading
+    status: published
+  - id: page-has-heading-one
+    url: https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one
+    status: published
+  - id: presentation-role-conflict
+    url: https://dequeuniversity.com/rules/axe/4.11/presentation-role-conflict
+    status: published
+  - id: region
+    url: https://dequeuniversity.com/rules/axe/4.11/region
+    status: published
+  - id: role-img-alt
+    url: https://dequeuniversity.com/rules/axe/4.11/role-img-alt
+    status: published
+  - id: scope-attr-valid
+    url: https://dequeuniversity.com/rules/axe/4.11/scope-attr-valid
+    status: published
+  - id: scrollable-region-focusable
+    url: https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable
+    status: published
+  - id: select-name
+    url: https://dequeuniversity.com/rules/axe/4.11/select-name
+    status: published
+  - id: server-side-image-map
+    url: https://dequeuniversity.com/rules/axe/4.11/server-side-image-map
+    status: published
+  - id: skip-link
+    url: https://dequeuniversity.com/rules/axe/4.11/skip-link
+    status: published
+  - id: summary-name
+    url: https://dequeuniversity.com/rules/axe/4.11/summary-name
+    status: published
+  - id: svg-img-alt
+    url: https://dequeuniversity.com/rules/axe/4.11/svg-img-alt
+    status: published
+  - id: tabindex
+    url: https://dequeuniversity.com/rules/axe/4.11/tabindex
+    status: published
+  - id: table-duplicate-name
+    url: https://dequeuniversity.com/rules/axe/4.11/table-duplicate-name
+    status: published
+  - id: table-fake-caption
+    url: https://dequeuniversity.com/rules/axe/4.11/table-fake-caption
+    status: published
+  - id: target-size
+    url: https://dequeuniversity.com/rules/axe/4.11/target-size
+    status: published
+  - id: td-has-header
+    url: https://dequeuniversity.com/rules/axe/4.11/td-has-header
+    status: published
+  - id: td-headers-attr
+    url: https://dequeuniversity.com/rules/axe/4.11/td-headers-attr
+    status: published
+  - id: th-has-data-cells
+    url: https://dequeuniversity.com/rules/axe/4.11/th-has-data-cells
+    status: published
+  - id: valid-lang
+    url: https://dequeuniversity.com/rules/axe/4.11/valid-lang
+    status: published
+  - id: video-caption
+    url: https://dequeuniversity.com/rules/axe/4.11/video-caption
+    status: published
+- id: siteimprove-alfa-rules
+  title: Siteimprove Alfa Rules
+  provider: Siteimprove
+  catalog_url: https://alfa.siteimprove.com/rules
+  type: vendor_tool_rules
+  applies_to:
+  - wcag-2.2
+  - wai-aria-1.2
+  rule_count: 111
+  rules:
+  - id: sia-r1
+    url: https://alfa.siteimprove.com/rules/sia-r1
+    status: published
+  - id: sia-r2
+    url: https://alfa.siteimprove.com/rules/sia-r2
+    status: published
+  - id: sia-r3
+    url: https://alfa.siteimprove.com/rules/sia-r3
+    status: published
+  - id: sia-r4
+    url: https://alfa.siteimprove.com/rules/sia-r4
+    status: published
+  - id: sia-r5
+    url: https://alfa.siteimprove.com/rules/sia-r5
+    status: published
+  - id: sia-r6
+    url: https://alfa.siteimprove.com/rules/sia-r6
+    status: published
+  - id: sia-r7
+    url: https://alfa.siteimprove.com/rules/sia-r7
+    status: published
+  - id: sia-r8
+    url: https://alfa.siteimprove.com/rules/sia-r8
+    status: published
+  - id: sia-r9
+    url: https://alfa.siteimprove.com/rules/sia-r9
+    status: published
+  - id: sia-r10
+    url: https://alfa.siteimprove.com/rules/sia-r10
+    status: published
+  - id: sia-r11
+    url: https://alfa.siteimprove.com/rules/sia-r11
+    status: published
+  - id: sia-r12
+    url: https://alfa.siteimprove.com/rules/sia-r12
+    status: published
+  - id: sia-r13
+    url: https://alfa.siteimprove.com/rules/sia-r13
+    status: published
+  - id: sia-r14
+    url: https://alfa.siteimprove.com/rules/sia-r14
+    status: published
+  - id: sia-r15
+    url: https://alfa.siteimprove.com/rules/sia-r15
+    status: published
+  - id: sia-r16
+    url: https://alfa.siteimprove.com/rules/sia-r16
+    status: published
+  - id: sia-r17
+    url: https://alfa.siteimprove.com/rules/sia-r17
+    status: published
+  - id: sia-r18
+    url: https://alfa.siteimprove.com/rules/sia-r18
+    status: published
+  - id: sia-r19
+    url: https://alfa.siteimprove.com/rules/sia-r19
+    status: published
+  - id: sia-r20
+    url: https://alfa.siteimprove.com/rules/sia-r20
+    status: published
+  - id: sia-r21
+    url: https://alfa.siteimprove.com/rules/sia-r21
+    status: published
+  - id: sia-r22
+    url: https://alfa.siteimprove.com/rules/sia-r22
+    status: published
+  - id: sia-r23
+    url: https://alfa.siteimprove.com/rules/sia-r23
+    status: published
+  - id: sia-r24
+    url: https://alfa.siteimprove.com/rules/sia-r24
+    status: published
+  - id: sia-r25
+    url: https://alfa.siteimprove.com/rules/sia-r25
+    status: published
+  - id: sia-r26
+    url: https://alfa.siteimprove.com/rules/sia-r26
+    status: published
+  - id: sia-r27
+    url: https://alfa.siteimprove.com/rules/sia-r27
+    status: published
+  - id: sia-r28
+    url: https://alfa.siteimprove.com/rules/sia-r28
+    status: published
+  - id: sia-r29
+    url: https://alfa.siteimprove.com/rules/sia-r29
+    status: published
+  - id: sia-r30
+    url: https://alfa.siteimprove.com/rules/sia-r30
+    status: published
+  - id: sia-r31
+    url: https://alfa.siteimprove.com/rules/sia-r31
+    status: published
+  - id: sia-r32
+    url: https://alfa.siteimprove.com/rules/sia-r32
+    status: published
+  - id: sia-r33
+    url: https://alfa.siteimprove.com/rules/sia-r33
+    status: published
+  - id: sia-r34
+    url: https://alfa.siteimprove.com/rules/sia-r34
+    status: published
+  - id: sia-r35
+    url: https://alfa.siteimprove.com/rules/sia-r35
+    status: published
+  - id: sia-r36
+    url: https://alfa.siteimprove.com/rules/sia-r36
+    status: published
+  - id: sia-r37
+    url: https://alfa.siteimprove.com/rules/sia-r37
+    status: published
+  - id: sia-r38
+    url: https://alfa.siteimprove.com/rules/sia-r38
+    status: published
+  - id: sia-r39
+    url: https://alfa.siteimprove.com/rules/sia-r39
+    status: published
+  - id: sia-r40
+    url: https://alfa.siteimprove.com/rules/sia-r40
+    status: published
+  - id: sia-r41
+    url: https://alfa.siteimprove.com/rules/sia-r41
+    status: published
+  - id: sia-r42
+    url: https://alfa.siteimprove.com/rules/sia-r42
+    status: published
+  - id: sia-r43
+    url: https://alfa.siteimprove.com/rules/sia-r43
+    status: published
+  - id: sia-r44
+    url: https://alfa.siteimprove.com/rules/sia-r44
+    status: published
+  - id: sia-r45
+    url: https://alfa.siteimprove.com/rules/sia-r45
+    status: published
+  - id: sia-r46
+    url: https://alfa.siteimprove.com/rules/sia-r46
+    status: published
+  - id: sia-r47
+    url: https://alfa.siteimprove.com/rules/sia-r47
+    status: published
+  - id: sia-r48
+    url: https://alfa.siteimprove.com/rules/sia-r48
+    status: published
+  - id: sia-r49
+    url: https://alfa.siteimprove.com/rules/sia-r49
+    status: published
+  - id: sia-r50
+    url: https://alfa.siteimprove.com/rules/sia-r50
+    status: published
+  - id: sia-r52
+    url: https://alfa.siteimprove.com/rules/sia-r52
+    status: published
+  - id: sia-r53
+    url: https://alfa.siteimprove.com/rules/sia-r53
+    status: published
+  - id: sia-r54
+    url: https://alfa.siteimprove.com/rules/sia-r54
+    status: published
+  - id: sia-r55
+    url: https://alfa.siteimprove.com/rules/sia-r55
+    status: published
+  - id: sia-r56
+    url: https://alfa.siteimprove.com/rules/sia-r56
+    status: published
+  - id: sia-r57
+    url: https://alfa.siteimprove.com/rules/sia-r57
+    status: published
+  - id: sia-r58
+    url: https://alfa.siteimprove.com/rules/sia-r58
+    status: published
+  - id: sia-r59
+    url: https://alfa.siteimprove.com/rules/sia-r59
+    status: published
+  - id: sia-r60
+    url: https://alfa.siteimprove.com/rules/sia-r60
+    status: published
+  - id: sia-r61
+    url: https://alfa.siteimprove.com/rules/sia-r61
+    status: published
+  - id: sia-r62
+    url: https://alfa.siteimprove.com/rules/sia-r62
+    status: published
+  - id: sia-r63
+    url: https://alfa.siteimprove.com/rules/sia-r63
+    status: published
+  - id: sia-r64
+    url: https://alfa.siteimprove.com/rules/sia-r64
+    status: published
+  - id: sia-r65
+    url: https://alfa.siteimprove.com/rules/sia-r65
+    status: published
+  - id: sia-r66
+    url: https://alfa.siteimprove.com/rules/sia-r66
+    status: published
+  - id: sia-r67
+    url: https://alfa.siteimprove.com/rules/sia-r67
+    status: published
+  - id: sia-r68
+    url: https://alfa.siteimprove.com/rules/sia-r68
+    status: published
+  - id: sia-r69
+    url: https://alfa.siteimprove.com/rules/sia-r69
+    status: published
+  - id: sia-r70
+    url: https://alfa.siteimprove.com/rules/sia-r70
+    status: published
+  - id: sia-r71
+    url: https://alfa.siteimprove.com/rules/sia-r71
+    status: published
+  - id: sia-r72
+    url: https://alfa.siteimprove.com/rules/sia-r72
+    status: published
+  - id: sia-r73
+    url: https://alfa.siteimprove.com/rules/sia-r73
+    status: published
+  - id: sia-r74
+    url: https://alfa.siteimprove.com/rules/sia-r74
+    status: published
+  - id: sia-r75
+    url: https://alfa.siteimprove.com/rules/sia-r75
+    status: published
+  - id: sia-r76
+    url: https://alfa.siteimprove.com/rules/sia-r76
+    status: published
+  - id: sia-r77
+    url: https://alfa.siteimprove.com/rules/sia-r77
+    status: published
+  - id: sia-r78
+    url: https://alfa.siteimprove.com/rules/sia-r78
+    status: published
+  - id: sia-r79
+    url: https://alfa.siteimprove.com/rules/sia-r79
+    status: published
+  - id: sia-r80
+    url: https://alfa.siteimprove.com/rules/sia-r80
+    status: published
+  - id: sia-r81
+    url: https://alfa.siteimprove.com/rules/sia-r81
+    status: published
+  - id: sia-r82
+    url: https://alfa.siteimprove.com/rules/sia-r82
+    status: published
+  - id: sia-r83
+    url: https://alfa.siteimprove.com/rules/sia-r83
+    status: published
+  - id: sia-r84
+    url: https://alfa.siteimprove.com/rules/sia-r84
+    status: published
+  - id: sia-r85
+    url: https://alfa.siteimprove.com/rules/sia-r85
+    status: published
+  - id: sia-r86
+    url: https://alfa.siteimprove.com/rules/sia-r86
+    status: published
+  - id: sia-r87
+    url: https://alfa.siteimprove.com/rules/sia-r87
+    status: published
+  - id: sia-r88
+    url: https://alfa.siteimprove.com/rules/sia-r88
+    status: published
+  - id: sia-r89
+    url: https://alfa.siteimprove.com/rules/sia-r89
+    status: published
+  - id: sia-r90
+    url: https://alfa.siteimprove.com/rules/sia-r90
+    status: published
+  - id: sia-r91
+    url: https://alfa.siteimprove.com/rules/sia-r91
+    status: published
+  - id: sia-r92
+    url: https://alfa.siteimprove.com/rules/sia-r92
+    status: published
+  - id: sia-r93
+    url: https://alfa.siteimprove.com/rules/sia-r93
+    status: published
+  - id: sia-r94
+    url: https://alfa.siteimprove.com/rules/sia-r94
+    status: published
+  - id: sia-r95
+    url: https://alfa.siteimprove.com/rules/sia-r95
+    status: published
+  - id: sia-r96
+    url: https://alfa.siteimprove.com/rules/sia-r96
+    status: published
+  - id: sia-r97
+    url: https://alfa.siteimprove.com/rules/sia-r97
+    status: published
+  - id: sia-r98
+    url: https://alfa.siteimprove.com/rules/sia-r98
+    status: published
+  - id: sia-r99
+    url: https://alfa.siteimprove.com/rules/sia-r99
+    status: published
+  - id: sia-r100
+    url: https://alfa.siteimprove.com/rules/sia-r100
+    status: published
+  - id: sia-r101
+    url: https://alfa.siteimprove.com/rules/sia-r101
+    status: published
+  - id: sia-r102
+    url: https://alfa.siteimprove.com/rules/sia-r102
+    status: published
+  - id: sia-r103
+    url: https://alfa.siteimprove.com/rules/sia-r103
+    status: published
+  - id: sia-r104
+    url: https://alfa.siteimprove.com/rules/sia-r104
+    status: published
+  - id: sia-r109
+    url: https://alfa.siteimprove.com/rules/sia-r109
+    status: published
+  - id: sia-r110
+    url: https://alfa.siteimprove.com/rules/sia-r110
+    status: published
+  - id: sia-r111
+    url: https://alfa.siteimprove.com/rules/sia-r111
+    status: published
+  - id: sia-r113
+    url: https://alfa.siteimprove.com/rules/sia-r113
+    status: published
+  - id: sia-r114
+    url: https://alfa.siteimprove.com/rules/sia-r114
+    status: published
+  - id: sia-r115
+    url: https://alfa.siteimprove.com/rules/sia-r115
+    status: published
+  - id: sia-r116
+    url: https://alfa.siteimprove.com/rules/sia-r116
+    status: published
+  - id: sia-r117
+    url: https://alfa.siteimprove.com/rules/sia-r117
+    status: published

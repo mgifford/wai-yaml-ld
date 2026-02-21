@@ -7,6 +7,7 @@ schema_registry:
   aria_informative_schema: ../../../schemas/wai-aria-informative.schema.json
   crosswalk_schema: ../../../schemas/atag-to-wcag-2.2-crosswalk.schema.json
   standards_link_graph_schema: ../../../schemas/standards-link-graph.schema.json
+  accessibility_rule_catalogs_schema: ../../../schemas/accessibility-rule-catalogs.schema.json
 artifacts:
   standards_index:
     path: research/w3c-wai-standards.yaml
@@ -69,6 +70,24 @@ artifacts:
       - from
       - relation
       - to
+  accessibility_rule_catalogs:
+    path: research/accessibility-rule-catalogs.yaml
+    required_top_level_fields:
+      - project
+      - updated
+      - scope
+      - act_rules_extracted_at
+      - axe_rules_extracted_at
+      - alfa_rules_extracted_at
+      - rule_sets
+    rule_set_required_fields:
+      - id
+      - title
+      - provider
+      - catalog_url
+      - type
+      - rule_count
+      - rules
 validation_notes:
   - Keep normative and informative content separated.
   - Prefer canonical W3C TR URLs for standards references.
