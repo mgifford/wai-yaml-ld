@@ -9,6 +9,7 @@ GitHub Pages landing page (if enabled):
 - https://mgifford.github.io/wai-yaml-ld/
 - Playbook web page: https://mgifford.github.io/wai-yaml-ld/link-graph-playbook.html
 - Interactive viewer: https://mgifford.github.io/wai-yaml-ld/standards-link-viewer.html
+- Semantic theory/reference page: https://mgifford.github.io/wai-yaml-ld/semantic-linked-data-llm.html
 
 ## What This Project Is For
 
@@ -106,7 +107,12 @@ Monitoring is now set up with:
 - Scheduled GitHub Action: [.github/workflows/w3c-standards-monitor.yml](.github/workflows/w3c-standards-monitor.yml)
 - Manual artifact refresh workflow: [.github/workflows/refresh-standards-artifacts.yml](.github/workflows/refresh-standards-artifacts.yml)
 
-The workflow runs weekly and on manual dispatch, checks watched TR headers (ETag/Last-Modified), uploads a report artifact, and opens an issue when changes are detected.
+Current schedule behavior:
+
+- `W3C Standards Monitor` runs weekly (Mondays at 08:00 UTC) and on manual dispatch.
+- `Refresh Standards Artifacts` is available on manual dispatch (and can be scheduled).
+
+The monitor checks watched TR headers (ETag/Last-Modified), uploads a report artifact, and opens an issue when changes are detected.
 
 Run manually:
 

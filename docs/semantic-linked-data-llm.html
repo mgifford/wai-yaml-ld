@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Why Semantic Standards Data Helps LLM Accessibility Guidance</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 1.2rem; line-height: 1.5; color: #111; max-width: 980px; }
+    h1 { margin-bottom: 0.4rem; }
+    h2 { margin-top: 1.25rem; }
+    .lead { color: #333; }
+    .card { border: 1px solid #ddd; border-radius: 8px; padding: 0.85rem; background: #fafafa; }
+    code { background: #f2f2f2; padding: 0.1rem 0.25rem; border-radius: 4px; }
+    a { color: #0a58ca; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>Why Semantically Connected Standards Data Helps LLMs</h1>
+  <p class="lead">
+    This page explains the theory behind using structured accessibility standards data (graph links, IDs, schemas, evidence fields)
+    to improve LLM reliability when giving accessibility implementation guidance.
+  </p>
+
+  <div class="card">
+    <strong>Short version:</strong> LLMs are strongest when they can retrieve relevant, structured context at answer time.
+    Semantically connected data narrows the space of valid answers and makes unsupported claims easier to detect.
+  </div>
+
+  <h2>Core Idea</h2>
+  <ul>
+    <li>Instead of relying on model memory, use retrieval from curated, versioned standards artifacts.</li>
+    <li>Represent standards relationships explicitly (for example, <code>maps_to</code>, <code>supports_outcome_for</code>, <code>part_of</code>).</li>
+    <li>Require traceability in outputs (node IDs, edge/relation, confidence, and source URLs).</li>
+  </ul>
+
+  <h2>Why This Reduces Hallucinations</h2>
+  <ul>
+    <li><strong>Constraint:</strong> structured schemas and IDs limit free-form invention.</li>
+    <li><strong>Grounding:</strong> retrieval-first workflows anchor responses in current source artifacts.</li>
+    <li><strong>Auditability:</strong> claim-level traceability exposes unsupported recommendations.</li>
+    <li><strong>Consistency:</strong> shared graph relations reduce contradictory guidance across sessions/projects.</li>
+  </ul>
+
+  <h2>Practical Pattern</h2>
+  <ol>
+    <li>Retrieve only the relevant standards nodes/edges for the code under review.</li>
+    <li>Generate recommendations linked to those retrieved elements.</li>
+    <li>Return a traceability table for each recommendation.</li>
+    <li>Mark uncertain when evidence is missing.</li>
+  </ol>
+
+  <h2>Known Limits</h2>
+  <ul>
+    <li>This reduces hallucinations; it does not eliminate them.</li>
+    <li>Poor retrieval scope or stale sources still degrade output quality.</li>
+    <li>Accessibility conformance still requires testing and human review.</li>
+  </ul>
+
+  <h2>Resources and Background Reading</h2>
+  <ul>
+    <li><a href="https://www.w3.org/standards/semanticweb/">W3C Semantic Web Standards</a></li>
+    <li><a href="https://www.w3.org/TR/rdf12-concepts/">RDF Concepts and Abstract Syntax</a></li>
+    <li><a href="https://www.w3.org/TR/json-ld11/">JSON-LD 1.1</a></li>
+    <li><a href="https://www.w3.org/TR/skos-reference/">SKOS Simple Knowledge Organization System</a></li>
+    <li><a href="https://arxiv.org/abs/2005.11401">Retrieval-Augmented Generation for Knowledge-Intensive NLP (RAG)</a></li>
+    <li><a href="https://arxiv.org/abs/2311.12359">GraphRAG: Combining knowledge graphs and LLM retrieval (overview)</a></li>
+    <li><a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a></li>
+    <li><a href="https://www.w3.org/TR/wai-aria-1.2/">WAI-ARIA 1.2</a></li>
+  </ul>
+
+  <h2>In This Repository</h2>
+  <ul>
+    <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/docs/accessibility-agent-contract.md">Accessibility agent contract</a></li>
+    <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml">Canonical standards link graph</a></li>
+    <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/docs/link-graph-playbook.md">Link graph playbook</a></li>
+    <li><a href="standards-link-viewer.html">Interactive standards link viewer</a></li>
+  </ul>
+</body>
+</html>

@@ -2,6 +2,8 @@ name: Refresh Standards Artifacts
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "15 8 1 * *"
 
 permissions:
   contents: write
@@ -84,7 +86,7 @@ jobs:
           body: |
             Automated refresh of generated standards link graph artifacts.
 
-            Trigger: manual workflow dispatch (`Refresh Standards Artifacts`).
+            Trigger: monthly schedule (1st day of month, 08:15 UTC) or manual workflow dispatch (`Refresh Standards Artifacts`).
           labels: |
             automation
             standards
