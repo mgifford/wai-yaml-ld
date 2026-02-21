@@ -149,6 +149,7 @@ Open the interactive viewer locally:
 - Informative catalog governance: [kitty-specs/001-wai-standards-yaml-ld-ingestion/informative-catalog-governance.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/informative-catalog-governance.md)
 - Link graph playbook (human + LLM navigation): [docs/link-graph-playbook.md](docs/link-graph-playbook.md)
 - Link graph reviewer checklist (one-page quick-reference): [docs/link-graph-reviewer-checklist.md](docs/link-graph-reviewer-checklist.md)
+- Accessibility agent contract (AGENTS.md + ACCESSIBILITY.md integration): [docs/accessibility-agent-contract.md](docs/accessibility-agent-contract.md)
 
 ## Repository Hygiene
 
