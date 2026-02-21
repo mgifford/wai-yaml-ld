@@ -110,7 +110,7 @@ Monitoring is now set up with:
 Current schedule behavior:
 
 - `W3C Standards Monitor` runs weekly (Mondays at 08:00 UTC) and on manual dispatch.
-- `Refresh Standards Artifacts` is available on manual dispatch (and can be scheduled).
+- `Refresh Standards Artifacts` runs quarterly (1st day of Jan/Apr/Jul/Oct at 08:15 UTC) and on manual dispatch.
 
 The monitor checks watched TR headers (ETag/Last-Modified), uploads a report artifact, and opens an issue when changes are detected.
 
