@@ -8,6 +8,9 @@ from pathlib import Path
 import yaml
 
 
+RESEARCH_BLOB_BASE = "https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/"
+
+
 def load_graph(path: Path):
     data = yaml.safe_load(path.read_text())
     if not isinstance(data, dict):
@@ -80,7 +83,17 @@ def build_jsonld(graph):
 
 
 def write_csv(path: Path, edges, nodes):
-    node_url_by_id = {node.get("id"): node.get("url", "") for node in nodes}
+    def normalize_url(value):
+        url = str(value or "").strip()
+        if not url:
+            return ""
+        if url.startswith("http://") or url.startswith("https://"):
+            return url
+        if url.startswith("./"):
+            return f"{RESEARCH_BLOB_BASE}{url[2:]}"
+        return url
+
+    node_url_by_id = {node.get("id"): normalize_url(node.get("url", "")) for node in nodes}
     fields = ["edge_id", "from", "from_url", "relation", "to", "to_url", "confidence", "evidence"]
     with path.open("w", newline="") as fp:
         writer = csv.DictWriter(fp, fieldnames=fields)

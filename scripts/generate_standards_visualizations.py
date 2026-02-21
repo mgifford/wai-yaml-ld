@@ -8,6 +8,9 @@ from pathlib import Path
 import yaml
 
 
+RESEARCH_BLOB_BASE = "https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/"
+
+
 def load_yaml(path: Path):
     data = yaml.safe_load(path.read_text())
     if not isinstance(data, dict):
@@ -182,11 +185,29 @@ def build_parts_view(html_data, css_data):
 
 
 def write_parts_csv(path: Path, rows):
+    def normalize_url(value):
+        url = str(value or "").strip()
+        if not url:
+            return ""
+        if url.startswith("http://") or url.startswith("https://"):
+            return url
+        if url.startswith("./"):
+            return f"{RESEARCH_BLOB_BASE}{url[2:]}"
+        return url
+
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="") as fp:
         writer = csv.writer(fp)
         writer.writerow(["part_id", "part_url", "relation", "target", "target_url", "part_type"])
-        writer.writerows(rows)
+        for part_id, part_url, relation, target, target_url, part_type in rows:
+            writer.writerow([
+                part_id,
+                normalize_url(part_url),
+                relation,
+                target,
+                normalize_url(target_url),
+                part_type
+            ])
 
 
 def main():
