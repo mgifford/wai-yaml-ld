@@ -72,3 +72,50 @@ Regenerate outputs after graph edits:
 Run validation checks:
 
 `python scripts/validate_standards_graph.py --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml --stale-threshold-days 120 --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml:full_spec_inventory_extracted_at --check-file kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml:full_section_inventory_extracted_at`
+
+## 6) Example Q&A Outputs
+
+### Example 1: “How does HTML map to WCAG outcomes?”
+
+Question:
+
+"Using the link graph, show how HTML connects to WCAG 2.2."
+
+Good answer shape:
+
+- Direct path: `html-living-standard -> supports_outcome_for -> wcag-2.2` (`e020`)
+- Related supporting path: `html-aam-1.0 -> implements_mapping_for -> html-living-standard` (`e017`), then HTML contributes to WCAG outcomes via `e020`
+- ARIA/host-language constraint path: `aria-in-html -> profiles -> html-living-standard` (`e016`)
+- Suggested follow-up files:
+   - [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml)
+   - [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml)
+
+### Example 2: “Which specs support ARIA implementation details?”
+
+Question:
+
+"List mapping and computation specs that support WAI-ARIA implementation."
+
+Good answer shape:
+
+- `core-aam-1.2 -> implements_mapping_for -> wai-aria-1.2` (`e018`)
+- `accname-1.2 -> supports_outcome_for -> wai-aria-1.2` (`e019`)
+- Explain that one edge covers API mappings and the other covers name/description computation behavior
+- Point to source specs:
+   - [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml)
+
+### Example 3: “What are the most central datasets?”
+
+Question:
+
+"What datasets should I read first to understand this repository quickly?"
+
+Good answer shape:
+
+- Start with graph root dataset via `catalogs` edges (`e024` to `e028`)
+- Recommend in order:
+   1. [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml)
+   2. [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml)
+   3. [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml)
+   4. [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml)
+   5. [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml)
