@@ -1,7 +1,17 @@
 project: wai-standards-yaml-ld-ingestion
 owner: W3C WAI
-updated: '2026-02-21'
+updated: '2026-02-22'
 sources:
+- id: w3c-maturity-model
+  name: W3C Maturity Model
+  url: https://www.w3.org/TR/maturity-model/
+  type: informative
+  format_hint: w3c-tr
+- id: w3c-ethical-web-principles
+  name: Ethical Web Principles
+  url: https://www.w3.org/TR/ethical-web-principles/
+  type: informative
+  format_hint: w3c-tr
 - id: wcag-2.2
   name: Web Content Accessibility Guidelines (WCAG) 2.2
   url: https://www.w3.org/TR/WCAG22/
