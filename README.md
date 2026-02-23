@@ -93,6 +93,20 @@ If you are new to this repository:
 - Standards link graph (machine-readable relationships across WCAG/ATAG/UAAG/ARIA/HTML/CSS): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml)
 - ATAG to WCAG 2.2 crosswalk: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml)
 
+## Cognitive Resources
+
+- Cognitive patterns crosswalk: [cognitive_patterns.yaml](cognitive_patterns.yaml)
+- Cognitive implementation guide: [COGNITIVE_GUIDE.md](COGNITIVE_GUIDE.md)
+- Canonical supplemental cognitive mapping: [supplemental_guidance.yaml](supplemental_guidance.yaml)
+- Related personas for cognitive context: [personas.yaml](personas.yaml)
+
+Primary W3C references used by these resources:
+
+- Supplemental Guidance to WCAG 2: https://www.w3.org/WAI/WCAG2/supplemental/
+- Supplemental cognitive patterns: https://www.w3.org/WAI/WCAG2/supplemental/#patterns
+- WCAG 2.2 Recommendation: https://www.w3.org/TR/WCAG22/
+- Understanding WCAG 2.2: https://www.w3.org/WAI/WCAG22/Understanding/
+
 ## JSON Schemas (for tooling/LLM validation)
 
 - Standards index schema: [schemas/w3c-wai-standards.schema.json](schemas/w3c-wai-standards.schema.json)
@@ -119,11 +133,13 @@ Monitoring is now set up with:
 - Watchlist baseline: [monitoring/w3c-tr-watchlist.json](monitoring/w3c-tr-watchlist.json)
 - Monitor script: [scripts/monitor_w3c_sources.py](scripts/monitor_w3c_sources.py)
 - Scheduled GitHub Action: [.github/workflows/w3c-standards-monitor.yml](.github/workflows/w3c-standards-monitor.yml)
+- Weekly resource link/freshness checker: [.github/workflows/weekly-resource-link-check.yml](.github/workflows/weekly-resource-link-check.yml)
 - Manual artifact refresh workflow: [.github/workflows/refresh-standards-artifacts.yml](.github/workflows/refresh-standards-artifacts.yml)
 
 Current schedule behavior:
 
 - `W3C Standards Monitor` runs weekly (Mondays at 08:00 UTC) and on manual dispatch.
+- `Weekly Resource Link Check` runs weekly (Mondays at 08:30 UTC) and on manual dispatch.
 - `Refresh Standards Artifacts` runs quarterly (1st day of Jan/Apr/Jul/Oct at 08:15 UTC) and on manual dispatch.
 
 The monitor checks watched TR headers (ETag/Last-Modified), uploads a report artifact, and opens an issue when changes are detected.

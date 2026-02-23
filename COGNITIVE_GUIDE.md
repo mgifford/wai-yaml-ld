@@ -5,7 +5,7 @@ This guide summarizes cognitive-focused supplemental accessibility patterns and 
 ## Primary Sources
 
 - W3C Supplemental Guidance to WCAG 2: https://www.w3.org/WAI/WCAG2/supplemental/
-- W3C Cognitive Patterns index: https://www.w3.org/WAI/WCAG2/supplemental/patterns/
+- W3C Cognitive Patterns index: https://www.w3.org/WAI/WCAG2/supplemental/#patterns
 - WCAG 2.2 Recommendation: https://www.w3.org/TR/WCAG22/
 - Understanding WCAG 2.2: https://www.w3.org/WAI/WCAG22/Understanding/
 

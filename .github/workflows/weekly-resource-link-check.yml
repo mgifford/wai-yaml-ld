@@ -1,0 +1,63 @@
+name: Weekly Resource Link Check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 8 * * 1"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check links and W3C TR freshness aliases
+        id: check
+        run: |
+          set +e
+          python scripts/check_resource_links.py \
+            --include README.md \
+            --include COGNITIVE_GUIDE.md \
+            --include TUTORIALS.md \
+            --include personas.yaml \
+            --include workflows.yaml \
+            --include business_strategy.yaml \
+            --include supplemental_guidance.yaml \
+            --include cognitive_patterns.yaml \
+            --include kitty-specs/001-wai-standards-yaml-ld-ingestion/research/**/*.yaml \
+            --report monitoring/resource-link-report.md
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Upload link report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resource-link-report
+          path: monitoring/resource-link-report.md
+
+      - name: Create issue when link or freshness checks fail
+        if: steps.check.outputs.exit_code != '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('monitoring/resource-link-report.md', 'utf8');
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Resource link check failed (${today})`,
+              body,
+              labels: ['monitoring', 'links']
+            });

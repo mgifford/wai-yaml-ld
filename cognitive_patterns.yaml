@@ -17,7 +17,7 @@ links:
     tutorials: "TUTORIALS.md"
   w3c_sources:
     supplemental_guidance: "https://www.w3.org/WAI/WCAG2/supplemental/"
-    cognitive_patterns: "https://www.w3.org/WAI/WCAG2/supplemental/patterns/"
+    cognitive_patterns: "https://www.w3.org/WAI/WCAG2/supplemental/#patterns"
     wcag_22: "https://www.w3.org/TR/WCAG22/"
     understanding_wcag_22: "https://www.w3.org/WAI/WCAG22/Understanding/"
 
