@@ -1,13 +1,13 @@
 ---
 work_package_id: "WP02"
 title: "CI enforcement"
-lane: "planned"
+lane: "doing"
 subtasks:
   - "T005"
   - "T006"
 phase: "Phase 2 - Pipeline Gates"
-assignee: ""
-agent: ""
+assignee: "copilot"
+agent: "copilot"
 shell_pid: ""
 review_status: ""
 reviewed_by: ""
@@ -25,3 +25,7 @@ Add validator execution to:
 - refresh artifacts workflow
 
 Fail workflow on integrity violations.
+
+## Activity Log
+
+- 2026-02-23T17:29:44Z – copilot – lane=doing – Verified validator gate exists in PR validation and refresh workflows
