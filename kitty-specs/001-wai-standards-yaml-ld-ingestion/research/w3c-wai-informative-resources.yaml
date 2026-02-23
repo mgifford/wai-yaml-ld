@@ -210,8 +210,26 @@ resources:
   applies_to:
   - wai-aria
   - wcag-2.2
+- id: qualweb-act-rules
+  title: QualWeb ACT Rules Catalog
+  url: https://github.com/qualweb/act-rules
+  type: informative
+  applies_to:
+  - wai-aria
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+- id: ibm-equal-access-checker-rule-sets
+  title: IBM Equal Access Accessibility Checker Rule Sets
+  url: https://www.ibm.com/able/requirements/checker-rule-sets/
+  type: informative
+  applies_to:
+  - wai-aria
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
 - id: accessibility-rule-catalogs-machine-readable
-  title: Accessibility Rule Catalogs Machine-Readable Dataset (ACT + axe + Alfa)
+  title: Accessibility Rule Catalogs Machine-Readable Dataset (ACT + axe + Alfa + QualWeb + IBM source metadata)
   url: ./accessibility-rule-catalogs.yaml
   type: informative
   applies_to:

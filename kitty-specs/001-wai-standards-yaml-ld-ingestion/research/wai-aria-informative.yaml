@@ -88,6 +88,16 @@ informative_resources:
     url: https://www.w3.org/TR/act-rules-format/
     type: informative
 
+  - id: qualweb-act-rules
+    title: QualWeb ACT Rules Catalog
+    url: https://github.com/qualweb/act-rules
+    type: informative
+
+  - id: ibm-equal-access-checker-rule-sets
+    title: IBM Equal Access Accessibility Checker Rule Sets
+    url: https://www.ibm.com/able/requirements/checker-rule-sets/
+    type: informative
+
   - id: wai-arrm-home
     title: Accessibility Roles and Responsibilities Mapping (ARRM)
     url: https://www.w3.org/WAI/planning/arrm/

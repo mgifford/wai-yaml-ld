@@ -1,9 +1,10 @@
 project: wai-standards-yaml-ld-ingestion
-updated: '2026-02-21'
+updated: '2026-02-23'
 scope: accessibility_rule_catalogs
-act_rules_extracted_at: '2026-02-21'
-axe_rules_extracted_at: '2026-02-21'
-alfa_rules_extracted_at: '2026-02-21'
+act_rules_extracted_at: '2026-02-23'
+axe_rules_extracted_at: '2026-02-23'
+alfa_rules_extracted_at: '2026-02-23'
+qualweb_rules_extracted_at: '2026-02-23'
 rule_sets:
 - id: w3c-act-rules
   title: W3C ACT Rules
@@ -20,285 +21,383 @@ rule_sets:
   - id: 047fe0
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/047fe0/proposed/
     status: proposed
+    title: Document has heading for non-repeated content
   - id: 09o5cg
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/09o5cg/
     status: approved
+    title: Text has enhanced contrast
   - id: 0ssw9k
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/0ssw9k/
     status: approved
+    title: Scrollable content can be reached with sequential focus navigation
   - id: 0va7u6
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/0va7u6/
     status: approved
+    title: HTML images contain no text
   - id: 1a02b0
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/1a02b0/proposed/
     status: proposed
+    title: Audio and visuals of video element have transcript
   - id: 1ea59c
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/1ea59c/proposed/
     status: proposed
+    title: Video element visual content has audio description
   - id: 1ec09b
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/1ec09b/proposed/
     status: proposed
+    title: Video element visual content has strict accessible alternative
   - id: 23a2a8
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/23a2a8/
     status: approved
+    title: Image has non-empty accessible name
   - id: 24afc2
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/24afc2/
     status: approved
+    title: Important letter spacing in style attributes is wide enough
   - id: 2779a5
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/2779a5/
     status: approved
+    title: HTML page has non-empty title
   - id: 2eb176
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/2eb176/proposed/
     status: proposed
+    title: Audio element content has transcript
   - id: 2ee8b8
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/2ee8b8/proposed/
     status: proposed
+    title: Visible label is part of accessible name
   - id: 2t702h
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/2t702h/
     status: approved
+    title: Summary element has non-empty accessible name
   - id: 307n5z
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/307n5z/
     status: approved
+    title: Element with presentational children has no focusable content
   - id: 36b590
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/36b590/proposed/
     status: proposed
+    title: Error message describes invalid form field value
   - id: 3e12e1
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/3e12e1/proposed/
     status: proposed
+    title: Block of repeated content is collapsible
   - id: 3ea0c8
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/3ea0c8/proposed/
     status: proposed
+    title: Id attribute value is unique
   - id: 46ca7f
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/46ca7f/
     status: approved
+    title: Element marked as decorative is not exposed
   - id: 4b1c6c
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/4b1c6c/proposed/
     status: proposed
+    title: Iframe elements with identical accessible names have equivalent purpose
   - id: 4c31df
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/4c31df/proposed/
     status: proposed
+    title: Audio or video element that plays automatically has a control mechanism
   - id: 4e8ab6
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/4e8ab6/
     status: approved
+    title: Element with role attribute has required states and properties
   - id: 59796f
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/59796f/
     status: approved
+    title: Image button has non-empty accessible name
   - id: 59br37
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/59br37/proposed/
     status: proposed
+    title: Zoomed text node is not clipped with CSS overflow
   - id: 5b7ae0
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/5b7ae0/proposed/
     status: proposed
+    title: HTML page lang and xml:lang attributes have matching values
   - id: 5c01ea
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/5c01ea/proposed/
     status: proposed
+    title: ARIA state or property is permitted
   - id: 5effbb
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/5effbb/proposed/
     status: proposed
+    title: Link in context is descriptive
   - id: 5f99a7
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/5f99a7/
     status: approved
+    title: ARIA attribute is defined in WAI-ARIA
   - id: 674b10
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/674b10/
     status: approved
+    title: Role attribute has valid value
   - id: 6a7281
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/6a7281/
     status: approved
+    title: ARIA state or property has valid value
   - id: 6cfa84
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/6cfa84/
     status: approved
+    title: Element with aria-hidden has no content in sequential focus navigation
   - id: 73f2c2
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/73f2c2/
     status: approved
+    title: Autocomplete attribute has valid value
   - id: 7677a9
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/7677a9/proposed/
     status: proposed
+    title: Device motion based changes to the content can also be created from the
+      user interface
   - id: 78fd32
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/78fd32/
     status: approved
+    title: Important line height in style attributes is wide enough
   - id: 7d6734
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/7d6734/
     status: approved
+    title: SVG element with explicit role has non-empty accessible name
   - id: 80af7b
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/80af7b/proposed/
     status: proposed
+    title: Focusable element has no keyboard trap
   - id: 80f0bf
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/80f0bf/proposed/
     status: proposed
+    title: Audio or video element avoids automatically playing audio
   - id: 8fc3b6
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/8fc3b6/
     status: approved
+    title: Object element rendering non-text content has non-empty accessible name
   - id: 97a4e1
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/97a4e1/
     status: approved
+    title: Button has non-empty accessible name
   - id: 9bd38c
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/9bd38c/proposed/
     status: proposed
+    title: Content has alternative for visual reference
   - id: 9e45ec
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/9e45ec/
     status: approved
+    title: Important word spacing in style attributes is wide enough
   - id: 9eb3f6
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/9eb3f6/proposed/
     status: proposed
+    title: Image filename is accessible name for image
   - id: a1b64e
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/a1b64e/proposed/
     status: proposed
+    title: Focusable element has no keyboard trap via standard navigation
   - id: a25f45
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/a25f45/
     status: approved
+    title: Headers attribute specified on a cell refers to cells in the same table
+      element
   - id: aaa1bf
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/aaa1bf/proposed/
     status: proposed
+    title: Audio or video element that plays automatically has no audio that lasts
+      more than 3 seconds
   - id: ab4d13
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ab4d13/proposed/
     status: proposed
+    title: Video element content is media alternative for text
   - id: ac7dc6
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ac7dc6/proposed/
     status: proposed
+    title: Video element visual-only content has description track
   - id: afb423
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/afb423/proposed/
     status: proposed
+    title: Audio element content is media alternative for text
   - id: afw4f7
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/afw4f7/
     status: approved
+    title: Text has minimum contrast
   - id: aizyf1
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/aizyf1/proposed/
     status: proposed
+    title: Link is descriptive
   - id: akn7bn
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/akn7bn/
     status: approved
+    title: Iframe with interactive elements is not excluded from tab-order
   - id: b20e66
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/b20e66/proposed/
     status: proposed
+    title: Links with identical accessible names have equivalent purpose
   - id: b33eff
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/b33eff/
     status: approved
+    title: Orientation of the page is not restricted using CSS transforms
   - id: b40fd1
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/b40fd1/proposed/
     status: proposed
+    title: Document has a landmark with non-repeated content
   - id: b49b2e
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/b49b2e/proposed/
     status: proposed
+    title: Heading is descriptive
   - id: b4f0c3
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/b4f0c3/
     status: approved
+    title: Meta viewport allows for zoom
   - id: b5c3f8
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/b5c3f8/
     status: approved
+    title: HTML page has lang attribute
   - id: bc4a75
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/bc4a75/proposed/
     status: proposed
+    title: ARIA required owned elements
   - id: bc659a
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/bc659a/
     status: approved
+    title: Meta element has no refresh delay
   - id: bf051a
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/bf051a/
     status: approved
+    title: HTML page lang attribute has valid language tag
   - id: bisz58
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/bisz58/
     status: approved
+    title: Meta element has no refresh delay (no exception)
   - id: c249d5
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/c249d5/proposed/
     status: proposed
+    title: Device motion based changes to the content can be disabled
   - id: c3232f
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/c3232f/proposed/
     status: proposed
+    title: Video element visual-only content has accessible alternative
   - id: c487ae
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/c487ae/
     status: approved
+    title: Link has non-empty accessible name
   - id: c4a8a4
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/c4a8a4/
     status: approved
+    title: HTML page title is descriptive
   - id: c5a4ea
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/c5a4ea/proposed/
     status: proposed
+    title: Video element visual content has accessible alternative
   - id: cae760
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/cae760/proposed/
     status: proposed
+    title: Iframe element has non-empty accessible name
   - id: cc0f0a
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/cc0f0a/proposed/
     status: proposed
+    title: Form field label is descriptive
   - id: cf77f2
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/cf77f2/proposed/
     status: proposed
+    title: Bypass Blocks of Repeated Content
   - id: d0f69e
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/d0f69e/proposed/
     status: proposed
+    title: Table header cell has assigned cells
   - id: d7ba54
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/d7ba54/proposed/
     status: proposed
+    title: Video element visual-only content has audio track alternative
   - id: de46e4
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/de46e4/
     status: approved
+    title: Element with lang attribute has valid language tag
   - id: e086e5
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/
     status: approved
+    title: Form field has non-empty accessible name
   - id: e6952f
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/e6952f/proposed/
     status: proposed
+    title: Attribute is not duplicated
   - id: e7aa44
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/e7aa44/proposed/
     status: proposed
+    title: Audio element content has text alternative
   - id: e88epe
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/e88epe/proposed/
     status: proposed
+    title: Image not in the accessibility tree is decorative
   - id: eac66b
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/eac66b/proposed/
     status: proposed
+    title: Video element auditory content has accessible alternative
   - id: ebe86a
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ebe86a/proposed/
     status: proposed
+    title: Focusable element has no keyboard trap via non-standard navigation
   - id: ee13b5
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ee13b5/proposed/
     status: proposed
+    title: Video element visual-only content has transcript
   - id: efbfc7
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/efbfc7/proposed/
     status: proposed
+    title: Text content that changes automatically can be paused, stopped or hidden
   - id: f196ce
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/f196ce/proposed/
     status: proposed
+    title: Video element visual content has description track
   - id: f51b46
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/f51b46/proposed/
     status: proposed
+    title: Video element auditory content has captions
   - id: fd26cf
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/fd26cf/proposed/
     status: proposed
+    title: Video element visual-only content is media alternative for text
   - id: fd3a94
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/fd3a94/proposed/
     status: proposed
+    title: Links with identical accessible names and same context serve equivalent
+      purpose
   - id: ff89c9
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ff89c9/proposed/
     status: proposed
+    title: ARIA required context role
   - id: ffbc54
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ffbc54/proposed/
     status: proposed
+    title: No keyboard shortcut uses only printable characters
   - id: ffd0e9
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ffd0e9/proposed/
     status: proposed
+    title: Heading has non-empty accessible name
   - id: in6db8
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/
     status: proposed
+    title: ARIA required ID references exist
   - id: kb1m8s
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/kb1m8s/proposed/
     status: proposed
+    title: ARIA global properties not used where prohibited
   - id: m6b1q3
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/m6b1q3/
     status: approved
+    title: Menuitem has non-empty accessible name
   - id: off6ek
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/off6ek/proposed/
     status: proposed
+    title: HTML element language subtag matches language
   - id: oj04fd
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/oj04fd/
     status: approved
+    title: Element in sequential focus order has visible focus
   - id: qt1vmo
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/
     status: approved
+    title: Image accessible name is descriptive
   - id: ucwvc8
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ucwvc8/proposed/
     status: proposed
+    title: HTML page language subtag matches default language
   - id: ye5d6e
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/proposed/
     status: proposed
+    title: Document has an instrument to move focus to non-repeated content
 - id: deque-axe-rules-4.11
   title: Deque axe-core Rules 4.11
   provider: Deque
@@ -307,320 +406,403 @@ rule_sets:
   applies_to:
   - wcag-2.2
   - wai-aria-1.2
-  rule_count: 104
+  rule_count: 56
   rules:
-  - id: accesskeys
-    url: https://dequeuniversity.com/rules/axe/4.11/accesskeys
-    status: published
-  - id: area-alt
-    url: https://dequeuniversity.com/rules/axe/4.11/area-alt
-    status: published
   - id: aria-allowed-attr
     url: https://dequeuniversity.com/rules/axe/4.11/aria-allowed-attr
     status: published
-  - id: aria-allowed-role
-    url: https://dequeuniversity.com/rules/axe/4.11/aria-allowed-role
-    status: published
+    title: Ensure an element's role supports its ARIA attributes Critical cat.aria,
+      wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure, needs review
+      5c01ea
   - id: aria-braille-equivalent
     url: https://dequeuniversity.com/rules/axe/4.11/aria-braille-equivalent
     status: published
-  - id: aria-command-name
-    url: https://dequeuniversity.com/rules/axe/4.11/aria-command-name
-    status: published
+    title: Ensure aria-braillelabel and aria-brailleroledescription have a non-braille
+      equivalent Serious cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2 needs review
+      aria-command-name Ensure every ARIA button, link and menuitem has an accessible
+      name Serious cat.aria, wcag2a, wcag412, TTv5, TT6.a, EN-301-549, EN-9.4.1.2,
+      ACT, RGAAv4, RGAA-11.9.1 failure, needs review 97a4e1
   - id: aria-conditional-attr
     url: https://dequeuniversity.com/rules/axe/4.11/aria-conditional-attr
     status: published
+    title: Ensure ARIA attributes are used as described in the specification of the
+      element's role Serious cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4,
+      RGAA-7.1.1 failure 5c01ea
   - id: aria-deprecated-role
     url: https://dequeuniversity.com/rules/axe/4.11/aria-deprecated-role
     status: published
-  - id: aria-dialog-name
-    url: https://dequeuniversity.com/rules/axe/4.11/aria-dialog-name
-    status: published
+    title: Ensure elements do not use deprecated roles Minor cat.aria, wcag2a, wcag412,
+      EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure 674b10
   - id: aria-hidden-body
     url: https://dequeuniversity.com/rules/axe/4.11/aria-hidden-body
     status: published
-  - id: aria-hidden-focus
-    url: https://dequeuniversity.com/rules/axe/4.11/aria-hidden-focus
-    status: published
+    title: Ensure aria-hidden="true" is not present on the document body. Critical
+      cat.aria, wcag2a, wcag131, wcag412, EN-301-549, EN-9.1.3.1, EN-9.4.1.2, RGAAv4,
+      RGAA-7.1.1 failure aria-hidden-focus Ensure aria-hidden elements are not focusable
+      nor contain focusable elements Serious cat.name-role-value, wcag2a, wcag412,
+      TTv5, TT6.a, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure, needs review
+      6cfa84
   - id: aria-input-field-name
     url: https://dequeuniversity.com/rules/axe/4.11/aria-input-field-name
     status: published
+    title: Ensure every ARIA input field has an accessible name Serious cat.aria,
+      wcag2a, wcag412, TTv5, TT5.c, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.1.1
+      failure, needs review e086e5
   - id: aria-meter-name
     url: https://dequeuniversity.com/rules/axe/4.11/aria-meter-name
     status: published
-  - id: aria-progressbar-name
-    url: https://dequeuniversity.com/rules/axe/4.11/aria-progressbar-name
-    status: published
-  - id: aria-prohibited-attr
-    url: https://dequeuniversity.com/rules/axe/4.11/aria-prohibited-attr
-    status: published
+    title: Ensure every ARIA meter node has an accessible name Serious cat.aria, wcag2a,
+      wcag111, EN-301-549, EN-9.1.1.1, RGAAv4, RGAA-11.1.1 failure, needs review aria-progressbar-name
+      Ensure every ARIA progressbar node has an accessible name Serious cat.aria,
+      wcag2a, wcag111, EN-301-549, EN-9.1.1.1, RGAAv4, RGAA-11.1.1 failure, needs
+      review aria-prohibited-attr Ensure ARIA attributes are not prohibited for an
+      element's role Serious cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4,
+      RGAA-7.1.1 failure, needs review 5c01ea
   - id: aria-required-attr
     url: https://dequeuniversity.com/rules/axe/4.11/aria-required-attr
     status: published
+    title: Ensure elements with ARIA roles have all required ARIA attributes Critical
+      cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure
+      4e8ab6
   - id: aria-required-children
     url: https://dequeuniversity.com/rules/axe/4.11/aria-required-children
     status: published
+    title: Ensure elements with an ARIA role that require child roles contain them
+      Critical cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1
+      failure, needs review bc4a75
   - id: aria-required-parent
     url: https://dequeuniversity.com/rules/axe/4.11/aria-required-parent
     status: published
-  - id: aria-roledescription
-    url: https://dequeuniversity.com/rules/axe/4.11/aria-roledescription
-    status: published
+    title: Ensure elements with an ARIA role that require parent roles are contained
+      by them Critical cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4,
+      RGAA-9.3.1 failure ff89c9
   - id: aria-roles
     url: https://dequeuniversity.com/rules/axe/4.11/aria-roles
     status: published
-  - id: aria-text
-    url: https://dequeuniversity.com/rules/axe/4.11/aria-text
-    status: published
+    title: Ensure all elements with a role attribute use a valid value Critical cat.aria,
+      wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure 674b10
   - id: aria-toggle-field-name
     url: https://dequeuniversity.com/rules/axe/4.11/aria-toggle-field-name
     status: published
+    title: Ensure every ARIA toggle field has an accessible name Serious cat.aria,
+      wcag2a, wcag412, TTv5, TT5.c, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-7.1.1
+      failure, needs review e086e5
   - id: aria-tooltip-name
     url: https://dequeuniversity.com/rules/axe/4.11/aria-tooltip-name
     status: published
-  - id: aria-treeitem-name
-    url: https://dequeuniversity.com/rules/axe/4.11/aria-treeitem-name
-    status: published
+    title: Ensure every ARIA tooltip node has an accessible name Serious cat.aria,
+      wcag2a, wcag412, EN-301-549, EN-9.4.1.2 failure, needs review aria-valid-attr-value
+      Ensure all ARIA attributes have valid values Critical cat.aria, wcag2a, wcag412,
+      EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure, needs review 6a7281
   - id: aria-valid-attr
     url: https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr
     status: published
-  - id: aria-valid-attr-value
-    url: https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr-value
-    status: published
-  - id: audio-caption
-    url: https://dequeuniversity.com/rules/axe/4.11/audio-caption
-    status: published
-  - id: autocomplete-valid
-    url: https://dequeuniversity.com/rules/axe/4.11/autocomplete-valid
-    status: published
+    title: Ensure attributes that begin with aria- are valid ARIA attributes Critical
+      cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure
+      5f99a7
   - id: avoid-inline-spacing
     url: https://dequeuniversity.com/rules/axe/4.11/avoid-inline-spacing
     status: published
+    title: Ensure that text spacing set through style attributes can be adjusted with
+      custom stylesheets Serious cat.structure, wcag21aa, wcag1412, EN-301-549, EN-9.1.4.12,
+      ACT failure 24afc2
   - id: blink
     url: https://dequeuniversity.com/rules/axe/4.11/blink
     status: published
   - id: button-name
     url: https://dequeuniversity.com/rules/axe/4.11/button-name
     status: published
+    title: Ensure buttons have discernible text Critical cat.name-role-value, wcag2a,
+      wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT,
+      RGAAv4, RGAA-11.9.1 failure, needs review 97a4e1
   - id: bypass
     url: https://dequeuniversity.com/rules/axe/4.11/bypass
     status: published
   - id: color-contrast
     url: https://dequeuniversity.com/rules/axe/4.11/color-contrast
     status: published
-  - id: color-contrast-enhanced
-    url: https://dequeuniversity.com/rules/axe/4.11/color-contrast-enhanced
-    status: published
-  - id: css-orientation-lock
-    url: https://dequeuniversity.com/rules/axe/4.11/css-orientation-lock
-    status: published
+    title: Ensure the contrast between foreground and background colors meets WCAG
+      2 AA minimum contrast ratio thresholds Serious cat.color, wcag2aa, wcag143,
+      TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1 failure, needs
+      review afw4f7
   - id: definition-list
     url: https://dequeuniversity.com/rules/axe/4.11/definition-list
     status: published
-  - id: dlitem
-    url: https://dequeuniversity.com/rules/axe/4.11/dlitem
-    status: published
+    title: Ensure <dl> elements are structured correctly Serious cat.structure, wcag2a,
+      wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.3 failure dlitem
   - id: document-title
     url: https://dequeuniversity.com/rules/axe/4.11/document-title
     status: published
+    title: Ensure each HTML document contains a non-empty <title> element Serious
+      cat.text-alternatives, wcag2a, wcag242, TTv5, TT12.a, EN-301-549, EN-9.2.4.2,
+      ACT, RGAAv4, RGAA-8.5.1 failure 2779a5
   - id: duplicate-id
     url: https://dequeuniversity.com/rules/axe/4.11/duplicate-id
     status: published
+    title: Ensure every id attribute value is unique Minor cat.parsing, wcag2a-obsolete,
+      wcag411, deprecated failure 3ea0c8
   - id: duplicate-id-active
     url: https://dequeuniversity.com/rules/axe/4.11/duplicate-id-active
     status: published
+    title: Ensure every id attribute value of active elements is unique Serious cat.parsing,
+      wcag2a-obsolete, wcag411, deprecated failure 3ea0c8
   - id: duplicate-id-aria
     url: https://dequeuniversity.com/rules/axe/4.11/duplicate-id-aria
     status: published
-  - id: empty-heading
-    url: https://dequeuniversity.com/rules/axe/4.11/empty-heading
-    status: published
+    title: Ensure every id attribute value used in ARIA and in labels is unique Critical
+      cat.parsing, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-8.2.1 needs
+      review 3ea0c8
   - id: empty-table-header
     url: https://dequeuniversity.com/rules/axe/4.11/empty-table-header
     status: published
+    title: Ensure table headers have discernible text Minor cat.name-role-value, best-practice
+      failure, needs review frame-tested Ensure <iframe> and <frame> elements contain
+      the axe-core script Critical cat.structure, best-practice, review-item failure,
+      needs review heading-order Ensure the order of headings is semantically correct
+      Moderate cat.semantics, best-practice failure, needs review image-redundant-alt
+      Ensure image alternative is not repeated as text Minor cat.text-alternatives,
+      best-practice failure label-title-only Ensure that every form element has a
+      visible label and is not solely labeled using hidden labels, or the title or
+      aria-describedby attributes Serious cat.forms, best-practice failure landmark-banner-is-top-level
+      Ensure the banner landmark is at top level Moderate cat.semantics, best-practice
+      failure landmark-complementary-is-top-level Ensure the complementary landmark
+      or aside is at top level Moderate cat.semantics, best-practice failure landmark-contentinfo-is-top-level
+      Ensure the contentinfo landmark is at top level Moderate cat.semantics, best-practice
+      failure landmark-main-is-top-level Ensure the main landmark is at top level
+      Moderate cat.semantics, best-practice failure landmark-no-duplicate-banner Ensure
+      the document has at most one banner landmark Moderate cat.semantics, best-practice
+      failure landmark-no-duplicate-contentinfo Ensure the document has at most one
+      contentinfo landmark Moderate cat.semantics, best-practice failure landmark-no-duplicate-main
+      Ensure the document has at most one main landmark Moderate cat.semantics, best-practice
+      failure landmark-one-main Ensure the document has a main landmark Moderate cat.semantics,
+      best-practice failure landmark-unique Ensure landmarks are unique Moderate cat.semantics,
+      best-practice failure meta-viewport-large Ensure <meta name="viewport"> can
+      scale a significant amount Minor cat.sensory-and-visual-cues, best-practice
+      failure page-has-heading-one Ensure that the page, or at least one of its frames
+      contains a level-one heading Moderate cat.semantics, best-practice failure presentation-role-conflict
+      Ensure elements marked as presentational do not have global ARIA or tabindex
+      so that all screen readers ignore them Minor cat.aria, best-practice, ACT failure
+      46ca7f
   - id: focus-order-semantics
     url: https://dequeuniversity.com/rules/axe/4.11/focus-order-semantics
     status: published
+    title: Ensure elements in the focus order have a role appropriate for interactive
+      content Minor cat.keyboard, best-practice, RGAAv4, RGAA-12.8.1, experimental
+      failure hidden-content Inform users about hidden content. Minor cat.structure,
+      best-practice, experimental, review-item failure, needs review label-content-name-mismatch
+      Ensure that elements labelled through their content must have their visible
+      text as part of their accessible name Serious cat.semantics, wcag21a, wcag253,
+      EN-301-549, EN-9.2.5.3, RGAAv4, RGAA-6.1.5, experimental failure 2ee8b8
   - id: form-field-multiple-labels
     url: https://dequeuniversity.com/rules/axe/4.11/form-field-multiple-labels
     status: published
-  - id: frame-focusable-content
-    url: https://dequeuniversity.com/rules/axe/4.11/frame-focusable-content
-    status: published
-  - id: frame-tested
-    url: https://dequeuniversity.com/rules/axe/4.11/frame-tested
-    status: published
+    title: Ensure form field does not have multiple label elements Moderate cat.forms,
+      wcag2a, wcag332, TTv5, TT5.c, EN-301-549, EN-9.3.3.2, RGAAv4, RGAA-11.2.1 needs
+      review frame-focusable-content Ensure <frame> and <iframe> elements with focusable
+      content do not have tabindex=-1 Serious cat.keyboard, wcag2a, wcag211, TTv5,
+      TT4.a, EN-301-549, EN-9.2.1.1, RGAAv4, RGAA-7.3.2 failure, needs review akn7bn
   - id: frame-title
     url: https://dequeuniversity.com/rules/axe/4.11/frame-title
     status: published
+    title: Ensure <iframe> and <frame> elements have an accessible name Serious cat.text-alternatives,
+      wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2,
+      RGAAv4, RGAA-2.1.1 failure, needs review cae760
   - id: frame-title-unique
     url: https://dequeuniversity.com/rules/axe/4.11/frame-title-unique
     status: published
-  - id: heading-order
-    url: https://dequeuniversity.com/rules/axe/4.11/heading-order
-    status: published
-  - id: hidden-content
-    url: https://dequeuniversity.com/rules/axe/4.11/hidden-content
-    status: published
+    title: Ensure <iframe> and <frame> elements contain a unique title attribute Serious
+      cat.text-alternatives, wcag2a, wcag412, TTv5, TT12.d, EN-301-549, EN-9.4.1.2,
+      RGAAv4, RGAA-2.2.1 needs review 4b1c6c
   - id: html-has-lang
     url: https://dequeuniversity.com/rules/axe/4.11/html-has-lang
     status: published
+    title: Ensure every HTML document has a lang attribute Serious cat.language, wcag2a,
+      wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1 failure
+      b5c3f8
   - id: html-lang-valid
     url: https://dequeuniversity.com/rules/axe/4.11/html-lang-valid
     status: published
+    title: Ensure the lang attribute of the <html> element has a valid value Serious
+      cat.language, wcag2a, wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4,
+      RGAA-8.4.1 failure bf051a
   - id: html-xml-lang-mismatch
     url: https://dequeuniversity.com/rules/axe/4.11/html-xml-lang-mismatch
     status: published
+    title: Ensure that HTML elements with both valid lang and xml:lang attributes
+      agree on the base language of the page Moderate cat.language, wcag2a, wcag311,
+      EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1 failure 5b7ae0
   - id: identical-links-same-purpose
     url: https://dequeuniversity.com/rules/axe/4.11/identical-links-same-purpose
     status: published
+    title: Ensure that links with the same accessible name serve a similar purpose
+      Minor cat.semantics, wcag2aaa, wcag249 needs review b20e66
   - id: image-alt
     url: https://dequeuniversity.com/rules/axe/4.11/image-alt
     status: published
-  - id: image-redundant-alt
-    url: https://dequeuniversity.com/rules/axe/4.11/image-redundant-alt
-    status: published
+    title: Ensure <img> elements have alternative text or a role of none or presentation
+      Critical cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a,
+      TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1 failure,
+      needs review 23a2a8
   - id: input-button-name
     url: https://dequeuniversity.com/rules/axe/4.11/input-button-name
     status: published
+    title: Ensure input buttons have discernible text Critical cat.name-role-value,
+      wcag2a, wcag412, section508, section508.22.a, TTv5, TT5.c, EN-301-549, EN-9.4.1.2,
+      ACT, RGAAv4, RGAA-11.9.1 failure, needs review 97a4e1
   - id: input-image-alt
     url: https://dequeuniversity.com/rules/axe/4.11/input-image-alt
     status: published
+    title: Ensure <input type="image"> elements have alternative text Critical cat.text-alternatives,
+      wcag2a, wcag111, wcag412, section508, section508.22.a, TTv5, TT7.a, EN-301-549,
+      EN-9.1.1.1, EN-9.4.1.2, ACT, RGAAv4, RGAA-1.1.3 failure, needs review 59796f
   - id: label
     url: https://dequeuniversity.com/rules/axe/4.11/label
-    status: published
-  - id: label-content-name-mismatch
-    url: https://dequeuniversity.com/rules/axe/4.11/label-content-name-mismatch
-    status: published
-  - id: label-title-only
-    url: https://dequeuniversity.com/rules/axe/4.11/label-title-only
-    status: published
-  - id: landmark-banner-is-top-level
-    url: https://dequeuniversity.com/rules/axe/4.11/landmark-banner-is-top-level
-    status: published
-  - id: landmark-complementary-is-top-level
-    url: https://dequeuniversity.com/rules/axe/4.11/landmark-complementary-is-top-level
-    status: published
-  - id: landmark-contentinfo-is-top-level
-    url: https://dequeuniversity.com/rules/axe/4.11/landmark-contentinfo-is-top-level
-    status: published
-  - id: landmark-main-is-top-level
-    url: https://dequeuniversity.com/rules/axe/4.11/landmark-main-is-top-level
-    status: published
-  - id: landmark-no-duplicate-banner
-    url: https://dequeuniversity.com/rules/axe/4.11/landmark-no-duplicate-banner
-    status: published
-  - id: landmark-no-duplicate-contentinfo
-    url: https://dequeuniversity.com/rules/axe/4.11/landmark-no-duplicate-contentinfo
-    status: published
-  - id: landmark-no-duplicate-main
-    url: https://dequeuniversity.com/rules/axe/4.11/landmark-no-duplicate-main
-    status: published
-  - id: landmark-one-main
-    url: https://dequeuniversity.com/rules/axe/4.11/landmark-one-main
-    status: published
-  - id: landmark-unique
-    url: https://dequeuniversity.com/rules/axe/4.11/landmark-unique
     status: published
   - id: link-in-text-block
     url: https://dequeuniversity.com/rules/axe/4.11/link-in-text-block
     status: published
-  - id: link-name
-    url: https://dequeuniversity.com/rules/axe/4.11/link-name
-    status: published
+    title: Ensure links are distinguished from surrounding text in a way that does
+      not rely on color Serious cat.color, wcag2a, wcag141, TTv5, TT13.a, EN-301-549,
+      EN-9.1.4.1, RGAAv4, RGAA-10.6.1 failure, needs review link-name Ensure links
+      have discernible text Serious cat.name-role-value, wcag2a, wcag244, wcag412,
+      section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2,
+      ACT, RGAAv4, RGAA-6.2.1 failure, needs review c487ae
   - id: list
     url: https://dequeuniversity.com/rules/axe/4.11/list
     status: published
   - id: listitem
     url: https://dequeuniversity.com/rules/axe/4.11/listitem
     status: published
-  - id: marquee
-    url: https://dequeuniversity.com/rules/axe/4.11/marquee
-    status: published
-  - id: meta-refresh
-    url: https://dequeuniversity.com/rules/axe/4.11/meta-refresh
-    status: published
+    title: Ensure <li> elements are used semantically Serious cat.structure, wcag2a,
+      wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1 failure marquee Ensure <marquee>
+      elements are not used Serious cat.parsing, wcag2a, wcag222, TTv5, TT2.b, EN-301-549,
+      EN-9.2.2.2, RGAAv4, RGAA-13.8.1 failure meta-refresh Ensure <meta http-equiv="refresh">
+      is not used for delayed refresh Critical cat.time-and-media, wcag2a, wcag221,
+      TTv5, TT8.a, EN-301-549, EN-9.2.2.1, RGAAv4, RGAA-13.1.2 failure bc659a
   - id: meta-refresh-no-exceptions
     url: https://dequeuniversity.com/rules/axe/4.11/meta-refresh-no-exceptions
     status: published
+    title: Ensure <meta http-equiv="refresh"> is not used for delayed refresh Minor
+      cat.time-and-media, wcag2aaa, wcag224, wcag325 failure bisz58
   - id: meta-viewport
     url: https://dequeuniversity.com/rules/axe/4.11/meta-viewport
     status: published
-  - id: meta-viewport-large
-    url: https://dequeuniversity.com/rules/axe/4.11/meta-viewport-large
-    status: published
+    title: Ensure <meta name="viewport"> does not disable text scaling and zooming
+      Moderate cat.sensory-and-visual-cues, wcag2aa, wcag144, EN-301-549, EN-9.1.4.4,
+      ACT, RGAAv4, RGAA-10.4.2 failure b4f0c3
   - id: nested-interactive
     url: https://dequeuniversity.com/rules/axe/4.11/nested-interactive
     status: published
+    title: Ensure interactive controls are not nested as they are not always announced
+      by screen readers or can cause focus problems for assistive technologies Serious
+      cat.keyboard, wcag2a, wcag412, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, RGAAv4,
+      RGAA-7.1.1 failure, needs review 307n5z
   - id: no-autoplay-audio
     url: https://dequeuniversity.com/rules/axe/4.11/no-autoplay-audio
     status: published
+    title: Ensure <video> or <audio> elements do not autoplay audio for more than
+      3 seconds without a control mechanism to stop or mute the audio Moderate cat.time-and-media,
+      wcag2a, wcag142, TTv5, TT2.a, EN-301-549, EN-9.1.4.2, ACT, RGAAv4, RGAA-4.10.1
+      needs review 80f0bf
   - id: object-alt
     url: https://dequeuniversity.com/rules/axe/4.11/object-alt
     status: published
+    title: Ensure <object> elements have alternative text Serious cat.text-alternatives,
+      wcag2a, wcag111, section508, section508.22.a, EN-301-549, EN-9.1.1.1, RGAAv4,
+      RGAA-1.1.6 failure, needs review 8fc3b6
   - id: p-as-heading
     url: https://dequeuniversity.com/rules/axe/4.11/p-as-heading
     status: published
-  - id: page-has-heading-one
-    url: https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one
-    status: published
-  - id: presentation-role-conflict
-    url: https://dequeuniversity.com/rules/axe/4.11/presentation-role-conflict
-    status: published
+    title: Ensure bold, italic text and font-size is not used to style <p> elements
+      as a heading Serious cat.semantics, wcag2a, wcag131, EN-301-549, EN-9.1.3.1,
+      RGAAv4, RGAA-9.1.3, experimental failure, needs review table-fake-caption Ensure
+      that tables with a caption use the <caption> element. Serious cat.tables, experimental,
+      wcag2a, wcag131, section508, section508.22.g, EN-301-549, EN-9.1.3.1, RGAAv4,
+      RGAA-5.4.1 failure td-has-header Ensure that each non-empty data cell in a <table>
+      larger than 3 by 3 has one or more table headers Critical cat.tables, experimental,
+      wcag2a, wcag131, section508, section508.22.g, TTv5, TT14.b, EN-301-549, EN-9.1.3.1,
+      RGAAv4, RGAA-5.7.4 failure Deprecated Rules Deprecated rules are disabled by
+      default and will be removed in the next major release. Rule ID Description Impact
+      Tags Issue Type ACT Rules aria-roledescription Ensure aria-roledescription is
+      only used on elements with an implicit or explicit role Serious cat.aria, wcag2a,
+      wcag412, EN-301-549, EN-9.4.1.2, deprecated failure, needs review audio-caption
+      Ensure <audio> elements have captions Critical cat.time-and-media, wcag2a, wcag121,
+      EN-301-549, EN-9.1.2.1, section508, section508.22.a, deprecated needs review
+      2eb176
   - id: region
     url: https://dequeuniversity.com/rules/axe/4.11/region
     status: published
   - id: role-img-alt
     url: https://dequeuniversity.com/rules/axe/4.11/role-img-alt
     status: published
+    title: Ensure [role="img"] elements have alternative text Serious cat.text-alternatives,
+      wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, EN-301-549, EN-9.1.1.1,
+      ACT, RGAAv4, RGAA-1.1.1 failure, needs review 23a2a8
   - id: scope-attr-valid
     url: https://dequeuniversity.com/rules/axe/4.11/scope-attr-valid
     status: published
+    title: Ensure the scope attribute is used correctly on tables Moderate cat.tables,
+      best-practice failure skip-link Ensure all skip links have a focusable target
+      Moderate cat.keyboard, best-practice, RGAAv4, RGAA-12.7.1 failure, needs review
+      tabindex Ensure tabindex attribute values are not greater than 0 Serious cat.keyboard,
+      best-practice failure table-duplicate-name Ensure the <caption> element does
+      not contain the same text as the summary attribute Minor cat.tables, best-practice,
+      RGAAv4, RGAA-5.2.1 failure, needs review WCAG 2.x level AAA rules Rules that
+      check for conformance to WCAG AAA success criteria that can be fully automated.
+      These are disabled by default in axe-core. Rule ID Description Impact Tags Issue
+      Type ACT Rules color-contrast-enhanced Ensure the contrast between foreground
+      and background colors meets WCAG 2 AAA enhanced contrast ratio thresholds Serious
+      cat.color, wcag2aaa, wcag146, ACT failure, needs review 09o5cg
   - id: scrollable-region-focusable
     url: https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable
     status: published
+    title: Ensure elements that have scrollable content are accessible by keyboard
+      Serious cat.keyboard, wcag2a, wcag211, wcag213, TTv5, TT4.a, EN-301-549, EN-9.2.1.1,
+      EN-9.2.1.3, RGAAv4, RGAA-7.3.2 failure 0ssw9k
   - id: select-name
     url: https://dequeuniversity.com/rules/axe/4.11/select-name
     status: published
+    title: Ensure select element has an accessible name Critical cat.forms, wcag2a,
+      wcag412, section508, section508.22.n, TTv5, TT5.c, EN-301-549, EN-9.4.1.2, ACT,
+      RGAAv4, RGAA-11.1.1 failure, needs review e086e5
   - id: server-side-image-map
     url: https://dequeuniversity.com/rules/axe/4.11/server-side-image-map
     status: published
-  - id: skip-link
-    url: https://dequeuniversity.com/rules/axe/4.11/skip-link
-    status: published
-  - id: summary-name
-    url: https://dequeuniversity.com/rules/axe/4.11/summary-name
-    status: published
-  - id: svg-img-alt
-    url: https://dequeuniversity.com/rules/axe/4.11/svg-img-alt
-    status: published
-  - id: tabindex
-    url: https://dequeuniversity.com/rules/axe/4.11/tabindex
-    status: published
-  - id: table-duplicate-name
-    url: https://dequeuniversity.com/rules/axe/4.11/table-duplicate-name
-    status: published
-  - id: table-fake-caption
-    url: https://dequeuniversity.com/rules/axe/4.11/table-fake-caption
-    status: published
-  - id: target-size
-    url: https://dequeuniversity.com/rules/axe/4.11/target-size
-    status: published
-  - id: td-has-header
-    url: https://dequeuniversity.com/rules/axe/4.11/td-has-header
-    status: published
+    title: Ensure that server-side image maps are not used Minor cat.text-alternatives,
+      wcag2a, wcag211, section508, section508.22.f, TTv5, TT4.a, EN-301-549, EN-9.2.1.1,
+      RGAAv4, RGAA-1.1.4 needs review summary-name Ensure summary elements have discernible
+      text Serious cat.name-role-value, wcag2a, wcag412, section508, section508.22.a,
+      TTv5, TT6.a, EN-301-549, EN-9.4.1.2 failure, needs review svg-img-alt Ensure
+      <svg> elements with an img, graphics-document or graphics-symbol role have accessible
+      text Serious cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a,
+      TTv5, TT7.a, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.5 failure, needs
+      review 7d6734
   - id: td-headers-attr
     url: https://dequeuniversity.com/rules/axe/4.11/td-headers-attr
     status: published
+    title: Ensure that each cell in a table that uses the headers attribute refers
+      only to other <th> elements in that table Serious cat.tables, wcag2a, wcag131,
+      section508, section508.22.g, TTv5, TT14.b, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-5.7.4
+      failure, needs review a25f45
   - id: th-has-data-cells
     url: https://dequeuniversity.com/rules/axe/4.11/th-has-data-cells
     status: published
+    title: Ensure that <th> elements and elements with role=columnheader/rowheader
+      have data cells they describe Serious cat.tables, wcag2a, wcag131, section508,
+      section508.22.g, TTv5, TT14.b, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-5.7.1 failure,
+      needs review d0f69e
   - id: valid-lang
     url: https://dequeuniversity.com/rules/axe/4.11/valid-lang
     status: published
+    title: Ensure lang attributes have valid values Serious cat.language, wcag2aa,
+      wcag312, TTv5, TT11.b, EN-301-549, EN-9.3.1.2, ACT, RGAAv4, RGAA-8.7.1 failure
+      de46e4
   - id: video-caption
     url: https://dequeuniversity.com/rules/axe/4.11/video-caption
     status: published
+    title: Ensure <video> elements have captions Critical cat.text-alternatives, wcag2a,
+      wcag122, section508, section508.22.a, TTv5, TT17.a, EN-301-549, EN-9.1.2.2,
+      RGAAv4, RGAA-4.3.1 needs review eac66b
 - id: siteimprove-alfa-rules
   title: Siteimprove Alfa Rules
   provider: Siteimprove
@@ -634,333 +816,685 @@ rule_sets:
   - id: sia-r1
     url: https://alfa.siteimprove.com/rules/sia-r1
     status: published
+    title: Documents have a <title> element
   - id: sia-r2
     url: https://alfa.siteimprove.com/rules/sia-r2
     status: published
+    title: Images have an accessible name
   - id: sia-r3
     url: https://alfa.siteimprove.com/rules/sia-r3
     status: published
+    title: id attributes have a unique value
   - id: sia-r4
     url: https://alfa.siteimprove.com/rules/sia-r4
     status: published
+    title: <html> document elements have a lang attribute
   - id: sia-r5
     url: https://alfa.siteimprove.com/rules/sia-r5
     status: published
+    title: <html> document elements have a valid lang attribute
   - id: sia-r6
     url: https://alfa.siteimprove.com/rules/sia-r6
     status: published
+    title: <html> document elements have matching lang and xml:lang attributes (DEPRECATED)
   - id: sia-r7
     url: https://alfa.siteimprove.com/rules/sia-r7
     status: published
+    title: lang attributes within the <body> element have a valid value
   - id: sia-r8
     url: https://alfa.siteimprove.com/rules/sia-r8
     status: published
+    title: Form fields have an accessible name
   - id: sia-r9
     url: https://alfa.siteimprove.com/rules/sia-r9
     status: published
+    title: Refreshes implemented using the <meta> element have no delay
   - id: sia-r10
     url: https://alfa.siteimprove.com/rules/sia-r10
     status: published
+    title: autocomplete attributes have a valid value
   - id: sia-r11
     url: https://alfa.siteimprove.com/rules/sia-r11
     status: published
+    title: Links have an accessible name
   - id: sia-r12
     url: https://alfa.siteimprove.com/rules/sia-r12
     status: published
+    title: Buttons have an accessible name
   - id: sia-r13
     url: https://alfa.siteimprove.com/rules/sia-r13
     status: published
+    title: <iframe> elements have an accessible name
   - id: sia-r14
     url: https://alfa.siteimprove.com/rules/sia-r14
     status: published
+    title: Visible labels are included in accessible names
   - id: sia-r15
     url: https://alfa.siteimprove.com/rules/sia-r15
     status: published
+    title: <iframe> elements with identical accessible names serve an equivalent purpose
   - id: sia-r16
     url: https://alfa.siteimprove.com/rules/sia-r16
     status: published
+    title: Elements with a role have required states and properties
   - id: sia-r17
     url: https://alfa.siteimprove.com/rules/sia-r17
     status: published
+    title: Elements with aria-hidden="true" are not focusable
   - id: sia-r18
     url: https://alfa.siteimprove.com/rules/sia-r18
     status: published
+    title: aria-* states and properties are allowed
   - id: sia-r19
     url: https://alfa.siteimprove.com/rules/sia-r19
     status: published
+    title: aria-* states and properties have a valid value
   - id: sia-r20
     url: https://alfa.siteimprove.com/rules/sia-r20
     status: published
+    title: aria-* attributes have a valid name
   - id: sia-r21
     url: https://alfa.siteimprove.com/rules/sia-r21
     status: published
+    title: role attributes have only valid values
   - id: sia-r22
     url: https://alfa.siteimprove.com/rules/sia-r22
     status: published
+    title: <video> element auditory content has captions
   - id: sia-r23
     url: https://alfa.siteimprove.com/rules/sia-r23
     status: published
+    title: <audio> element content has transcript
   - id: sia-r24
     url: https://alfa.siteimprove.com/rules/sia-r24
     status: published
+    title: <video> element visual content has transcript
   - id: sia-r25
     url: https://alfa.siteimprove.com/rules/sia-r25
     status: published
+    title: <video> element visual content has audio description
   - id: sia-r26
     url: https://alfa.siteimprove.com/rules/sia-r26
     status: published
+    title: <video> element visual-only content is media alternative for text
   - id: sia-r27
     url: https://alfa.siteimprove.com/rules/sia-r27
     status: published
+    title: <video> element auditory content has accessible alternative
   - id: sia-r28
     url: https://alfa.siteimprove.com/rules/sia-r28
     status: published
+    title: <input type="image"> elements have an accessible name
   - id: sia-r29
     url: https://alfa.siteimprove.com/rules/sia-r29
     status: published
+    title: <audio> element content is media alternative for text
   - id: sia-r30
     url: https://alfa.siteimprove.com/rules/sia-r30
     status: published
+    title: <audio> element content has text alternative
   - id: sia-r31
     url: https://alfa.siteimprove.com/rules/sia-r31
     status: published
+    title: <video> element content is media alternative for text
   - id: sia-r32
     url: https://alfa.siteimprove.com/rules/sia-r32
     status: published
+    title: <video> element visual-only content has audio track alternative
   - id: sia-r33
     url: https://alfa.siteimprove.com/rules/sia-r33
     status: published
+    title: <video> element visual-only content has transcript
   - id: sia-r34
     url: https://alfa.siteimprove.com/rules/sia-r34
     status: published
+    title: <video> element visual-only content has description track (DEPRECATED)
   - id: sia-r35
     url: https://alfa.siteimprove.com/rules/sia-r35
     status: published
+    title: <video> element visual-only content has accessible alternative
   - id: sia-r36
     url: https://alfa.siteimprove.com/rules/sia-r36
     status: published
+    title: <video> element visual content has description track (DEPRECATED)
   - id: sia-r37
     url: https://alfa.siteimprove.com/rules/sia-r37
     status: published
+    title: <video> element visual content has strict accessible alternative
   - id: sia-r38
     url: https://alfa.siteimprove.com/rules/sia-r38
     status: published
+    title: <video> element visual content has accessible alternative
   - id: sia-r39
     url: https://alfa.siteimprove.com/rules/sia-r39
     status: published
+    title: Image filename is accessible name for image
   - id: sia-r40
     url: https://alfa.siteimprove.com/rules/sia-r40
     status: published
+    title: Regions have an accessible name
   - id: sia-r41
     url: https://alfa.siteimprove.com/rules/sia-r41
     status: published
+    title: Links with identical accessible names have equivalent purpose
   - id: sia-r42
     url: https://alfa.siteimprove.com/rules/sia-r42
     status: published
+    title: Elements with a role have required parent
   - id: sia-r43
     url: https://alfa.siteimprove.com/rules/sia-r43
     status: published
+    title: <svg> element with explicit role has non-empty accessible name
   - id: sia-r44
     url: https://alfa.siteimprove.com/rules/sia-r44
     status: published
+    title: Orientation of the page is not restricted using CSS transform property
   - id: sia-r45
     url: https://alfa.siteimprove.com/rules/sia-r45
     status: published
+    title: Headers attribute specified on a cell refers to cells in the same table
+      element
   - id: sia-r46
     url: https://alfa.siteimprove.com/rules/sia-r46
     status: published
+    title: All table header cells have assigned data cells
   - id: sia-r47
     url: https://alfa.siteimprove.com/rules/sia-r47
     status: published
+    title: <meta name="viewport"> elements do not prevent zoom
   - id: sia-r48
     url: https://alfa.siteimprove.com/rules/sia-r48
     status: published
+    title: <audio> or <video> that plays automatically has no audio that lasts more
+      than 3 seconds
   - id: sia-r49
     url: https://alfa.siteimprove.com/rules/sia-r49
     status: published
+    title: <audio> or <video> that plays automatically has a control mechanism
   - id: sia-r50
     url: https://alfa.siteimprove.com/rules/sia-r50
     status: published
+    title: <audio> or <video> avoids automatically playing audio
   - id: sia-r52
     url: https://alfa.siteimprove.com/rules/sia-r52
     status: published
+    title: Adjacent links do not reference the same resource
   - id: sia-r53
     url: https://alfa.siteimprove.com/rules/sia-r53
     status: published
+    title: Headings are structured
   - id: sia-r54
     url: https://alfa.siteimprove.com/rules/sia-r54
     status: published
+    title: Assertive live region is marked as atomic
   - id: sia-r55
     url: https://alfa.siteimprove.com/rules/sia-r55
     status: published
+    title: Landmark regions with identical accessible names serve an equivalent purpose
   - id: sia-r56
     url: https://alfa.siteimprove.com/rules/sia-r56
     status: published
+    title: Landmarks of same type have a unique accessible name
   - id: sia-r57
     url: https://alfa.siteimprove.com/rules/sia-r57
     status: published
+    title: Perceivable text content is included in a landmark
   - id: sia-r58
     url: https://alfa.siteimprove.com/rules/sia-r58
     status: published
+    title: Repeated blocks of content can be bypassed
   - id: sia-r59
     url: https://alfa.siteimprove.com/rules/sia-r59
     status: published
+    title: Documents have headings
   - id: sia-r60
     url: https://alfa.siteimprove.com/rules/sia-r60
     status: published
+    title: Groups have an accessible name
   - id: sia-r61
     url: https://alfa.siteimprove.com/rules/sia-r61
     status: published
+    title: Documents start with a level 1 heading
   - id: sia-r62
     url: https://alfa.siteimprove.com/rules/sia-r62
     status: published
+    title: Links in blocks of text are distinguishable
   - id: sia-r63
     url: https://alfa.siteimprove.com/rules/sia-r63
     status: published
+    title: <object> elements have an accessible name
   - id: sia-r64
     url: https://alfa.siteimprove.com/rules/sia-r64
     status: published
+    title: Heading has non-empty accessible name
   - id: sia-r65
     url: https://alfa.siteimprove.com/rules/sia-r65
     status: published
+    title: Element in sequential focus order has visible focus
   - id: sia-r66
     url: https://alfa.siteimprove.com/rules/sia-r66
     status: published
+    title: Text has enhanced contrast
   - id: sia-r67
     url: https://alfa.siteimprove.com/rules/sia-r67
     status: published
+    title: Images and SVG that are marked as decorative are not exposed to assistive
+      technologies
   - id: sia-r68
     url: https://alfa.siteimprove.com/rules/sia-r68
     status: published
+    title: Elements with a role have required children
   - id: sia-r69
     url: https://alfa.siteimprove.com/rules/sia-r69
     status: published
+    title: Text has minimum contrast
   - id: sia-r70
     url: https://alfa.siteimprove.com/rules/sia-r70
     status: published
+    title: No obsolete or deprecated elements are used
   - id: sia-r71
     url: https://alfa.siteimprove.com/rules/sia-r71
     status: published
+    title: Paragraphs of text are not justified
   - id: sia-r72
     url: https://alfa.siteimprove.com/rules/sia-r72
     status: published
+    title: Paragraphs of text are not all uppercase
   - id: sia-r73
     url: https://alfa.siteimprove.com/rules/sia-r73
     status: published
+    title: Paragraphs of text have sufficient line height
   - id: sia-r74
     url: https://alfa.siteimprove.com/rules/sia-r74
     status: published
+    title: Paragraphs of text do not have font sizes defined in absolute units
   - id: sia-r75
     url: https://alfa.siteimprove.com/rules/sia-r75
     status: published
+    title: Font sizes are not too small
   - id: sia-r76
     url: https://alfa.siteimprove.com/rules/sia-r76
     status: published
+    title: <th> elements are semantic headers
   - id: sia-r77
     url: https://alfa.siteimprove.com/rules/sia-r77
     status: published
+    title: Data cells are assigned at least one header cell
   - id: sia-r78
     url: https://alfa.siteimprove.com/rules/sia-r78
     status: published
+    title: Headings of same level have text content between them
   - id: sia-r79
     url: https://alfa.siteimprove.com/rules/sia-r79
     status: published
+    title: Preformatted text represents either code or a figure
   - id: sia-r80
     url: https://alfa.siteimprove.com/rules/sia-r80
     status: published
+    title: Paragraphs of text do not have line heights defined in absolute units
   - id: sia-r81
     url: https://alfa.siteimprove.com/rules/sia-r81
     status: published
+    title: Links with identical accessible names and context serve equivalent purpose
   - id: sia-r82
     url: https://alfa.siteimprove.com/rules/sia-r82
     status: published
+    title: Error message describes invalid form field value
   - id: sia-r83
     url: https://alfa.siteimprove.com/rules/sia-r83
     status: published
+    title: Text nodes are not clipped when text is resized
   - id: sia-r84
     url: https://alfa.siteimprove.com/rules/sia-r84
     status: published
+    title: Scrollable elements are keyboard accessible
   - id: sia-r85
     url: https://alfa.siteimprove.com/rules/sia-r85
     status: published
+    title: Paragraphs of text are not all italics
   - id: sia-r86
     url: https://alfa.siteimprove.com/rules/sia-r86
     status: published
+    title: Elements that are marked as decorative are not exposed to assistive technologies
   - id: sia-r87
     url: https://alfa.siteimprove.com/rules/sia-r87
     status: published
+    title: First focusable element is link to main content
   - id: sia-r88
     url: https://alfa.siteimprove.com/rules/sia-r88
     status: published
+    title: Text in link has minimum contrast
   - id: sia-r89
     url: https://alfa.siteimprove.com/rules/sia-r89
     status: published
+    title: Text in link has enhanced contrast
   - id: sia-r90
     url: https://alfa.siteimprove.com/rules/sia-r90
     status: published
+    title: Element with presentational children has no focusable content
   - id: sia-r91
     url: https://alfa.siteimprove.com/rules/sia-r91
     status: published
+    title: '!important letter spacing in style attribute is wide enough'
   - id: sia-r92
     url: https://alfa.siteimprove.com/rules/sia-r92
     status: published
+    title: '!important word spacing in style attribute is wide enough'
   - id: sia-r93
     url: https://alfa.siteimprove.com/rules/sia-r93
     status: published
+    title: '!important line height in style attribute is wide enough'
   - id: sia-r94
     url: https://alfa.siteimprove.com/rules/sia-r94
     status: published
+    title: menuitem has non-empty accessible name
   - id: sia-r95
     url: https://alfa.siteimprove.com/rules/sia-r95
     status: published
+    title: <iframe> element with interactive elements does not have a negative tabindex
   - id: sia-r96
     url: https://alfa.siteimprove.com/rules/sia-r96
     status: published
+    title: Refreshes implemented using the <meta> element have no delay, without exception
   - id: sia-r97
     url: https://alfa.siteimprove.com/rules/sia-r97
     status: published
+    title: Document has collapsible blocks of content
   - id: sia-r98
     url: https://alfa.siteimprove.com/rules/sia-r98
     status: published
+    title: Document has heading at the start of its main content
   - id: sia-r99
     url: https://alfa.siteimprove.com/rules/sia-r99
     status: published
+    title: Document has its main content inside a landmark
   - id: sia-r100
     url: https://alfa.siteimprove.com/rules/sia-r100
     status: published
+    title: Document has instrument to main content
   - id: sia-r101
     url: https://alfa.siteimprove.com/rules/sia-r101
     status: published
+    title: Document has no repeated content before the main content
   - id: sia-r102
     url: https://alfa.siteimprove.com/rules/sia-r102
     status: published
+    title: Document either has no repeated content, or a skip link as its first focusable
+      element
   - id: sia-r103
     url: https://alfa.siteimprove.com/rules/sia-r103
     status: published
+    title: Text in widget has minimum contrast
   - id: sia-r104
     url: https://alfa.siteimprove.com/rules/sia-r104
     status: published
+    title: Text in widget has enhanced contrast
   - id: sia-r109
     url: https://alfa.siteimprove.com/rules/sia-r109
     status: published
+    title: HTML page language subtag matches default language
   - id: sia-r110
     url: https://alfa.siteimprove.com/rules/sia-r110
     status: published
+    title: role attributes have at least one valid value
   - id: sia-r111
     url: https://alfa.siteimprove.com/rules/sia-r111
     status: published
+    title: Target Size (enhanced)
   - id: sia-r113
     url: https://alfa.siteimprove.com/rules/sia-r113
     status: published
+    title: Target Size (minimum)
   - id: sia-r114
     url: https://alfa.siteimprove.com/rules/sia-r114
     status: published
+    title: HTML page title is descriptive
   - id: sia-r115
     url: https://alfa.siteimprove.com/rules/sia-r115
     status: published
+    title: Heading is descriptive
   - id: sia-r116
     url: https://alfa.siteimprove.com/rules/sia-r116
     status: published
+    title: <summary> element has non-empty accessible name
   - id: sia-r117
     url: https://alfa.siteimprove.com/rules/sia-r117
     status: published
+    title: Image accessible name is descriptive
+- id: qualweb-act-rules
+  title: QualWeb ACT Rules
+  provider: QualWeb
+  catalog_url: https://github.com/qualweb/act-rules
+  type: act_implementation_rules
+  applies_to:
+  - wcag-2.2
+  - wai-aria-1.2
+  rule_count: 71
+  rules:
+  - id: QW-ACT-R1
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R1.ts
+    status: published
+  - id: QW-ACT-R2
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R2.ts
+    status: published
+  - id: QW-ACT-R3
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R3.ts
+    status: published
+  - id: QW-ACT-R4
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R4.ts
+    status: published
+  - id: QW-ACT-R5
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R5.ts
+    status: published
+  - id: QW-ACT-R6
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R6.ts
+    status: published
+  - id: QW-ACT-R7
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R7.ts
+    status: published
+  - id: QW-ACT-R9
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R9.ts
+    status: published
+  - id: QW-ACT-R10
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R10.ts
+    status: published
+  - id: QW-ACT-R11
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R11.ts
+    status: published
+  - id: QW-ACT-R12
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R12.ts
+    status: published
+  - id: QW-ACT-R13
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R13.ts
+    status: published
+  - id: QW-ACT-R14
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R14.ts
+    status: published
+  - id: QW-ACT-R15
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R15.ts
+    status: published
+  - id: QW-ACT-R16
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R16.ts
+    status: published
+  - id: QW-ACT-R17
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R17.ts
+    status: published
+  - id: QW-ACT-R18
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R18.ts
+    status: published
+  - id: QW-ACT-R19
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R19.ts
+    status: published
+  - id: QW-ACT-R20
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R20.ts
+    status: published
+  - id: QW-ACT-R21
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R21.ts
+    status: published
+  - id: QW-ACT-R22
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R22.ts
+    status: published
+  - id: QW-ACT-R23
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R23.ts
+    status: published
+  - id: QW-ACT-R24
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R24.ts
+    status: published
+  - id: QW-ACT-R25
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R25.ts
+    status: published
+  - id: QW-ACT-R26
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R26.ts
+    status: published
+  - id: QW-ACT-R27
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R27.ts
+    status: published
+  - id: QW-ACT-R28
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R28.ts
+    status: published
+  - id: QW-ACT-R29
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R29.ts
+    status: published
+  - id: QW-ACT-R30
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R30.ts
+    status: published
+  - id: QW-ACT-R31
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R31.ts
+    status: published
+  - id: QW-ACT-R32
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R32.ts
+    status: published
+  - id: QW-ACT-R33
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R33.ts
+    status: published
+  - id: QW-ACT-R34
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R34.ts
+    status: published
+  - id: QW-ACT-R35
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R35.ts
+    status: published
+  - id: QW-ACT-R36
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R36.ts
+    status: published
+  - id: QW-ACT-R37
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R37.ts
+    status: published
+  - id: QW-ACT-R38
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R38.ts
+    status: published
+  - id: QW-ACT-R39
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R39.ts
+    status: published
+  - id: QW-ACT-R40
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R40.ts
+    status: published
+  - id: QW-ACT-R41
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R41.ts
+    status: published
+  - id: QW-ACT-R42
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R42.ts
+    status: published
+  - id: QW-ACT-R43
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R43.ts
+    status: published
+  - id: QW-ACT-R44
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R44.ts
+    status: published
+  - id: QW-ACT-R48
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R48.ts
+    status: published
+  - id: QW-ACT-R49
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R49.ts
+    status: published
+  - id: QW-ACT-R50
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R50.ts
+    status: published
+  - id: QW-ACT-R51
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R51.ts
+    status: published
+  - id: QW-ACT-R52
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R52.ts
+    status: published
+  - id: QW-ACT-R53
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R53.ts
+    status: published
+  - id: QW-ACT-R54
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R54.ts
+    status: published
+  - id: QW-ACT-R55
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R55.ts
+    status: published
+  - id: QW-ACT-R56
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R56.ts
+    status: published
+  - id: QW-ACT-R57
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R57.ts
+    status: published
+  - id: QW-ACT-R58
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R58.ts
+    status: published
+  - id: QW-ACT-R59
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R59.ts
+    status: published
+  - id: QW-ACT-R60
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R60.ts
+    status: published
+  - id: QW-ACT-R61
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R61.ts
+    status: published
+  - id: QW-ACT-R62
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R62.ts
+    status: published
+  - id: QW-ACT-R63
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R63.ts
+    status: published
+  - id: QW-ACT-R64
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R64.ts
+    status: published
+  - id: QW-ACT-R65
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R65.ts
+    status: published
+  - id: QW-ACT-R66
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R66.ts
+    status: published
+  - id: QW-ACT-R67
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R67.ts
+    status: published
+  - id: QW-ACT-R68
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R68.ts
+    status: published
+  - id: QW-ACT-R69
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R69.ts
+    status: published
+  - id: QW-ACT-R70
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R70.ts
+    status: published
+  - id: QW-ACT-R71
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R71.ts
+    status: published
+  - id: QW-ACT-R73
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R73.ts
+    status: published
+  - id: QW-ACT-R74
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R74.ts
+    status: published
+  - id: QW-ACT-R75
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R75.ts
+    status: published
+  - id: QW-ACT-R76
+    url: https://github.com/qualweb/act-rules/blob/master/src/rules/QW-ACT-R76.ts
+    status: published
+- id: ibm-equal-access-checker-rule-sets
+  title: IBM Equal Access Accessibility Checker Rule Sets
+  provider: IBM
+  catalog_url: https://www.ibm.com/able/requirements/checker-rule-sets/
+  type: act_implementation_rules
+  applies_to:
+  - wcag-2.2
+  - wai-aria-1.2
+  - atag-2.0
+  - uaag-2.0
+  rule_count: null
+  rules: []
+  extraction_note: The IBM checker rule-sets page is dynamically rendered; include
+    as published ACT-aligned source metadata.
