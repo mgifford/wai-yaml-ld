@@ -1,12 +1,12 @@
 ---
 work_package_id: "WP03"
 title: "Governance runbook"
-lane: "planned"
+lane: "doing"
 subtasks:
   - "T007"
 phase: "Phase 3 - Operational Governance"
-assignee: ""
-agent: ""
+assignee: "copilot"
+agent: "copilot"
 shell_pid: ""
 review_status: ""
 reviewed_by: ""
@@ -25,3 +25,7 @@ Include:
 - relation taxonomy change policy
 - evidence standards for direct links
 - cadence for auditing inferred and informative links
+
+## Activity Log
+
+- 2026-02-23T17:43:16Z – copilot – lane=doing – Drafted governance runbook and ownership checklist
