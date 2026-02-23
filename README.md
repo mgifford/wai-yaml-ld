@@ -142,6 +142,8 @@ Current schedule behavior:
 - `Weekly Resource Link Check` runs weekly (Mondays at 08:30 UTC) and on manual dispatch.
 - `Refresh Standards Artifacts` runs quarterly (1st day of Jan/Apr/Jul/Oct at 08:15 UTC) and on manual dispatch.
 
+`Weekly Resource Link Check` includes an auto-normalization pass that attempts safe replacements for dated W3C TR snapshot URLs and opens a PR when changes are available.
+
 The monitor checks watched TR headers (ETag/Last-Modified), uploads a report artifact, and opens an issue when changes are detected.
 
 Watchlist coverage includes W3C standards pages and rule catalogs for ACT, Deque axe, and Siteimprove Alfa.

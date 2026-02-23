@@ -61,3 +61,53 @@ jobs:
               body,
               labels: ['monitoring', 'links']
             });
+
+  autofix-dated-tr-urls:
+    needs: check-links
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Normalize safely mappable dated W3C TR URLs
+        run: |
+          python scripts/normalize_w3c_tr_urls.py \
+            --include README.md \
+            --include COGNITIVE_GUIDE.md \
+            --include TUTORIALS.md \
+            --include personas.yaml \
+            --include workflows.yaml \
+            --include business_strategy.yaml \
+            --include supplemental_guidance.yaml \
+            --include cognitive_patterns.yaml \
+            --include kitty-specs/001-wai-standards-yaml-ld-ingestion/research/**/*.yaml \
+            --report monitoring/tr-url-normalization-report.md
+
+      - name: Upload normalization report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tr-url-normalization-report
+          path: monitoring/tr-url-normalization-report.md
+
+      - name: Create Pull Request for canonical TR URL updates
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: chore/normalize-w3c-tr-urls
+          delete-branch: true
+          commit-message: "chore: normalize dated W3C TR URLs"
+          title: "chore: normalize dated W3C TR URLs"
+          body: |
+            Automated normalization of safely mappable dated W3C TR snapshot URLs (`/TR/YYYY/...`) to canonical shortname aliases (`/TR/<shortname>/`).
+
+            Trigger: weekly schedule or manual workflow dispatch for `Weekly Resource Link Check`.
+          labels: |
+            automation
+            links
