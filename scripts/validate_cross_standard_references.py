@@ -56,8 +56,23 @@ def validate_links(links_data: dict, crit_index: dict, profile_membership: dict,
     if not isinstance(links, list):
         return ["links must be a list"]
 
+    seen_link_ids = set()
+    known_standards = set(crit_index.keys()) | {"wai-aria-1.2"}
+
     for link in links:
+        if not isinstance(link, dict):
+            failures.append("each link entry must be an object")
+            continue
+
         link_id = str(link.get("link_id", "<missing>"))
+        if not link_id or link_id == "<missing>":
+            failures.append("link missing link_id")
+            continue
+        if link_id in seen_link_ids:
+            failures.append(f"{link_id}: duplicate link_id")
+            continue
+        seen_link_ids.add(link_id)
+
         relation = str(link.get("relation_type", ""))
         basis = str(link.get("basis", ""))
 
@@ -66,6 +81,11 @@ def validate_links(links_data: dict, crit_index: dict, profile_membership: dict,
         source_sc = str(link.get("source_criterion_code", "")).strip()
         target_sc = str(link.get("target_criterion_code", "")).strip()
         profile_ref = str(link.get("target_profile_ref", "")).strip()
+
+        if source_standard and source_standard not in known_standards:
+            failures.append(f"{link_id}: unknown source_standard_id '{source_standard}'")
+        if target_standard and target_standard not in known_standards:
+            failures.append(f"{link_id}: unknown target_standard_id '{target_standard}'")
 
         if relation == "direct_sc_reference_cross_standard":
             if basis != "direct":
@@ -92,12 +112,16 @@ def validate_links(links_data: dict, crit_index: dict, profile_membership: dict,
                 failures.append(f"{link_id}: direct_standard_reference must have basis=direct")
             if target_sc:
                 failures.append(f"{link_id}: direct_standard_reference must not carry target_criterion_code")
+            if not source_sc or source_sc not in crit_index.get(source_standard, set()):
+                failures.append(f"{link_id}: unknown source criterion code '{source_sc}' for {source_standard}")
 
         elif relation == "inferred_sc_reference_cross_standard":
             if basis != "inferred_profile_mapping":
                 failures.append(f"{link_id}: inferred relation must have basis=inferred_profile_mapping")
             if source_standard != "atag-2.0" or target_standard != "wcag-2.2":
                 failures.append(f"{link_id}: inferred mapping currently only supports atag-2.0 -> wcag-2.2")
+            if not source_sc or source_sc not in crit_index.get(source_standard, set()):
+                failures.append(f"{link_id}: unknown source criterion code '{source_sc}' for {source_standard}")
             if not profile_ref:
                 failures.append(f"{link_id}: inferred relation requires target_profile_ref")
                 continue
