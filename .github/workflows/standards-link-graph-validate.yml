@@ -74,6 +74,17 @@ jobs:
             --out-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml \
             --out-csv kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.csv
 
+      - name: Validate cross-standard reference integrity
+        run: |
+          python scripts/validate_cross_standard_references.py \
+            --dataset-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml \
+            --wcag22-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml \
+            --wcag20-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml \
+            --atag-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-2.0-normative.yaml \
+            --uaag-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/uaag-2.0-normative.yaml \
+            --crosswalk-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml \
+            --informative-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-informative-resources.yaml
+
       - name: Regenerate cross-standard Mermaid views
         run: |
           python scripts/generate_cross_standard_reference_views.py \

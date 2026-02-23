@@ -200,12 +200,12 @@ Open the interactive viewer locally:
 
 ## Governance and Maintenance Docs
 
-- Maintenance baseline: [kitty-specs/001-wai-standards-yaml-ld-ingestion/maintenance-baseline.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/maintenance-baseline.md)
-- Normative refresh procedure: [kitty-specs/001-wai-standards-yaml-ld-ingestion/normative-refresh-procedure.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/normative-refresh-procedure.md)
-- Informative catalog governance: [kitty-specs/001-wai-standards-yaml-ld-ingestion/informative-catalog-governance.md](kitty-specs/001-wai-standards-yaml-ld-ingestion/informative-catalog-governance.md)
-- Link graph playbook (human + LLM navigation): [docs/link-graph-playbook.md](docs/link-graph-playbook.md)
-- Link graph reviewer checklist (one-page quick-reference): [docs/link-graph-reviewer-checklist.md](docs/link-graph-reviewer-checklist.md)
-- Accessibility agent contract (AGENTS.md + ACCESSIBILITY.md integration): [docs/accessibility-agent-contract.md](docs/accessibility-agent-contract.md)
+ - Reference integrity governance spec: [kitty-specs/002-reference-integrity-governance/spec.md](kitty-specs/002-reference-integrity-governance/spec.md)
+ - Reference integrity implementation plan: [kitty-specs/002-reference-integrity-governance/plan.md](kitty-specs/002-reference-integrity-governance/plan.md)
+
+ Cross-standard integrity validation command:
+
+ - `python scripts/validate_cross_standard_references.py --dataset-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml --wcag22-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml --wcag20-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml --atag-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-2.0-normative.yaml --uaag-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/uaag-2.0-normative.yaml --crosswalk-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml --informative-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-informative-resources.yaml`
 
 ## Repository Hygiene
 
