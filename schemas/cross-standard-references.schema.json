@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mgifford.github.io/wai-yaml-ld/schemas/cross-standard-references.schema.json",
+  "title": "Cross-Standard References Dataset",
+  "type": "object",
+  "required": [
+    "dataset_id",
+    "updated",
+    "description",
+    "relation_types",
+    "source_inputs",
+    "links"
+  ],
+  "properties": {
+    "dataset_id": { "type": "string" },
+    "updated": { "type": "string" },
+    "description": { "type": "string" },
+    "relation_types": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "description"],
+        "properties": {
+          "id": { "type": "string" },
+          "description": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_inputs": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "link_id",
+          "relation_type",
+          "basis",
+          "confidence",
+          "source_kind",
+          "source_standard_id",
+          "source_criterion_id",
+          "source_criterion_code",
+          "source_criterion_title",
+          "source_resource_id",
+          "source_url",
+          "target_standard_id",
+          "target_criterion_code",
+          "target_profile_ref",
+          "target_url",
+          "evidence_excerpt",
+          "source_dataset"
+        ],
+        "properties": {
+          "link_id": { "type": "string" },
+          "relation_type": { "type": "string" },
+          "basis": { "type": "string" },
+          "confidence": { "type": "string" },
+          "source_kind": { "type": "string" },
+          "source_standard_id": { "type": "string" },
+          "source_criterion_id": { "type": "string" },
+          "source_criterion_code": { "type": "string" },
+          "source_criterion_title": { "type": "string" },
+          "source_resource_id": { "type": "string" },
+          "source_url": { "type": "string" },
+          "target_standard_id": { "type": "string" },
+          "target_criterion_code": { "type": "string" },
+          "target_profile_ref": { "type": "string" },
+          "target_url": { "type": "string" },
+          "evidence_excerpt": { "type": "string" },
+          "source_dataset": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

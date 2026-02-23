@@ -76,6 +76,13 @@
       "url": "./accessibility-rule-catalogs.yaml"
     },
     {
+      "id": "urn:node:cross-standard-references",
+      "type": "Thing",
+      "label": "Cross-Standard References Dataset (Direct + Inferred)",
+      "kind": "dataset",
+      "url": "./derived/cross-standard-references.yaml"
+    },
+    {
       "id": "urn:node:wcag-2.2",
       "type": "Thing",
       "label": "WCAG 2.2",
@@ -478,6 +485,42 @@
       "relation": "catalogs",
       "confidence": "high",
       "evidence": "machine-readable rules dataset catalogs Alfa rule URLs."
+    },
+    {
+      "id": "urn:edge:e035",
+      "type": "Relationship",
+      "from": "urn:node:standards-link-graph",
+      "to": "urn:node:cross-standard-references",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "graph catalogs criterion-level cross-standard and informative reference links."
+    },
+    {
+      "id": "urn:edge:e036",
+      "type": "Relationship",
+      "from": "urn:node:cross-standard-references",
+      "to": "urn:node:wcag-2.2",
+      "relation": "maps_to",
+      "confidence": "high",
+      "evidence": "dataset includes direct and inferred SC links to WCAG 2.2."
+    },
+    {
+      "id": "urn:edge:e037",
+      "type": "Relationship",
+      "from": "urn:node:cross-standard-references",
+      "to": "urn:node:atag-2.0",
+      "relation": "maps_to",
+      "confidence": "high",
+      "evidence": "dataset includes ATAG criterion sources and mappings."
+    },
+    {
+      "id": "urn:edge:e038",
+      "type": "Relationship",
+      "from": "urn:node:cross-standard-references",
+      "to": "urn:node:uaag-2.0",
+      "relation": "maps_to",
+      "confidence": "medium",
+      "evidence": "dataset includes UAAG criterion references where detected."
     },
     {
       "id": "urn:edge:e035",

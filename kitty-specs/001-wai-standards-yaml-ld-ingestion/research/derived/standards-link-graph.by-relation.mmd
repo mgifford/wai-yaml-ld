@@ -6,6 +6,7 @@ graph LR
     n_css_specifications_index["CSS Specifications Index"]
     n_html_living_standard_accessibility["HTML Living Standard Accessibility Index"]
     n_accessibility_rule_catalogs["Accessibility Rule Catalogs Dataset (ACT + axe + Alfa)"]
+    n_cross_standard_references["Cross-Standard References Dataset (Direct + Inferred)"]
     n_wcag_2_2["WCAG 2.2"]
     n_wcag_2_0["WCAG 2.0"]
     n_atag_2_0["ATAG 2.0"]
@@ -45,6 +46,7 @@ graph LR
     n_accessibility_rule_catalogs -->|catalogs| n_act_rules_catalog
     n_accessibility_rule_catalogs -->|catalogs| n_deque_axe_rules_4_11
     n_accessibility_rule_catalogs -->|catalogs| n_siteimprove_alfa_rules
+    n_standards_link_graph -->|catalogs| n_cross_standard_references
     n_standards_link_graph -->|catalogs| n_accessibility_rule_catalogs
     %% relation: implements_mapping_for
     n_html_aam_1_0 -->|implements_mapping_for| n_html_living_standard
@@ -52,6 +54,9 @@ graph LR
     %% relation: maps_to
     n_atag_to_wcag_2_2_crosswalk -->|maps_to| n_wcag_2_2
     n_atag_to_wcag_2_2_crosswalk -->|maps_to| n_atag_2_0
+    n_cross_standard_references -->|maps_to| n_wcag_2_2
+    n_cross_standard_references -->|maps_to| n_atag_2_0
+    n_cross_standard_references -->|maps_to| n_uaag_2_0
     %% relation: profiles
     n_aria_in_html -->|profiles| n_html_living_standard
     %% relation: supersedes

@@ -92,6 +92,8 @@ If you are new to this repository:
 - HTML Living Standard accessibility index (machine-readable, includes full section inventory extracted from WHATWG source): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml)
 - Standards link graph (machine-readable relationships across WCAG/ATAG/UAAG/ARIA/HTML/CSS): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml)
 - ATAG to WCAG 2.2 crosswalk: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml)
+- Cross-standard references (direct + inferred SC links and informative resource links): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml)
+- Cross-standard references table: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.csv](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.csv)
 
 ## Cognitive Resources
 
@@ -117,6 +119,7 @@ Primary W3C references used by these resources:
 - Accessibility rule catalogs schema: [schemas/accessibility-rule-catalogs.schema.json](schemas/accessibility-rule-catalogs.schema.json)
 - Standards link graph schema: [schemas/standards-link-graph.schema.json](schemas/standards-link-graph.schema.json)
 - Crosswalk schema: [schemas/atag-to-wcag-2.2-crosswalk.schema.json](schemas/atag-to-wcag-2.2-crosswalk.schema.json)
+- Cross-standard references schema: [schemas/cross-standard-references.schema.json](schemas/cross-standard-references.schema.json)
 
 If you are pointing an LLM at this repository, provide both the target YAML file and its matching schema file as context.
 
@@ -169,6 +172,8 @@ To understand how standards and datasets are linked:
 - Part-level edge CSV: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv)
 - Granular WCAG SC crosswalk map (ATAG profile-based mentions): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.mmd](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.mmd)
 - Granular WCAG SC crosswalk table: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.csv](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.csv)
+- Cross-standard reference dataset (direct citation + inferred mapping + informative applies_to): [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml)
+- Cross-standard reference CSV: [kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.csv](kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.csv)
 - Interactive static viewer (filters by node/relation/confidence): [docs/standards-link-viewer.html](docs/standards-link-viewer.html)
 
 Generate or refresh derived graph artifacts:
@@ -176,7 +181,13 @@ Generate or refresh derived graph artifacts:
 - `python scripts/generate_standards_link_graph.py --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml --jsonld-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld --csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv --mermaid-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd`
 - `python scripts/generate_standards_visualizations.py --graph-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml --html-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml --css-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/css-specifications-index.yaml --by-relation-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.by-relation.mmd --wcag-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.wcag-centric.mmd --parts-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.mmd --parts-csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-parts.edges.csv`
 - `python scripts/generate_wcag_sc_crosswalk_map.py --crosswalk-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml --wcag-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml --mmd-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.mmd --csv-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.csv`
+- `python scripts/generate_cross_standard_references.py --wcag22-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml --wcag20-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml --atag-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-2.0-normative.yaml --uaag-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/uaag-2.0-normative.yaml --crosswalk-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-to-wcag-2.2-crosswalk.yaml --informative-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-informative-resources.yaml --out-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml --out-csv kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.csv`
 - `python scripts/refresh_accessibility_rule_catalogs.py --out-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml`
+
+Query examples for cross-standard references:
+
+- Inferred ATAG → WCAG SC links: `python scripts/query_cross_standard_references.py --dataset-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml --source-standard atag-2.0 --target-standard wcag-2.2 --relation-type inferred_sc_reference_cross_standard --format table --limit 25`
+- Informative resources that reference WCAG: `python scripts/query_cross_standard_references.py --dataset-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml --relation-type informative_resource_reference_standard --target-standard wcag-2.2 --format table --limit 25`
 
 Open the interactive viewer locally:
 

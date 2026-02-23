@@ -57,6 +57,10 @@ nodes:
   label: Accessibility Rule Catalogs Dataset (ACT + axe + Alfa)
   kind: dataset
   url: ./accessibility-rule-catalogs.yaml
+- id: cross-standard-references
+  label: Cross-Standard References Dataset (Direct + Inferred)
+  kind: dataset
+  url: ./derived/cross-standard-references.yaml
 - id: wcag-2.2
   label: WCAG 2.2
   kind: standard
@@ -318,6 +322,30 @@ edges:
   to: siteimprove-alfa-rules
   confidence: high
   evidence: machine-readable rules dataset catalogs Alfa rule URLs.
+- id: e035
+  from: standards-link-graph
+  relation: catalogs
+  to: cross-standard-references
+  confidence: high
+  evidence: graph catalogs criterion-level cross-standard and informative reference links.
+- id: e036
+  from: cross-standard-references
+  relation: maps_to
+  to: wcag-2.2
+  confidence: high
+  evidence: dataset includes direct and inferred SC links to WCAG 2.2.
+- id: e037
+  from: cross-standard-references
+  relation: maps_to
+  to: atag-2.0
+  confidence: high
+  evidence: dataset includes ATAG criterion sources and mappings.
+- id: e038
+  from: cross-standard-references
+  relation: maps_to
+  to: uaag-2.0
+  confidence: medium
+  evidence: dataset includes UAAG criterion references where detected.
 - id: e035
   from: act-rules-catalog
   relation: supports_outcome_for
