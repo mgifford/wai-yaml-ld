@@ -1,0 +1,54 @@
+metadata:
+  title: "WAI Personas (Interpretive Layer)"
+  primary_source: "compiled w3c documents.pdf"
+  source_pages:
+    - 338
+    - 342
+    - 343
+    - 392
+    - 393
+  notes:
+    - "Persona barriers are interpreted from WAI user stories and no-code tool examples."
+    - "Related WCAG SC are implementation-oriented references, not normative equivalence claims."
+
+evolving_sources:
+  - name: "WAI ARRM all tasks"
+    url: "https://raw.githubusercontent.com/w3c/wai-arrm/draft/_data/arrm/arrm-all-tasks.csv"
+  - name: "WAI ARRM WCAG SC mapping"
+    url: "https://raw.githubusercontent.com/w3c/wai-arrm/draft/_data/arrm/arrm-wcag-sc.csv"
+
+personas:
+  - name: "Lexie"
+    disability_profile: "Online shopper with color blindness"
+    specific_barrier: "Cannot reliably distinguish color-only cues in forms and content state."
+    related_wcag_sc: ["1.4.1", "1.3.3"]
+
+  - name: "Ian"
+    disability_profile: "Data entry clerk with autism"
+    specific_barrier: "Inconsistent navigation and unclear form feedback increase cognitive load and mistakes."
+    related_wcag_sc: ["3.2.3", "3.2.4", "3.3.1", "3.3.2"]
+
+  - name: "Sophie"
+    disability_profile: "Basketball fan with Down syndrome"
+    specific_barrier: "Complex interaction patterns and inconsistent control labels reduce task confidence."
+    related_wcag_sc: ["3.2.4", "2.4.6", "3.3.2"]
+
+  - name: "Elias"
+    disability_profile: "Retiree with low vision, hand tremor, and mild short-term memory loss"
+    specific_barrier: "Low contrast, small targets, and memory-heavy workflows make navigation and form completion difficult."
+    related_wcag_sc: ["1.4.3", "2.5.8", "2.1.1", "3.3.7"]
+
+  - name: "Martin"
+    disability_profile: "Independent consultant who is blind and uses a screen reader"
+    specific_barrier: "Drag-and-drop-only authoring interactions are not fully operable with assistive technology."
+    related_wcag_sc: ["2.1.1", "4.1.2", "1.3.1"]
+
+  - name: "Amahle"
+    disability_profile: "Small business owner managing appointments for diverse clients"
+    specific_barrier: "Calendar widgets can fail keyboard and screen reader users when controls are unlabeled or focus handling is unclear."
+    related_wcag_sc: ["2.1.1", "4.1.2", "2.4.7"]
+
+  - name: "Dacso"
+    disability_profile: "Small business owner publishing before/after media and short videos"
+    specific_barrier: "Media publishing workflows often miss captions, text alternatives, and structured descriptions."
+    related_wcag_sc: ["1.1.1", "1.2.2", "1.2.3"]

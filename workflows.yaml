@@ -1,0 +1,47 @@
+metadata:
+  title: "Accessibility Workflows (Media + Events)"
+  primary_source: "compiled w3c documents.pdf"
+  source_pages:
+    - 307
+    - 504
+    - 505
+  notes:
+    - "Workflow entries are operationalized from WAI planning and events guidance."
+
+evolving_sources:
+  - name: "WAI ARRM all tasks"
+    url: "https://raw.githubusercontent.com/w3c/wai-arrm/draft/_data/arrm/arrm-all-tasks.csv"
+  - name: "WAI ARRM WCAG SC mapping"
+    url: "https://raw.githubusercontent.com/w3c/wai-arrm/draft/_data/arrm/arrm-wcag-sc.csv"
+
+workflows:
+  media_production:
+    - phase: "Planning"
+      task_description: "Define accessibility requirements (captions, transcripts, audio description, accessible player behavior) in project scope and procurement artifacts."
+      responsible_role: ["Producer", "Project Manager", "Procurement"]
+    - phase: "Pre-production"
+      task_description: "Write scripts and shot plans that support caption quality and meaningful description of visual-only information."
+      responsible_role: ["Script Writer", "Director", "Accessibility Specialist"]
+    - phase: "Production"
+      task_description: "Capture clear dialogue and visuals to reduce captioning and description ambiguity during editing."
+      responsible_role: ["Director", "Audio Engineer", "Camera Team"]
+    - phase: "Post-production"
+      task_description: "Produce synchronized captions, transcripts, and audio descriptions; verify keyboard and screen reader access in media controls."
+      responsible_role: ["Editor", "Captioner", "Accessibility QA"]
+    - phase: "Publishing"
+      task_description: "Publish media with accessibility assets and provide fallback access paths for all users."
+      responsible_role: ["Web Publisher", "Content Owner"]
+
+  making_events_accessible:
+    - phase: "Before the Event"
+      task_description: "Plan venue/platform accessibility, communications, registration accommodations, and presenter guidance."
+      responsible_role: ["Event Organizer", "Platform Administrator", "Communications Lead"]
+    - phase: "Preparing Slides and Projected Material"
+      task_description: "Ensure slides are structured, readable, high-contrast, and understandable without visual-only cues."
+      responsible_role: ["Presenter", "Slide Designer", "Accessibility Reviewer"]
+    - phase: "During the Event"
+      task_description: "Enable captions/interpretation, use accessible facilitation practices, and monitor live accommodation needs."
+      responsible_role: ["Moderator", "Presenter", "Accessibility Support"]
+    - phase: "After the Event"
+      task_description: "Share accessible recordings, materials, and follow-up resources; collect feedback for continuous improvement."
+      responsible_role: ["Organizer", "Content Team", "Program Manager"]

@@ -1,0 +1,36 @@
+metadata:
+  title: "Business Strategy for Digital Accessibility"
+  primary_source: "The Business Case for Digital Accessibility (WAI)"
+  source_pages:
+    - 537
+    - 538
+    - 539
+  notes:
+    - "Summaries reflect WAI business-case framing and selected examples in the compiled PDF."
+
+value_drivers:
+  - value_driver: "Market reach and inclusion"
+    key_statistic: "Over 1 billion people worldwide live with disabilities; inclusive design expands audience access and reduces exclusion risk."
+    case_study_summary: "Organizations that treat accessibility as a baseline user requirement improve reach across disability, aging, and situational constraints."
+
+  - value_driver: "Innovation and product quality"
+    key_statistic: "Accessibility-led design patterns frequently become mainstream interaction improvements."
+    case_study_summary: "Accessibility R&D contributed to major product innovations such as gesture-based screen reader interactions and voice-driven workflows."
+
+  - value_driver: "Brand trust and customer experience"
+    key_statistic: "Business-case examples emphasize improved customer confidence and stronger brand outcomes when accessibility is integrated early."
+    case_study_summary: "Accessible experiences reduce frustration, improve task completion, and support long-term customer loyalty."
+
+  - value_driver: "Risk reduction and compliance readiness"
+    key_statistic: "The WAI business case highlights material legal and remediation costs when accessibility is deferred."
+    case_study_summary: "Historic litigation examples demonstrate that reactive remediation is more expensive than integrating accessibility in delivery governance."
+
+  - value_driver: "Operational efficiency and workforce productivity"
+    key_statistic: "Standardized accessible content and design systems reduce rework and improve cross-team delivery consistency."
+    case_study_summary: "Embedding accessibility in procurement, design, and QA creates repeatable quality controls and fewer downstream fixes."
+
+evolving_sources:
+  - name: "WAI ARRM all tasks"
+    url: "https://raw.githubusercontent.com/w3c/wai-arrm/draft/_data/arrm/arrm-all-tasks.csv"
+  - name: "WAI ARRM WCAG SC mapping"
+    url: "https://raw.githubusercontent.com/w3c/wai-arrm/draft/_data/arrm/arrm-wcag-sc.csv"
