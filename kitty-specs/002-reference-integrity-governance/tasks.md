@@ -8,8 +8,8 @@ Feature: `002-reference-integrity-governance`
 - [x] T002 Validate direct relation source/target criterion existence
 - [x] T003 Validate inferred mapping consistency with crosswalk profiles
 - [x] T004 Validate informative resource target relationships against applies_to
-- [ ] T005 Add validator gate to PR validation workflow
-- [ ] T006 Add validator gate to artifact refresh workflow
+- [x] T005 Add validator gate to PR validation workflow
+- [x] T006 Add validator gate to artifact refresh workflow
 - [ ] T007 Add governance runbook and ownership checklist
 
 ## Work Packages
