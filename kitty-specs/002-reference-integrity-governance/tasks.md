@@ -4,10 +4,10 @@ Feature: `002-reference-integrity-governance`
 
 ## Subtasks
 
-- [ ] T001 Implement cross-standard reference validator script
-- [ ] T002 Validate direct relation source/target criterion existence
-- [ ] T003 Validate inferred mapping consistency with crosswalk profiles
-- [ ] T004 Validate informative resource target relationships against applies_to
+- [x] T001 Implement cross-standard reference validator script
+- [x] T002 Validate direct relation source/target criterion existence
+- [x] T003 Validate inferred mapping consistency with crosswalk profiles
+- [x] T004 Validate informative resource target relationships against applies_to
 - [ ] T005 Add validator gate to PR validation workflow
 - [ ] T006 Add validator gate to artifact refresh workflow
 - [ ] T007 Add governance runbook and ownership checklist
