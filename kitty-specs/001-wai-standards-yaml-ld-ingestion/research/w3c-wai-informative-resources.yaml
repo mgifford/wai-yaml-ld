@@ -1,7 +1,27 @@
 project: wai-standards-yaml-ld-ingestion
-updated: '2026-02-21'
+updated: '2026-02-22'
 scope: informative_w3c_resources
 resources:
+- id: w3c-maturity-model
+  title: W3C Maturity Model
+  url: https://www.w3.org/TR/maturity-model/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+  description: Framework for assessing and improving organizational accessibility maturity across people, processes, and technology
+- id: w3c-ethical-web-principles
+  title: Ethical Web Principles
+  url: https://www.w3.org/TR/ethical-web-principles/
+  type: informative
+  applies_to:
+  - wcag-2.2
+  - atag-2.0
+  - uaag-2.0
+  - wai-aria
+  description: Core ethical principles that guide W3C work, emphasizing user empowerment, privacy, security, and accessibility
 - id: wai-arrm-home
   title: Accessibility Roles and Responsibilities Mapping (ARRM)
   url: https://www.w3.org/WAI/planning/arrm/

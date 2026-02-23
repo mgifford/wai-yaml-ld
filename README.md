@@ -10,6 +10,7 @@ GitHub Pages landing page (if enabled):
 - Playbook web page: https://mgifford.github.io/wai-yaml-ld/link-graph-playbook.html
 - Interactive viewer: https://mgifford.github.io/wai-yaml-ld/standards-link-viewer.html
 - Semantic theory/reference page: https://mgifford.github.io/wai-yaml-ld/semantic-linked-data-llm.html
+- W3C standards alignment: https://mgifford.github.io/wai-yaml-ld/w3c-standards-alignment.html
 
 ## What This Project Is For
 
@@ -17,6 +18,17 @@ GitHub Pages landing page (if enabled):
 - Reduce hallucinated or outdated accessibility advice by grounding responses in curated standards datasets
 - Make relationships between standards explicit (for example HTML/ARIA/CSS support paths toward WCAG outcomes)
 - Support repeatable governance: schema validation, change monitoring, freshness checks, and CI guardrails
+
+## W3C Standards Alignment and Open Web Philosophy
+
+This project aligns with W3C's broader standards ecosystem and embodies open web principles:
+
+- **W3C Maturity Model**: Supports organizational accessibility maturity progression through structured data for people, processes, and technology dimensions
+- **Ethical Web Principles**: Embodies all ten principles including transparency, accessibility for all, verifiability, and environmental sustainability
+- **Open Web**: Machine-readable formats, transparent governance, and freely available data strengthen the open web
+- **Standards Gaps**: Addresses gaps in current W3C standards distribution including machine-readable formats, cross-standard relationships, and AI-optimized documentation
+
+For detailed analysis, see [W3C Standards Alignment documentation](docs/w3c-standards-alignment.md) or [web version](https://mgifford.github.io/wai-yaml-ld/w3c-standards-alignment.html).
 
 ## Why Use This With an LLM
 
