@@ -50,11 +50,3 @@ We are sharing `wai-yaml-ld` as an open, machine-readable companion dataset for 
    - cross-standard integrity checks,
    - monitoring and refresh lifecycle.
 4. Capture feedback as tracked issues labeled `w3c-feedback`.
-
-## Review Readiness Checklist
-
-- [ ] `main` branch is up to date and green.
-- [ ] Derived artifacts regenerate with no diffs.
-- [ ] Monitoring report is current.
-- [ ] This brief and README links are valid.
-- [ ] A named maintainer is available to triage incoming feedback.
