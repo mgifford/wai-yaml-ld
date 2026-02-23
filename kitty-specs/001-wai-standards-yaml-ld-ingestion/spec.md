@@ -28,8 +28,7 @@ Accessibility standard content is distributed across multiple W3C pages and form
 ## Non-Goals
 
 - Building a runtime ingestion service or API.
-- Transforming YAML into JSON-LD in this phase.
-- Automated CI validation beyond file-level syntax and repository checks.
+- Replacing authoritative W3C source documents.
 
 ## Scope
 
@@ -39,6 +38,9 @@ Accessibility standard content is distributed across multiple W3C pages and form
 - Shared and ARIA-focused informative resource catalogs.
 - Top-level standards index listing canonical sources and local YAML artifacts.
 - Crosswalk file describing ATAG to WCAG 2.2 mappings and profile behavior.
+- Derived artifact generation (JSON-LD, CSV, Mermaid) from canonical YAML sources.
+- CI-based regeneration and validation checks for graph and cross-standard artifacts.
+- Scheduled source monitoring and refresh workflows.
 
 ### Out of Scope
 
@@ -67,6 +69,10 @@ Accessibility standard content is distributed across multiple W3C pages and form
 8. The project MUST provide `research/atag-to-wcag-2.2-crosswalk.yaml`.
 9. Informative resources MUST be separated from normative criteria data.
 10. The shared informative catalog MUST include requested resources for APG, AAM, AccName, ARIA in HTML, SVG AAM, EPUB accessibility docs, Web Sustainability Guidelines, ARRM, digital publishing roles context, and ACT Rules Format references.
+11. The project MUST generate and version derived artifacts for standards graph, crosswalk, and cross-standard references.
+12. CI MUST fail when regenerated artifacts differ from committed outputs.
+13. CI MUST validate cross-standard reference integrity before merge.
+14. The project MUST monitor upstream W3C and related sources on a scheduled cadence and emit a change report artifact.
 
 ## Data and File Contract
 
@@ -93,7 +99,9 @@ Accessibility standard content is distributed across multiple W3C pages and form
 - Normative files exist and contain structured criteria suitable for ingestion.
 - Crosswalk file exists with explicit 4.1.1 exception rule.
 - Informative resources are present in both shared and ARIA-focused catalogs where applicable.
-- No YAML syntax errors in edited files.
+- Derived outputs can be regenerated from source YAML with no uncommitted diffs.
+- PR validation workflow runs graph and cross-standard validation gates.
+- Monitoring and refresh workflows are configured and runnable via GitHub Actions.
 
 ## Risks and Mitigations
 
@@ -109,8 +117,13 @@ Accessibility standard content is distributed across multiple W3C pages and form
 - Keep changes focused to feature files under `kitty-specs/001-wai-standards-yaml-ld-ingestion/`.
 - Avoid committing agent runtime directories.
 - Treat unrelated repository churn outside this feature as out of scope for this spec.
+- Primary workflow coverage lives in:
+	- `.github/workflows/standards-link-graph-validate.yml`
+	- `.github/workflows/w3c-standards-monitor.yml`
+	- `.github/workflows/refresh-standards-artifacts.yml`
+	- `.github/workflows/weekly-resource-link-check.yml`
 
 ## Open Questions
 
 - Should WCAG 2.0 legacy YAML remain permanently, or be archived after downstream migration to 2.2?
-- Should future phases add automated link checking and schema validation in CI?
+- Should additional schema-level contract validation be added as a required gate for every PR?
