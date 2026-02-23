@@ -74,6 +74,14 @@ jobs:
             --out-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml \
             --out-csv kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.csv
 
+      - name: Regenerate cross-standard Mermaid views
+        run: |
+          python scripts/generate_cross_standard_reference_views.py \
+            --dataset-yaml kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml \
+            --full-mmd-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.mmd \
+            --atag-wcag-mmd-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.atag-wcag.mmd \
+            --informative-mmd-out kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.informative.mmd
+
       - name: Regenerate ACT/axe/Alfa comparison view
         run: |
           python scripts/generate_accessibility_rule_comparison.py \
@@ -94,4 +102,7 @@ jobs:
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/wcag-2.2-sc-crosswalk.csv \
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml \
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.csv \
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.mmd \
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.atag-wcag.mmd \
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.informative.mmd \
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/accessibility-rule-catalogs.comparison.csv
