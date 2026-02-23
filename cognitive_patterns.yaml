@@ -1,0 +1,83 @@
+metadata:
+  title: "Cognitive Patterns Crosswalk"
+  status: "active"
+  purpose: "Interpretive index connecting cognitive patterns to WCAG criteria, personas, and implementation resources."
+  canonical_dataset: "supplemental_guidance.yaml"
+
+scope:
+  guidance_type: "supplemental"
+  focus_area: "cognitive-and-learning-needs"
+  non_duplication_note: "This file does not duplicate normative WCAG text; it summarizes pattern-level implementation intent."
+
+links:
+  local_resources:
+    supplemental_guidance: "supplemental_guidance.yaml"
+    personas: "personas.yaml"
+    workflows: "workflows.yaml"
+    tutorials: "TUTORIALS.md"
+  w3c_sources:
+    supplemental_guidance: "https://www.w3.org/WAI/WCAG2/supplemental/"
+    cognitive_patterns: "https://www.w3.org/WAI/WCAG2/supplemental/patterns/"
+    wcag_22: "https://www.w3.org/TR/WCAG22/"
+    understanding_wcag_22: "https://www.w3.org/WAI/WCAG22/Understanding/"
+
+objectives:
+  - objective_id: "O1"
+    objective_title: "Help users understand what things are and how to use them"
+    implementation_intent: "Reduce ambiguity in structure, controls, and task flow."
+    related_wcag_sc: ["1.3.1", "2.4.6", "3.2.4", "3.3.2"]
+    patterns:
+      - pattern_id: "O1-P1"
+        pattern_title: "Make the purpose of each page clear"
+        related_wcag_sc: ["2.4.2", "2.4.6", "3.1.5"]
+      - pattern_id: "O1-P2"
+        pattern_title: "Use a familiar hierarchy and design"
+        related_wcag_sc: ["1.3.1", "2.4.5", "3.2.3"]
+      - pattern_id: "O1-P3"
+        pattern_title: "Clearly identify controls and their use"
+        related_wcag_sc: ["2.4.6", "3.3.2", "4.1.2"]
+
+  - objective_id: "O3"
+    objective_title: "Use clear and understandable content"
+    implementation_intent: "Lower cognitive parsing load in reading and decision points."
+    related_wcag_sc: ["3.1.5", "3.3.2", "3.3.5"]
+    patterns:
+      - pattern_id: "O3-P1"
+        pattern_title: "Use clear words and literal language"
+        related_wcag_sc: ["3.1.3", "3.1.5"]
+      - pattern_id: "O3-P2"
+        pattern_title: "Keep text succinct"
+        related_wcag_sc: ["3.1.5", "2.4.6"]
+      - pattern_id: "O3-P3"
+        pattern_title: "Provide summaries for long content"
+        related_wcag_sc: ["2.4.6", "3.1.5", "1.3.1"]
+
+  - objective_id: "O4"
+    objective_title: "Help users avoid mistakes and recover from them"
+    implementation_intent: "Increase success rate by improving prevention, feedback, and recovery."
+    related_wcag_sc: ["3.3.1", "3.3.3", "3.3.4", "3.3.7"]
+    patterns:
+      - pattern_id: "O4-P1"
+        pattern_title: "Design forms to prevent mistakes"
+        related_wcag_sc: ["3.3.2", "3.3.3", "3.3.7"]
+      - pattern_id: "O4-P2"
+        pattern_title: "Allow users to go back and undo"
+        related_wcag_sc: ["2.2.1", "3.3.4"]
+      - pattern_id: "O4-P3"
+        pattern_title: "Avoid unexpected movement of controls"
+        related_wcag_sc: ["2.2.2", "2.3.3", "3.2.1"]
+
+  - objective_id: "O6"
+    objective_title: "Ensure processes do not rely on memory"
+    implementation_intent: "Reduce memory burden in login and multi-step tasks."
+    related_wcag_sc: ["2.2.1", "3.3.7", "3.3.8"]
+    patterns:
+      - pattern_id: "O6-P1"
+        pattern_title: "Provide login approaches that reduce memory burden"
+        related_wcag_sc: ["3.3.8", "3.3.7"]
+      - pattern_id: "O6-P2"
+        pattern_title: "Allow simple, single-step alternatives"
+        related_wcag_sc: ["3.3.8", "2.2.1"]
+      - pattern_id: "O6-P3"
+        pattern_title: "Do not rely on user calculations or memorized intermediates"
+        related_wcag_sc: ["3.3.5", "3.3.8"]
