@@ -1,0 +1,9 @@
+metadata:
+  title: "Strategy Metrics (Compatibility Pointer)"
+  status: "superseded"
+  superseded_by: "business_strategy.yaml"
+  reason: "Legacy file contained malformed citation tokens and has been replaced by normalized strategy structure."
+
+compatibility:
+  canonical_file: "business_strategy.yaml"
+  canonical_section: "value_drivers"
