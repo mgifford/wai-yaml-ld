@@ -16,26 +16,26 @@
 
 ### 1) Orientation
 
-- Repository overview: `README.md`
-- Standards alignment write-up: `docs/w3c-standards-alignment.md`
-- Link-graph playbook: `docs/link-graph-playbook.md`
+- Repository overview: [`README.md`](../README.md)
+- Standards alignment write-up: [`docs/w3c-standards-alignment.md`](w3c-standards-alignment.md)
+- Link-graph playbook: [`docs/link-graph-playbook.md`](link-graph-playbook.md)
 
 ### 2) Canonical Data and Contracts
 
-- Standards index: `kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml`
-- Standards graph: `kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml`
-- Cross-standard references: `kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml`
-- Graph schema: `schemas/standards-link-graph.schema.json`
-- Cross-standard schema: `schemas/cross-standard-references.schema.json`
+- Standards index: [`kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml`](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/w3c-wai-standards.yaml)
+- Standards graph: [`kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml`](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/standards-link-graph.yaml)
+- Cross-standard references: [`kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml`](../kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.yaml)
+- Graph schema: [`schemas/standards-link-graph.schema.json`](../schemas/standards-link-graph.schema.json)
+- Cross-standard schema: [`schemas/cross-standard-references.schema.json`](../schemas/cross-standard-references.schema.json)
 
 ### 3) Governance and Integrity Evidence
 
-- Integrity validator: `scripts/validate_cross_standard_references.py`
-- CI validation workflow: `.github/workflows/standards-link-graph-validate.yml`
-- Source monitoring workflow: `.github/workflows/w3c-standards-monitor.yml`
-- Refresh workflow: `.github/workflows/refresh-standards-artifacts.yml`
-- Governance runbook: `kitty-specs/002-reference-integrity-governance/governance-runbook.md`
-- Ownership checklist: `kitty-specs/002-reference-integrity-governance/checklists/reference-integrity-ownership-checklist.md`
+- Integrity validator: [`scripts/validate_cross_standard_references.py`](../scripts/validate_cross_standard_references.py)
+- CI validation workflow: [`.github/workflows/standards-link-graph-validate.yml`](../.github/workflows/standards-link-graph-validate.yml)
+- Source monitoring workflow: [`.github/workflows/w3c-standards-monitor.yml`](../.github/workflows/w3c-standards-monitor.yml)
+- Refresh workflow: [`.github/workflows/refresh-standards-artifacts.yml`](../.github/workflows/refresh-standards-artifacts.yml)
+- Governance runbook: [`kitty-specs/002-reference-integrity-governance/governance-runbook.md`](../kitty-specs/002-reference-integrity-governance/governance-runbook.md)
+- Ownership checklist: [`kitty-specs/002-reference-integrity-governance/checklists/reference-integrity-ownership-checklist.md`](../kitty-specs/002-reference-integrity-governance/checklists/reference-integrity-ownership-checklist.md)
 
 ## Suggested Message to W3C Contacts
 
