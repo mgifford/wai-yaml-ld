@@ -10,7 +10,7 @@ Feature: `002-reference-integrity-governance`
 - [x] T004 Validate informative resource target relationships against applies_to
 - [x] T005 Add validator gate to PR validation workflow
 - [x] T006 Add validator gate to artifact refresh workflow
-- [ ] T007 Add governance runbook and ownership checklist
+- [x] T007 Add governance runbook and ownership checklist
 
 ## Work Packages
 
