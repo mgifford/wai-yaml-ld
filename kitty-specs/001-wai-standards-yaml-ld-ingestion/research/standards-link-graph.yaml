@@ -97,6 +97,14 @@ nodes:
   label: ARIA in HTML
   kind: technical_spec
   url: https://www.w3.org/TR/html-aria/
+- id: svg2
+  label: SVG 2
+  kind: technical_spec
+  url: https://www.w3.org/TR/SVG2/
+- id: svg-aam-1.0
+  label: SVG AAM 1.0
+  kind: technical_spec
+  url: https://www.w3.org/TR/svg-aam-1.0/
 - id: html-living-standard
   label: HTML Living Standard
   kind: technical_spec
@@ -166,6 +174,18 @@ edges:
   to: html-living-standard
   confidence: high
   evidence: standards index includes HTML Living Standard entry.
+- id: e008a
+  from: w3c-wai-standards-index
+  relation: catalogs
+  to: svg2
+  confidence: high
+  evidence: standards index includes SVG2 entry.
+- id: e008b
+  from: w3c-wai-standards-index
+  relation: catalogs
+  to: svg-aam-1.0
+  confidence: high
+  evidence: standards index includes SVG AAM 1.0 entry.
 - id: e009
   from: w3c-wai-standards-index
   relation: catalogs
@@ -214,6 +234,18 @@ edges:
   to: html-living-standard
   confidence: high
   evidence: ARIA in HTML defines ARIA usage constraints within HTML.
+- id: e016a
+  from: svg-aam-1.0
+  relation: implements_mapping_for
+  to: svg2
+  confidence: high
+  evidence: SVG AAM maps SVG elements and graphics to accessibility APIs.
+- id: e016b
+  from: svg2
+  relation: supports_outcome_for
+  to: wcag-2.2
+  confidence: medium
+  evidence: SVG graphics features enable accessible vector graphics conforming to WCAG.
 - id: e017
   from: html-aam-1.0
   relation: implements_mapping_for

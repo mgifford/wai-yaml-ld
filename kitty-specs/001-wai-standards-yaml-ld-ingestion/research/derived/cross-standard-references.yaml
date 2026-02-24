@@ -1,5 +1,5 @@
 dataset_id: cross-standard-references
-updated: '2026-02-23'
+updated: '2026-02-24'
 description: Direct and inferred references between standards criteria and informative
   resources.
 relation_types:
@@ -35475,6 +35475,40 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
+  source_criterion_title: Scalable Vector Graphics (SVG) 2
+  source_resource_id: svg2
+  source_url: https://www.w3.org/TR/SVG2/
+  target_standard_id: wcag-2.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/WCAG22/
+  evidence_excerpt: informative resource applies_to includes wcag-2.2
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02084
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: Scalable Vector Graphics (SVG) 2
+  source_resource_id: svg2
+  source_url: https://www.w3.org/TR/SVG2/
+  target_standard_id: wai-aria-1.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/wai-aria-1.2/
+  evidence_excerpt: informative resource applies_to includes wai-aria
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02085
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
   source_criterion_title: SVG Accessibility API Mappings 1.0
   source_resource_id: svg-aam-1.0
   source_url: https://www.w3.org/TR/svg-aam-1.0/
@@ -35484,7 +35518,7 @@ links:
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02084
+  link_id: xref-02086
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35501,7 +35535,7 @@ links:
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02085
+  link_id: xref-02087
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35518,7 +35552,7 @@ links:
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02086
+  link_id: xref-02088
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35534,40 +35568,6 @@ links:
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02087
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Web Sustainability Guidelines
-  source_resource_id: web-sustainability-guidelines
-  source_url: https://www.w3.org/TR/web-sustainability-guidelines/
-  target_standard_id: wcag-2.2
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/WCAG22/
-  evidence_excerpt: informative resource applies_to includes wcag-2.2
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02088
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Web Sustainability Guidelines
-  source_resource_id: web-sustainability-guidelines
-  source_url: https://www.w3.org/TR/web-sustainability-guidelines/
-  target_standard_id: atag-2.0
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/ATAG20/
-  evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02089
 - relation_type: informative_resource_reference_standard
@@ -35580,11 +35580,11 @@ links:
   source_criterion_title: Web Sustainability Guidelines
   source_resource_id: web-sustainability-guidelines
   source_url: https://www.w3.org/TR/web-sustainability-guidelines/
-  target_standard_id: uaag-2.0
+  target_standard_id: wcag-2.2
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/UAAG20/
-  evidence_excerpt: informative resource applies_to includes uaag-2.0
+  target_url: https://www.w3.org/TR/WCAG22/
+  evidence_excerpt: informative resource applies_to includes wcag-2.2
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02090
 - relation_type: informative_resource_reference_standard
@@ -35594,14 +35594,14 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: W3C CSS Specifications Overview
-  source_resource_id: w3c-css-specifications-overview
-  source_url: https://www.w3.org/Style/CSS/Overview.en.html
-  target_standard_id: wcag-2.2
+  source_criterion_title: Web Sustainability Guidelines
+  source_resource_id: web-sustainability-guidelines
+  source_url: https://www.w3.org/TR/web-sustainability-guidelines/
+  target_standard_id: atag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/WCAG22/
-  evidence_excerpt: informative resource applies_to includes wcag-2.2
+  target_url: https://www.w3.org/TR/ATAG20/
+  evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02091
 - relation_type: informative_resource_reference_standard
@@ -35611,14 +35611,14 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: W3C CSS Specifications Overview
-  source_resource_id: w3c-css-specifications-overview
-  source_url: https://www.w3.org/Style/CSS/Overview.en.html
-  target_standard_id: atag-2.0
+  source_criterion_title: Web Sustainability Guidelines
+  source_resource_id: web-sustainability-guidelines
+  source_url: https://www.w3.org/TR/web-sustainability-guidelines/
+  target_standard_id: uaag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/ATAG20/
-  evidence_excerpt: informative resource applies_to includes atag-2.0
+  target_url: https://www.w3.org/TR/UAAG20/
+  evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02092
 - relation_type: informative_resource_reference_standard
@@ -35631,13 +35631,47 @@ links:
   source_criterion_title: W3C CSS Specifications Overview
   source_resource_id: w3c-css-specifications-overview
   source_url: https://www.w3.org/Style/CSS/Overview.en.html
+  target_standard_id: wcag-2.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/WCAG22/
+  evidence_excerpt: informative resource applies_to includes wcag-2.2
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02093
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: W3C CSS Specifications Overview
+  source_resource_id: w3c-css-specifications-overview
+  source_url: https://www.w3.org/Style/CSS/Overview.en.html
+  target_standard_id: atag-2.0
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/ATAG20/
+  evidence_excerpt: informative resource applies_to includes atag-2.0
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02094
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: W3C CSS Specifications Overview
+  source_resource_id: w3c-css-specifications-overview
+  source_url: https://www.w3.org/Style/CSS/Overview.en.html
   target_standard_id: uaag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/UAAG20/
   evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02093
+  link_id: xref-02095
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35654,7 +35688,7 @@ links:
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02094
+  link_id: xref-02096
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35670,40 +35704,6 @@ links:
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/WCAG22/
   evidence_excerpt: informative resource applies_to includes wcag-2.2
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02095
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: HTML Living Standard
-  source_resource_id: html-living-standard
-  source_url: https://html.spec.whatwg.org/multipage/
-  target_standard_id: atag-2.0
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/ATAG20/
-  evidence_excerpt: informative resource applies_to includes atag-2.0
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02096
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: HTML Living Standard
-  source_resource_id: html-living-standard
-  source_url: https://html.spec.whatwg.org/multipage/
-  target_standard_id: uaag-2.0
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/UAAG20/
-  evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02097
 - relation_type: informative_resource_reference_standard
@@ -35716,11 +35716,11 @@ links:
   source_criterion_title: HTML Living Standard
   source_resource_id: html-living-standard
   source_url: https://html.spec.whatwg.org/multipage/
-  target_standard_id: wai-aria-1.2
+  target_standard_id: atag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/wai-aria-1.2/
-  evidence_excerpt: informative resource applies_to includes wai-aria
+  target_url: https://www.w3.org/TR/ATAG20/
+  evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02098
 - relation_type: informative_resource_reference_standard
@@ -35730,14 +35730,14 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format 1.1
-  source_resource_id: act-rules-format-1.1
-  source_url: https://www.w3.org/TR/act-rules-format-1.1/
-  target_standard_id: wai-aria-1.2
+  source_criterion_title: HTML Living Standard
+  source_resource_id: html-living-standard
+  source_url: https://html.spec.whatwg.org/multipage/
+  target_standard_id: uaag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/wai-aria-1.2/
-  evidence_excerpt: informative resource applies_to includes wai-aria
+  target_url: https://www.w3.org/TR/UAAG20/
+  evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02099
 - relation_type: informative_resource_reference_standard
@@ -35747,14 +35747,14 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format 1.1
-  source_resource_id: act-rules-format-1.1
-  source_url: https://www.w3.org/TR/act-rules-format-1.1/
-  target_standard_id: wcag-2.2
+  source_criterion_title: HTML Living Standard
+  source_resource_id: html-living-standard
+  source_url: https://html.spec.whatwg.org/multipage/
+  target_standard_id: wai-aria-1.2
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/WCAG22/
-  evidence_excerpt: informative resource applies_to includes wcag-2.2
+  target_url: https://www.w3.org/TR/wai-aria-1.2/
+  evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02100
 - relation_type: informative_resource_reference_standard
@@ -35767,13 +35767,47 @@ links:
   source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format 1.1
   source_resource_id: act-rules-format-1.1
   source_url: https://www.w3.org/TR/act-rules-format-1.1/
+  target_standard_id: wai-aria-1.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/wai-aria-1.2/
+  evidence_excerpt: informative resource applies_to includes wai-aria
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02101
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format 1.1
+  source_resource_id: act-rules-format-1.1
+  source_url: https://www.w3.org/TR/act-rules-format-1.1/
+  target_standard_id: wcag-2.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/WCAG22/
+  evidence_excerpt: informative resource applies_to includes wcag-2.2
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02102
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format 1.1
+  source_resource_id: act-rules-format-1.1
+  source_url: https://www.w3.org/TR/act-rules-format-1.1/
   target_standard_id: atag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/ATAG20/
   evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02101
+  link_id: xref-02103
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35790,7 +35824,7 @@ links:
   target_url: https://www.w3.org/TR/UAAG20/
   evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02102
+  link_id: xref-02104
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35806,40 +35840,6 @@ links:
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02103
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format 1.0
-  source_resource_id: act-rules-format-1.0
-  source_url: https://www.w3.org/TR/act-rules-format-1.0/
-  target_standard_id: wcag-2.2
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/WCAG22/
-  evidence_excerpt: informative resource applies_to includes wcag-2.2
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02104
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format 1.0
-  source_resource_id: act-rules-format-1.0
-  source_url: https://www.w3.org/TR/act-rules-format-1.0/
-  target_standard_id: atag-2.0
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/ATAG20/
-  evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02105
 - relation_type: informative_resource_reference_standard
@@ -35852,11 +35852,11 @@ links:
   source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format 1.0
   source_resource_id: act-rules-format-1.0
   source_url: https://www.w3.org/TR/act-rules-format-1.0/
-  target_standard_id: uaag-2.0
+  target_standard_id: wcag-2.2
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/UAAG20/
-  evidence_excerpt: informative resource applies_to includes uaag-2.0
+  target_url: https://www.w3.org/TR/WCAG22/
+  evidence_excerpt: informative resource applies_to includes wcag-2.2
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02106
 - relation_type: informative_resource_reference_standard
@@ -35866,14 +35866,14 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format (Latest)
-  source_resource_id: act-rules-format-latest
-  source_url: https://www.w3.org/TR/act-rules-format/
-  target_standard_id: wai-aria-1.2
+  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format 1.0
+  source_resource_id: act-rules-format-1.0
+  source_url: https://www.w3.org/TR/act-rules-format-1.0/
+  target_standard_id: atag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/wai-aria-1.2/
-  evidence_excerpt: informative resource applies_to includes wai-aria
+  target_url: https://www.w3.org/TR/ATAG20/
+  evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02107
 - relation_type: informative_resource_reference_standard
@@ -35883,14 +35883,14 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format (Latest)
-  source_resource_id: act-rules-format-latest
-  source_url: https://www.w3.org/TR/act-rules-format/
-  target_standard_id: wcag-2.2
+  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format 1.0
+  source_resource_id: act-rules-format-1.0
+  source_url: https://www.w3.org/TR/act-rules-format-1.0/
+  target_standard_id: uaag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/WCAG22/
-  evidence_excerpt: informative resource applies_to includes wcag-2.2
+  target_url: https://www.w3.org/TR/UAAG20/
+  evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02108
 - relation_type: informative_resource_reference_standard
@@ -35903,13 +35903,47 @@ links:
   source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format (Latest)
   source_resource_id: act-rules-format-latest
   source_url: https://www.w3.org/TR/act-rules-format/
+  target_standard_id: wai-aria-1.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/wai-aria-1.2/
+  evidence_excerpt: informative resource applies_to includes wai-aria
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02109
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format (Latest)
+  source_resource_id: act-rules-format-latest
+  source_url: https://www.w3.org/TR/act-rules-format/
+  target_standard_id: wcag-2.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/WCAG22/
+  evidence_excerpt: informative resource applies_to includes wcag-2.2
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02110
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: Accessibility Conformance Testing (ACT) Rules Format (Latest)
+  source_resource_id: act-rules-format-latest
+  source_url: https://www.w3.org/TR/act-rules-format/
   target_standard_id: atag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/ATAG20/
   evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02109
+  link_id: xref-02111
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35926,7 +35960,7 @@ links:
   target_url: https://www.w3.org/TR/UAAG20/
   evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02110
+  link_id: xref-02112
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35943,7 +35977,7 @@ links:
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02111
+  link_id: xref-02113
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35960,7 +35994,7 @@ links:
   target_url: https://www.w3.org/TR/WCAG22/
   evidence_excerpt: informative resource applies_to includes wcag-2.2
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02112
+  link_id: xref-02114
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35977,7 +36011,7 @@ links:
   target_url: https://www.w3.org/TR/ATAG20/
   evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02113
+  link_id: xref-02115
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -35994,40 +36028,6 @@ links:
   target_url: https://www.w3.org/TR/UAAG20/
   evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02114
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Deque axe-core Rules 4.11 Catalog
-  source_resource_id: deque-axe-rules-4.11
-  source_url: https://dequeuniversity.com/rules/axe/html/4.11
-  target_standard_id: wai-aria-1.2
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/wai-aria-1.2/
-  evidence_excerpt: informative resource applies_to includes wai-aria
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02115
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Deque axe-core Rules 4.11 Catalog
-  source_resource_id: deque-axe-rules-4.11
-  source_url: https://dequeuniversity.com/rules/axe/html/4.11
-  target_standard_id: wcag-2.2
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/WCAG22/
-  evidence_excerpt: informative resource applies_to includes wcag-2.2
-  source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02116
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
@@ -36036,9 +36036,9 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: Siteimprove Alfa Rules Catalog
-  source_resource_id: siteimprove-alfa-rules
-  source_url: https://alfa.siteimprove.com/rules
+  source_criterion_title: Deque axe-core Rules 4.11 Catalog
+  source_resource_id: deque-axe-rules-4.11
+  source_url: https://dequeuniversity.com/rules/axe/html/4.11
   target_standard_id: wai-aria-1.2
   target_criterion_code: ''
   target_profile_ref: ''
@@ -36053,9 +36053,9 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: Siteimprove Alfa Rules Catalog
-  source_resource_id: siteimprove-alfa-rules
-  source_url: https://alfa.siteimprove.com/rules
+  source_criterion_title: Deque axe-core Rules 4.11 Catalog
+  source_resource_id: deque-axe-rules-4.11
+  source_url: https://dequeuniversity.com/rules/axe/html/4.11
   target_standard_id: wcag-2.2
   target_criterion_code: ''
   target_profile_ref: ''
@@ -36070,9 +36070,9 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: QualWeb ACT Rules Catalog
-  source_resource_id: qualweb-act-rules
-  source_url: https://github.com/qualweb/act-rules
+  source_criterion_title: Siteimprove Alfa Rules Catalog
+  source_resource_id: siteimprove-alfa-rules
+  source_url: https://alfa.siteimprove.com/rules
   target_standard_id: wai-aria-1.2
   target_criterion_code: ''
   target_profile_ref: ''
@@ -36087,9 +36087,9 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: QualWeb ACT Rules Catalog
-  source_resource_id: qualweb-act-rules
-  source_url: https://github.com/qualweb/act-rules
+  source_criterion_title: Siteimprove Alfa Rules Catalog
+  source_resource_id: siteimprove-alfa-rules
+  source_url: https://alfa.siteimprove.com/rules
   target_standard_id: wcag-2.2
   target_criterion_code: ''
   target_profile_ref: ''
@@ -36107,13 +36107,47 @@ links:
   source_criterion_title: QualWeb ACT Rules Catalog
   source_resource_id: qualweb-act-rules
   source_url: https://github.com/qualweb/act-rules
+  target_standard_id: wai-aria-1.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/wai-aria-1.2/
+  evidence_excerpt: informative resource applies_to includes wai-aria
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02121
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: QualWeb ACT Rules Catalog
+  source_resource_id: qualweb-act-rules
+  source_url: https://github.com/qualweb/act-rules
+  target_standard_id: wcag-2.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/WCAG22/
+  evidence_excerpt: informative resource applies_to includes wcag-2.2
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02122
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: QualWeb ACT Rules Catalog
+  source_resource_id: qualweb-act-rules
+  source_url: https://github.com/qualweb/act-rules
   target_standard_id: atag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/ATAG20/
   evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02121
+  link_id: xref-02123
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36130,7 +36164,7 @@ links:
   target_url: https://www.w3.org/TR/UAAG20/
   evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02122
+  link_id: xref-02124
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36147,7 +36181,7 @@ links:
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02123
+  link_id: xref-02125
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36164,7 +36198,7 @@ links:
   target_url: https://www.w3.org/TR/WCAG22/
   evidence_excerpt: informative resource applies_to includes wcag-2.2
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02124
+  link_id: xref-02126
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36181,7 +36215,7 @@ links:
   target_url: https://www.w3.org/TR/ATAG20/
   evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02125
+  link_id: xref-02127
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36197,42 +36231,6 @@ links:
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/UAAG20/
   evidence_excerpt: informative resource applies_to includes uaag-2.0
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02126
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Accessibility Rule Catalogs Machine-Readable Dataset (ACT
-    + axe + Alfa + QualWeb + IBM source metadata)
-  source_resource_id: accessibility-rule-catalogs-machine-readable
-  source_url: ./accessibility-rule-catalogs.yaml
-  target_standard_id: wai-aria-1.2
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/wai-aria-1.2/
-  evidence_excerpt: informative resource applies_to includes wai-aria
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02127
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Accessibility Rule Catalogs Machine-Readable Dataset (ACT
-    + axe + Alfa + QualWeb + IBM source metadata)
-  source_resource_id: accessibility-rule-catalogs-machine-readable
-  source_url: ./accessibility-rule-catalogs.yaml
-  target_standard_id: wcag-2.2
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/WCAG22/
-  evidence_excerpt: informative resource applies_to includes wcag-2.2
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02128
 - relation_type: informative_resource_reference_standard
@@ -36246,13 +36244,49 @@ links:
     + axe + Alfa + QualWeb + IBM source metadata)
   source_resource_id: accessibility-rule-catalogs-machine-readable
   source_url: ./accessibility-rule-catalogs.yaml
+  target_standard_id: wai-aria-1.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/wai-aria-1.2/
+  evidence_excerpt: informative resource applies_to includes wai-aria
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02129
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: Accessibility Rule Catalogs Machine-Readable Dataset (ACT
+    + axe + Alfa + QualWeb + IBM source metadata)
+  source_resource_id: accessibility-rule-catalogs-machine-readable
+  source_url: ./accessibility-rule-catalogs.yaml
+  target_standard_id: wcag-2.2
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/WCAG22/
+  evidence_excerpt: informative resource applies_to includes wcag-2.2
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02130
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: Accessibility Rule Catalogs Machine-Readable Dataset (ACT
+    + axe + Alfa + QualWeb + IBM source metadata)
+  source_resource_id: accessibility-rule-catalogs-machine-readable
+  source_url: ./accessibility-rule-catalogs.yaml
   target_standard_id: atag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/ATAG20/
   evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02129
+  link_id: xref-02131
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36270,7 +36304,7 @@ links:
   target_url: https://www.w3.org/TR/UAAG20/
   evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02130
+  link_id: xref-02132
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36287,7 +36321,7 @@ links:
   target_url: https://www.w3.org/TR/ATAG20/
   evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02131
+  link_id: xref-02133
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36304,7 +36338,7 @@ links:
   target_url: https://www.w3.org/TR/UAAG20/
   evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02132
+  link_id: xref-02134
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36320,40 +36354,6 @@ links:
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/WCAG22/
   evidence_excerpt: informative resource applies_to includes wcag-2.2
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02133
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Understanding WCAG 2.2
-  source_resource_id: understanding-wcag-2.2
-  source_url: https://www.w3.org/WAI/WCAG22/Understanding/
-  target_standard_id: atag-2.0
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/ATAG20/
-  evidence_excerpt: informative resource applies_to includes atag-2.0
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02134
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Understanding WCAG 2.2
-  source_resource_id: understanding-wcag-2.2
-  source_url: https://www.w3.org/WAI/WCAG22/Understanding/
-  target_standard_id: uaag-2.0
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/UAAG20/
-  evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02135
 - relation_type: informative_resource_reference_standard
@@ -36366,13 +36366,47 @@ links:
   source_criterion_title: Understanding WCAG 2.2
   source_resource_id: understanding-wcag-2.2
   source_url: https://www.w3.org/WAI/WCAG22/Understanding/
+  target_standard_id: atag-2.0
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/ATAG20/
+  evidence_excerpt: informative resource applies_to includes atag-2.0
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02136
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: Understanding WCAG 2.2
+  source_resource_id: understanding-wcag-2.2
+  source_url: https://www.w3.org/WAI/WCAG22/Understanding/
+  target_standard_id: uaag-2.0
+  target_criterion_code: ''
+  target_profile_ref: ''
+  target_url: https://www.w3.org/TR/UAAG20/
+  evidence_excerpt: informative resource applies_to includes uaag-2.0
+  source_dataset: w3c-wai-informative-resources.yaml
+  link_id: xref-02137
+- relation_type: informative_resource_reference_standard
+  basis: catalog_applies_to
+  confidence: high
+  source_kind: informative_resource
+  source_standard_id: ''
+  source_criterion_id: ''
+  source_criterion_code: ''
+  source_criterion_title: Understanding WCAG 2.2
+  source_resource_id: understanding-wcag-2.2
+  source_url: https://www.w3.org/WAI/WCAG22/Understanding/
   target_standard_id: wai-aria-1.2
   target_criterion_code: ''
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02136
+  link_id: xref-02138
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36389,7 +36423,7 @@ links:
   target_url: https://www.w3.org/TR/WCAG22/
   evidence_excerpt: informative resource applies_to includes wcag-2.2
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02137
+  link_id: xref-02139
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36406,7 +36440,7 @@ links:
   target_url: https://www.w3.org/TR/ATAG20/
   evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02138
+  link_id: xref-02140
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36423,7 +36457,7 @@ links:
   target_url: https://www.w3.org/TR/UAAG20/
   evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02139
+  link_id: xref-02141
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36440,4 +36474,4 @@ links:
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02140
+  link_id: xref-02142

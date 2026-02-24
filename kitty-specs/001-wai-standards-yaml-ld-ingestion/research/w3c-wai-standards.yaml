@@ -72,6 +72,11 @@ sources:
   url: https://www.w3.org/TR/html-aria/
   type: technical_spec
   format_hint: w3c-tr
+- id: svg2
+  name: Scalable Vector Graphics (SVG) 2
+  url: https://www.w3.org/TR/SVG2/
+  type: technical_spec
+  format_hint: w3c-tr
 - id: svg-aam-1.0
   name: SVG Accessibility API Mappings 1.0
   url: https://www.w3.org/TR/svg-aam-1.0/
