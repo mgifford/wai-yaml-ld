@@ -75,6 +75,14 @@
       "checked_at": "2026-02-21T23:04:36.737772+00:00"
     },
     {
+      "id": "svg2",
+      "url": "https://www.w3.org/TR/SVG2/",
+      "status": 200,
+      "etag": null,
+      "last_modified": null,
+      "checked_at": null
+    },
+    {
       "id": "svg-aam-1.0",
       "url": "https://www.w3.org/TR/svg-aam-1.0/",
       "status": 200,

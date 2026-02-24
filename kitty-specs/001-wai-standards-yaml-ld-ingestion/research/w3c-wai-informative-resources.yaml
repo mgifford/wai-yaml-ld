@@ -115,6 +115,14 @@ resources:
   type: standard
   applies_to:
   - wai-aria
+- id: svg2
+  title: Scalable Vector Graphics (SVG) 2
+  url: https://www.w3.org/TR/SVG2/
+  type: standard
+  applies_to:
+  - wcag-2.2
+  - wai-aria
+  description: Core SVG specification that defines the graphics format, including accessibility features and requirements for accessible graphics
 - id: svg-aam-1.0
   title: SVG Accessibility API Mappings 1.0
   url: https://www.w3.org/TR/svg-aam-1.0/
