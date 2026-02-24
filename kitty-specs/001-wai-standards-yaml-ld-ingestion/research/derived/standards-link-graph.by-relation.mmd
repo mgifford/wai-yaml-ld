@@ -16,6 +16,8 @@ graph LR
     n_html_aam_1_0["HTML AAM 1.0"]
     n_accname_1_2["AccName 1.2"]
     n_aria_in_html["ARIA in HTML"]
+    n_svg2["SVG 2"]
+    n_svg_aam_1_0["SVG AAM 1.0"]
     n_html_living_standard["HTML Living Standard"]
     n_w3c_css_overview["W3C CSS Specifications Overview"]
     n_act_rules_catalog["W3C ACT Rules Catalog"]
@@ -32,6 +34,8 @@ graph LR
     n_w3c_wai_standards_index -->|catalogs| n_uaag_2_0
     n_w3c_wai_standards_index -->|catalogs| n_wai_aria_1_2
     n_w3c_wai_standards_index -->|catalogs| n_html_living_standard
+    n_w3c_wai_standards_index -->|catalogs| n_svg2
+    n_w3c_wai_standards_index -->|catalogs| n_svg_aam_1_0
     n_w3c_wai_standards_index -->|catalogs| n_w3c_css_overview
     n_html_living_standard_accessibility -->|catalogs| n_html_living_standard
     n_css_specifications_index -->|catalogs| n_w3c_css_overview
@@ -49,6 +53,7 @@ graph LR
     n_standards_link_graph -->|catalogs| n_cross_standard_references
     n_standards_link_graph -->|catalogs| n_accessibility_rule_catalogs
     %% relation: implements_mapping_for
+    n_svg_aam_1_0 -->|implements_mapping_for| n_svg2
     n_html_aam_1_0 -->|implements_mapping_for| n_html_living_standard
     n_core_aam_1_2 -->|implements_mapping_for| n_wai_aria_1_2
     %% relation: maps_to
@@ -62,6 +67,7 @@ graph LR
     %% relation: supersedes
     n_wcag_2_2 -->|supersedes| n_wcag_2_0
     %% relation: supports_outcome_for
+    n_svg2 -->|supports_outcome_for| n_wcag_2_2
     n_accname_1_2 -->|supports_outcome_for| n_wai_aria_1_2
     n_html_living_standard -->|supports_outcome_for| n_wcag_2_2
     n_w3c_css_overview -->|supports_outcome_for| n_wcag_2_2

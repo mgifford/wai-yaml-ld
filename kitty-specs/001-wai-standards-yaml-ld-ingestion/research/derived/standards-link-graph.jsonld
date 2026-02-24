@@ -146,6 +146,20 @@
       "url": "https://www.w3.org/TR/html-aria/"
     },
     {
+      "id": "urn:node:svg2",
+      "type": "Thing",
+      "label": "SVG 2",
+      "kind": "technical_spec",
+      "url": "https://www.w3.org/TR/SVG2/"
+    },
+    {
+      "id": "urn:node:svg-aam-1.0",
+      "type": "Thing",
+      "label": "SVG AAM 1.0",
+      "kind": "technical_spec",
+      "url": "https://www.w3.org/TR/svg-aam-1.0/"
+    },
+    {
       "id": "urn:node:html-living-standard",
       "type": "Thing",
       "label": "HTML Living Standard",
@@ -253,6 +267,24 @@
       "evidence": "standards index includes HTML Living Standard entry."
     },
     {
+      "id": "urn:edge:e008a",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-standards-index",
+      "to": "urn:node:svg2",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "standards index includes SVG2 entry."
+    },
+    {
+      "id": "urn:edge:e008b",
+      "type": "Relationship",
+      "from": "urn:node:w3c-wai-standards-index",
+      "to": "urn:node:svg-aam-1.0",
+      "relation": "catalogs",
+      "confidence": "high",
+      "evidence": "standards index includes SVG AAM 1.0 entry."
+    },
+    {
       "id": "urn:edge:e009",
       "type": "Relationship",
       "from": "urn:node:w3c-wai-standards-index",
@@ -323,6 +355,24 @@
       "relation": "profiles",
       "confidence": "high",
       "evidence": "ARIA in HTML defines ARIA usage constraints within HTML."
+    },
+    {
+      "id": "urn:edge:e016a",
+      "type": "Relationship",
+      "from": "urn:node:svg-aam-1.0",
+      "to": "urn:node:svg2",
+      "relation": "implements_mapping_for",
+      "confidence": "high",
+      "evidence": "SVG AAM maps SVG elements and graphics to accessibility APIs."
+    },
+    {
+      "id": "urn:edge:e016b",
+      "type": "Relationship",
+      "from": "urn:node:svg2",
+      "to": "urn:node:wcag-2.2",
+      "relation": "supports_outcome_for",
+      "confidence": "medium",
+      "evidence": "SVG graphics features enable accessible vector graphics conforming to WCAG."
     },
     {
       "id": "urn:edge:e017",

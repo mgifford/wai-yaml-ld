@@ -12,6 +12,8 @@ graph LR
     n_html_living_standard_accessibility["HTML Living Standard Accessibility Index"]
     n_siteimprove_alfa_rules["Siteimprove Alfa Rules Catalog"]
     n_standards_link_graph["Standards Link Graph"]
+    n_svg_aam_1_0["SVG AAM 1.0"]
+    n_svg2["SVG 2"]
     n_uaag_2_0["UAAG 2.0"]
     n_w3c_css_overview["W3C CSS Specifications Overview"]
     n_w3c_wai_informative_catalog["W3C WAI Informative Resources Catalog"]
@@ -27,6 +29,8 @@ graph LR
     n_w3c_wai_standards_index -->|catalogs| n_uaag_2_0
     n_w3c_wai_standards_index -->|catalogs| n_wai_aria_1_2
     n_w3c_wai_standards_index -->|catalogs| n_html_living_standard
+    n_w3c_wai_standards_index -->|catalogs| n_svg2
+    n_w3c_wai_standards_index -->|catalogs| n_svg_aam_1_0
     n_w3c_wai_standards_index -->|catalogs| n_w3c_css_overview
     n_w3c_wai_informative_catalog -->|applies_to| n_wcag_2_2
     n_w3c_wai_informative_catalog -->|applies_to| n_atag_2_0
@@ -35,6 +39,8 @@ graph LR
     n_html_living_standard_accessibility -->|catalogs| n_html_living_standard
     n_css_specifications_index -->|catalogs| n_w3c_css_overview
     n_aria_in_html -->|profiles| n_html_living_standard
+    n_svg_aam_1_0 -->|implements_mapping_for| n_svg2
+    n_svg2 -->|supports_outcome_for| n_wcag_2_2
     n_html_aam_1_0 -->|implements_mapping_for| n_html_living_standard
     n_html_living_standard -->|supports_outcome_for| n_wcag_2_2
     n_w3c_css_overview -->|supports_outcome_for| n_wcag_2_2
