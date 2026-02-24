@@ -210,3 +210,8 @@ Open the interactive viewer locally:
 ## Repository Hygiene
 
 Local machine/runtime files are ignored by [.gitignore](.gitignore), including local agent directories and local `.kittify` runtime metadata.
+
+## Similar efforts to provide machine-focused direction
+- https://www.last-child.com/build-ai-brain-a11y.html
+- https://github.com/mikemai2awesome/agent-skills/tree/main
+- https://github.com/mikemai2awesome/a11y-rules
