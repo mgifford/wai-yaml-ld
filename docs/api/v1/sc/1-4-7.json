@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#low-or-no-background-audio",
+  "ref_id": "1.4.7",
+  "title": "Low or No Background Audio",
+  "description": "For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true: The audio does not contain background sounds. The background sounds can be turned off. The background sounds are at least 20 decibels lower than the foreground speech content, with the exception of occasional sounds that last for only one or two seconds. Per the definition of \"decibel,\" background sound that meets this requirement will be approximately four times quieter than the foreground speech content.",
+  "level": "AAA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#low-or-no-background-audio",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:1.4",
+    "ref_id": "1.4",
+    "title": "Guideline 1.4",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:p-as-heading",
+  "title": "Ensure bold, italic text and font-size is not used to style <p> elements as a heading Serious cat.semantics, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.1.3, experimental failure, needs review table-fake-caption Ensure that tables with a caption use the <caption> element. Serious cat.tables, experimental, wcag2a, wcag131, section508, section508.22.g, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-5.4.1 failure td-has-header Ensure that each non-empty data cell in a <table> larger than 3 by 3 has one or more table headers Critical cat.tables, experimental, wcag2a, wcag131, section508, section508.22.g, TTv5, TT14.b, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-5.7.4 failure Deprecated Rules Deprecated rules are disabled by default and will be removed in the next major release. Rule ID Description Impact Tags Issue Type ACT Rules aria-roledescription Ensure aria-roledescription is only used on elements with an implicit or explicit role Serious cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, deprecated failure, needs review audio-caption Ensure <audio> elements have captions Critical cat.time-and-media, wcag2a, wcag121, EN-301-549, EN-9.1.2.1, section508, section508.22.a, deprecated needs review 2eb176",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/p-as-heading",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.3.1",
+    "4.1.2",
+    "1.2.1"
+  ]
+}

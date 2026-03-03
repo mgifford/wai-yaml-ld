@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:select-name",
+  "title": "Ensure select element has an accessible name Critical cat.forms, wcag2a, wcag412, section508, section508.22.n, TTv5, TT5.c, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.1.1 failure, needs review e086e5",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/select-name",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "4.1.2"
+  ]
+}

@@ -1,0 +1,48 @@
+name: Publish API to docs
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - docs/api/**
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static API
+        run: npm run build:api
+
+      - name: Sync dist/api to docs/api
+        run: |
+          mkdir -p docs/api
+          rsync -a --delete dist/api/ docs/api/
+
+      - name: Commit updated docs/api
+        run: |
+          if git diff --quiet -- docs/api; then
+            echo "No API changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/api
+          git commit -m "chore: refresh static API artifacts"
+          git push

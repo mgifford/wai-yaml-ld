@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:aria-braille-equivalent",
+  "title": "Ensure aria-braillelabel and aria-brailleroledescription have a non-braille equivalent Serious cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2 needs review aria-command-name Ensure every ARIA button, link and menuitem has an accessible name Serious cat.aria, wcag2a, wcag412, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.9.1 failure, needs review 97a4e1",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/aria-braille-equivalent",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "4.1.2"
+  ]
+}

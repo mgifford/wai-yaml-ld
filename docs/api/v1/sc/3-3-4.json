@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data",
+  "ref_id": "3.3.4",
+  "title": "Error Prevention (Legal, Financial, Data)",
+  "description": "For web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:",
+  "level": "AA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:3.3",
+    "ref_id": "3.3",
+    "title": "Guideline 3.3",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#minimize-error-reversible",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

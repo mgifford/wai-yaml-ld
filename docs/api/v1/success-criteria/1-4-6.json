@@ -1,0 +1,38 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#contrast-enhanced",
+  "ref_id": "1.4.6",
+  "title": "Contrast (Enhanced)",
+  "description": "The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following: Large-scale text and images of large-scale text have a contrast ratio of at least 4.5:1; Text or images of text that are part of an inactive user interface component , that are pure decoration , that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement. Text that is part of a logo or brand name has no contrast requirement.",
+  "level": "AAA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#contrast-enhanced",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:1.4",
+    "ref_id": "1.4",
+    "title": "Guideline 1.4",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:scope-attr-valid",
+      "title": "Ensure the scope attribute is used correctly on tables Moderate cat.tables, best-practice failure skip-link Ensure all skip links have a focusable target Moderate cat.keyboard, best-practice, RGAAv4, RGAA-12.7.1 failure, needs review tabindex Ensure tabindex attribute values are not greater than 0 Serious cat.keyboard, best-practice failure table-duplicate-name Ensure the <caption> element does not contain the same text as the summary attribute Minor cat.tables, best-practice, RGAAv4, RGAA-5.2.1 failure, needs review WCAG 2.x level AAA rules Rules that check for conformance to WCAG AAA success criteria that can be fully automated. These are disabled by default in axe-core. Rule ID Description Impact Tags Issue Type ACT Rules color-contrast-enhanced Ensure the contrast between foreground and background colors meets WCAG 2 AAA enhanced contrast ratio thresholds Serious cat.color, wcag2aaa, wcag146, ACT failure, needs review 09o5cg",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/scope-attr-valid",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.4.6"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast7",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

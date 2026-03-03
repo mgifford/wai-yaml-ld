@@ -1,0 +1,11 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:color-contrast",
+  "title": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds Serious cat.color, wcag2aa, wcag143, TTv5, TT13.c, EN-301-549, EN-9.1.4.3, ACT, RGAAv4, RGAA-3.2.1 failure, needs review afw4f7",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/color-contrast",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.4.3",
+    "3.2.1"
+  ]
+}

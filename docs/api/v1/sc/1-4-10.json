@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#reflow",
+  "ref_id": "1.4.10",
+  "title": "Reflow",
+  "description": "Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for: Vertical scrolling content at a width equivalent to 320 CSS pixels ; Horizontal scrolling content at a height equivalent to 256 CSS pixels . Except for parts of the content which require two-dimensional layout for usage or meaning. 320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For web content which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom. Examples of content which requires two-dimensional layout are images required for understanding (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.",
+  "level": "AA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#reflow",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:1.4",
+    "ref_id": "1.4",
+    "title": "Guideline 1.4",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

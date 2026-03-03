@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:nested-interactive",
+  "title": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies Serious cat.keyboard, wcag2a, wcag412, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure, needs review 307n5z",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/nested-interactive",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "4.1.2"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:focus-order-semantics",
+  "title": "Ensure elements in the focus order have a role appropriate for interactive content Minor cat.keyboard, best-practice, RGAAv4, RGAA-12.8.1, experimental failure hidden-content Inform users about hidden content. Minor cat.structure, best-practice, experimental, review-item failure, needs review label-content-name-mismatch Ensure that elements labelled through their content must have their visible text as part of their accessible name Serious cat.semantics, wcag21a, wcag253, EN-301-549, EN-9.2.5.3, RGAAv4, RGAA-6.1.5, experimental failure 2ee8b8",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/focus-order-semantics",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "2.5.3"
+  ]
+}

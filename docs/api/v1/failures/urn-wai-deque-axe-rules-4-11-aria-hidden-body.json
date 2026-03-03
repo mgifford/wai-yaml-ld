@@ -1,0 +1,11 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:aria-hidden-body",
+  "title": "Ensure aria-hidden=\"true\" is not present on the document body. Critical cat.aria, wcag2a, wcag131, wcag412, EN-301-549, EN-9.1.3.1, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure aria-hidden-focus Ensure aria-hidden elements are not focusable nor contain focusable elements Serious cat.name-role-value, wcag2a, wcag412, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure, needs review 6cfa84",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/aria-hidden-body",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.3.1",
+    "4.1.2"
+  ]
+}

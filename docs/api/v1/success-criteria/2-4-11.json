@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum",
+  "ref_id": "2.4.11",
+  "title": "Focus Not Obscured (Minimum)",
+  "description": "New When a user interface component receives keyboard focus, the component is not entirely hidden due to author-created content. Where content in a configurable interface can be repositioned by the user, then only the initial positions of user-movable content are considered for testing and conformance of this success criterion. Content opened by the user may obscure the component receiving focus. If the user can reveal the focused component without advancing the keyboard focus, the component with focus is not considered visually hidden due to author-created content.",
+  "level": "AA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.4",
+    "ref_id": "2.4",
+    "title": "Guideline 2.4",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

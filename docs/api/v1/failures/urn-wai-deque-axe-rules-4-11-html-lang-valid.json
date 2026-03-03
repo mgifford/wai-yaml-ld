@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:html-lang-valid",
+  "title": "Ensure the lang attribute of the <html> element has a valid value Serious cat.language, wcag2a, wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.4.1 failure bf051a",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/html-lang-valid",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "3.1.1"
+  ]
+}

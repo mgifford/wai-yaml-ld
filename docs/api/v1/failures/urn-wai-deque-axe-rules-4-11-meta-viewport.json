@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:meta-viewport",
+  "title": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming Moderate cat.sensory-and-visual-cues, wcag2aa, wcag144, EN-301-549, EN-9.1.4.4, ACT, RGAAv4, RGAA-10.4.2 failure b4f0c3",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/meta-viewport",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.4.4"
+  ]
+}

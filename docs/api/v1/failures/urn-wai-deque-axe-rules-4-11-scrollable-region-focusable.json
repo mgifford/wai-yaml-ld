@@ -1,0 +1,11 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:scrollable-region-focusable",
+  "title": "Ensure elements that have scrollable content are accessible by keyboard Serious cat.keyboard, wcag2a, wcag211, wcag213, TTv5, TT4.a, EN-301-549, EN-9.2.1.1, EN-9.2.1.3, RGAAv4, RGAA-7.3.2 failure 0ssw9k",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "2.1.1",
+    "2.1.3"
+  ]
+}

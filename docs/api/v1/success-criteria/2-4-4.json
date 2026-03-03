@@ -1,0 +1,40 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context",
+  "ref_id": "2.4.4",
+  "title": "Link Purpose (In Context)",
+  "description": "The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context , except where the purpose of the link would be ambiguous to users in general .",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.4",
+    "ref_id": "2.4",
+    "title": "Guideline 2.4",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:link-in-text-block",
+      "title": "Ensure links are distinguished from surrounding text in a way that does not rely on color Serious cat.color, wcag2a, wcag141, TTv5, TT13.a, EN-301-549, EN-9.1.4.1, RGAAv4, RGAA-10.6.1 failure, needs review link-name Ensure links have discernible text Serious cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1 failure, needs review c487ae",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/link-in-text-block",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.4.1",
+        "2.4.4",
+        "4.1.2"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

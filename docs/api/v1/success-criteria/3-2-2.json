@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#on-input",
+  "ref_id": "3.2.2",
+  "title": "On Input",
+  "description": "Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#on-input",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:3.2",
+    "ref_id": "3.2",
+    "title": "Guideline 3.2",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

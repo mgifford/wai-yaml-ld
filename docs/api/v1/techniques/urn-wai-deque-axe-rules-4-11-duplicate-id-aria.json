@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:duplicate-id-aria",
+  "title": "Ensure every id attribute value used in ARIA and in labels is unique Critical cat.parsing, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-8.2.1 needs review 3ea0c8",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/duplicate-id-aria",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "4.1.2"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:frame-title",
+  "title": "Ensure <iframe> and <frame> elements have an accessible name Serious cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1 failure, needs review cae760",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/frame-title",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "4.1.2",
+    "2.1.1"
+  ]
+}

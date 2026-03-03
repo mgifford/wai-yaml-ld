@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced",
+  "ref_id": "2.4.12",
+  "title": "Focus Not Obscured (Enhanced)",
+  "description": "New When a user interface component receives keyboard focus, no part of the component is hidden by author-created content.",
+  "level": "AAA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.4",
+    "ref_id": "2.4",
+    "title": "Guideline 2.4",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#keyboard-no-exception",
+  "ref_id": "2.1.3",
+  "title": "Keyboard (No Exception)",
+  "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes.",
+  "level": "AAA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#keyboard-no-exception",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.1",
+    "ref_id": "2.1",
+    "title": "Guideline 2.1",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:scrollable-region-focusable",
+      "title": "Ensure elements that have scrollable content are accessible by keyboard Serious cat.keyboard, wcag2a, wcag211, wcag213, TTv5, TT4.a, EN-301-549, EN-9.2.1.1, EN-9.2.1.3, RGAAv4, RGAA-7.3.2 failure 0ssw9k",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "2.1.1",
+        "2.1.3"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:no-autoplay-audio",
+  "title": "Ensure <video> or <audio> elements do not autoplay audio for more than 3 seconds without a control mechanism to stop or mute the audio Moderate cat.time-and-media, wcag2a, wcag142, TTv5, TT2.a, EN-301-549, EN-9.1.4.2, ACT, RGAAv4, RGAA-4.10.1 needs review 80f0bf",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/no-autoplay-audio",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.4.2",
+    "4.10.1"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#re-authenticating",
+  "ref_id": "2.2.5",
+  "title": "Re-authenticating",
+  "description": "When an authenticated session expires, the user can continue the activity without loss of data after re-authenticating.",
+  "level": "AAA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#re-authenticating",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.2",
+    "ref_id": "2.2",
+    "title": "Guideline 2.2",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#time-limits-server-timeout",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

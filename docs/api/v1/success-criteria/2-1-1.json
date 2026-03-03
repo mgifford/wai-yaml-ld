@@ -1,0 +1,75 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#keyboard",
+  "ref_id": "2.1.1",
+  "title": "Keyboard",
+  "description": "All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints. This exception relates to the underlying function, not the input technique. For example, if using handwriting to enter text, the input technique (handwriting) requires path-dependent input but the underlying function (text input) does not. This does not forbid and should not discourage providing mouse input or other input methods in addition to keyboard operation.",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#keyboard",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.1",
+    "ref_id": "2.1",
+    "title": "Guideline 2.1",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:form-field-multiple-labels",
+      "title": "Ensure form field does not have multiple label elements Moderate cat.forms, wcag2a, wcag332, TTv5, TT5.c, EN-301-549, EN-9.3.3.2, RGAAv4, RGAA-11.2.1 needs review frame-focusable-content Ensure <frame> and <iframe> elements with focusable content do not have tabindex=-1 Serious cat.keyboard, wcag2a, wcag211, TTv5, TT4.a, EN-301-549, EN-9.2.1.1, RGAAv4, RGAA-7.3.2 failure, needs review akn7bn",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/form-field-multiple-labels",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "3.3.2",
+        "2.1.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:frame-title",
+      "title": "Ensure <iframe> and <frame> elements have an accessible name Serious cat.text-alternatives, wcag2a, wcag412, section508, section508.22.i, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.1.1 failure, needs review cae760",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/frame-title",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "4.1.2",
+        "2.1.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:scrollable-region-focusable",
+      "title": "Ensure elements that have scrollable content are accessible by keyboard Serious cat.keyboard, wcag2a, wcag211, wcag213, TTv5, TT4.a, EN-301-549, EN-9.2.1.1, EN-9.2.1.3, RGAAv4, RGAA-7.3.2 failure 0ssw9k",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "2.1.1",
+        "2.1.3"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:server-side-image-map",
+      "title": "Ensure that server-side image maps are not used Minor cat.text-alternatives, wcag2a, wcag211, section508, section508.22.f, TTv5, TT4.a, EN-301-549, EN-9.2.1.1, RGAAv4, RGAA-1.1.4 needs review summary-name Ensure summary elements have discernible text Serious cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2 failure, needs review svg-img-alt Ensure <svg> elements with an img, graphics-document or graphics-symbol role have accessible text Serious cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.5 failure, needs review 7d6734",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/server-side-image-map",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "2.1.1",
+        "4.1.2",
+        "1.1.1",
+        "1.1.4",
+        "1.1.5"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

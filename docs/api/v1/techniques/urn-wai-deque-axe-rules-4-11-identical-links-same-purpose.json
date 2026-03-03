@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:identical-links-same-purpose",
+  "title": "Ensure that links with the same accessible name serve a similar purpose Minor cat.semantics, wcag2aaa, wcag249 needs review b20e66",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/identical-links-same-purpose",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "2.4.9"
+  ]
+}

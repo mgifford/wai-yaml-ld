@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#redundant-entry",
+  "ref_id": "3.3.7",
+  "title": "Redundant Entry",
+  "description": "New Information previously entered by or provided to the user that is required to be entered again in the same process is either: auto-populated, or available for the user to select. Except when: re-entering the information is essential , the information is required to ensure the security of the content, or previously entered information is no longer valid.",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#redundant-entry",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:3.3",
+    "ref_id": "3.3",
+    "title": "Guideline 3.3",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

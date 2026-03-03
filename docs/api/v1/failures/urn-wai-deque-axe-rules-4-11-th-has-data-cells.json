@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:th-has-data-cells",
+  "title": "Ensure that <th> elements and elements with role=columnheader/rowheader have data cells they describe Serious cat.tables, wcag2a, wcag131, section508, section508.22.g, TTv5, TT14.b, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-5.7.1 failure, needs review d0f69e",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/th-has-data-cells",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.3.1"
+  ]
+}

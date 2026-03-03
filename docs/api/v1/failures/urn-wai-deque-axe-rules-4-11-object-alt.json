@@ -1,0 +1,11 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:object-alt",
+  "title": "Ensure <object> elements have alternative text Serious cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, EN-301-549, EN-9.1.1.1, RGAAv4, RGAA-1.1.6 failure, needs review 8fc3b6",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/object-alt",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.1.1",
+    "1.1.6"
+  ]
+}

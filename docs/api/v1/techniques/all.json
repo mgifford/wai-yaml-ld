@@ -1,0 +1,55 @@
+[
+  {
+    "id": "urn:wai:deque-axe-rules-4.11:duplicate-id-aria",
+    "title": "Ensure every id attribute value used in ARIA and in labels is unique Critical cat.parsing, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-8.2.1 needs review 3ea0c8",
+    "url": "https://dequeuniversity.com/rules/axe/4.11/duplicate-id-aria",
+    "source": "Deque axe-core Rules 4.11",
+    "status": "published",
+    "relatedSC": [
+      "4.1.2"
+    ]
+  },
+  {
+    "id": "urn:wai:deque-axe-rules-4.11:frame-title-unique",
+    "title": "Ensure <iframe> and <frame> elements contain a unique title attribute Serious cat.text-alternatives, wcag2a, wcag412, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.2.1 needs review 4b1c6c",
+    "url": "https://dequeuniversity.com/rules/axe/4.11/frame-title-unique",
+    "source": "Deque axe-core Rules 4.11",
+    "status": "published",
+    "relatedSC": [
+      "4.1.2",
+      "2.2.1"
+    ]
+  },
+  {
+    "id": "urn:wai:deque-axe-rules-4.11:identical-links-same-purpose",
+    "title": "Ensure that links with the same accessible name serve a similar purpose Minor cat.semantics, wcag2aaa, wcag249 needs review b20e66",
+    "url": "https://dequeuniversity.com/rules/axe/4.11/identical-links-same-purpose",
+    "source": "Deque axe-core Rules 4.11",
+    "status": "published",
+    "relatedSC": [
+      "2.4.9"
+    ]
+  },
+  {
+    "id": "urn:wai:deque-axe-rules-4.11:no-autoplay-audio",
+    "title": "Ensure <video> or <audio> elements do not autoplay audio for more than 3 seconds without a control mechanism to stop or mute the audio Moderate cat.time-and-media, wcag2a, wcag142, TTv5, TT2.a, EN-301-549, EN-9.1.4.2, ACT, RGAAv4, RGAA-4.10.1 needs review 80f0bf",
+    "url": "https://dequeuniversity.com/rules/axe/4.11/no-autoplay-audio",
+    "source": "Deque axe-core Rules 4.11",
+    "status": "published",
+    "relatedSC": [
+      "1.4.2",
+      "4.10.1"
+    ]
+  },
+  {
+    "id": "urn:wai:deque-axe-rules-4.11:video-caption",
+    "title": "Ensure <video> elements have captions Critical cat.text-alternatives, wcag2a, wcag122, section508, section508.22.a, TTv5, TT17.a, EN-301-549, EN-9.1.2.2, RGAAv4, RGAA-4.3.1 needs review eac66b",
+    "url": "https://dequeuniversity.com/rules/axe/4.11/video-caption",
+    "source": "Deque axe-core Rules 4.11",
+    "status": "published",
+    "relatedSC": [
+      "1.2.2",
+      "4.3.1"
+    ]
+  }
+]

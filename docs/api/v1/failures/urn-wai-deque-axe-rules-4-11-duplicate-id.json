@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:duplicate-id",
+  "title": "Ensure every id attribute value is unique Minor cat.parsing, wcag2a-obsolete, wcag411, deprecated failure 3ea0c8",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/duplicate-id",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "4.1.1"
+  ]
+}

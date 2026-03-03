@@ -1,0 +1,39 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#captions-prerecorded",
+  "ref_id": "1.2.2",
+  "title": "Captions (Prerecorded)",
+  "description": "Captions are provided for all prerecorded audio content in synchronized media , except when the media is a media alternative for text and is clearly labeled as such.",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#captions-prerecorded",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:1.2",
+    "ref_id": "1.2",
+    "title": "Guideline 1.2",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:video-caption",
+      "title": "Ensure <video> elements have captions Critical cat.text-alternatives, wcag2a, wcag122, section508, section508.22.a, TTv5, TT17.a, EN-301-549, EN-9.1.2.2, RGAAv4, RGAA-4.3.1 needs review eac66b",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/video-caption",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.2.2",
+        "4.3.1"
+      ]
+    }
+  ],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-captions",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

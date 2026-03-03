@@ -1,0 +1,66 @@
+schema {
+  query: Query
+}
+
+type Query {
+  successCriterion(id: String!): SuccessCriterion
+  allSuccessCriteria: [SuccessCriterion!]!
+  guideline(id: String!): Guideline
+  allGuidelines: [Guideline!]!
+  technique(id: String!): Technique
+  allTechniques: [Technique!]!
+  failure(id: String!): Failure
+  allFailures: [Failure!]!
+}
+
+enum ComplianceLevel {
+  A
+  AA
+  AAA
+}
+
+type Guideline {
+  id: ID!
+  ref_id: String!
+  title: String!
+  version: String!
+  standard_id: String!
+  url: String
+}
+
+type Technique {
+  id: ID!
+  title: String!
+  url: String!
+  source: String!
+  status: String
+  relatedSC: [String!]!
+}
+
+type Failure {
+  id: ID!
+  title: String!
+  url: String!
+  source: String!
+  status: String
+  relatedSC: [String!]!
+}
+
+type SuccessCriterion {
+  id: ID!
+  ref_id: String!
+  title: String!
+  description: String!
+  level: ComplianceLevel!
+  version: String!
+  url: String!
+  parentGuideline: Guideline!
+  sufficientTechniques: [Technique!]
+  advisoryTechniques: [Technique!]
+  failures: [Failure!]
+  tags: [String!]
+  isNewIn22: Boolean!
+  hasLegacyVersion: Boolean!
+  supersededBy: String
+  supersedes: String
+}

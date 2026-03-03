@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus",
+  "ref_id": "1.4.13",
+  "title": "Content on Hover or Focus",
+  "description": "Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true: Exception: The visual presentation of the additional content is controlled by the user agent and is not modified by the author. Examples of additional content controlled by the user agent include browser tooltips created through use of the HTML title attribute [ HTML ]. Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion. This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as links used to skip to another part of a page) do not present additional content they are not covered by this criterion.",
+  "level": "AA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:1.4",
+    "ref_id": "1.4",
+    "title": "Guideline 1.4",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

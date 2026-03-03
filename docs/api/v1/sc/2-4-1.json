@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#bypass-blocks",
+  "ref_id": "2.4.1",
+  "title": "Bypass Blocks",
+  "description": "A mechanism is available to bypass blocks of content that are repeated on multiple web pages .",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#bypass-blocks",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.4",
+    "ref_id": "2.4",
+    "title": "Guideline 2.4",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

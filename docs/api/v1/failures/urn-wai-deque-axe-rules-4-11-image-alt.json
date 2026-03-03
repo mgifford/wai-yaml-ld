@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:image-alt",
+  "title": "Ensure <img> elements have alternative text or a role of none or presentation Critical cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1 failure, needs review 23a2a8",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/image-alt",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.1.1"
+  ]
+}

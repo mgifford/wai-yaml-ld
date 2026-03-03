@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#error-suggestion",
+  "ref_id": "3.3.3",
+  "title": "Error Suggestion",
+  "description": "If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.",
+  "level": "AA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#error-suggestion",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:3.3",
+    "ref_id": "3.3",
+    "title": "Guideline 3.3",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#minimize-error-suggestions",
+  "standard_id": "wcag-2.2",
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}
