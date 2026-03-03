@@ -2,6 +2,7 @@
   "name": "wai-yaml-ld",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
   "postCreateCommand": "npm run setup",
+  "postStartCommand": "npm run codespace:hint",
   "customizations": {
     "vscode": {
       "settings": {

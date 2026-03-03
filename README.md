@@ -261,7 +261,7 @@ For Model Context Protocol clients, use `mcp-config.json` and `mcp-bridge.js`.
 
 ### One-click Codespaces setup
 
-- Automatic on first launch in Codespaces via [.devcontainer/devcontainer.json](.devcontainer/devcontainer.json) (`postCreateCommand` runs `npm run setup`)
+- Automatic in Codespaces via [.devcontainer/devcontainer.json](.devcontainer/devcontainer.json): first launch runs `npm run setup` and each startup runs `npm run codespace:hint` to print key API URLs
 - Run: `npm run setup`
 - Start bridge: `npm run mcp:bridge`
 

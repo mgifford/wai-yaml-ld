@@ -7,7 +7,8 @@
   "scripts": {
     "build:api": "node build-api.js",
     "setup": "npm install && npm run build:api",
-    "mcp:bridge": "node mcp-bridge.js"
+    "mcp:bridge": "node mcp-bridge.js",
+    "codespace:hint": "echo 'WAI static API endpoints:' && echo '  https://mgifford.github.io/wai-yaml-ld/api/v1/sc/all.json' && echo '  https://mgifford.github.io/wai-yaml-ld/api/v1/introspection.json' && echo 'Local build outputs:' && echo '  dist/api/v1/sc/all.json' && echo '  dist/api/v1/introspection.json'"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.5",
