@@ -1,0 +1,38 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#label-in-name",
+  "ref_id": "2.5.3",
+  "title": "Label in Name",
+  "description": "For user interface components with labels that include text or images of text , the name contains the text that is presented visually. A best practice is to have the text of the label at the start of the name.",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#label-in-name",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.5",
+    "ref_id": "2.5",
+    "title": "Guideline 2.5",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:focus-order-semantics",
+      "title": "Ensure elements in the focus order have a role appropriate for interactive content Minor cat.keyboard, best-practice, RGAAv4, RGAA-12.8.1, experimental failure hidden-content Inform users about hidden content. Minor cat.structure, best-practice, experimental, review-item failure, needs review label-content-name-mismatch Ensure that elements labelled through their content must have their visible text as part of their accessible name Serious cat.semantics, wcag21a, wcag253, EN-301-549, EN-9.2.5.3, RGAAv4, RGAA-6.1.5, experimental failure 2ee8b8",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/focus-order-semantics",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "2.5.3"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

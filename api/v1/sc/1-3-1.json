@@ -1,0 +1,113 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#info-and-relationships",
+  "ref_id": "1.3.1",
+  "title": "Info and Relationships",
+  "description": "Information, structure , and relationships conveyed through presentation can be programmatically determined or are available in text.",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#info-and-relationships",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:1.3",
+    "ref_id": "1.3",
+    "title": "Guideline 1.3",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:aria-hidden-body",
+      "title": "Ensure aria-hidden=\"true\" is not present on the document body. Critical cat.aria, wcag2a, wcag131, wcag412, EN-301-549, EN-9.1.3.1, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure aria-hidden-focus Ensure aria-hidden elements are not focusable nor contain focusable elements Serious cat.name-role-value, wcag2a, wcag412, TTv5, TT6.a, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure, needs review 6cfa84",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/aria-hidden-body",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.3.1",
+        "4.1.2"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:aria-required-children",
+      "title": "Ensure elements with an ARIA role that require child roles contain them Critical cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1 failure, needs review bc4a75",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/aria-required-children",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.3.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:aria-required-parent",
+      "title": "Ensure elements with an ARIA role that require parent roles are contained by them Critical cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1 failure ff89c9",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/aria-required-parent",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.3.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:definition-list",
+      "title": "Ensure <dl> elements are structured correctly Serious cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.3 failure dlitem",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/definition-list",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.3.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:listitem",
+      "title": "Ensure <li> elements are used semantically Serious cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1 failure marquee Ensure <marquee> elements are not used Serious cat.parsing, wcag2a, wcag222, TTv5, TT2.b, EN-301-549, EN-9.2.2.2, RGAAv4, RGAA-13.8.1 failure meta-refresh Ensure <meta http-equiv=\"refresh\"> is not used for delayed refresh Critical cat.time-and-media, wcag2a, wcag221, TTv5, TT8.a, EN-301-549, EN-9.2.2.1, RGAAv4, RGAA-13.1.2 failure bc659a",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/listitem",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.3.1",
+        "2.2.2",
+        "2.2.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:p-as-heading",
+      "title": "Ensure bold, italic text and font-size is not used to style <p> elements as a heading Serious cat.semantics, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.1.3, experimental failure, needs review table-fake-caption Ensure that tables with a caption use the <caption> element. Serious cat.tables, experimental, wcag2a, wcag131, section508, section508.22.g, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-5.4.1 failure td-has-header Ensure that each non-empty data cell in a <table> larger than 3 by 3 has one or more table headers Critical cat.tables, experimental, wcag2a, wcag131, section508, section508.22.g, TTv5, TT14.b, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-5.7.4 failure Deprecated Rules Deprecated rules are disabled by default and will be removed in the next major release. Rule ID Description Impact Tags Issue Type ACT Rules aria-roledescription Ensure aria-roledescription is only used on elements with an implicit or explicit role Serious cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, deprecated failure, needs review audio-caption Ensure <audio> elements have captions Critical cat.time-and-media, wcag2a, wcag121, EN-301-549, EN-9.1.2.1, section508, section508.22.a, deprecated needs review 2eb176",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/p-as-heading",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.3.1",
+        "4.1.2",
+        "1.2.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:td-headers-attr",
+      "title": "Ensure that each cell in a table that uses the headers attribute refers only to other <th> elements in that table Serious cat.tables, wcag2a, wcag131, section508, section508.22.g, TTv5, TT14.b, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-5.7.4 failure, needs review a25f45",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/td-headers-attr",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.3.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:th-has-data-cells",
+      "title": "Ensure that <th> elements and elements with role=columnheader/rowheader have data cells they describe Serious cat.tables, wcag2a, wcag131, section508, section508.22.g, TTv5, TT14.b, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-5.7.1 failure, needs review d0f69e",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/th-has-data-cells",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.3.1"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic",
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

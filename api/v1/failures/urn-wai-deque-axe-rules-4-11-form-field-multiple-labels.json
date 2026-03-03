@@ -1,0 +1,11 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:form-field-multiple-labels",
+  "title": "Ensure form field does not have multiple label elements Moderate cat.forms, wcag2a, wcag332, TTv5, TT5.c, EN-301-549, EN-9.3.3.2, RGAAv4, RGAA-11.2.1 needs review frame-focusable-content Ensure <frame> and <iframe> elements with focusable content do not have tabindex=-1 Serious cat.keyboard, wcag2a, wcag211, TTv5, TT4.a, EN-301-549, EN-9.2.1.1, RGAAv4, RGAA-7.3.2 failure, needs review akn7bn",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/form-field-multiple-labels",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "3.3.2",
+    "2.1.1"
+  ]
+}

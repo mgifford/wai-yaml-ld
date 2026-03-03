@@ -1,0 +1,38 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#resize-text",
+  "ref_id": "1.4.4",
+  "title": "Resize Text",
+  "description": "Except for captions and images of text , text can be resized without assistive technology up to 200 percent without loss of content or functionality.",
+  "level": "AA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#resize-text",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:1.4",
+    "ref_id": "1.4",
+    "title": "Guideline 1.4",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:meta-viewport",
+      "title": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming Moderate cat.sensory-and-visual-cues, wcag2aa, wcag144, EN-301-549, EN-9.1.4.4, ACT, RGAAv4, RGAA-10.4.2 failure b4f0c3",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/meta-viewport",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.4.4"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale",
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

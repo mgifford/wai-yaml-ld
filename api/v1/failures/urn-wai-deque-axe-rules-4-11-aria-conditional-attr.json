@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:aria-conditional-attr",
+  "title": "Ensure ARIA attributes are used as described in the specification of the element's role Serious cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure 5c01ea",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/aria-conditional-attr",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "4.1.2"
+  ]
+}

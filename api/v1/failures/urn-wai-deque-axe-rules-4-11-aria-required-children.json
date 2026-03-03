@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:aria-required-children",
+  "title": "Ensure elements with an ARIA role that require child roles contain them Critical cat.aria, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1 failure, needs review bc4a75",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/aria-required-children",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.3.1"
+  ]
+}

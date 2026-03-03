@@ -1,0 +1,96 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#non-text-content",
+  "ref_id": "1.1.1",
+  "title": "Non-text Content",
+  "description": "All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below. If non-text content is a control or accepts user input, then it has a name that describes its purpose. (Refer to Success Criterion 4.1.2 for additional requirements for controls and content that accepts user input.) If non-text content is time-based media, then text alternatives at least provide descriptive identification of the non-text content. (Refer to Guideline 1.2 for additional requirements for media.) If non-text content is a test or exercise that would be invalid if presented in text , then text alternatives at least provide descriptive identification of the non-text content. If non-text content is primarily intended to create a specific sensory experience , then text alternatives at least provide descriptive identification of the non-text content. If the purpose of non-text content is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the non-text content are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities. If non-text content is pure decoration , is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology .",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#non-text-content",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:1.1",
+    "ref_id": "1.1",
+    "title": "Guideline 1.1",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:aria-meter-name",
+      "title": "Ensure every ARIA meter node has an accessible name Serious cat.aria, wcag2a, wcag111, EN-301-549, EN-9.1.1.1, RGAAv4, RGAA-11.1.1 failure, needs review aria-progressbar-name Ensure every ARIA progressbar node has an accessible name Serious cat.aria, wcag2a, wcag111, EN-301-549, EN-9.1.1.1, RGAAv4, RGAA-11.1.1 failure, needs review aria-prohibited-attr Ensure ARIA attributes are not prohibited for an element's role Serious cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure, needs review 5c01ea",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/aria-meter-name",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.1.1",
+        "4.1.2"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:image-alt",
+      "title": "Ensure <img> elements have alternative text or a role of none or presentation Critical cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, TT7.b, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1 failure, needs review 23a2a8",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/image-alt",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.1.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:input-image-alt",
+      "title": "Ensure <input type=\"image\"> elements have alternative text Critical cat.text-alternatives, wcag2a, wcag111, wcag412, section508, section508.22.a, TTv5, TT7.a, EN-301-549, EN-9.1.1.1, EN-9.4.1.2, ACT, RGAAv4, RGAA-1.1.3 failure, needs review 59796f",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/input-image-alt",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.1.1",
+        "4.1.2",
+        "1.1.3"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:object-alt",
+      "title": "Ensure <object> elements have alternative text Serious cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, EN-301-549, EN-9.1.1.1, RGAAv4, RGAA-1.1.6 failure, needs review 8fc3b6",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/object-alt",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.1.1",
+        "1.1.6"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:role-img-alt",
+      "title": "Ensure [role=\"img\"] elements have alternative text Serious cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.1 failure, needs review 23a2a8",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/role-img-alt",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.1.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:server-side-image-map",
+      "title": "Ensure that server-side image maps are not used Minor cat.text-alternatives, wcag2a, wcag211, section508, section508.22.f, TTv5, TT4.a, EN-301-549, EN-9.2.1.1, RGAAv4, RGAA-1.1.4 needs review summary-name Ensure summary elements have discernible text Serious cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2 failure, needs review svg-img-alt Ensure <svg> elements with an img, graphics-document or graphics-symbol role have accessible text Serious cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.5 failure, needs review 7d6734",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/server-side-image-map",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "2.1.1",
+        "4.1.2",
+        "1.1.1",
+        "1.1.4",
+        "1.1.5"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#text-equiv-all",
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

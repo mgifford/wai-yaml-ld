@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded",
+  "ref_id": "1.2.3",
+  "title": "Audio Description or Media Alternative (Prerecorded)",
+  "description": "An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media , except when the media is a media alternative for text and is clearly labeled as such.",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:1.2",
+    "ref_id": "1.2",
+    "title": "Guideline 1.2",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc",
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

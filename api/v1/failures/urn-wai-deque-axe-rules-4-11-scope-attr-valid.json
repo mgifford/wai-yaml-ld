@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:scope-attr-valid",
+  "title": "Ensure the scope attribute is used correctly on tables Moderate cat.tables, best-practice failure skip-link Ensure all skip links have a focusable target Moderate cat.keyboard, best-practice, RGAAv4, RGAA-12.7.1 failure, needs review tabindex Ensure tabindex attribute values are not greater than 0 Serious cat.keyboard, best-practice failure table-duplicate-name Ensure the <caption> element does not contain the same text as the summary attribute Minor cat.tables, best-practice, RGAAv4, RGAA-5.2.1 failure, needs review WCAG 2.x level AAA rules Rules that check for conformance to WCAG AAA success criteria that can be fully automated. These are disabled by default in axe-core. Rule ID Description Impact Tags Issue Type ACT Rules color-contrast-enhanced Ensure the contrast between foreground and background colors meets WCAG 2 AAA enhanced contrast ratio thresholds Serious cat.color, wcag2aaa, wcag146, ACT failure, needs review 09o5cg",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/scope-attr-valid",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.4.6"
+  ]
+}

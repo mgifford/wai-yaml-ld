@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:aria-allowed-attr",
+  "title": "Ensure an element's role supports its ARIA attributes Critical cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure, needs review 5c01ea",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/aria-allowed-attr",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "4.1.2"
+  ]
+}

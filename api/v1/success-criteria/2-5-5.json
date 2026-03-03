@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#target-size-enhanced",
+  "ref_id": "2.5.5",
+  "title": "Target Size (Enhanced)",
+  "description": "The size of the target for pointer inputs is at least 44 by 44 CSS pixels except when:",
+  "level": "AAA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#target-size-enhanced",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.5",
+    "ref_id": "2.5",
+    "title": "Guideline 2.5",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

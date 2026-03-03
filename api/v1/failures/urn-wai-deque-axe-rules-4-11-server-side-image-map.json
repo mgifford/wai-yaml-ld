@@ -1,0 +1,14 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:server-side-image-map",
+  "title": "Ensure that server-side image maps are not used Minor cat.text-alternatives, wcag2a, wcag211, section508, section508.22.f, TTv5, TT4.a, EN-301-549, EN-9.2.1.1, RGAAv4, RGAA-1.1.4 needs review summary-name Ensure summary elements have discernible text Serious cat.name-role-value, wcag2a, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.4.1.2 failure, needs review svg-img-alt Ensure <svg> elements with an img, graphics-document or graphics-symbol role have accessible text Serious cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a, TTv5, TT7.a, EN-301-549, EN-9.1.1.1, ACT, RGAAv4, RGAA-1.1.5 failure, needs review 7d6734",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/server-side-image-map",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "2.1.1",
+    "4.1.2",
+    "1.1.1",
+    "1.1.4",
+    "1.1.5"
+  ]
+}

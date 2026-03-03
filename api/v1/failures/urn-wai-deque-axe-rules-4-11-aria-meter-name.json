@@ -1,0 +1,11 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:aria-meter-name",
+  "title": "Ensure every ARIA meter node has an accessible name Serious cat.aria, wcag2a, wcag111, EN-301-549, EN-9.1.1.1, RGAAv4, RGAA-11.1.1 failure, needs review aria-progressbar-name Ensure every ARIA progressbar node has an accessible name Serious cat.aria, wcag2a, wcag111, EN-301-549, EN-9.1.1.1, RGAAv4, RGAA-11.1.1 failure, needs review aria-prohibited-attr Ensure ARIA attributes are not prohibited for an element's role Serious cat.aria, wcag2a, wcag412, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-7.1.1 failure, needs review 5c01ea",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/aria-meter-name",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.1.1",
+    "4.1.2"
+  ]
+}

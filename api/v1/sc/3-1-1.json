@@ -1,0 +1,58 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#language-of-page",
+  "ref_id": "3.1.1",
+  "title": "Language of Page",
+  "description": "The default human language of each web page can be programmatically determined .",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#language-of-page",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:3.1",
+    "ref_id": "3.1",
+    "title": "Guideline 3.1",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:html-has-lang",
+      "title": "Ensure every HTML document has a lang attribute Serious cat.language, wcag2a, wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1 failure b5c3f8",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/html-has-lang",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "3.1.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:html-lang-valid",
+      "title": "Ensure the lang attribute of the <html> element has a valid value Serious cat.language, wcag2a, wcag311, TTv5, TT11.a, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.4.1 failure bf051a",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/html-lang-valid",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "3.1.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:html-xml-lang-mismatch",
+      "title": "Ensure that HTML elements with both valid lang and xml:lang attributes agree on the base language of the page Moderate cat.language, wcag2a, wcag311, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1 failure 5b7ae0",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/html-xml-lang-mismatch",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "3.1.1"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#meaning-doc-lang-id",
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

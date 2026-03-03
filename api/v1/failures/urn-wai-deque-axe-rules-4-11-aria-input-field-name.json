@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:aria-input-field-name",
+  "title": "Ensure every ARIA input field has an accessible name Serious cat.aria, wcag2a, wcag412, TTv5, TT5.c, EN-301-549, EN-9.4.1.2, ACT, RGAAv4, RGAA-11.1.1 failure, needs review e086e5",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/aria-input-field-name",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "4.1.2"
+  ]
+}

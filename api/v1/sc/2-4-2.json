@@ -1,0 +1,38 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#page-titled",
+  "ref_id": "2.4.2",
+  "title": "Page Titled",
+  "description": "Web pages have titles that describe topic or purpose.",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#page-titled",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.4",
+    "ref_id": "2.4",
+    "title": "Guideline 2.4",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:document-title",
+      "title": "Ensure each HTML document contains a non-empty <title> element Serious cat.text-alternatives, wcag2a, wcag242, TTv5, TT12.a, EN-301-549, EN-9.2.4.2, ACT, RGAAv4, RGAA-8.5.1 failure 2779a5",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/document-title",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "2.4.2"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-title",
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

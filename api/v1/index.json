@@ -1,0 +1,20 @@
+{
+  "version": "v1",
+  "generated_at": "2026-03-03T17:59:45.099Z",
+  "counts": {
+    "yaml_files": 28,
+    "success_criteria": 147,
+    "guidelines": 25,
+    "techniques": 5,
+    "failures": 45,
+    "linked_nodes": 823,
+    "linked_edges": 112
+  },
+  "endpoints": {
+    "all_success_criteria": "/api/v1/sc/all.json",
+    "success_criterion_by_id": "/api/v1/sc/{ref-id}.json",
+    "guidelines_all": "/api/v1/guidelines/all.json",
+    "introspection": "/api/v1/introspection.json",
+    "graphql_schema": "/api/v1/schema.graphql"
+  }
+}

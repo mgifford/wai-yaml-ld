@@ -1,0 +1,52 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#timing-adjustable",
+  "ref_id": "2.2.1",
+  "title": "Timing Adjustable",
+  "description": "For each time limit that is set by the content, at least one of the following is true: The user is allowed to turn off the time limit before encountering it; or The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, \"press the space bar\"), and the user is allowed to extend the time limit at least ten times; or The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or The time limit is essential and extending it would invalidate the activity; or The time limit is longer than 20 hours. This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with Success Criterion 3.2.1 , which puts limits on changes of content or context as a result of user action.",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#timing-adjustable",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.2",
+    "ref_id": "2.2",
+    "title": "Guideline 2.2",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:frame-title-unique",
+      "title": "Ensure <iframe> and <frame> elements contain a unique title attribute Serious cat.text-alternatives, wcag2a, wcag412, TTv5, TT12.d, EN-301-549, EN-9.4.1.2, RGAAv4, RGAA-2.2.1 needs review 4b1c6c",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/frame-title-unique",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "4.1.2",
+        "2.2.1"
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:listitem",
+      "title": "Ensure <li> elements are used semantically Serious cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1 failure marquee Ensure <marquee> elements are not used Serious cat.parsing, wcag2a, wcag222, TTv5, TT2.b, EN-301-549, EN-9.2.2.2, RGAAv4, RGAA-13.8.1 failure meta-refresh Ensure <meta http-equiv=\"refresh\"> is not used for delayed refresh Critical cat.time-and-media, wcag2a, wcag221, TTv5, TT8.a, EN-301-549, EN-9.2.2.1, RGAAv4, RGAA-13.1.2 failure bc659a",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/listitem",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "1.3.1",
+        "2.2.2",
+        "2.2.1"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#time-limits-required-behaviors",
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

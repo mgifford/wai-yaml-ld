@@ -1,0 +1,39 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#change-on-request",
+  "ref_id": "3.2.5",
+  "title": "Change on Request",
+  "description": "Changes of context are initiated only by user request or a mechanism is available to turn off such changes.",
+  "level": "AAA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#change-on-request",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:3.2",
+    "ref_id": "3.2",
+    "title": "Guideline 3.2",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:meta-refresh-no-exceptions",
+      "title": "Ensure <meta http-equiv=\"refresh\"> is not used for delayed refresh Minor cat.time-and-media, wcag2aaa, wcag224, wcag325 failure bisz58",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/meta-refresh-no-exceptions",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "2.2.4",
+        "3.2.5"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": true,
+  "supersededBy": null,
+  "supersedes": "https://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context",
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

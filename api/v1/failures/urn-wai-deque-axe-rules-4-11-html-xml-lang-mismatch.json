@@ -1,0 +1,10 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:html-xml-lang-mismatch",
+  "title": "Ensure that HTML elements with both valid lang and xml:lang attributes agree on the base language of the page Moderate cat.language, wcag2a, wcag311, EN-301-549, EN-9.3.1.1, ACT, RGAAv4, RGAA-8.3.1 failure 5b7ae0",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/html-xml-lang-mismatch",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "3.1.1"
+  ]
+}

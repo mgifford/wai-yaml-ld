@@ -1,0 +1,12 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:listitem",
+  "title": "Ensure <li> elements are used semantically Serious cat.structure, wcag2a, wcag131, EN-301-549, EN-9.1.3.1, RGAAv4, RGAA-9.3.1 failure marquee Ensure <marquee> elements are not used Serious cat.parsing, wcag2a, wcag222, TTv5, TT2.b, EN-301-549, EN-9.2.2.2, RGAAv4, RGAA-13.8.1 failure meta-refresh Ensure <meta http-equiv=\"refresh\"> is not used for delayed refresh Critical cat.time-and-media, wcag2a, wcag221, TTv5, TT8.a, EN-301-549, EN-9.2.2.1, RGAAv4, RGAA-13.1.2 failure bc659a",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/listitem",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.3.1",
+    "2.2.2",
+    "2.2.1"
+  ]
+}

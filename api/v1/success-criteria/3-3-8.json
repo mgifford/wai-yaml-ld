@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum",
+  "ref_id": "3.3.8",
+  "title": "Accessible Authentication (Minimum)",
+  "description": "New A cognitive function test (such as remembering a password or solving a puzzle) is not required for any step in an authentication process unless that step provides at least one of the following: \"Object recognition\" and \"Personal content\" may be represented by images, video, or audio. support for password entry by password managers to reduce memory need, and copy and paste to reduce the cognitive burden of re-typing.",
+  "level": "AA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:3.3",
+    "ref_id": "3.3",
+    "title": "Guideline 3.3",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#consistent-help",
+  "ref_id": "3.2.6",
+  "title": "Consistent Help",
+  "description": "New If a web page contains any of the following help mechanisms , and those mechanisms are repeated on multiple web pages within a set of web pages , they occur in the same order relative to other page content, unless a change is initiated by the user: Human contact details; Human contact mechanism; Self-help option; A fully automated contact mechanism. Help mechanisms may be provided directly on the page, or may be provided via a direct link to a different page containing the information. For this success criterion, \"the same order relative to other page content\" can be thought of as how the content is ordered when the page is serialized. The visual position of a help mechanism is likely to be consistent across pages for the same page variation (e.g., CSS break-point). The user can initiate a change, such as changing the page's zoom or orientation, which may trigger a different page variation. This criterion is concerned with relative order across pages displayed in the same page variation (e.g., same zoom level and orientation).",
+  "level": "A",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#consistent-help",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:3.2",
+    "ref_id": "3.2",
+    "title": "Guideline 3.2",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

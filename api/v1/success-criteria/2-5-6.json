@@ -1,0 +1,27 @@
+{
+  "id": "https://www.w3.org/TR/WCAG22/#concurrent-input-mechanisms",
+  "ref_id": "2.5.6",
+  "title": "Concurrent Input Mechanisms",
+  "description": "Web content does not restrict use of input modalities available on a platform except where the restriction is essential , required to ensure the security of the content, or required to respect user settings.",
+  "level": "AAA",
+  "version": "2.2",
+  "url": "https://www.w3.org/TR/WCAG22/#concurrent-input-mechanisms",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.2:2.5",
+    "ref_id": "2.5",
+    "title": "Guideline 2.5",
+    "version": "2.2",
+    "standard_id": "wcag-2.2",
+    "url": "https://www.w3.org/TR/WCAG22/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [],
+  "tags": [],
+  "isNewIn22": true,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.2",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+}

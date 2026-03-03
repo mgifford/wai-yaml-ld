@@ -1,0 +1,11 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:meta-refresh-no-exceptions",
+  "title": "Ensure <meta http-equiv=\"refresh\"> is not used for delayed refresh Minor cat.time-and-media, wcag2aaa, wcag224, wcag325 failure bisz58",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/meta-refresh-no-exceptions",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "2.2.4",
+    "3.2.5"
+  ]
+}

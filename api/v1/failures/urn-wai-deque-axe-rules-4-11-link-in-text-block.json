@@ -1,0 +1,12 @@
+{
+  "id": "urn:wai:deque-axe-rules-4.11:link-in-text-block",
+  "title": "Ensure links are distinguished from surrounding text in a way that does not rely on color Serious cat.color, wcag2a, wcag141, TTv5, TT13.a, EN-301-549, EN-9.1.4.1, RGAAv4, RGAA-10.6.1 failure, needs review link-name Ensure links have discernible text Serious cat.name-role-value, wcag2a, wcag244, wcag412, section508, section508.22.a, TTv5, TT6.a, EN-301-549, EN-9.2.4.4, EN-9.4.1.2, ACT, RGAAv4, RGAA-6.2.1 failure, needs review c487ae",
+  "url": "https://dequeuniversity.com/rules/axe/4.11/link-in-text-block",
+  "source": "Deque axe-core Rules 4.11",
+  "status": "published",
+  "relatedSC": [
+    "1.4.1",
+    "2.4.4",
+    "4.1.2"
+  ]
+}

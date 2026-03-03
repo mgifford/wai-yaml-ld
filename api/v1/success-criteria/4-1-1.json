@@ -1,0 +1,48 @@
+{
+  "id": "https://www.w3.org/TR/WCAG20/#ensure-compat-parses",
+  "ref_id": "4.1.1",
+  "title": "Parsing",
+  "description": "In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. (Level A)",
+  "level": "A",
+  "version": "2.0",
+  "url": "https://www.w3.org/TR/WCAG20/#ensure-compat-parses",
+  "parentGuideline": {
+    "id": "urn:wai:guideline:wcag-2.0:4.1",
+    "ref_id": "4.1",
+    "title": "Guideline 4.1",
+    "version": "2.0",
+    "standard_id": "wcag-2.0",
+    "url": "https://www.w3.org/TR/WCAG20/"
+  },
+  "sufficientTechniques": [],
+  "advisoryTechniques": [],
+  "failures": [
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:duplicate-id",
+      "title": "Ensure every id attribute value is unique Minor cat.parsing, wcag2a-obsolete, wcag411, deprecated failure 3ea0c8",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/duplicate-id",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "4.1.1"
+      ]
+    },
+    {
+      "id": "urn:wai:deque-axe-rules-4.11:duplicate-id-active",
+      "title": "Ensure every id attribute value of active elements is unique Serious cat.parsing, wcag2a-obsolete, wcag411, deprecated failure 3ea0c8",
+      "url": "https://dequeuniversity.com/rules/axe/4.11/duplicate-id-active",
+      "source": "Deque axe-core Rules 4.11",
+      "status": "published",
+      "relatedSC": [
+        "4.1.1"
+      ]
+    }
+  ],
+  "tags": [],
+  "isNewIn22": false,
+  "hasLegacyVersion": false,
+  "supersededBy": null,
+  "supersedes": null,
+  "standard_id": "wcag-2.0",
+  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+}
