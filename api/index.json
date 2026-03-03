@@ -1,0 +1,11 @@
+{
+  "default_version": "v1",
+  "versions": [
+    "v1"
+  ],
+  "latest": {
+    "index": "/api/v1/index.json",
+    "introspection": "/api/v1/introspection.json",
+    "all_success_criteria": "/api/v1/sc/all.json"
+  }
+}
