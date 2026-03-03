@@ -220,6 +220,8 @@ Local machine/runtime files are ignored by [.gitignore](.gitignore), including l
 
 This repository now includes a static API build pipeline that converts the YAML/YAML-LD datasets into small JSON endpoints designed for AI agents.
 
+> Experimental: GraphQL support is currently GraphQL-style/static (schema + introspection + resolver-like JSON endpoints). Different LLMs and toolchains may or may not use this library directly.
+
 ### Build locally
 
 - Install dependencies: `npm install`
@@ -235,9 +237,38 @@ Generated output:
 
 Published URL pattern (after deploy):
 
+- `https://mgifford.github.io/wai-yaml-ld/api/index.json`
 - `https://mgifford.github.io/wai-yaml-ld/api/v1/sc/all.json`
 - `https://mgifford.github.io/wai-yaml-ld/api/v1/sc/1-1-1.json`
 - `https://mgifford.github.io/wai-yaml-ld/api/v1/introspection.json`
+
+### Why this is useful for AI accessibility review
+
+- Map code to specific Success Criteria (example: “This button lacks an `aria-label`, violating SC 4.1.2”).
+- Explain the “why” by tracing relationships from a WCAG failure node back to related ATAG requirements.
+- Provide auditable evidence: recommendations can cite linked standards records instead of vague best-practice language.
+- Shift accessibility guidance from article-style prose to structured, standards-aligned technical data.
+
+### How to test the GraphQL support
+
+Because this is a static API, test it in a discovery-first flow:
+
+1. Inspect schema shape:
+	- Open `https://mgifford.github.io/wai-yaml-ld/api/v1/schema.graphql`
+2. Inspect introspection:
+	- Open `https://mgifford.github.io/wai-yaml-ld/api/v1/introspection.json`
+3. Resolve equivalent query targets via GET:
+	- All SCs: `https://mgifford.github.io/wai-yaml-ld/api/v1/sc/all.json`
+	- Specific SC: `https://mgifford.github.io/wai-yaml-ld/api/v1/sc/4-1-2.json`
+4. Validate traceability fields in payloads:
+	- `parentGuideline`, `sufficientTechniques`, `advisoryTechniques`, `failures`
+
+CLI smoke test example:
+
+```bash
+curl -s https://mgifford.github.io/wai-yaml-ld/api/v1/introspection.json | head -n 20
+curl -s https://mgifford.github.io/wai-yaml-ld/api/v1/sc/4-1-2.json | jq '.ref_id, .title, .failures | length'
+```
 
 ### What the builder does
 

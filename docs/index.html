@@ -8,6 +8,7 @@
     body { font-family: system-ui, sans-serif; margin: 1.2rem; line-height: 1.45; color: #111; }
     h1 { margin-bottom: 0.35rem; }
     .lead { color: #333; margin-bottom: 1rem; max-width: 900px; }
+    .notice { border-left: 4px solid #b7791f; background: #fff8e1; padding: 0.75rem 0.9rem; margin: 0 0 1rem; max-width: 980px; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.8rem; }
     .card { border: 1px solid #ddd; border-radius: 8px; padding: 0.9rem; background: #fafafa; }
     .card h2 { font-size: 1.05rem; margin: 0 0 0.55rem; }
@@ -22,8 +23,41 @@
   <p class="lead">
     Machine-readable accessibility standards context (WCAG, ATAG, UAAG, ARIA, HTML, CSS) designed for humans and LLMs building standards-aligned code.
   </p>
+  <p class="notice">
+    <strong>Experimental:</strong> This site now includes GraphQL-style static API support under <a href="api/index.json">/api</a> (schema + introspection + JSON endpoints). LLM support varies by model and toolchain; some agents will use this data directly, others may not.
+  </p>
 
   <div class="grid">
+    <section class="card">
+      <h2>GraphQL-style API (Experimental)</h2>
+      <ul>
+        <li><a href="api/index.json">API index</a></li>
+        <li><a href="api/v1/schema.graphql">GraphQL schema</a></li>
+        <li><a href="api/v1/introspection.json">GraphQL introspection</a></li>
+        <li><a href="api/v1/sc/all.json">All success criteria</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Why this helps AI coding</h2>
+      <ul>
+        <li>Map code issues to exact Success Criteria (example: missing <code>aria-label</code> and SC 4.1.2).</li>
+        <li>Explain the “why” by tracing links from WCAG failures to related ATAG requirements.</li>
+        <li>Provide auditable evidence using linked standards data instead of generic best-practice claims.</li>
+        <li>Turn accessibility guidance into structured, queryable technical data.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>How to test GraphQL support</h2>
+      <ul>
+        <li>Step 1: Open <a href="api/v1/introspection.json">introspection.json</a> to inspect available types and fields.</li>
+        <li>Step 2: Open <a href="api/v1/sc/4-1-2.json">a specific criterion endpoint</a> (for example SC 4.1.2).</li>
+        <li>Step 3: Open <a href="api/v1/sc/all.json">all criteria</a> and verify relationships (`parentGuideline`, techniques, failures).</li>
+        <li>Step 4: Use these URLs in MCP/AI tools as static GraphQL resolver targets over HTTPS GET.</li>
+      </ul>
+    </section>
+
     <section class="card">
       <h2>Start Here</h2>
       <ul>
