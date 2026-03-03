@@ -20,3 +20,9 @@
 
 # Generated monitoring output
 monitoring/w3c-change-report.md
+
+# Generated static API artifacts
+dist/
+
+# Node dependencies
+node_modules/

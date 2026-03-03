@@ -215,3 +215,58 @@ Local machine/runtime files are ignored by [.gitignore](.gitignore), including l
 - https://www.last-child.com/build-ai-brain-a11y.html
 - https://github.com/mikemai2awesome/agent-skills/tree/main
 - https://github.com/mikemai2awesome/a11y-rules
+
+## Static GraphQL-style API (GitHub Pages)
+
+This repository now includes a static API build pipeline that converts the YAML/YAML-LD datasets into small JSON endpoints designed for AI agents.
+
+### Build locally
+
+- Install dependencies: `npm install`
+- Generate static API: `npm run build:api`
+
+Generated output:
+
+- `dist/api/v1/sc/all.json`
+- `dist/api/v1/sc/{ref-id}.json` (example: `dist/api/v1/sc/1-1-1.json`)
+- `dist/api/v1/guidelines/all.json`
+- `dist/api/v1/schema.graphql`
+- `dist/api/v1/introspection.json`
+
+Published URL pattern (after deploy):
+
+- `https://mgifford.github.io/wai-yaml-ld/api/v1/sc/all.json`
+- `https://mgifford.github.io/wai-yaml-ld/api/v1/sc/1-1-1.json`
+- `https://mgifford.github.io/wai-yaml-ld/api/v1/introspection.json`
+
+### What the builder does
+
+- Parses all `.yaml`/`.yml` files in the repository
+- Preserves linked-data style identifiers (`@id`/`@type`) when present and builds a linked-data index
+- Generates static resolver-like JSON files for common query patterns
+- Joins WCAG success criteria with related rule-based techniques/failures and guideline references
+- Emits GraphQL schema and standard introspection JSON for tool discovery
+
+### CI/CD deploy
+
+Workflow file: `.github/workflows/deploy-api.yml`
+
+- Triggers on push to `main`
+- Runs `npm install` and `npm run build:api`
+- Deploys `dist/` to `gh-pages`
+
+## MCP integration
+
+For Model Context Protocol clients, use `mcp-config.json` and `mcp-bridge.js`.
+
+### One-click Codespaces setup
+
+- Run: `npm run setup`
+- Start bridge: `npm run mcp:bridge`
+
+`mcp-config.json` points your MCP client to `mcp-bridge.js`, which fetches:
+
+- Criterion endpoint: `/api/v1/sc/{id}.json`
+- Schema discovery: `/api/v1/introspection.json`
+
+This lets AI tools discover schema shape first, then fetch only the specific criterion/technique payloads they need.

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "wai-guide": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/mcp-bridge.js"
+      ],
+      "env": {
+        "WAI_API_BASE_URL": "https://mgifford.github.io/wai-yaml-ld/api/v1"
+      }
+    }
+  }
+}
