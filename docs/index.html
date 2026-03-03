@@ -59,6 +59,15 @@
     </section>
 
     <section class="card">
+      <h2>Try this with your LLM</h2>
+      <ul>
+        <li><strong>Prompt 1 (SC lookup):</strong> “Use <a href="api/v1/introspection.json">/api/v1/introspection.json</a> to discover fields, then fetch <a href="api/v1/sc/4-1-2.json">/api/v1/sc/4-1-2.json</a>. Check my HTML for violations and explain how the issue maps to WCAG SC 4.1.2.”</li>
+        <li><strong>Prompt 2 (traceable evidence):</strong> “Review this code and return findings with auditable evidence from wai-yaml-ld. For each issue, cite SC ID, linked failures/techniques, and explain the standards trace from WCAG to related ATAG context when available.”</li>
+        <li><strong>Prompt 3 (experimental caveat):</strong> “If your runtime cannot directly use this API, say so explicitly and continue using the linked JSON artifacts as static references.”</li>
+      </ul>
+    </section>
+
+    <section class="card">
       <h2>Start Here</h2>
       <ul>
         <li><a href="https://github.com/mgifford/wai-yaml-ld/blob/main/README.md">Project README</a></li>
