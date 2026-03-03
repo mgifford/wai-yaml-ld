@@ -1,0 +1,12 @@
+{
+  "name": "wai-yaml-ld",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
+  "postCreateCommand": "npm run setup",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.eol": "\n"
+      }
+    }
+  }
+}
