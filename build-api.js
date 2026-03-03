@@ -15,6 +15,7 @@ const DATA_ROOT = path.join(
   "research",
 );
 const OUT_ROOT = path.join(ROOT, "dist", "api", "v1");
+const API_ROOT = path.join(ROOT, "dist", "api");
 
 const SCHEMA_TEXT = `schema {
   query: Query
@@ -518,6 +519,16 @@ function main() {
       guidelines_all: "/api/v1/guidelines/all.json",
       introspection: "/api/v1/introspection.json",
       graphql_schema: "/api/v1/schema.graphql",
+    },
+  });
+
+  writeJson(path.join(API_ROOT, "index.json"), {
+    default_version: "v1",
+    versions: ["v1"],
+    latest: {
+      index: "/api/v1/index.json",
+      introspection: "/api/v1/introspection.json",
+      all_success_criteria: "/api/v1/sc/all.json",
     },
   });
 

@@ -23,5 +23,5 @@
   "supersededBy": null,
   "supersedes": "https://www.w3.org/TR/WCAG20/#meaning-located",
   "standard_id": "wcag-2.2",
-  "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+  "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
 }
