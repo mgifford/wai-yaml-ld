@@ -93,7 +93,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#non-text-content",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#non-text-content",
@@ -189,7 +189,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#text-equiv-all",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt",
@@ -229,7 +229,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded",
@@ -269,7 +269,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-av-only-alt",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#media-equiv-captions",
@@ -308,7 +308,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#captions-prerecorded",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#captions-prerecorded",
@@ -347,7 +347,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-captions",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc",
@@ -374,7 +374,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded",
@@ -401,7 +401,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions",
@@ -428,7 +428,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#captions-live",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#captions-live",
@@ -455,7 +455,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-real-time-captions",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only",
@@ -482,7 +482,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#audio-description-prerecorded",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#audio-description-prerecorded",
@@ -509,7 +509,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-audio-desc-only",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#media-equiv-sign",
@@ -536,7 +536,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#sign-language-prerecorded",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#sign-language-prerecorded",
@@ -563,7 +563,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-sign",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#media-equiv-extended-ad",
@@ -590,7 +590,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded",
@@ -617,7 +617,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-extended-ad",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#media-equiv-text-doc",
@@ -644,7 +644,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#media-alternative-prerecorded",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#media-alternative-prerecorded",
@@ -671,7 +671,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-text-doc",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only",
@@ -698,7 +698,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#audio-only-live",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#audio-only-live",
@@ -725,7 +725,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic",
@@ -838,7 +838,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#info-and-relationships",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#info-and-relationships",
@@ -951,7 +951,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#content-structure-separation-programmatic",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#content-structure-separation-sequence",
@@ -978,7 +978,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#meaningful-sequence",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#meaningful-sequence",
@@ -1005,7 +1005,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#content-structure-separation-sequence",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#content-structure-separation-understanding",
@@ -1032,7 +1032,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#sensory-characteristics",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#sensory-characteristics",
@@ -1059,7 +1059,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#content-structure-separation-understanding",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#orientation",
@@ -1086,7 +1086,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#identify-input-purpose",
@@ -1113,7 +1113,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#identify-purpose",
@@ -1140,7 +1140,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color",
@@ -1180,7 +1180,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#use-of-color",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#use-of-color",
@@ -1220,7 +1220,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#reflow",
@@ -1247,7 +1247,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#non-text-contrast",
@@ -1274,7 +1274,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#text-spacing",
@@ -1312,7 +1312,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus",
@@ -1339,7 +1339,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio",
@@ -1378,7 +1378,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#audio-control",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#audio-control",
@@ -1417,7 +1417,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-dis-audio",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast",
@@ -1456,7 +1456,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#contrast-minimum",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#contrast-minimum",
@@ -1495,7 +1495,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale",
@@ -1533,7 +1533,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#resize-text",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#resize-text",
@@ -1571,7 +1571,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-scale",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation",
@@ -1598,7 +1598,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#images-of-text",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#images-of-text",
@@ -1625,7 +1625,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast7",
@@ -1663,7 +1663,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#contrast-enhanced",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#contrast-enhanced",
@@ -1701,7 +1701,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast7",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio",
@@ -1728,7 +1728,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#low-or-no-background-audio",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#low-or-no-background-audio",
@@ -1755,7 +1755,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation",
@@ -1782,7 +1782,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#visual-presentation",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#visual-presentation",
@@ -1809,7 +1809,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images",
@@ -1836,7 +1836,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#images-of-text-no-exception",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#images-of-text-no-exception",
@@ -1863,7 +1863,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable",
@@ -1938,7 +1938,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#keyboard",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#keyboard",
@@ -2013,7 +2013,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#keyboard-operation-trapping",
@@ -2040,7 +2040,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#no-keyboard-trap",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#no-keyboard-trap",
@@ -2067,7 +2067,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#keyboard-operation-trapping",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs",
@@ -2106,7 +2106,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#keyboard-no-exception",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#keyboard-no-exception",
@@ -2145,7 +2145,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#character-key-shortcuts",
@@ -2172,7 +2172,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#time-limits-required-behaviors",
@@ -2224,7 +2224,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#timing-adjustable",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#timing-adjustable",
@@ -2276,7 +2276,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#time-limits-required-behaviors",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#time-limits-pause",
@@ -2316,7 +2316,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#pause-stop-hide",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#pause-stop-hide",
@@ -2356,7 +2356,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#time-limits-pause",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#time-limits-no-exceptions",
@@ -2383,7 +2383,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#no-timing",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#no-timing",
@@ -2410,7 +2410,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#time-limits-no-exceptions",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#time-limits-postponed",
@@ -2449,7 +2449,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#interruptions",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#interruptions",
@@ -2488,7 +2488,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#time-limits-postponed",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#time-limits-server-timeout",
@@ -2515,7 +2515,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#re-authenticating",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#re-authenticating",
@@ -2542,7 +2542,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#time-limits-server-timeout",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#timeouts",
@@ -2569,7 +2569,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#seizure-does-not-violate",
@@ -2596,7 +2596,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold",
@@ -2623,7 +2623,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#seizure-does-not-violate",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#seizure-three-times",
@@ -2650,7 +2650,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#three-flashes",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#three-flashes",
@@ -2677,7 +2677,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#seizure-three-times",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#animation-from-interactions",
@@ -2704,7 +2704,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip",
@@ -2731,7 +2731,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#bypass-blocks",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#bypass-blocks",
@@ -2758,7 +2758,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings",
@@ -2785,7 +2785,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#section-headings",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#section-headings",
@@ -2812,7 +2812,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum",
@@ -2839,7 +2839,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced",
@@ -2866,7 +2866,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#focus-appearance",
@@ -2893,7 +2893,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-title",
@@ -2931,7 +2931,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#page-titled",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#page-titled",
@@ -2969,7 +2969,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-title",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order",
@@ -2996,7 +2996,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#focus-order",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#focus-order",
@@ -3023,7 +3023,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-order",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs",
@@ -3063,7 +3063,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context",
@@ -3103,7 +3103,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-refs",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc",
@@ -3130,7 +3130,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#multiple-ways",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#multiple-ways",
@@ -3157,7 +3157,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-mult-loc",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive",
@@ -3184,7 +3184,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#headings-and-labels",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#headings-and-labels",
@@ -3211,7 +3211,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible",
@@ -3238,7 +3238,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#focus-visible",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#focus-visible",
@@ -3265,7 +3265,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-location",
@@ -3292,7 +3292,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#location",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#location",
@@ -3319,7 +3319,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-location",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-link",
@@ -3357,7 +3357,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#link-purpose-link-only",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#link-purpose-link-only",
@@ -3395,7 +3395,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#navigation-mechanisms-link",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#pointer-gestures",
@@ -3422,7 +3422,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#pointer-cancellation",
@@ -3449,7 +3449,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#label-in-name",
@@ -3487,7 +3487,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#motion-actuation",
@@ -3514,7 +3514,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#target-size-enhanced",
@@ -3541,7 +3541,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#concurrent-input-mechanisms",
@@ -3568,7 +3568,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#dragging-movements",
@@ -3595,7 +3595,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#target-size-minimum",
@@ -3622,7 +3622,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#meaning-doc-lang-id",
@@ -3680,7 +3680,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#language-of-page",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#language-of-page",
@@ -3738,7 +3738,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#meaning-doc-lang-id",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#meaning-other-lang-id",
@@ -3776,7 +3776,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#language-of-parts",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#language-of-parts",
@@ -3814,7 +3814,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#meaning-other-lang-id",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#meaning-idioms",
@@ -3841,7 +3841,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#unusual-words",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#unusual-words",
@@ -3868,7 +3868,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#meaning-idioms",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#meaning-located",
@@ -3895,7 +3895,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#abbreviations",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#abbreviations",
@@ -3922,7 +3922,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#meaning-located",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#meaning-supplements",
@@ -3949,7 +3949,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#reading-level",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#reading-level",
@@ -3976,7 +3976,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#meaning-supplements",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#meaning-pronunciation",
@@ -4003,7 +4003,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#pronunciation",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#pronunciation",
@@ -4030,7 +4030,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#meaning-pronunciation",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus",
@@ -4069,7 +4069,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#on-focus",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#on-focus",
@@ -4108,7 +4108,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#consistent-behavior-receive-focus",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change",
@@ -4135,7 +4135,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#on-input",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#on-input",
@@ -4162,7 +4162,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations",
@@ -4189,7 +4189,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#consistent-navigation",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#consistent-navigation",
@@ -4216,7 +4216,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality",
@@ -4243,7 +4243,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#consistent-identification",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#consistent-identification",
@@ -4270,7 +4270,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context",
@@ -4309,7 +4309,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#change-on-request",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#change-on-request",
@@ -4348,7 +4348,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#consistent-help",
@@ -4375,7 +4375,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#minimize-error-identified",
@@ -4402,7 +4402,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#error-identification",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#error-identification",
@@ -4429,7 +4429,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#minimize-error-identified",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#minimize-error-cues",
@@ -4468,7 +4468,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#labels-or-instructions",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#labels-or-instructions",
@@ -4507,7 +4507,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#minimize-error-cues",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#minimize-error-suggestions",
@@ -4534,7 +4534,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#error-suggestion",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#error-suggestion",
@@ -4561,7 +4561,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#minimize-error-suggestions",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#minimize-error-reversible",
@@ -4588,7 +4588,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data",
@@ -4615,7 +4615,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#minimize-error-reversible",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#minimize-error-context-help",
@@ -4642,7 +4642,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#help",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#help",
@@ -4669,7 +4669,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#minimize-error-context-help",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#minimize-error-reversible-all",
@@ -4696,7 +4696,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#error-prevention-all",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#error-prevention-all",
@@ -4723,7 +4723,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#minimize-error-reversible-all",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#redundant-entry",
@@ -4750,7 +4750,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum",
@@ -4777,7 +4777,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#accessible-authentication-enhanced",
@@ -4804,7 +4804,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#ensure-compat-parses",
@@ -4852,7 +4852,7 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG20/#ensure-compat-rsv",
@@ -5125,7 +5125,7 @@
     "supersededBy": "https://www.w3.org/TR/WCAG22/#name-role-value",
     "supersedes": null,
     "standard_id": "wcag-2.0",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.0-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#name-role-value",
@@ -5398,7 +5398,7 @@
     "supersededBy": null,
     "supersedes": "https://www.w3.org/TR/WCAG20/#ensure-compat-rsv",
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   },
   {
     "id": "https://www.w3.org/TR/WCAG22/#status-messages",
@@ -5425,6 +5425,6 @@
     "supersededBy": null,
     "supersedes": null,
     "standard_id": "wcag-2.2",
-    "source_file": "/workspaces/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
+    "source_file": "/home/runner/work/wai-yaml-ld/wai-yaml-ld/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wcag-2.2-normative.yaml"
   }
 ]
