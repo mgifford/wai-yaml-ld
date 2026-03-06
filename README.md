@@ -1,5 +1,15 @@
 # wai-yaml-ld
 
+> ⚠️ **EXPERIMENTAL — Validation Required**
+>
+> **This project is still experimental. Most of this site was generated with AI and has not yet been validated in real-world settings.** All content must be treated as a starting point only — not as authoritative or production-ready guidance.
+>
+> **Impacts may vary** based on where and how it is implemented. Do not rely on this data without independent verification against the original W3C standards.
+>
+> **People with experience conducting studies on the accessibility impact and cost of AI cycles should be involved** before any significant implementation decisions are made.
+>
+> **We need your feedback.** If you have positive or negative results from trying this project, please [open an issue](https://github.com/mgifford/wai-yaml-ld/issues). Provide links and references so claims can be discussed and validated by the community.
+
 Machine-readable accessibility standards context for AI coding systems.
 
 This repository turns key W3C WAI + related standards (WCAG, ATAG, UAAG, ARIA, HTML, CSS) into structured YAML/JSON-LD/CSV artifacts that an LLM can reliably consume when generating or reviewing code.
