@@ -367,9 +367,23 @@ def main():
         if "source_resource_id" not in item:
             item["source_resource_id"] = ""
 
+    # Preserve the existing updated date if the links data has not changed,
+    # so that re-running the script on an unmodified repo does not produce a
+    # spurious date-only diff that would break the "artifacts are committed"
+    # CI check.
+    out_path = Path(args.out_yaml)
+    updated_date = datetime.now(timezone.utc).date().isoformat()
+    if out_path.exists():
+        try:
+            existing = yaml.safe_load(out_path.read_text(encoding="utf-8"))
+            if isinstance(existing, dict) and existing.get("links") == links:
+                updated_date = existing.get("updated", updated_date)
+        except (OSError, yaml.YAMLError, ValueError):
+            pass
+
     payload = {
         "dataset_id": "cross-standard-references",
-        "updated": datetime.now(timezone.utc).date().isoformat(),
+        "updated": updated_date,
         "description": "Direct and inferred references between standards criteria and informative resources.",
         "relation_types": [
             {
@@ -404,7 +418,7 @@ def main():
         "links": links,
     }
 
-    write_yaml(Path(args.out_yaml), payload)
+    write_yaml(out_path, payload)
     write_csv(Path(args.out_csv), links)
 
     print(f"links={len(links)}")
