@@ -101,7 +101,7 @@ jobs:
 
       - name: Ensure generated artifacts are committed
         run: |
-          git diff --exit-code \
+          if ! git diff --exit-code \
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.jsonld \
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.edges.csv \
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/standards-link-graph.mmd \
@@ -116,4 +116,16 @@ jobs:
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.mmd \
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.atag-wcag.mmd \
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.informative.mmd \
-            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/accessibility-rule-catalogs.comparison.csv
+            kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/accessibility-rule-catalogs.comparison.csv; then
+            echo ""
+            echo "ERROR: Generated artifacts are out of date."
+            echo "Run the regeneration scripts locally and commit the updated files:"
+            echo "  python scripts/generate_standards_link_graph.py ..."
+            echo "  python scripts/generate_standards_visualizations.py ..."
+            echo "  python scripts/generate_wcag_sc_crosswalk_map.py ..."
+            echo "  python scripts/generate_cross_standard_references.py ..."
+            echo "  python scripts/generate_cross_standard_reference_views.py ..."
+            echo "  python scripts/generate_accessibility_rule_comparison.py ..."
+            echo "See .github/workflows/standards-link-graph-validate.yml for exact invocations."
+            exit 1
+          fi
