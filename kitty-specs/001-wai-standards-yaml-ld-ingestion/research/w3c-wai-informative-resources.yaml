@@ -245,18 +245,6 @@ resources:
   - wcag-2.2
   - atag-2.0
   - uaag-2.0
-- id: implementing-atag-2.0
-  title: Implementing ATAG 2.0
-  url: https://www.w3.org/TR/NOTE-IMPLEMENTING-ATAG20/
-  type: informative
-  applies_to:
-  - atag-2.0
-- id: uaag-2.0-reference
-  title: UAAG 2.0 Reference
-  url: https://www.w3.org/TR/NOTE-UAAG20-Reference/
-  type: informative
-  applies_to:
-  - uaag-2.0
 - id: understanding-wcag-2.2
   title: Understanding WCAG 2.2
   url: https://www.w3.org/WAI/WCAG22/Understanding/

@@ -340,10 +340,6 @@ informative_resources:
   title: Understanding WCAG 2.2
   url: https://www.w3.org/WAI/WCAG22/Understanding/
   type: informative
-- id: implementing-atag-2.0
-  title: Implementing ATAG 2.0
-  url: https://www.w3.org/TR/NOTE-IMPLEMENTING-ATAG20/
-  type: informative
 - id: wai-arrm-home
   title: Accessibility Roles and Responsibilities Mapping (ARRM)
   url: https://www.w3.org/WAI/planning/arrm/
