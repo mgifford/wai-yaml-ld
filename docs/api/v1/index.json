@@ -1,13 +1,13 @@
 {
   "version": "v1",
-  "generated_at": "2026-03-09T19:29:03.614Z",
+  "generated_at": "2026-03-09T19:37:15.073Z",
   "counts": {
     "yaml_files": 29,
     "success_criteria": 147,
     "guidelines": 25,
     "techniques": 5,
     "failures": 45,
-    "linked_nodes": 821,
+    "linked_nodes": 822,
     "linked_edges": 112
   },
   "endpoints": {
