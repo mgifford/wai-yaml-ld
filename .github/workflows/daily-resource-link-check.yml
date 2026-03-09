@@ -1,9 +1,9 @@
-name: Weekly Resource Link Check
+name: Daily Resource Link Check
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 8 * * 1"
+    - cron: "30 8 * * *"
 
 permissions:
   contents: read
@@ -98,6 +98,8 @@ jobs:
           path: monitoring/tr-url-normalization-report.md
 
       - name: Create Pull Request for canonical TR URL updates
+        id: create-pr
+        continue-on-error: true
         uses: peter-evans/create-pull-request@v6
         with:
           branch: chore/normalize-w3c-tr-urls
@@ -107,7 +109,12 @@ jobs:
           body: |
             Automated normalization of safely mappable dated W3C TR snapshot URLs (`/TR/YYYY/...`) to canonical shortname aliases (`/TR/<shortname>/`).
 
-            Trigger: weekly schedule or manual workflow dispatch for `Weekly Resource Link Check`.
+            Trigger: daily schedule or manual workflow dispatch for `Daily Resource Link Check`.
           labels: |
             automation
             links
+
+      - name: Warn if PR creation failed
+        if: steps.create-pr.outcome == 'failure'
+        run: |
+          echo "::warning::PR creation failed. This is likely because 'Allow GitHub Actions to create and approve pull requests' is not enabled in the repository settings. Enable it at Settings > Actions > General, or use a PAT with pull_requests scope."

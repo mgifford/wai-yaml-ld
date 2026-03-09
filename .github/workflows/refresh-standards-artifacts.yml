@@ -129,6 +129,8 @@ jobs:
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/accessibility-rule-catalogs.comparison.csv
 
       - name: Create Pull Request for updated artifacts
+        id: create-pr
+        continue-on-error: true
         uses: peter-evans/create-pull-request@v6
         with:
           branch: chore/refresh-standards-artifacts
@@ -159,3 +161,8 @@ jobs:
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/cross-standard-references.informative.mmd
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/accessibility-rule-catalogs.yaml
             kitty-specs/001-wai-standards-yaml-ld-ingestion/research/derived/accessibility-rule-catalogs.comparison.csv
+
+      - name: Warn if PR creation failed
+        if: steps.create-pr.outcome == 'failure'
+        run: |
+          echo "::warning::PR creation failed. This is likely because 'Allow GitHub Actions to create and approve pull requests' is not enabled in the repository settings. Enable it at Settings > Actions > General, or use a PAT with pull_requests scope."
