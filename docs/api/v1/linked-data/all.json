@@ -3073,18 +3073,10 @@
       "raw_type": "informative"
     },
     {
-      "id": "urn:wai:implementing-atag-2.0",
-      "type": "informative",
-      "source_file": "kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-2.0-normative.yaml",
-      "source_pointer": "$.informative_resources[2]",
-      "raw_id": "implementing-atag-2.0",
-      "raw_type": "informative"
-    },
-    {
       "id": "urn:wai:wai-arrm-home",
       "type": "informative",
       "source_file": "kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-2.0-normative.yaml",
-      "source_pointer": "$.informative_resources[3]",
+      "source_pointer": "$.informative_resources[2]",
       "raw_id": "wai-arrm-home",
       "raw_type": "informative"
     },
@@ -3092,7 +3084,7 @@
       "id": "urn:wai:wai-arrm-roles",
       "type": "informative",
       "source_file": "kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-2.0-normative.yaml",
-      "source_pointer": "$.informative_resources[4]",
+      "source_pointer": "$.informative_resources[3]",
       "raw_id": "wai-arrm-roles",
       "raw_type": "informative"
     },
@@ -3100,7 +3092,7 @@
       "id": "urn:wai:wai-arrm-wcag-sc",
       "type": "informative",
       "source_file": "kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-2.0-normative.yaml",
-      "source_pointer": "$.informative_resources[5]",
+      "source_pointer": "$.informative_resources[4]",
       "raw_id": "wai-arrm-wcag-sc",
       "raw_type": "informative"
     },
@@ -3108,7 +3100,7 @@
       "id": "urn:wai:wai-roles-resources",
       "type": "informative",
       "source_file": "kitty-specs/001-wai-standards-yaml-ld-ingestion/research/atag-2.0-normative.yaml",
-      "source_pointer": "$.informative_resources[6]",
+      "source_pointer": "$.informative_resources[5]",
       "raw_id": "wai-roles-resources",
       "raw_type": "informative"
     },
@@ -5151,14 +5143,6 @@
       "source_pointer": "$.normative_success_criteria[111]",
       "raw_id": "sc_515",
       "raw_type": ""
-    },
-    {
-      "id": "urn:wai:uaag-2.0-reference",
-      "type": "informative",
-      "source_file": "kitty-specs/001-wai-standards-yaml-ld-ingestion/research/uaag-2.0-normative.yaml",
-      "source_pointer": "$.informative_resources[2]",
-      "raw_id": "uaag-2.0-reference",
-      "raw_type": "informative"
     },
     {
       "id": "urn:wai:w3c-maturity-model",
