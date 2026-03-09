@@ -1,5 +1,5 @@
 dataset_id: cross-standard-references
-updated: '2026-02-24'
+updated: '2026-03-08'
 description: Direct and inferred references between standards criteria and informative
   resources.
 relation_types:
@@ -36312,14 +36312,14 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: Implementing ATAG 2.0
-  source_resource_id: implementing-atag-2.0
-  source_url: https://www.w3.org/TR/NOTE-IMPLEMENTING-ATAG20/
-  target_standard_id: atag-2.0
+  source_criterion_title: Understanding WCAG 2.2
+  source_resource_id: understanding-wcag-2.2
+  source_url: https://www.w3.org/WAI/WCAG22/Understanding/
+  target_standard_id: wcag-2.2
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/ATAG20/
-  evidence_excerpt: informative resource applies_to includes atag-2.0
+  target_url: https://www.w3.org/TR/WCAG22/
+  evidence_excerpt: informative resource applies_to includes wcag-2.2
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02133
 - relation_type: informative_resource_reference_standard
@@ -36329,14 +36329,14 @@ links:
   source_standard_id: ''
   source_criterion_id: ''
   source_criterion_code: ''
-  source_criterion_title: UAAG 2.0 Reference
-  source_resource_id: uaag-2.0-reference
-  source_url: https://www.w3.org/TR/NOTE-UAAG20-Reference/
-  target_standard_id: uaag-2.0
+  source_criterion_title: Understanding WCAG 2.2
+  source_resource_id: understanding-wcag-2.2
+  source_url: https://www.w3.org/WAI/WCAG22/Understanding/
+  target_standard_id: atag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/UAAG20/
-  evidence_excerpt: informative resource applies_to includes uaag-2.0
+  target_url: https://www.w3.org/TR/ATAG20/
+  evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02134
 - relation_type: informative_resource_reference_standard
@@ -36349,11 +36349,11 @@ links:
   source_criterion_title: Understanding WCAG 2.2
   source_resource_id: understanding-wcag-2.2
   source_url: https://www.w3.org/WAI/WCAG22/Understanding/
-  target_standard_id: wcag-2.2
+  target_standard_id: uaag-2.0
   target_criterion_code: ''
   target_profile_ref: ''
-  target_url: https://www.w3.org/TR/WCAG22/
-  evidence_excerpt: informative resource applies_to includes wcag-2.2
+  target_url: https://www.w3.org/TR/UAAG20/
+  evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
   link_id: xref-02135
 - relation_type: informative_resource_reference_standard
@@ -36366,47 +36366,13 @@ links:
   source_criterion_title: Understanding WCAG 2.2
   source_resource_id: understanding-wcag-2.2
   source_url: https://www.w3.org/WAI/WCAG22/Understanding/
-  target_standard_id: atag-2.0
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/ATAG20/
-  evidence_excerpt: informative resource applies_to includes atag-2.0
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02136
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Understanding WCAG 2.2
-  source_resource_id: understanding-wcag-2.2
-  source_url: https://www.w3.org/WAI/WCAG22/Understanding/
-  target_standard_id: uaag-2.0
-  target_criterion_code: ''
-  target_profile_ref: ''
-  target_url: https://www.w3.org/TR/UAAG20/
-  evidence_excerpt: informative resource applies_to includes uaag-2.0
-  source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02137
-- relation_type: informative_resource_reference_standard
-  basis: catalog_applies_to
-  confidence: high
-  source_kind: informative_resource
-  source_standard_id: ''
-  source_criterion_id: ''
-  source_criterion_code: ''
-  source_criterion_title: Understanding WCAG 2.2
-  source_resource_id: understanding-wcag-2.2
-  source_url: https://www.w3.org/WAI/WCAG22/Understanding/
   target_standard_id: wai-aria-1.2
   target_criterion_code: ''
   target_profile_ref: ''
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02138
+  link_id: xref-02136
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36423,7 +36389,7 @@ links:
   target_url: https://www.w3.org/TR/WCAG22/
   evidence_excerpt: informative resource applies_to includes wcag-2.2
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02139
+  link_id: xref-02137
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36440,7 +36406,7 @@ links:
   target_url: https://www.w3.org/TR/ATAG20/
   evidence_excerpt: informative resource applies_to includes atag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02140
+  link_id: xref-02138
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36457,7 +36423,7 @@ links:
   target_url: https://www.w3.org/TR/UAAG20/
   evidence_excerpt: informative resource applies_to includes uaag-2.0
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02141
+  link_id: xref-02139
 - relation_type: informative_resource_reference_standard
   basis: catalog_applies_to
   confidence: high
@@ -36474,4 +36440,4 @@ links:
   target_url: https://www.w3.org/TR/wai-aria-1.2/
   evidence_excerpt: informative resource applies_to includes wai-aria
   source_dataset: w3c-wai-informative-resources.yaml
-  link_id: xref-02142
+  link_id: xref-02140

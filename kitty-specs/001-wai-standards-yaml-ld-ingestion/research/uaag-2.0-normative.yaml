@@ -839,10 +839,6 @@ informative_resources:
   title: Understanding WCAG 2.2
   url: https://www.w3.org/WAI/WCAG22/Understanding/
   type: informative
-- id: uaag-2.0-reference
-  title: UAAG 2.0 Reference
-  url: https://www.w3.org/TR/NOTE-UAAG20-Reference/
-  type: informative
 - id: wai-arrm-home
   title: Accessibility Roles and Responsibilities Mapping (ARRM)
   url: https://www.w3.org/WAI/planning/arrm/
