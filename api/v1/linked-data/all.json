@@ -3,9 +3,17 @@
     {
       "id": "urn:wai:check",
       "type": "Thing",
-      "source_file": ".github/workflows/w3c-standards-monitor.yml",
-      "source_pointer": "$.jobs.monitor.steps[2]",
+      "source_file": ".github/workflows/daily-resource-link-check.yml",
+      "source_pointer": "$.jobs.check-links.steps[2]",
       "raw_id": "check",
+      "raw_type": ""
+    },
+    {
+      "id": "urn:wai:create-pr",
+      "type": "Thing",
+      "source_file": ".github/workflows/daily-resource-link-check.yml",
+      "source_pointer": "$.jobs.autofix-dated-tr-urls.steps[4]",
+      "raw_id": "create-pr",
       "raw_type": ""
     },
     {
