@@ -181,6 +181,22 @@ This is intentional and correct - it ensures a single source of truth for projec
 
 ---
 
+---
+
+## 7. AI Disclosure Rule
+
+**Whenever an AI agent contributes meaningfully to this repository, it must disclose its participation in the `AI Disclosure` section of `README.md`.**
+
+- If the `AI Disclosure` section does not yet exist in `README.md`, create it.
+- Record the name of the AI tool or model used (for example, `GitHub Copilot`, `Claude`, `GPT-4`).
+- Describe what the AI tool was used for (for example, initial content generation, data transformation, code review).
+- Do not list AI tools that were not used - only disclose verified, actual usage.
+- Keep the section accurate and up to date; if your contribution extends a previous AI's work, add your own entry rather than editing the existing one.
+
+This rule exists because transparency about AI involvement is central to the project's mission and to responsible open-source governance.
+
+---
+
 ### Quick Reference
 
 - 📁 **Paths**: Always specify exact locations.  
@@ -188,3 +204,4 @@ This is intentional and correct - it ensures a single source of truth for projec
 - 🧠 **Context**: Read what you need; don’t forget what you already learned.  
 - ✅ **Quality**: Follow secure, tested, documented practices.  
 - 📝 **Git**: Commit cleanly with clear messages.
+- 🤖 **AI Disclosure**: Record every AI contribution in the `AI Disclosure` section of `README.md`.
