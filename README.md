@@ -312,3 +312,33 @@ For Model Context Protocol clients, use `mcp-config.json` and `mcp-bridge.js`.
 - Schema discovery: `/api/v1/introspection.json`
 
 This lets AI tools discover schema shape first, then fetch only the specific criterion/technique payloads they need.
+
+## AI Disclosure
+
+This section documents which AI tools were used in building, maintaining, and running this project.
+
+### Building the Project
+
+**GitHub Copilot (SWE Agent)**
+Used to generate the initial project plan and scaffold the repository content, including YAML data files, JSON schemas, Python scripts, and documentation. The `copilot-swe-agent[bot]` account created the first commit. Subsequent AI-assisted contributions by this agent are also reflected in the commit history.
+
+**GitHub Copilot (Coding Agent)**
+Used to implement features and tasks throughout the project lifecycle, including adding new standards data, regenerating derived artifacts, and updating documentation. The Coding Agent operates under the same `copilot-swe-agent[bot]` account as the SWE Agent; commits by that account in the git history reflect contributions from both.
+
+### Running the Project
+
+**LLMs as data consumers (user-supplied)**
+This project is designed to be consumed by any LLM the user chooses. When following the recommended flow (see [How To Use With an LLM](#how-to-use-with-an-llm-recommended-flow)), users supply their own LLM. No specific LLM is bundled or required to run the project. The YAML/JSON-LD/CSV artifacts are LLM-agnostic.
+
+**MCP-compatible AI tools (optional, user-configured)**
+The MCP bridge (`mcp-bridge.js`, `mcp-config.json`) enables MCP-compatible AI coding tools - such as GitHub Copilot, Claude, or others - to discover and query the static API endpoints at runtime. This is opt-in and requires the user to configure their own MCP client. No browser-based AI is required or automatically enabled.
+
+### Browser-based AI
+
+No browser-based AI is automatically enabled or required to use this project. The interactive viewer (`docs/standards-link-viewer.html`) and other static pages are plain HTML/JavaScript with no embedded AI. Users may choose to run browser extensions or browser-native AI features on their own.
+
+### What Has Not Been Used
+
+No AI model training or fine-tuning has been performed on this project's data. No OpenAI, Anthropic, or Google Cloud AI APIs are called by any script, workflow, or build step in this repository. No AI-generated content is served to end users without being reviewed and committed to the repository first.
+
+> If you use an AI tool to contribute to this project, please add your tool to this section following the format above. See [`.kittify/AGENTS.md`](.kittify/AGENTS.md) for the full AI Disclosure rule.
