@@ -2,7 +2,7 @@
 
 ## Agent Rules
 
-All AI agents working in this repository must follow the rules in [`.kittify/AGENTS.md`](../.kittify/AGENTS.md). Read it before making any changes. Key rules include:
+All AI agents working in this repository must read [`AGENTS.md`](../AGENTS.md) first. It contains the primary agent instructions for this repository. Additional project-level rules live in [`.kittify/AGENTS.md`](../.kittify/AGENTS.md). Key rules include:
 
 - Always use absolute or project-root-relative paths when referencing files or directories.
 - Use only UTF-8 compatible characters in all files (no smart quotes, em dashes, or Windows-1252 characters).
