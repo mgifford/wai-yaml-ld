@@ -1,10 +1,10 @@
 project: wai-standards-yaml-ld-ingestion
-updated: '2026-02-23'
+updated: '2026-04-01'
 scope: accessibility_rule_catalogs
-act_rules_extracted_at: '2026-02-23'
-axe_rules_extracted_at: '2026-02-23'
-alfa_rules_extracted_at: '2026-02-23'
-qualweb_rules_extracted_at: '2026-02-23'
+act_rules_extracted_at: '2026-04-01'
+axe_rules_extracted_at: '2026-04-01'
+alfa_rules_extracted_at: '2026-04-01'
+qualweb_rules_extracted_at: '2026-04-01'
 rule_sets:
 - id: w3c-act-rules
   title: W3C ACT Rules
@@ -16,388 +16,375 @@ rule_sets:
   - wai-aria-1.2
   - atag-2.0
   - uaag-2.0
-  rule_count: 94
+  rule_count: 90
   rules:
   - id: 047fe0
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/047fe0/proposed/
     status: proposed
-    title: Document has heading for non-repeated content
+    title: Document has heading for non-repeated content proposed
   - id: 09o5cg
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/09o5cg/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/09o5cg/proposed/
+    status: proposed
     title: Text has enhanced contrast
   - id: 0ssw9k
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/0ssw9k/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/0ssw9k/proposed/
+    status: proposed
     title: Scrollable content can be reached with sequential focus navigation
   - id: 0va7u6
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/0va7u6/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/0va7u6/proposed/
+    status: proposed
     title: HTML images contain no text
   - id: 1a02b0
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/1a02b0/proposed/
     status: proposed
-    title: Audio and visuals of video element have transcript
+    title: Audio and visuals of video element have transcript proposed
   - id: 1ea59c
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/1ea59c/proposed/
     status: proposed
-    title: Video element visual content has audio description
+    title: Video element visual content has audio description proposed
   - id: 1ec09b
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/1ec09b/proposed/
     status: proposed
-    title: Video element visual content has strict accessible alternative
+    title: Video element visual content has strict accessible alternative proposed
   - id: 23a2a8
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/23a2a8/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/23a2a8/proposed/
+    status: proposed
     title: Image has non-empty accessible name
   - id: 24afc2
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/24afc2/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/24afc2/proposed/
+    status: proposed
     title: Important letter spacing in style attributes is wide enough
   - id: 2779a5
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/2779a5/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/2779a5/proposed/
+    status: proposed
     title: HTML page has non-empty title
   - id: 2eb176
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/2eb176/proposed/
     status: proposed
-    title: Audio element content has transcript
+    title: Audio element content has transcript proposed
   - id: 2ee8b8
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/2ee8b8/proposed/
     status: proposed
-    title: Visible label is part of accessible name
+    title: Visible label is part of accessible name proposed
   - id: 2t702h
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/2t702h/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/2t702h/proposed/
+    status: proposed
     title: Summary element has non-empty accessible name
   - id: 307n5z
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/307n5z/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/307n5z/proposed/
+    status: proposed
     title: Element with presentational children has no focusable content
   - id: 36b590
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/36b590/proposed/
     status: proposed
-    title: Error message describes invalid form field value
+    title: Error message describes invalid form field value proposed
   - id: 3e12e1
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/3e12e1/proposed/
     status: proposed
-    title: Block of repeated content is collapsible
-  - id: 3ea0c8
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/3ea0c8/proposed/
-    status: proposed
-    title: Id attribute value is unique
+    title: Block of repeated content is collapsible proposed
   - id: 46ca7f
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/46ca7f/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/46ca7f/proposed/
+    status: proposed
     title: Element marked as decorative is not exposed
   - id: 4b1c6c
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/4b1c6c/proposed/
     status: proposed
     title: Iframe elements with identical accessible names have equivalent purpose
+      proposed
   - id: 4c31df
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/4c31df/proposed/
     status: proposed
     title: Audio or video element that plays automatically has a control mechanism
+      proposed
   - id: 4e8ab6
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/4e8ab6/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/4e8ab6/proposed/
+    status: proposed
     title: Element with role attribute has required states and properties
   - id: 59796f
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/59796f/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/59796f/proposed/
+    status: proposed
     title: Image button has non-empty accessible name
   - id: 59br37
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/59br37/proposed/
     status: proposed
-    title: Zoomed text node is not clipped with CSS overflow
+    title: Zoomed text node is not clipped with CSS overflow proposed
   - id: 5b7ae0
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/5b7ae0/proposed/
     status: proposed
-    title: HTML page lang and xml:lang attributes have matching values
+    title: HTML page lang and xml:lang attributes have matching values deprecated
   - id: 5c01ea
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/5c01ea/proposed/
     status: proposed
-    title: ARIA state or property is permitted
+    title: ARIA state or property is permitted proposed
   - id: 5effbb
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/5effbb/proposed/
     status: proposed
-    title: Link in context is descriptive
+    title: Link in context is descriptive proposed
   - id: 5f99a7
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/5f99a7/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/5f99a7/proposed/
+    status: proposed
     title: ARIA attribute is defined in WAI-ARIA
   - id: 674b10
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/674b10/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/674b10/proposed/
+    status: proposed
     title: Role attribute has valid value
   - id: 6a7281
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/6a7281/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/6a7281/proposed/
+    status: proposed
     title: ARIA state or property has valid value
   - id: 6cfa84
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/6cfa84/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/6cfa84/proposed/
+    status: proposed
     title: Element with aria-hidden has no content in sequential focus navigation
   - id: 73f2c2
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/73f2c2/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/73f2c2/proposed/
+    status: proposed
     title: Autocomplete attribute has valid value
   - id: 7677a9
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/7677a9/proposed/
     status: proposed
     title: Device motion based changes to the content can also be created from the
-      user interface
+      user interface proposed
   - id: 78fd32
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/78fd32/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/78fd32/proposed/
+    status: proposed
     title: Important line height in style attributes is wide enough
   - id: 7d6734
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/7d6734/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/7d6734/proposed/
+    status: proposed
     title: SVG element with explicit role has non-empty accessible name
   - id: 80af7b
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/80af7b/proposed/
     status: proposed
-    title: Focusable element has no keyboard trap
+    title: Focusable element has no keyboard trap proposed
   - id: 80f0bf
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/80f0bf/proposed/
     status: proposed
-    title: Audio or video element avoids automatically playing audio
+    title: Audio or video element avoids automatically playing audio proposed
   - id: 8fc3b6
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/8fc3b6/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/8fc3b6/proposed/
+    status: proposed
     title: Object element rendering non-text content has non-empty accessible name
   - id: 97a4e1
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/97a4e1/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/97a4e1/proposed/
+    status: proposed
     title: Button has non-empty accessible name
   - id: 9bd38c
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/9bd38c/proposed/
     status: proposed
-    title: Content has alternative for visual reference
+    title: Content has alternative for visual reference proposed
   - id: 9e45ec
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/9e45ec/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/9e45ec/proposed/
+    status: proposed
     title: Important word spacing in style attributes is wide enough
   - id: 9eb3f6
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/9eb3f6/proposed/
     status: proposed
-    title: Image filename is accessible name for image
+    title: Image filename is accessible name for image deprecated
   - id: a1b64e
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/a1b64e/proposed/
     status: proposed
-    title: Focusable element has no keyboard trap via standard navigation
+    title: Focusable element has no keyboard trap via standard navigation proposed
   - id: a25f45
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/a25f45/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/a25f45/proposed/
+    status: proposed
     title: Headers attribute specified on a cell refers to cells in the same table
       element
   - id: aaa1bf
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/aaa1bf/proposed/
     status: proposed
     title: Audio or video element that plays automatically has no audio that lasts
-      more than 3 seconds
+      more than 3 seconds proposed
   - id: ab4d13
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ab4d13/proposed/
     status: proposed
-    title: Video element content is media alternative for text
-  - id: ac7dc6
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/ac7dc6/proposed/
-    status: proposed
-    title: Video element visual-only content has description track
+    title: Video element content is media alternative for text proposed
   - id: afb423
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/afb423/proposed/
     status: proposed
-    title: Audio element content is media alternative for text
+    title: Audio element content is media alternative for text proposed
   - id: afw4f7
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/afw4f7/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/afw4f7/proposed/
+    status: proposed
     title: Text has minimum contrast
   - id: aizyf1
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/aizyf1/proposed/
     status: proposed
-    title: Link is descriptive
+    title: Link is descriptive proposed
   - id: akn7bn
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/akn7bn/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/akn7bn/proposed/
+    status: proposed
     title: Iframe with interactive elements is not excluded from tab-order
   - id: b20e66
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/b20e66/proposed/
     status: proposed
-    title: Links with identical accessible names have equivalent purpose
+    title: Links with identical accessible names have equivalent purpose proposed
   - id: b33eff
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b33eff/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b33eff/proposed/
+    status: proposed
     title: Orientation of the page is not restricted using CSS transforms
   - id: b40fd1
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/b40fd1/proposed/
     status: proposed
-    title: Document has a landmark with non-repeated content
+    title: Document has a landmark with non-repeated content proposed
   - id: b49b2e
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/b49b2e/proposed/
     status: proposed
-    title: Heading is descriptive
+    title: Heading is descriptive proposed
   - id: b4f0c3
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b4f0c3/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b4f0c3/proposed/
+    status: proposed
     title: Meta viewport allows for zoom
   - id: b5c3f8
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b5c3f8/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/b5c3f8/proposed/
+    status: proposed
     title: HTML page has lang attribute
   - id: bc4a75
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/bc4a75/proposed/
     status: proposed
-    title: ARIA required owned elements
+    title: ARIA required owned elements proposed
   - id: bc659a
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/bc659a/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/bc659a/proposed/
+    status: proposed
     title: Meta element has no refresh delay
   - id: bf051a
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/bf051a/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/bf051a/proposed/
+    status: proposed
     title: HTML page lang attribute has valid language tag
   - id: bisz58
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/bisz58/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/bisz58/proposed/
+    status: proposed
     title: Meta element has no refresh delay (no exception)
   - id: c249d5
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/c249d5/proposed/
     status: proposed
-    title: Device motion based changes to the content can be disabled
+    title: Device motion based changes to the content can be disabled proposed
   - id: c3232f
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/c3232f/proposed/
     status: proposed
-    title: Video element visual-only content has accessible alternative
+    title: Video element visual-only content has accessible alternative proposed
   - id: c487ae
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/c487ae/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/c487ae/proposed/
+    status: proposed
     title: Link has non-empty accessible name
   - id: c4a8a4
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/c4a8a4/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/c4a8a4/proposed/
+    status: proposed
     title: HTML page title is descriptive
   - id: c5a4ea
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/c5a4ea/proposed/
     status: proposed
-    title: Video element visual content has accessible alternative
+    title: Video element visual content has accessible alternative proposed
   - id: cae760
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/cae760/proposed/
     status: proposed
-    title: Iframe element has non-empty accessible name
+    title: Iframe element has non-empty accessible name proposed
   - id: cc0f0a
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/cc0f0a/proposed/
     status: proposed
-    title: Form field label is descriptive
+    title: Form field label is descriptive proposed
   - id: cf77f2
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/cf77f2/proposed/
     status: proposed
-    title: Bypass Blocks of Repeated Content
+    title: Bypass Blocks of Repeated Content proposed
   - id: d0f69e
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/d0f69e/proposed/
     status: proposed
-    title: Table header cell has assigned cells
+    title: Table header cell has assigned cells proposed
   - id: d7ba54
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/d7ba54/proposed/
     status: proposed
-    title: Video element visual-only content has audio track alternative
+    title: Video element visual-only content has audio track alternative proposed
   - id: de46e4
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/de46e4/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/de46e4/proposed/
+    status: proposed
     title: Element with lang attribute has valid language tag
   - id: e086e5
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/
-    status: approved
-    title: Form field has non-empty accessible name
-  - id: e6952f
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/e6952f/proposed/
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/proposed/
     status: proposed
-    title: Attribute is not duplicated
+    title: Form field has non-empty accessible name
   - id: e7aa44
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/e7aa44/proposed/
     status: proposed
-    title: Audio element content has text alternative
+    title: Audio element content has text alternative proposed
   - id: e88epe
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/e88epe/proposed/
     status: proposed
-    title: Image not in the accessibility tree is decorative
+    title: Image not in the accessibility tree is decorative proposed
   - id: eac66b
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/eac66b/proposed/
     status: proposed
-    title: Video element auditory content has accessible alternative
+    title: Video element auditory content has accessible alternative proposed
   - id: ebe86a
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ebe86a/proposed/
     status: proposed
-    title: Focusable element has no keyboard trap via non-standard navigation
+    title: Focusable element has no keyboard trap via non-standard navigation proposed
   - id: ee13b5
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ee13b5/proposed/
     status: proposed
-    title: Video element visual-only content has transcript
+    title: Video element visual-only content has transcript proposed
   - id: efbfc7
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/efbfc7/proposed/
     status: proposed
     title: Text content that changes automatically can be paused, stopped or hidden
-  - id: f196ce
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/f196ce/proposed/
-    status: proposed
-    title: Video element visual content has description track
+      proposed
   - id: f51b46
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/f51b46/proposed/
     status: proposed
-    title: Video element auditory content has captions
+    title: Video element auditory content has captions proposed
   - id: fd26cf
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/fd26cf/proposed/
     status: proposed
-    title: Video element visual-only content is media alternative for text
+    title: Video element visual-only content is media alternative for text proposed
   - id: fd3a94
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/fd3a94/proposed/
     status: proposed
     title: Links with identical accessible names and same context serve equivalent
-      purpose
+      purpose proposed
   - id: ff89c9
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ff89c9/proposed/
     status: proposed
-    title: ARIA required context role
+    title: ARIA required context role proposed
   - id: ffbc54
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ffbc54/proposed/
     status: proposed
-    title: No keyboard shortcut uses only printable characters
+    title: No keyboard shortcut uses only printable characters proposed
   - id: ffd0e9
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ffd0e9/proposed/
     status: proposed
-    title: Heading has non-empty accessible name
+    title: Heading has non-empty accessible name proposed
   - id: in6db8
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/in6db8/proposed/
     status: proposed
-    title: ARIA required ID references exist
+    title: ARIA required ID references exist deprecated
   - id: kb1m8s
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/kb1m8s/proposed/
     status: proposed
-    title: ARIA global properties not used where prohibited
+    title: ARIA global properties not used where prohibited proposed
   - id: m6b1q3
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/m6b1q3/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/m6b1q3/proposed/
+    status: proposed
     title: Menuitem has non-empty accessible name
   - id: off6ek
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/off6ek/proposed/
     status: proposed
-    title: HTML element language subtag matches language
+    title: HTML element language subtag matches language proposed
   - id: oj04fd
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/oj04fd/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/oj04fd/proposed/
+    status: proposed
     title: Element in sequential focus order has visible focus
   - id: qt1vmo
-    url: https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/
-    status: approved
+    url: https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/proposed/
+    status: proposed
     title: Image accessible name is descriptive
   - id: ucwvc8
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ucwvc8/proposed/
     status: proposed
-    title: HTML page language subtag matches default language
+    title: HTML page language subtag matches default language proposed
   - id: ye5d6e
     url: https://www.w3.org/WAI/standards-guidelines/act/rules/ye5d6e/proposed/
     status: proposed
-    title: Document has an instrument to move focus to non-repeated content
+    title: Document has an instrument to move focus to non-repeated content proposed
 - id: deque-axe-rules-4.11
   title: Deque axe-core Rules 4.11
   provider: Deque
