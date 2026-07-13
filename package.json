@@ -13,7 +13,7 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.5",
     "graphql": "^16.11.0",
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.2.0"
   },
   "engines": {
     "node": ">=20"
